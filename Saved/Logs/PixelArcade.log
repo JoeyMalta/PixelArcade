@@ -1,4 +1,4 @@
-﻿Log file open, 03/20/19 08:58:11
+﻿Log file open, 03/20/19 09:10:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PixelArcade
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.322369
+LogStats: Stats thread started at 0.319140
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -96,7 +96,7 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin AdvancedSessions
 LogPluginManager: Mounting plugin AdvancedSteamSessions
-LogStreaming: Display: Took  0.189s to configure plugins.
+LogStreaming: Display: Took  0.196s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -153,263 +153,147 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.010s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.20-07.58.11:617][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-07.58.11:617][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.20-07.58.11:639][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.20-07.58.11:639][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.20-07.58.11:639][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.20-07.58.11:639][  0]LogInit: Computer: JOEY-PC
-[2019.03.20-07.58.11:639][  0]LogInit: User: joey
-[2019.03.20-07.58.11:639][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.20-07.58.11:639][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.20-07.58.11:640][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.03.20-07.58.11:640][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.20-07.58.11:640][  0]LogMemory: Process Physical Memory: 101.50 MB used, 101.50 MB peak
-[2019.03.20-07.58.11:640][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
-[2019.03.20-07.58.11:640][  0]LogMemory: Physical Memory: 4174.72 MB used,  3886.13 MB free, 8060.85 MB total
-[2019.03.20-07.58.11:640][  0]LogMemory: Virtual Memory: 4642.80 MB used,  3886.13 MB free, 134217728.00 MB total
-[2019.03.20-07.58.11:680][  0]LogInit: Using OS detected language (en-US).
-[2019.03.20-07.58.11:680][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.20-07.58.11:682][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.20-07.58.12:173][  0]LogStreaming: Display: Took  0.493s to InitEngineTextLocalization.
-[2019.03.20-07.58.12:173][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.20-07.58.12:225][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.20-07.58.12:225][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.20-07.58.12:544][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-07.58.12:544][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.20-07.58.12:577][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
-[2019.03.20-07.58.12:577][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.20-07.58.12:582][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2019.03.20-07.58.12:583][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.20-07.58.12:586][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.20-07.58.12:586][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.20-07.58.12:586][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.20-07.58.12:629][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.20-07.58.12:629][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.20-07.58.12:629][  0]LogWindows: EnumDisplayDevices:
-[2019.03.20-07.58.12:630][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2019.03.20-07.58.12:630][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.03.20-07.58.12:631][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.03.20-07.58.12:631][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
-[2019.03.20-07.58.12:632][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.03.20-07.58.12:632][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
-[2019.03.20-07.58.12:632][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
-[2019.03.20-07.58.12:632][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2019.03.20-07.58.12:632][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
-[2019.03.20-07.58.12:655][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2019.03.20-07.58.12:655][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.20-07.58.12:671][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.20-07.58.12:673][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/13488/).
-[2019.03.20-07.58.12:673][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/4706C8974A6C2B91941C52BCB078C466/'.
-[2019.03.20-07.58.13:097][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.20-07.58.13:117][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.20-07.58.13:137][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.20-07.58.13:158][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.20-07.58.13:184][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.20-07.58.13:204][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.20-07.58.13:224][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.20-07.58.13:244][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.20-07.58.13:254][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:367][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:368][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:368][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-07.58.13:369][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.20-07.58.13:444][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-07.58.13:444][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-07.58.13:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-07.58.13:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-07.58.13:496][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.20-07.58.13:513][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.20-07.58.13:532][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.20-07.58.13:551][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.20-07.58.13:564][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.20-07.58.13:564][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.20-07.58.13:663][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.20-07.58.13:664][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.20-07.58.13:664][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.20-07.58.13:664][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.20-07.58.14:854][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.20-07.58.14:940][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.20-07.58.14:941][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.20-07.58.14:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.20-07.58.14:941][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.20-07.58.14:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-07.58.14:941][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.20-07.58.14:962][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.20-07.58.14:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.20-07.58.14:975][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.20-07.58.14:975][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.20-07.58.15:002][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.20-07.58.15:003][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.20-07.58.15:004][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.20-07.58.15:097][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
-[2019.03.20-07.58.15:617][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-07.58.15:820][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.20-07.58.15:826][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.20-07.58.15:826][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.20-07.58.15:826][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.20-07.58.15:826][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.20-07.58.15:847][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3850678766)
-[2019.03.20-07.58.16:582][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.149648 seconds
-[2019.03.20-07.58.16:590][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
-[2019.03.20-07.58.16:590][  0]LogUObjectAllocator: 6701136 out of 0 bytes used by permanent object pool.
-[2019.03.20-07.58.16:590][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.20-07.58.17:724][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.20-07.58.17:738][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.20-07.58.17:927][  0]SourceControl: Source control is disabled
-[2019.03.20-07.58.17:927][  0]SourceControl: Source control is disabled
-[2019.03.20-07.58.17:929][  0]SourceControl: Source control is disabled
-[2019.03.20-07.58.17:930][  0]SourceControl: Source control is disabled
-[2019.03.20-07.58.18:125][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.20-07.58.18:215][  0]LogOcInput: OculusInput pre-init called
-[2019.03.20-07.58.18:296][  0]LogEngine: Initializing Engine...
-[2019.03.20-07.58.18:297][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-07.58.18:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-07.58.18:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-07.58.18:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-07.58.18:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-07.58.18:584][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.20-07.58.18:605][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.20-07.58.18:622][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-07.58.18:708][  0]LogInit: FAudioDevice initialized.
-[2019.03.20-07.58.18:709][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.20-07.58.18:810][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.20-07.58.18:829][  0]LogInit: Texture streaming: Enabled
-[2019.03.20-07.58.18:859][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.20-07.58.18:880][  0]LogInit: Transaction tracking system initialized
-[2019.03.20-07.58.18:918][  0]BlueprintLog: New page: Editor Load
-[2019.03.20-07.58.19:049][  0]LocalizationService: Localization service is disabled
-[2019.03.20-07.58.19:789][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.20-07.58.19:789][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.20-07.58.19:789][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.20-07.58.19:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-07.58.19:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-07.58.19:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-07.58.19:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-07.58.19:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/' took 0.01s
-[2019.03.20-07.58.19:975][  0]SourceControl: Source control is disabled
-[2019.03.20-07.58.19:975][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-07.58.19:976][  0]LightingResults: New page: Lighting Build
-[2019.03.20-07.58.19:980][  0]MapCheck: New page: Map Check
-[2019.03.20-07.58.19:980][  0]LightingResults: New page: Lighting Build
-[2019.03.20-07.58.20:271][  0]LogAIModule: Creating AISystem for world Menu
-[2019.03.20-07.58.20:273][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-07.58.20:298][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-07.58.20:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115.136ms to complete.
-[2019.03.20-07.58.20:413][  0]LogFileHelpers: Loading map 'Menu' took 0.439
-[2019.03.20-07.58.20:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-07.58.20:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-07.58.20:553][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-07.58.20:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-07.58.20:575][  0]LogCollectionManager: Loaded 0 collections in 0.003335 seconds
-[2019.03.20-07.58.20:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
-[2019.03.20-07.58.20:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.01s
-[2019.03.20-07.58.20:620][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.01s
-[2019.03.20-07.58.20:620][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.03.20-07.58.20:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2598 classes and 613 folders.
-[2019.03.20-07.58.20:645][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.03.20-07.58.20:718][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.03.20-07.58.20:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.03.20-07.58.20:839][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.03.20-07.58.20:839][  0]LogLoad: (Engine Initialization) Total time: 11.94 seconds
-[2019.03.20-07.58.20:839][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.20-07.58.20:871][  0]LogContentStreaming: Texture pool size now 400 MB
-[2019.03.20-07.58.20:873][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.20-07.58.20:875][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.20-07.58.20:882][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.20-07.58.20:990][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-07.58.21:024][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 9 NumSamples 1 (Frame:1).
-[2019.03.20-07.58.21:024][  1]LogAssetRegistry: Asset discovery search completed in 5.9493 seconds
-[2019.03.20-07.58.21:027][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.20-07.58.21:027][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
-[2019.03.20-07.58.21:904][  3]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-07.58.22:417][  3]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-07.58.24:473][ 88]LogRenderer: Reallocating scene render targets to support 1004x456 Format 9 NumSamples 1 (Frame:89).
-[2019.03.20-07.58.25:077][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-07.58.27:863][325]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-07.58.38:382][577]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.00.11:986][582]LogSlate: Window 'Save Content' being destroyed
-[2019.03.20-08.00.11:999][582]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-08.00.12:185][582]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/farmworld6F7190A0417A634F47B6BF9B9E16081D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/farmworld.umap'
-[2019.03.20-08.00.12:192][582]LogFileHelpers: Saving map 'farmworld' took 0.172
-[2019.03.20-08.00.12:799][623]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/farmworld.farmworld
-[2019.03.20-08.00.12:825][623]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/farmworld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-08.00.12:826][623]LightingResults: New page: Lighting Build
-[2019.03.20-08.00.12:826][623]LoadErrors: New page: Loading map: farmworld.umap
-[2019.03.20-08.00.12:827][623]MapCheck: New page: Map Check
-[2019.03.20-08.00.12:827][623]LightingResults: New page: Lighting Build
-[2019.03.20-08.00.12:919][623]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-08.00.12:919][623]LogAIModule: Creating AISystem for world farmworld
-[2019.03.20-08.00.12:992][623]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-08.00.13:108][623]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.109ms to complete.
-[2019.03.20-08.00.13:110][623]LogFileHelpers: Loading map 'farmworld' took 0.285
-[2019.03.20-08.00.20:173][177]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
-[2019.03.20-08.00.20:872][177]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2019.03.20-08.00.22:172][177]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.20-08.00.23:756][252]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.20-08.00.31:622][720]BlueprintLog: New page: Compile PixelFarm_Farmer
-[2019.03.20-08.00.32:459][721]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer7749AA0745CEA693C3DB6EA05884BD95.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-08.00.33:820][802]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-08.00.45:247][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.00.45:750][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.00.57:090][639]LogAIModule: Creating AISystem for world Menu
-[2019.03.20-08.00.57:095][639]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/Menu.Menu
-[2019.03.20-08.00.57:132][639]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-08.00.57:132][639]LightingResults: New page: Lighting Build
-[2019.03.20-08.00.57:134][639]LoadErrors: New page: Loading map: Menu.umap
-[2019.03.20-08.00.57:135][639]MapCheck: New page: Map Check
-[2019.03.20-08.00.57:135][639]LightingResults: New page: Lighting Build
-[2019.03.20-08.00.57:247][639]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-08.00.57:319][639]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-08.00.57:454][639]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 135.171ms to complete.
-[2019.03.20-08.00.57:454][639]LogFileHelpers: Loading map 'Menu' took 0.323
-[2019.03.20-08.00.58:428][707]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-08.01.08:505][962]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.01.09:007][963]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.01.21:013][240]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.03.20-08.01.21:111][241]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
-[2019.03.20-08.01.21:111][241]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.03.20-08.01.21:111][241]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2019.03.20-08.01.21:111][241]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.03.20-08.01.21:118][241]LogTemp: BranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2019.03.20-08.01.21:137][241]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joey.JOEY-PC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.03.20-08.02.58:889][674]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-08.02.58:897][674]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-08.02.59:917][737]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/MenuEDEED6DB40492441988C07880F1D5BFA.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/Menu.umap'
-[2019.03.20-08.03.14:077][722]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-08.03.24:510][979]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-08.03.40:861][250]LogAIModule: Creating AISystem for world FarmHunt
-[2019.03.20-08.03.40:890][250]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/FarmHunt.FarmHunt
-[2019.03.20-08.03.40:920][250]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-08.03.40:920][250]LightingResults: New page: Lighting Build
-[2019.03.20-08.03.40:921][250]LoadErrors: New page: Loading map: FarmHunt.umap
-[2019.03.20-08.03.40:921][250]MapCheck: New page: Map Check
-[2019.03.20-08.03.40:921][250]LightingResults: New page: Lighting Build
-[2019.03.20-08.03.41:070][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-08.03.41:151][250]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-08.03.41:292][250]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.543ms to complete.
-[2019.03.20-08.03.41:292][250]LogFileHelpers: Loading map 'FarmHunt' took 0.373
-[2019.03.20-08.03.43:319][379]LogAIModule: Creating AISystem for world farmworld
-[2019.03.20-08.03.43:338][379]LogAIModule: Creating AISystem for world Menu
-[2019.03.20-08.03.44:545][379]LogSlate: Window 'Delete Assets' being destroyed
-[2019.03.20-08.03.51:770][640]LogSlate: Window 'Delete Assets' being destroyed
-[2019.03.20-08.03.53:675][752]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt5859C76D4E965527FA5469B6DC16AC16.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
-[2019.03.20-08.03.53:890][752]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt_BuiltData1BF2A0094C6E6890590CABA31C56323C.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt_BuiltData.uasset'
+[2019.03.20-08.10.24:017][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-08.10.24:017][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-08.10.24:039][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-08.10.24:040][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-08.10.24:040][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-08.10.24:040][  0]LogInit: Computer: JOEY-PC
+[2019.03.20-08.10.24:040][  0]LogInit: User: joey
+[2019.03.20-08.10.24:040][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-08.10.24:040][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-08.10.24:041][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.20-08.10.24:041][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-08.10.24:041][  0]LogMemory: Process Physical Memory: 101.44 MB used, 101.44 MB peak
+[2019.03.20-08.10.24:041][  0]LogMemory: Process Virtual Memory: 89.43 MB used, 89.43 MB peak
+[2019.03.20-08.10.24:041][  0]LogMemory: Physical Memory: 4171.39 MB used,  3889.46 MB free, 8060.85 MB total
+[2019.03.20-08.10.24:041][  0]LogMemory: Virtual Memory: 4642.80 MB used,  3889.46 MB free, 134217728.00 MB total
+[2019.03.20-08.10.24:081][  0]LogInit: Using OS detected language (en-US).
+[2019.03.20-08.10.24:081][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.20-08.10.24:084][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.20-08.10.24:604][  0]LogStreaming: Display: Took  0.523s to InitEngineTextLocalization.
+[2019.03.20-08.10.24:604][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.20-08.10.24:652][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-08.10.24:652][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-08.10.25:011][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-08.10.25:011][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-08.10.25:058][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2019.03.20-08.10.25:058][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.20-08.10.25:111][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.03.20-08.10.25:111][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.20-08.10.25:114][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-08.10.25:114][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-08.10.25:114][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-08.10.25:161][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-08.10.25:161][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-08.10.25:161][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-08.10.25:162][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.03.20-08.10.25:162][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-08.10.25:163][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-08.10.25:163][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2019.03.20-08.10.25:164][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.20-08.10.25:164][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2019.03.20-08.10.25:164][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2019.03.20-08.10.25:164][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2019.03.20-08.10.25:164][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
+[2019.03.20-08.10.25:191][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.03.20-08.10.25:191][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-08.10.25:208][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-08.10.25:210][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/13616/).
+[2019.03.20-08.10.25:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/CDF8CD154FF096A7B0FE76A1CA728FFA/'.
+[2019.03.20-08.10.25:727][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.20-08.10.25:770][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.20-08.10.25:811][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.20-08.10.25:834][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.20-08.10.25:858][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.20-08.10.25:890][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-08.10.25:932][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-08.10.25:979][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-08.10.25:997][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:137][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-08.10.26:140][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.20-08.10.26:215][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-08.10.26:215][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-08.10.26:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-08.10.26:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-08.10.26:269][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.20-08.10.26:287][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.20-08.10.26:305][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.20-08.10.26:324][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.20-08.10.26:337][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-08.10.26:337][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-08.10.26:443][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-08.10.26:443][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-08.10.26:443][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-08.10.26:443][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-08.10.27:709][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-08.10.27:813][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.20-08.10.27:814][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.20-08.10.27:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-08.10.27:814][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-08.10.27:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-08.10.27:814][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-08.10.27:837][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-08.10.27:852][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-08.10.27:852][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-08.10.27:852][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-08.10.27:881][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-08.10.27:883][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-08.10.27:884][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-08.10.27:984][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2019.03.20-08.10.28:591][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-08.10.28:804][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-08.10.28:812][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-08.10.28:812][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-08.10.28:812][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-08.10.28:812][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-08.10.28:839][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3850678766)
+[2019.03.20-08.10.29:621][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.157926 seconds
+[2019.03.20-08.10.29:633][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
+[2019.03.20-08.10.29:633][  0]LogUObjectAllocator: 6701144 out of 0 bytes used by permanent object pool.
+[2019.03.20-08.10.29:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-08.10.30:977][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-08.10.31:018][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-08.10.31:216][  0]SourceControl: Source control is disabled
+[2019.03.20-08.10.31:216][  0]SourceControl: Source control is disabled
+[2019.03.20-08.10.31:218][  0]SourceControl: Source control is disabled
+[2019.03.20-08.10.31:220][  0]SourceControl: Source control is disabled
+[2019.03.20-08.10.31:417][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-08.10.31:503][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-08.10.31:589][  0]LogEngine: Initializing Engine...
+[2019.03.20-08.10.31:590][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-08.10.31:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-08.10.31:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-08.10.31:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-08.10.31:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-08.10.31:898][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-08.10.31:919][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.20-08.10.31:936][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-08.10.32:031][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-08.10.32:032][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-08.10.32:120][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.20-08.10.32:139][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-08.10.32:169][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.20-08.10.32:191][  0]LogInit: Transaction tracking system initialized
+[2019.03.20-08.10.32:233][  0]BlueprintLog: New page: Editor Load
+[2019.03.20-08.10.32:385][  0]LocalizationService: Localization service is disabled
