@@ -1,0 +1,1582 @@
+﻿Log file open, 03/20/19 22:14:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PixelArcade
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.268091
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin SubsystemConfigurator
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.050s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: STEAM: Steam User is subscribed 1
+LogOnline: STEAM: [AppId: 480] Client API initialized 1
+LogOnline: Warning: STEAM: [OnlineSubsystemSteam].GameVersion is not set. Server advertising will fail
+LogOnline: STEAM: [AppId: 480] Game Server API initialized 1
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  /Game/PixelWorlds/PixelMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.20-21.14.05:306][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.20-21.14.05:306][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.20-21.14.05:306][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:306][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.20-21.14.05:307][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:307][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:310][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-21.14.05:310][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-21.14.05:311][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-21.14.05:311][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-21.14.05:311][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-21.14.05:314][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-21.14.05:314][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-21.14.05:314][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-21.14.05:315][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-21.14.05:316][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-21.14.05:316][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-21.14.05:316][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-21.14.05:316][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.20-21.14.05:316][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.20-21.14.05:316][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-21.14.05:316][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.20-21.14.05:316][  0]LogInit: User: joeym
+[2019.03.20-21.14.05:316][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-21.14.05:316][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-21.14.05:316][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.20-21.14.05:316][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-21.14.05:316][  0]LogMemory: Process Physical Memory: 132.88 MB used, 132.88 MB peak
+[2019.03.20-21.14.05:316][  0]LogMemory: Process Virtual Memory: 99.51 MB used, 99.51 MB peak
+[2019.03.20-21.14.05:316][  0]LogMemory: Physical Memory: 6880.84 MB used,  9432.77 MB free, 16313.61 MB total
+[2019.03.20-21.14.05:316][  0]LogMemory: Virtual Memory: 4766.89 MB used,  134212960.00 MB free, 134217728.00 MB total
+[2019.03.20-21.14.05:345][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.20-21.14.05:345][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.20-21.14.05:346][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.20-21.14.05:346][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.20-21.14.05:683][  0]LogStreaming: Display: Took  0.338s to InitEngineTextLocalization.
+[2019.03.20-21.14.05:710][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-21.14.05:710][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-21.14.05:718][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-21.14.05:718][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-21.14.05:776][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.20-21.14.05:776][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.20-21.14.05:780][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-21.14.05:780][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-21.14.05:780][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-21.14.05:789][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-21.14.05:790][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-21.14.05:790][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-21.14.05:790][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.20-21.14.05:790][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.20-21.14.05:790][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.20-21.14.05:791][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.20-21.14.05:791][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.20-21.14.05:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.20-21.14.05:791][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.20-21.14.05:791][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.20-21.14.05:791][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.20-21.14.05:840][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-21.14.05:852][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-21.14.06:267][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-21.14.06:278][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-21.14.06:290][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-21.14.06:295][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-21.14.06:295][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-21.14.06:338][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/14924/).
+[2019.03.20-21.14.06:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/62E798AC4B0422207AA491B0C495917D/'.
+[2019.03.20-21.14.06:339][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-21.14.06:339][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-21.14.06:339][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-21.14.06:777][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-21.14.06:817][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-21.14.06:829][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-21.14.06:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-21.14.06:829][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.20-21.14.06:841][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-21.14.06:841][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-21.14.06:841][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-21.14.06:859][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-21.14.06:860][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-21.14.06:861][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-21.14.06:972][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.20-21.14.06:972][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.20-21.14.06:972][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.20-21.14.06:972][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.20-21.14.06:973][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
+[2019.03.20-21.14.06:979][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2019.03.20-21.14.07:156][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.016274 seconds
+[2019.03.20-21.14.07:249][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-21.14.07:378][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-21.14.07:381][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-21.14.07:381][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-21.14.07:381][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-21.14.07:381][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-21.14.07:394][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.20-21.14.07:924][  0]LogMoviePlayer: Initializing movie player
+[2019.03.20-21.14.08:017][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-21.14.08:029][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-21.14.08:114][  0]SourceControl: Source control is disabled
+[2019.03.20-21.14.08:114][  0]SourceControl: Source control is disabled
+[2019.03.20-21.14.08:115][  0]SourceControl: Source control is disabled
+[2019.03.20-21.14.08:241][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-21.14.08:345][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-21.14.08:354][  0]LogUObjectArray: 43235 objects as part of root set at end of initial load.
+[2019.03.20-21.14.08:354][  0]LogUObjectAllocator: 7601024 out of 0 bytes used by permanent object pool.
+[2019.03.20-21.14.08:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-21.14.08:475][  0]LogEngine: Initializing Engine...
+[2019.03.20-21.14.08:475][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-21.14.08:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-21.14.08:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-21.14.08:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-21.14.08:488][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-21.14.08:636][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-21.14.08:656][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-21.14.08:684][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-21.14.08:696][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-21.14.08:705][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-21.14.08:822][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-21.14.08:822][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.20-21.14.08:822][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.20-21.14.08:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-21.14.08:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-21.14.08:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-21.14.08:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-21.14.08:838][  0]LogInit: Display: Starting Game.
+[2019.03.20-21.14.08:838][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.20-21.14.08:839][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.20-21.14.08:925][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-21.14.09:050][  0]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-21.14.09:052][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-22.14.09
+[2019.03.20-21.14.09:052][  0]LogWorld: Bringing up level for play took: 0.001526
+[2019.03.20-21.14.09:057][  0]LogLoad: Took 0.217885 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-21.14.09:108][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-21.14.09:109][  0]LogLoad: (Engine Initialization) Total time: 5.67 seconds
+[2019.03.20-21.14.09:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.20-21.14.09:133][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.20-21.14.11:980][159]LogRenderer: Reallocating scene render targets to support 1920x1020 Format 10 NumSamples 1 (Frame:162).
+[2019.03.20-21.16.25:221][420]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
+[2019.03.20-21.16.25:221][420]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001F21421], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc hoi4
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value hoi4
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod hoi4
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value hoi4
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name Daapje
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value Daapje
+[2019.03.20-21.16.25:221][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 1
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 1
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status STARTING
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value STARTING
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version Ironclad v1.6.0 (9513)
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value Ironclad v1.6.0 (9513)
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432202909704
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432202909704
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F21421]'
+[2019.03.20-21.16.25:222][420]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
+[2019.03.20-21.16.25:222][420]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001F1C211], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.16.25:222][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc eu4
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value eu4
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod eu4
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value eu4
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name martijn_bakker
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value martijn_bakker
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_32 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_32 value 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_48 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_48 value 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_49 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_49 value 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_50 0
+[2019.03.20-21.16.25:223][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_50 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_51 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_51 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_52 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_52 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_53 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_53 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_54 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_54 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_55 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_55 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_56 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_56 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_57 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_57 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_65 2
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_65 value 2
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_66 1
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_66 value 1
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_67 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_67 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_68 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_68 value 0
+[2019.03.20-21.16.25:224][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_69 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_69 value 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_70 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_70 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_71 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_71 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_72 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_72 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_73 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_73 value 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_74 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_74 value 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_75 2
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_75 value 2
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_76 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_76 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_77 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_77 value 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_78 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_78 value 1
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_79 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_79 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_80 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_80 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_81 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_81 value 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_82 2
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_82 value 2
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_83 0
+[2019.03.20-21.16.25:225][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_83 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_84 1
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_84 value 1
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_85 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_85 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_86 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_86 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_87 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_87 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_88 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_88 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_89 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_89 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_90 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_90 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status RUNNING
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value RUNNING
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_32 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_32 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_48 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_48 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_49 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_49 value 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_50 0
+[2019.03.20-21.16.25:226][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_50 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_51 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_51 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_52 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_52 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_53 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_53 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_54 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_54 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_55 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_55 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_56 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_56 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_57 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_57 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_65 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_65 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_66 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_66 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_67 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_67 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_68 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_68 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_69 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_69 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_70 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_70 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_71 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_71 value 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_72 0
+[2019.03.20-21.16.25:227][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_72 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_73 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_73 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_74 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_74 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_75 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_75 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_76 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_76 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_77 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_77 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_78 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_78 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_79 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_79 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_80 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_80 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_81 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_81 value 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_82 0
+[2019.03.20-21.16.25:228][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_82 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_83 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_83 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_84 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_84 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_85 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_85 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_86 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_86 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_87 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_87 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_88 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_88 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_89 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_89 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_90 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_90 value 0
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.16.25:229][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432053760006
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432053760006
+[2019.03.20-21.16.25:230][420]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F1C211]'
+[2019.03.20-21.16.25:230][420]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001F2A874], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.16.25:559][441]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
+[2019.03.20-21.16.25:559][441]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
+[2019.03.20-21.16.25:574][441]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
+[2019.03.20-21.16.25:574][441]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.16.25:574][441]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2019.03.20-21.16.25:574][441]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.20-21.16.25:574][441]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2019.03.20-21.16.25:575][441]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-21.16.25:575][441]LogNet: Game client on port 7777, rate 10000
+[2019.03.20-21.16.29:848][706]LogHandshake: SendChallengeResponse. Timestamp: 11.031993, Cookie: 085174080192029189216118223142057189135191128056132110185045
+[2019.03.20-21.16.29:849][706]LogHandshake: SendChallengeResponse. Timestamp: 11.031993, Cookie: 085174080192029189216118223142057189135191128056132110185045
+[2019.03.20-21.16.29:849][706]LogHandshake: SendChallengeResponse. Timestamp: 11.031993, Cookie: 085174080192029189216118223142057189135191128056132110185045
+[2019.03.20-21.16.29:849][706]LogHandshake: SendChallengeResponse. Timestamp: 11.031993, Cookie: 085174080192029189216118223142057189135191128056132110185045
+[2019.03.20-21.16.29:849][706]LogHandshake: SendChallengeResponse. Timestamp: 11.031993, Cookie: 085174080192029189216118223142057189135191128056132110185045
+[2019.03.20-21.16.29:881][708]LogNetVersion: PixelArcade 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4201119377)
+[2019.03.20-21.16.29:881][708]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-21.16.29:945][712]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
+[2019.03.20-21.16.29:946][712]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
+[2019.03.20-21.16.30:231][712]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.16.30:238][712]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-22.16.30
+[2019.03.20-21.16.30:238][712]LogWorld: Bringing up level for play took: 0.006277
+[2019.03.20-21.16.30:239][712]LogLoad: Took 0.292865 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot2. Function CountDown will not be processed.
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot3. Function CountDown will not be processed.
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot4. Function CountDown will not be processed.
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot5. Function CountDown will not be processed.
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot6. Function CountDown will not be processed.
+[2019.03.20-21.16.30:637][737]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot_2. Function CountDown will not be processed.
+[2019.03.20-21.16.45:185][639]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.16.45:541][661]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.16.45:719][672]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.16.45:863][681]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.16.46:541][723]LogCharacterMovement: PixelFarm_Farmer_C_1 is stuck and failed to move! Velocity: X=-74.00 Y=242.00 Z=0.00 Location: X=-12.85 Y=-423.29 Z=108.12 Normal: X=0.44 Y=-0.62 Z=-0.65 PenetrationDepth:1.893 Actor:PixelFarm_Farmer_C_0 Component:Fork BoneName:None (0 other events since notify)
+[2019.03.20-21.16.47:283][769]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.16.50:331][958]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.16.50:671][979]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.16.50:831][989]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.16.55:799][297]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.16.56:267][326]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.16.56:460][338]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.16.56:815][360]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.16.57:155][382]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-21.16.57:155][382]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
+[2019.03.20-21.16.57:239][382]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve PixelMenu.umap.
+[2019.03.20-21.16.57:318][382]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve PixelMenu.umap.
+[2019.03.20-21.16.57:318][382]LogNet: Browse: /Game/PixelWorlds/PixelMenu
+[2019.03.20-21.16.57:319][382]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
+[2019.03.20-21.16.57:319][382]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2019.03.20-21.16.57:319][382]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2019.03.20-21.16.57:320][382]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23D81585720], Channels: 17, Time: 2019.03.20-21.16.57
+[2019.03.20-21.16.57:320][382]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23D81587B80]
+[2019.03.20-21.16.57:320][382]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2019.03.20-21.16.57:341][382]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x23D81585720], IdleTime: 0.187
+[2019.03.20-21.16.57:405][382]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-21.16.57:528][382]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-21.16.57:529][382]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-22.16.57
+[2019.03.20-21.16.57:529][382]LogWorld: Bringing up level for play took: 0.000901
+[2019.03.20-21.16.57:532][382]LogLoad: Took 0.213445 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-21.17.00:813][587]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
+[2019.03.20-21.17.00:813][587]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001F21421], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc hoi4
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value hoi4
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod hoi4
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value hoi4
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name Daapje
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value Daapje
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 1
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 1
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status STARTING
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value STARTING
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version Ironclad v1.6.0 (9513)
+[2019.03.20-21.17.00:814][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value Ironclad v1.6.0 (9513)
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432202909704
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432202909704
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F21421]'
+[2019.03.20-21.17.00:815][587]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
+[2019.03.20-21.17.00:815][587]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001F1C211], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc eu4
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value eu4
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod eu4
+[2019.03.20-21.17.00:815][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value eu4
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name martijn_bakker
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value martijn_bakker
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_32 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_32 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_48 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_48 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_49 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_49 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_50 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_50 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_51 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_51 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_52 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_52 value 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_53 0
+[2019.03.20-21.17.00:816][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_53 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_54 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_54 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_55 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_55 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_56 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_56 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_57 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_57 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_65 2
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_65 value 2
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_66 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_66 value 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_67 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_67 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_68 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_68 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_69 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_69 value 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_70 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_70 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_71 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_71 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_72 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_72 value 0
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_73 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_73 value 1
+[2019.03.20-21.17.00:817][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_74 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_74 value 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_75 2
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_75 value 2
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_76 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_76 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_77 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_77 value 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_78 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_78 value 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_79 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_79 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_80 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_80 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_81 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_81 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_82 2
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_82 value 2
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_83 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_83 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_84 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_84 value 1
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_85 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_85 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_86 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_86 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_87 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_87 value 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_88 0
+[2019.03.20-21.17.00:818][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_88 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_89 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_89 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_90 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_90 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status RUNNING
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value RUNNING
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_32 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_32 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_48 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_48 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_49 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_49 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_50 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_50 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_51 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_51 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_52 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_52 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_53 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_53 value 0
+[2019.03.20-21.17.00:819][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_54 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_54 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_55 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_55 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_56 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_56 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_57 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_57 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_65 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_65 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_66 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_66 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_67 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_67 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_68 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_68 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_69 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_69 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_70 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_70 value 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_71 0
+[2019.03.20-21.17.00:820][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_71 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_72 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_72 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_73 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_73 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_74 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_74 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_75 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_75 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_76 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_76 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_77 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_77 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_78 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_78 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_79 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_79 value 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_80 0
+[2019.03.20-21.17.00:821][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_80 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_81 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_81 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_82 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_82 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_83 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_83 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_84 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_84 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_85 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_85 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_86 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_86 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_87 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_87 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_88 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_88 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_89 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_89 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_90 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_90 value 0
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.17.00:822][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432053760006
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432053760006
+[2019.03.20-21.17.00:823][587]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F1C211]'
+[2019.03.20-21.17.00:823][587]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001F2A874], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.01:137][607]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
+[2019.03.20-21.17.01:137][607]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
+[2019.03.20-21.17.01:152][607]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
+[2019.03.20-21.17.01:152][607]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.17.01:152][607]LogTemp: Display: ParseSettings for SteamNetDriver_1
+[2019.03.20-21.17.01:152][607]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.20-21.17.01:152][607]LogNet: Display: SteamNetDriver_1 bound to port 7777
+[2019.03.20-21.17.01:152][607]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-21.17.01:152][607]LogNet: Game client on port 7777, rate 10000
+[2019.03.20-21.17.02:442][687]LogHandshake: SendChallengeResponse. Timestamp: 43.622002, Cookie: 235082216195041103242021080051059229218191216243250207243068
+[2019.03.20-21.17.02:442][687]LogHandshake: SendChallengeResponse. Timestamp: 43.622002, Cookie: 235082216195041103242021080051059229218191216243250207243068
+[2019.03.20-21.17.02:474][689]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-21.17.02:539][693]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
+[2019.03.20-21.17.02:540][693]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
+[2019.03.20-21.17.02:817][693]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.17.02:825][693]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-22.17.02
+[2019.03.20-21.17.02:825][693]LogWorld: Bringing up level for play took: 0.007032
+[2019.03.20-21.17.02:825][693]LogLoad: Took 0.286042 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot2. Function CountDown will not be processed.
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot3. Function CountDown will not be processed.
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot4. Function CountDown will not be processed.
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot5. Function CountDown will not be processed.
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot6. Function CountDown will not be processed.
+[2019.03.20-21.17.03:157][714]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot_2. Function CountDown will not be processed.
+[2019.03.20-21.17.16:789][559]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.17.17:013][573]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.17.17:174][583]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.17.17:352][594]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.17.17:497][603]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.17.20:836][810]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] You Are Not Holding A Fork!!!
+[2019.03.20-21.17.22:417][908]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] You Are Not Holding A Fork!!!
+[2019.03.20-21.17.25:257][ 85]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-21.17.25:257][ 85]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
+[2019.03.20-21.17.25:338][ 85]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve PixelMenu.umap.
+[2019.03.20-21.17.25:419][ 85]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve PixelMenu.umap.
+[2019.03.20-21.17.25:419][ 85]LogNet: Browse: /Game/PixelWorlds/PixelMenu
+[2019.03.20-21.17.25:420][ 85]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
+[2019.03.20-21.17.25:420][ 85]LogNet: World NetDriver shutdown SteamNetDriver_1 [GameNetDriver]
+[2019.03.20-21.17.25:420][ 85]LogNet: DestroyNamedNetDriver SteamNetDriver_1 [GameNetDriver]
+[2019.03.20-21.17.25:420][ 85]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23D8877C4C0], Channels: 17, Time: 2019.03.20-21.17.25
+[2019.03.20-21.17.25:420][ 85]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23D8877FCA0]
+[2019.03.20-21.17.25:421][ 85]LogExit: GameNetDriver SteamNetDriver_1 shut down
+[2019.03.20-21.17.25:441][ 85]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x23D8877C4C0], IdleTime: 0.185
+[2019.03.20-21.17.25:502][ 85]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-21.17.25:630][ 85]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-21.17.25:631][ 85]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-22.17.25
+[2019.03.20-21.17.25:631][ 85]LogWorld: Bringing up level for play took: 0.000749
+[2019.03.20-21.17.25:633][ 85]LogLoad: Took 0.213913 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-21.17.27:882][226]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
+[2019.03.20-21.17.27:882][226]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001F21421], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.27:882][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.17.27:882][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 5b430a1ce87026f29b12dd85ed6f5a27
+[2019.03.20-21.17.27:882][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc hoi4
+[2019.03.20-21.17.27:882][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value hoi4
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod hoi4
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value hoi4
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name Daapje
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value Daapje
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 1
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 1
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status STARTING
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value STARTING
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version Ironclad v1.6.0 (9513)
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value Ironclad v1.6.0 (9513)
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432202909704
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432202909704
+[2019.03.20-21.17.27:883][226]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F21421]'
+[2019.03.20-21.17.27:884][226]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
+[2019.03.20-21.17.27:884][226]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001F1C211], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value 9b74a91c786fe2fd1d7dae241a398a8e
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc eu4
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value eu4
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod eu4
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value eu4
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name martijn_bakker
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value martijn_bakker
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 0
+[2019.03.20-21.17.27:884][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_32 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_32 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_48 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_48 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_49 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_49 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_50 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_50 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_51 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_51 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_52 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_52 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_53 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_53 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_54 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_54 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_55 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_55 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_56 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_56 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_57 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_57 value 0
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_65 2
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_65 value 2
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_66 1
+[2019.03.20-21.17.27:885][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_66 value 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_67 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_67 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_68 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_68 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_69 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_69 value 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_70 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_70 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_71 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_71 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_72 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_72 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_73 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_73 value 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_74 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_74 value 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_75 2
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_75 value 2
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_76 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_76 value 0
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_77 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_77 value 1
+[2019.03.20-21.17.27:886][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_78 1
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_78 value 1
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_79 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_79 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_80 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_80 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_81 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_81 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_82 2
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_82 value 2
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_83 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_83 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_84 1
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_84 value 1
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_85 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_85 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_86 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_86 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_87 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_87 value 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_88 0
+[2019.03.20-21.17.27:887][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_88 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_89 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_89 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_90 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_90 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status RUNNING
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value RUNNING
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_32 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_32 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_48 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_48 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_49 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_49 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_50 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_50 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_51 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_51 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_52 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_52 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_53 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_53 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_54 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_54 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_55 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_55 value 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_56 0
+[2019.03.20-21.17.27:888][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_56 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_57 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_57 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_65 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_65 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_66 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_66 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_67 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_67 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_68 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_68 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_69 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_69 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_70 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_70 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_71 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_71 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_72 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_72 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_73 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_73 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_74 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_74 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_75 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_75 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_76 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_76 value 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_77 0
+[2019.03.20-21.17.27:889][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_77 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_78 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_78 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_79 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_79 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_80 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_80 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_81 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_81 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_82 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_82 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_83 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_83 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_84 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_84 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_85 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_85 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_86 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_86 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_87 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_87 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_88 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_88 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_89 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_89 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_90 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_90 value 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value EU4 v1.28.3.0 Spain (84bc)
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-21.17.27:890][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-21.17.27:891][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-21.17.27:891][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-21.17.27:891][226]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124432053760006
+[2019.03.20-21.17.27:891][226]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124432053760006
+[2019.03.20-21.17.27:891][226]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001F1C211]'
+[2019.03.20-21.17.27:891][226]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001F2A874], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-21.17.28:189][245]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
+[2019.03.20-21.17.28:189][245]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
+[2019.03.20-21.17.28:203][245]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
+[2019.03.20-21.17.28:203][245]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.17.28:203][245]LogTemp: Display: ParseSettings for SteamNetDriver_2
+[2019.03.20-21.17.28:203][245]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.20-21.17.28:204][245]LogNet: Display: SteamNetDriver_2 bound to port 7777
+[2019.03.20-21.17.28:204][245]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-21.17.28:204][245]LogNet: Game client on port 7777, rate 10000
+[2019.03.20-21.17.33:447][570]LogHandshake: SendChallengeResponse. Timestamp: 74.622063, Cookie: 215006061163101152243215156147125094160220072081158129122204
+[2019.03.20-21.17.33:447][570]LogHandshake: SendChallengeResponse. Timestamp: 74.622063, Cookie: 215006061163101152243215156147125094160220072081158129122204
+[2019.03.20-21.17.33:447][570]LogHandshake: SendChallengeResponse. Timestamp: 74.622063, Cookie: 215006061163101152243215156147125094160220072081158129122204
+[2019.03.20-21.17.33:447][570]LogHandshake: SendChallengeResponse. Timestamp: 74.622063, Cookie: 215006061163101152243215156147125094160220072081158129122204
+[2019.03.20-21.17.33:447][570]LogHandshake: SendChallengeResponse. Timestamp: 74.622063, Cookie: 215006061163101152243215156147125094160220072081158129122204
+[2019.03.20-21.17.33:494][573]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_2, Driver: PendingNetDriver SteamNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-21.17.33:559][577]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
+[2019.03.20-21.17.33:559][577]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
+[2019.03.20-21.17.33:841][577]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-21.17.33:847][577]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-22.17.33
+[2019.03.20-21.17.33:847][577]LogWorld: Bringing up level for play took: 0.005789
+[2019.03.20-21.17.33:847][577]LogLoad: Took 0.288254 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot2. Function CountDown will not be processed.
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot3. Function CountDown will not be processed.
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot4. Function CountDown will not be processed.
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot5. Function CountDown will not be processed.
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot6. Function CountDown will not be processed.
+[2019.03.20-21.17.34:156][595]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot_2. Function CountDown will not be processed.
+[2019.03.20-21.17.46:437][356]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.17.46:664][370]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.17.46:841][381]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.17.47:003][391]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.17.47:163][401]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.17.47:325][411]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.17.47:664][432]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.17.47:841][443]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.17.48:003][453]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.04:213][458]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.18.05:084][512]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.18.05:423][533]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.18.05:600][544]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.18.05:794][556]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.18.06:181][580]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.18.06:359][591]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.18.06:568][604]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.18.08:342][714]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] You Are Not Holding A Fork!!!
+[2019.03.20-21.18.22:282][578]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.23:104][629]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.18.23:475][652]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.18.23:653][663]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.18.23:798][672]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.18.24:669][726]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.18.25:185][758]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.18.25:362][769]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.18.25:523][779]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.18.31:670][160]LogCharacterMovement: PixelFarm_Farmer_C_1 is stuck and failed to move! Velocity: X=-111.00 Y=128.00 Z=0.00 Location: X=-128.08 Y=-431.47 Z=109.23 Normal: X=0.93 Y=-0.36 Z=-0.06 PenetrationDepth:6.087 Actor:PixelFarm_Farmer_C_0 Component:BucketEmpty BoneName:None (0 other events since notify)
+[2019.03.20-21.18.31:766][166]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.31:927][176]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.18.32:073][185]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.18.32:218][194]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.18.32:395][205]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.18.32:556][215]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.18.32:717][225]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.18.32:879][235]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.18.33:040][245]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.18.34:524][337]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] You Are Not Holding A Fork!!!
+[2019.03.20-21.18.44:008][925]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.46:928][106]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.18.48:621][211]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.18.49:686][277]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.18.50:186][308]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.18.50:541][330]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.18.50:719][341]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.18.50:896][352]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.18.51:057][362]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.18.51:218][372]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.51:541][392]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 7
+[2019.03.20-21.18.51:686][401]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 6
+[2019.03.20-21.18.51:847][411]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 5
+[2019.03.20-21.18.52:009][421]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 4
+[2019.03.20-21.18.54:847][597]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 3
+[2019.03.20-21.18.55:009][607]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 2
+[2019.03.20-21.18.55:186][618]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 1
+[2019.03.20-21.18.55:332][627]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] 0
+[2019.03.20-21.18.56:122][676]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.56:122][676]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.56:332][689]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.56:332][689]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.56:557][703]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.56:558][703]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.56:735][714]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.56:735][714]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.56:928][726]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.56:929][726]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.57:187][742]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.57:187][742]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.57:412][756]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.57:412][756]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.57:671][772]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.57:671][772]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.57:929][788]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.57:929][788]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.58:203][805]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.58:203][805]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.58:477][822]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.58:477][822]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.58:735][838]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.58:735][838]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.18.59:154][864]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.18.59:154][864]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.00:251][932]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.00:252][932]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.00:477][946]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.00:478][946]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.00:767][964]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.00:768][964]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.01:042][981]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.01:042][981]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.01:267][995]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.01:267][995]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.01:558][ 13]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.01:558][ 13]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.01:816][ 28]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.01:816][ 28]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.02:074][ 44]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.02:074][ 44]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.02:482][ 69]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.02:482][ 69]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.02:901][ 95]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.02:901][ 95]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.04:563][198]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.04:563][198]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.04:772][211]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.04:772][211]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.20:259][171]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.20:260][171]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.23:179][352]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.23:179][352]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.33:567][996]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.33:567][996]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.19.55:277][342]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.19.55:277][342]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.20.05:149][954]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] DED
+[2019.03.20-21.20.05:150][954]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] GAME OVER THE FARMERS WIN!!
+[2019.03.20-21.20.13:214][454]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 7
+[2019.03.20-21.20.13:407][466]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 6
+[2019.03.20-21.20.13:585][477]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 5
+[2019.03.20-21.20.13:778][489]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 4
+[2019.03.20-21.20.14:407][528]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 3
+[2019.03.20-21.20.14:569][538]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 2
+[2019.03.20-21.20.14:746][549]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 1
+[2019.03.20-21.20.14:924][560]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 0
+[2019.03.20-21.20.15:117][572]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] DED
+[2019.03.20-21.20.17:343][710]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 7
+[2019.03.20-21.20.17:504][720]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 6
+[2019.03.20-21.20.17:716][733]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 5
+[2019.03.20-21.20.18:072][755]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 4
+[2019.03.20-21.20.18:248][766]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 3
+[2019.03.20-21.20.18:426][777]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 2
+[2019.03.20-21.20.18:603][788]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 1
+[2019.03.20-21.20.19:313][832]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 0
+[2019.03.20-21.20.19:490][843]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] DED
+[2019.03.20-21.20.21:329][957]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 7
+[2019.03.20-21.20.21:539][970]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 6
+[2019.03.20-21.20.21:927][994]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 5
+[2019.03.20-21.20.22:120][  6]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 4
+[2019.03.20-21.20.22:281][ 16]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 3
+[2019.03.20-21.20.22:427][ 25]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 2
+[2019.03.20-21.20.22:620][ 37]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 1
+[2019.03.20-21.20.22:797][ 48]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 0
+[2019.03.20-21.20.22:975][ 59]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] DED
+[2019.03.20-21.20.24:104][129]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 7
+[2019.03.20-21.20.24:297][141]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 6
+[2019.03.20-21.20.24:475][152]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 5
+[2019.03.20-21.20.25:007][185]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 4
+[2019.03.20-21.20.25:184][196]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 3
+[2019.03.20-21.20.25:378][208]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 2
+[2019.03.20-21.20.25:943][243]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 1
+[2019.03.20-21.20.26:073][251]LogCharacterMovement: PixelFarm_Farmer_C_1 is stuck and failed to move! Velocity: X=304.00 Y=-517.00 Z=0.00 Location: X=-2019.81 Y=-215.16 Z=109.70 Normal: X=0.71 Y=0.69 Z=-0.12 PenetrationDepth:0.000 Actor:PixelFarm_Farmer_C_0 Component:BucketEmpty BoneName:None (4 other events since notify)
+[2019.03.20-21.20.28:088][376]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 0
+[2019.03.20-21.20.28:636][410]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] DED
+[2019.03.20-21.20.28:814][421]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 7
+[2019.03.20-21.20.29:169][443]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 6
+[2019.03.20-21.20.29:362][455]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 5
+[2019.03.20-21.20.29:523][465]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 4
+[2019.03.20-21.20.29:943][491]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 3
+[2019.03.20-21.20.30:136][503]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 2
+[2019.03.20-21.20.33:862][734]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] 1
+[2019.03.20-21.20.41:557][211]Closing by request
+[2019.03.20-21.20.41:557][211]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.03.20-21.20.41:565][212]LogNet: World NetDriver shutdown SteamNetDriver_2 [GameNetDriver]
+[2019.03.20-21.20.41:565][212]LogNet: DestroyNamedNetDriver SteamNetDriver_2 [GameNetDriver]
+[2019.03.20-21.20.41:566][212]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_2, Driver: GameNetDriver SteamNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23DF3F23280], Channels: 13, Time: 2019.03.20-21.20.41
+[2019.03.20-21.20.41:566][212]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_2, Driver: GameNetDriver SteamNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x23DF3F222C0]
+[2019.03.20-21.20.41:566][212]LogExit: GameNetDriver SteamNetDriver_2 shut down
+[2019.03.20-21.20.41:708][212]LogSlate: Window 'PixelArcade (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.20-21.20.41:717][212]LogExit: Preparing to exit.
+[2019.03.20-21.20.41:717][212]LogMoviePlayer: Shutting down movie player
+[2019.03.20-21.20.42:240][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-21.20.42:249][212]LogExit: Game engine shut down
+[2019.03.20-21.20.42:250][212]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x23DF3F216C0], IdleTime: 0.693
+[2019.03.20-21.20.42:297][212]LogExit: Object subsystem successfully closed.
+[2019.03.20-21.20.42:309][212]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.20-21.20.42:311][212]LogD3D11RHI: Shutdown
+[2019.03.20-21.20.42:311][212]LogD3D11RHI: CleanupD3DDevice
+[2019.03.20-21.20.42:312][212]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (384)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module SequenceRecorder (382)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module AutomationController (380)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (378)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module Voice (376)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module AIModule (374)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (373)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module AITestSuite (371)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module NavigationSystem (369)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (366)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (364)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module WebMMedia (362)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (360)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (358)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (356)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (354)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (352)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module CharacterAI (350)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module SessionServices (348)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (346)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (344)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MovieScene (342)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (340)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module PortalServices (338)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module PortalRpc (336)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module MessagingRpc (334)
+[2019.03.20-21.20.42:318][212]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (332)
+[2019.03.20-21.20.42:321][212]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2019.03.20-21.20.42:353][212]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2019.03.20-21.20.42:353][212]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2019.03.20-21.20.42:353][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2019.03.20-21.20.42:353][212]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2019.03.20-21.20.42:353][212]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.03.20-21.20.42:354][212]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (280)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module AppleImageUtils (278)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module VariantManagerContent (276)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (274)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module CryptoKeys (272)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (270)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (268)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (264)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (262)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (260)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (258)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module SourceControl (257)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (254)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (252)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.03.20-21.20.42:358][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.03.20-21.20.42:460][212]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (216)
+[2019.03.20-21.20.43:228][212]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.03.20-21.20.43:229][212]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.03.20-21.20.43:235][212]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (132)
+[2019.03.20-21.20.43:237][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
+[2019.03.20-21.20.43:293][212]LogDerivedDataCache: Shutdown
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module XGEController (128)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.03.20-21.20.43:293][212]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.03.20-21.20.43:293][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.03.20-21.20.43:294][212]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.03.20-21.20.43:294][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.03.20-21.20.43:294][212]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.03.20-21.20.43:294][212]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.20-21.20.43:294][212]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-21.20.43:330][212]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.20-21.20.43:330][212]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.20-21.20.43:330][212]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.20-21.20.43:345][212]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.20-21.20.43:379][212]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.20-21.20.43:380][212]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.20-21.20.43:380][212]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.20-21.20.43:381][212]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.20-21.20.43:385][212]LogExit: Exiting.
+[2019.03.20-21.20.43:389][212]Log file closed, 03/20/19 22:20:43
