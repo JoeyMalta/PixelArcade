@@ -3867,3 +3867,42 @@ Make sure 'PixelFarm_Farmer_C' has been compiled for  Attack
 [2019.03.20-14.52.11:235][945]LogSlate: Window 'Save Content' being destroyed
 [2019.03.20-14.52.11:260][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hooivork_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork_material.uasset" SILENT=true
 [2019.03.20-14.52.11:275][945]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_materialC9BC6E90418960E6AFD2A19786D16BA0.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork_material.uasset'
+[2019.03.20-14.53.44:687][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-14.55.48:359][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-14.56.30:506][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-14.56.34:767][855]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-14.58.02:878][526]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-14.58.02:883][526]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-14.58.07:723][ 94]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-14.58.07:727][ 94]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/PixelMenu.PixelMenu
+[2019.03.20-14.58.07:747][ 94]Cmd: MAP LOAD FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-14.58.07:747][ 94]LightingResults: New page: Lighting Build
+[2019.03.20-14.58.07:748][ 94]LoadErrors: New page: Loading map: PixelMenu.umap
+[2019.03.20-14.58.07:749][ 94]MapCheck: New page: Map Check
+[2019.03.20-14.58.07:749][ 94]LightingResults: New page: Lighting Build
+[2019.03.20-14.58.07:823][ 94]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-14.58.07:856][ 94]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-14.58.07:856][ 94]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,108ms to complete.
+[2019.03.20-14.58.07:857][ 94]LogFileHelpers: Loading map 'PixelMenu' took 0.110
+[2019.03.20-14.58.08:861][211]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-14.58.26:369][896]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-14.59.15:111][423]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-14.59.46:051][768]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-15.00.10:440][870]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.20-15.00.10:448][870]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/FarmHunt.FarmHunt
+[2019.03.20-15.00.10:472][870]Cmd: MAP LOAD FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-15.00.10:472][870]LightingResults: New page: Lighting Build
+[2019.03.20-15.00.10:472][870]LoadErrors: New page: Loading map: FarmHunt.umap
+[2019.03.20-15.00.10:473][870]MapCheck: New page: Map Check
+[2019.03.20-15.00.10:473][870]LightingResults: New page: Lighting Build
+[2019.03.20-15.00.10:561][870]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-15.00.10:599][870]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-15.00.10:600][870]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,145ms to complete.
+[2019.03.20-15.00.10:600][870]LogFileHelpers: Loading map 'FarmHunt' took 0.129
+[2019.03.20-15.00.11:750][  4]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-15.00.39:807][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-15.00.40:915][909]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-15.01.26:603][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-15.01.55:190][969]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-15.02.00:974][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelCharacters/PixelFarm_Farmer" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset" SILENT=true
+[2019.03.20-15.02.01:068][609]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer5326A610427A124DCDDB15AE3AF887BC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
