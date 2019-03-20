@@ -1,0 +1,1282 @@
+﻿Log file open, 03/20/19 11:43:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PixelArcade
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.431999
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin SubsystemConfigurator
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.146s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:404][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:408][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-10.43.22:408][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-10.43.22:409][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-10.43.22:409][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-10.43.22:409][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-10.43.22:425][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-10.43.22:425][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-10.43.22:425][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-10.43.22:425][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-10.43.22:426][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:426][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.20-10.43.22:427][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.20-10.43.22:427][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.43.22:427][  0]LogInit: Computer: JOEY-PC
+[2019.03.20-10.43.22:427][  0]LogInit: User: joey
+[2019.03.20-10.43.22:427][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-10.43.22:427][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-10.43.22:428][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.20-10.43.22:428][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-10.43.22:428][  0]LogMemory: Process Physical Memory: 103.86 MB used, 103.87 MB peak
+[2019.03.20-10.43.22:428][  0]LogMemory: Process Virtual Memory: 89.93 MB used, 89.93 MB peak
+[2019.03.20-10.43.22:428][  0]LogMemory: Physical Memory: 4564.94 MB used,  3495.91 MB free, 8060.85 MB total
+[2019.03.20-10.43.22:428][  0]LogMemory: Virtual Memory: 4650.14 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.03.20-10.43.22:457][  0]LogInit: Using OS detected language (en-US).
+[2019.03.20-10.43.22:457][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.20-10.43.22:459][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.20-10.43.22:977][  0]LogStreaming: Display: Took  0.520s to InitEngineTextLocalization.
+[2019.03.20-10.43.22:977][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.20-10.43.23:034][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-10.43.23:034][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-10.43.23:384][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-10.43.23:384][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-10.43.23:427][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2019.03.20-10.43.23:427][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.20-10.43.23:435][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.03.20-10.43.23:435][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.20-10.43.23:439][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-10.43.23:439][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-10.43.23:439][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-10.43.23:485][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-10.43.23:486][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-10.43.23:486][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-10.43.23:486][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.03.20-10.43.23:486][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-10.43.23:487][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-10.43.23:487][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2019.03.20-10.43.23:488][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.20-10.43.23:488][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2019.03.20-10.43.23:488][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2019.03.20-10.43.23:488][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2019.03.20-10.43.23:488][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
+[2019.03.20-10.43.23:511][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.03.20-10.43.23:511][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-10.43.23:525][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-10.43.24:008][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.20-10.43.24:027][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.20-10.43.24:047][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.20-10.43.24:066][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.20-10.43.24:087][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.20-10.43.24:107][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-10.43.24:126][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-10.43.24:146][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-10.43.24:155][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:270][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.43.24:272][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.20-10.43.24:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-10.43.24:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-10.43.24:383][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-10.43.24:383][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-10.43.24:400][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.20-10.43.24:417][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.20-10.43.24:445][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.20-10.43.24:464][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.20-10.43.24:534][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-10.43.24:534][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-10.43.24:534][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-10.43.24:628][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/6268/).
+[2019.03.20-10.43.24:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/83E79B89487C86C5C3D7788EE19F72D2/'.
+[2019.03.20-10.43.24:632][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-10.43.24:632][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-10.43.24:633][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-10.43.24:633][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-10.43.25:373][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-10.43.25:445][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-10.43.25:445][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.20-10.43.25:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-10.43.25:445][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-10.43.25:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-10.43.25:446][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-10.43.25:468][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-10.43.25:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-10.43.25:468][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.20-10.43.25:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-10.43.25:481][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-10.43.25:481][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-10.43.25:514][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-10.43.25:516][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-10.43.25:517][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-10.43.25:630][  0]LogAssetRegistry: FAssetRegistry took 0.0408 seconds to start up
+[2019.03.20-10.43.26:179][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-10.43.26:412][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-10.43.26:418][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-10.43.26:418][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-10.43.26:418][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-10.43.26:418][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-10.43.26:438][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.20-10.43.27:196][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.135242 seconds
+[2019.03.20-10.43.27:204][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.03.20-10.43.27:204][  0]LogUObjectAllocator: 6925464 out of 0 bytes used by permanent object pool.
+[2019.03.20-10.43.27:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-10.43.28:427][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-10.43.28:462][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-10.43.29:355][  0]SourceControl: Source control is disabled
+[2019.03.20-10.43.29:355][  0]SourceControl: Source control is disabled
+[2019.03.20-10.43.29:357][  0]SourceControl: Source control is disabled
+[2019.03.20-10.43.29:358][  0]SourceControl: Source control is disabled
+[2019.03.20-10.43.29:553][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-10.43.29:642][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-10.43.29:805][  0]LogEngine: Initializing Engine...
+[2019.03.20-10.43.29:806][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-10.43.29:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-10.43.29:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-10.43.29:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-10.43.29:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-10.43.30:134][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-10.43.30:155][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.20-10.43.30:173][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-10.43.30:273][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-10.43.30:273][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-10.43.30:375][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-10.43.30:389][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-10.43.30:418][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.20-10.43.30:440][  0]LogInit: Transaction tracking system initialized
+[2019.03.20-10.43.30:485][  0]BlueprintLog: New page: Editor Load
+[2019.03.20-10.43.30:612][  0]LocalizationService: Localization service is disabled
+[2019.03.20-10.43.31:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/' took 0.01s
+[2019.03.20-10.43.31:306][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.20-10.43.31:306][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.20-10.43.31:306][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.20-10.43.31:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-10.43.31:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-10.43.31:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-10.43.31:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-10.43.31:539][  0]SourceControl: Source control is disabled
+[2019.03.20-10.43.31:543][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.21/FeaturePacks/StarterContent.upack)
+[2019.03.20-10.43.31:560][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.03.20-10.43.31:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.03.20-10.43.31:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.03.20-10.43.31:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.03.20-10.43.31:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.03.20-10.43.31:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.03.20-10.43.31:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.03.20-10.43.31:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.03.20-10.43.31:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.03.20-10.43.31:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.03.20-10.43.31:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.03.20-10.43.31:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.03.20-10.43.31:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.03.20-10.43.31:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.03.20-10.43.31:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.03.20-10.43.31:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.03.20-10.43.31:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.03.20-10.43.31:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.03.20-10.43.31:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Fire01.uasset"
+[2019.03.20-10.43.31:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.03.20-10.43.31:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.03.20-10.43.31:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.03.20-10.43.31:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Light01.uasset"
+[2019.03.20-10.43.31:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.03.20-10.43.31:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Light02.uasset"
+[2019.03.20-10.43.31:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.03.20-10.43.31:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.03.20-10.43.31:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.03.20-10.43.31:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.03.20-10.43.31:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.03.20-10.43.31:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.03.20-10.43.31:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.03.20-10.43.31:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.03.20-10.43.31:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.03.20-10.43.31:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Steam01.uasset"
+[2019.03.20-10.43.31:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.03.20-10.43.32:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.03.20-10.43.32:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.03.20-10.43.32:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.03.20-10.43.32:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.03.20-10.43.32:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.03.20-10.43.32:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.03.20-10.43.32:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.03.20-10.43.32:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.03.20-10.43.32:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.03.20-10.43.32:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.03.20-10.43.32:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.03.20-10.43.32:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.03.20-10.43.32:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.03.20-10.43.32:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.03.20-10.43.32:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.03.20-10.43.32:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.03.20-10.43.32:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.03.20-10.43.32:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.03.20-10.43.32:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.03.20-10.43.32:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.03.20-10.43.32:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.03.20-10.43.32:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/StarterMap.umap"
+[2019.03.20-10.43.32:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.03.20-10.43.32:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.03.20-10.43.32:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.03.20-10.43.32:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.03.20-10.43.32:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.03.20-10.43.32:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.03.20-10.43.32:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.03.20-10.43.32:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.03.20-10.43.32:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.03.20-10.43.32:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.03.20-10.43.32:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.03.20-10.43.32:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.03.20-10.43.32:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.03.20-10.43.32:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.03.20-10.43.32:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.03.20-10.43.32:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.03.20-10.43.32:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.03.20-10.43.32:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.03.20-10.43.32:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.03.20-10.43.32:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.03.20-10.43.32:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.03.20-10.43.32:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.03.20-10.43.32:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.03.20-10.43.32:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.03.20-10.43.32:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.03.20-10.43.32:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.03.20-10.43.32:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.03.20-10.43.32:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.03.20-10.43.32:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.03.20-10.43.32:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.03.20-10.43.32:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.03.20-10.43.32:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.03.20-10.43.32:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.03.20-10.43.32:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.03.20-10.43.32:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.03.20-10.43.32:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.03.20-10.43.32:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.03.20-10.43.32:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.03.20-10.43.32:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.03.20-10.43.32:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.03.20-10.43.33:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.03.20-10.43.33:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.03.20-10.43.33:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.03.20-10.43.33:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.03.20-10.43.33:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.03.20-10.43.33:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.03.20-10.43.33:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.03.20-10.43.33:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.03.20-10.43.33:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.03.20-10.43.33:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.03.20-10.43.33:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.03.20-10.43.33:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.03.20-10.43.33:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.03.20-10.43.33:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.03.20-10.43.33:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.03.20-10.43.33:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.03.20-10.43.33:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.03.20-10.43.33:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.03.20-10.43.33:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.03.20-10.43.33:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.03.20-10.43.33:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.03.20-10.43.33:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.03.20-10.43.33:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.03.20-10.43.33:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.03.20-10.43.33:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.03.20-10.43.33:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Door.uasset"
+[2019.03.20-10.43.33:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.03.20-10.43.33:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.03.20-10.43.33:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.03.20-10.43.33:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.03.20-10.43.33:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.03.20-10.43.33:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.03.20-10.43.33:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.03.20-10.43.33:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.03.20-10.43.33:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.03.20-10.43.33:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.03.20-10.43.33:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.03.20-10.43.33:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.03.20-10.43.33:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.03.20-10.43.33:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.03.20-10.43.33:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.03.20-10.43.33:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.03.20-10.43.33:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.03.20-10.43.33:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.03.20-10.43.33:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.03.20-10.43.33:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.03.20-10.43.33:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.03.20-10.43.33:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.03.20-10.43.33:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.03.20-10.43.33:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.03.20-10.43.33:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.03.20-10.43.33:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.03.20-10.43.33:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.03.20-10.43.33:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.03.20-10.43.33:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.03.20-10.43.33:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.03.20-10.43.33:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.03.20-10.43.33:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.03.20-10.43.33:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.03.20-10.43.33:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.03.20-10.43.33:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.03.20-10.43.33:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.03.20-10.43.33:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.03.20-10.43.33:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.03.20-10.43.33:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.03.20-10.43.33:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.03.20-10.43.33:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.03.20-10.43.33:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.03.20-10.43.33:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.03.20-10.43.33:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.03.20-10.43.33:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.03.20-10.43.33:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.03.20-10.43.34:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.03.20-10.43.34:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.03.20-10.43.34:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.03.20-10.43.34:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.03.20-10.43.34:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.03.20-10.43.34:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.03.20-10.43.34:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.03.20-10.43.34:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.03.20-10.43.34:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.03.20-10.43.34:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.03.20-10.43.34:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.03.20-10.43.34:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.03.20-10.43.34:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.03.20-10.43.34:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.03.20-10.43.34:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.03.20-10.43.34:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.03.20-10.43.34:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.03.20-10.43.34:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.03.20-10.43.34:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.03.20-10.43.34:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.03.20-10.43.34:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.03.20-10.43.34:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.03.20-10.43.34:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.03.20-10.43.34:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.03.20-10.43.34:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.03.20-10.43.34:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.03.20-10.43.34:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.03.20-10.43.35:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.03.20-10.43.35:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.03.20-10.43.35:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.03.20-10.43.35:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.03.20-10.43.35:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.03.20-10.43.35:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.03.20-10.43.35:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.03.20-10.43.35:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.03.20-10.43.35:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.03.20-10.43.35:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.03.20-10.43.35:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.03.20-10.43.35:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.03.20-10.43.35:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.03.20-10.43.35:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.03.20-10.43.35:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.03.20-10.43.35:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.03.20-10.43.35:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.03.20-10.43.35:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.03.20-10.43.35:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.03.20-10.43.35:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.03.20-10.43.35:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.03.20-10.43.35:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.03.20-10.43.35:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.03.20-10.43.35:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.03.20-10.43.35:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.03.20-10.43.35:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.03.20-10.43.35:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.03.20-10.43.35:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.03.20-10.43.35:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.03.20-10.43.35:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.03.20-10.43.35:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.03.20-10.43.35:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.03.20-10.43.35:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.03.20-10.43.36:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.03.20-10.43.36:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.03.20-10.43.36:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.03.20-10.43.36:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.03.20-10.43.36:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.03.20-10.43.36:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.03.20-10.43.36:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.03.20-10.43.36:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.03.20-10.43.36:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.03.20-10.43.36:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.03.20-10.43.36:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.03.20-10.43.36:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.03.20-10.43.37:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.03.20-10.43.37:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.03.20-10.43.37:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.03.20-10.43.37:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.03.20-10.43.37:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.03.20-10.43.37:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.03.20-10.43.37:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.03.20-10.43.37:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.03.20-10.43.37:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.03.20-10.43.37:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.03.20-10.43.37:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.03.20-10.43.37:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.03.20-10.43.37:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.03.20-10.43.37:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.03.20-10.43.37:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.03.20-10.43.37:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.03.20-10.43.37:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.03.20-10.43.37:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.03.20-10.43.37:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.03.20-10.43.37:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.03.20-10.43.37:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.03.20-10.43.37:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.03.20-10.43.37:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.03.20-10.43.37:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.03.20-10.43.37:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.03.20-10.43.37:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.03.20-10.43.37:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.03.20-10.43.37:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.03.20-10.43.37:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.03.20-10.43.37:901][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-10.43.38:062][  0]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Floor_400x400B002DD794492BE04BE42A6BB2A262368.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2019.03.20-10.43.38:066][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.03.20-10.43.38:068][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-10.43.38:068][  0]LightingResults: New page: Lighting Build
+[2019.03.20-10.43.38:073][  0]MapCheck: New page: Map Check
+[2019.03.20-10.43.38:073][  0]LightingResults: New page: Lighting Build
+[2019.03.20-10.43.38:324][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-10.43.38:331][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-10.43.38:357][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-10.43.38:358][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.318ms to complete.
+[2019.03.20-10.43.38:358][  0]LogFileHelpers: Loading map 'PixelMenu' took 0.290
+[2019.03.20-10.43.38:489][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.43.38:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.43.38:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.43.38:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.43.38:529][  0]LogCollectionManager: Loaded 0 collections in 0.003109 seconds
+[2019.03.20-10.43.38:547][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.20-10.43.38:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.00s
+[2019.03.20-10.43.38:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.20-10.43.38:548][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.20-10.43.38:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2656 classes and 627 folders.
+[2019.03.20-10.43.38:569][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.43.38:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:578][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.43.38:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.43.38:648][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.20-10.43.38:742][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.20-10.43.38:746][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.20-10.43.38:759][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.20-10.43.38:854][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-10.43.38:919][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.20-10.43.39:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.43.39:112][  0]LogLoad: (Engine Initialization) Total time: 19.42 seconds
+[2019.03.20-10.43.39:112][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.20-10.43.39:195][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.20-10.43.41:747][  2]LogAssetRegistry: Asset discovery search completed in 16.1399 seconds
+[2019.03.20-10.43.41:749][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.20-10.43.41:749][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2019.03.20-10.44.15:545][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.44.17:791][246]LogSlate: Window 'Plugins' being destroyed
+[2019.03.20-10.44.17:799][246]LogSlate: Window 'Plugins' being destroyed
+[2019.03.20-10.44.17:799][246]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.03.20-10.44.19:017][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-10.44.30:670][728]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-10.44.57:155][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.45.03:064][ 43]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.20-10.45.03:075][ 43]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-10.45.03:756][ 43]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
+[2019.03.20-10.45.04:996][ 43]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.20-10.45.07:681][134]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.20-10.45.22:705][683]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-10.45.22:714][683]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-10.45.42:379][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.46.05:208][824]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.20-10.46.05:228][824]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/FarmHunt.FarmHunt
+[2019.03.20-10.46.05:255][824]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-10.46.05:255][824]LightingResults: New page: Lighting Build
+[2019.03.20-10.46.05:256][824]LoadErrors: New page: Loading map: FarmHunt.umap
+[2019.03.20-10.46.05:256][824]MapCheck: New page: Map Check
+[2019.03.20-10.46.05:256][824]LightingResults: New page: Lighting Build
+[2019.03.20-10.46.05:401][824]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-10.46.05:460][824]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-10.46.05:460][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2019.03.20-10.46.05:460][824]LogFileHelpers: Loading map 'FarmHunt' took 0.207
+[2019.03.20-10.46.14:087][125]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-10.46.17:343][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor8)
+[2019.03.20-10.46.18:145][346]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.03.20-10.46.27:127][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.27:128][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.27:128][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.29:793][736]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.29:794][736]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.29:794][736]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.31:666][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.31:666][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.31:666][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.34:782][899]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.34:783][899]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.34:783][899]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.38:404][ 18]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.38:404][ 18]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.38:404][ 18]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.41:474][123]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.41:474][123]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.41:475][123]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.42:553][159]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.42:553][159]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.42:553][159]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.20-10.46.44:295][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.46.44:820][223]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt6964C9AA4290630A549B1C9A55C22A43.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.20-10.46.44:996][223]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt_BuiltData1BCF164A453B01B6EDE8A6A1DE3C80A7.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt_BuiltData.uasset'
+[2019.03.20-10.46.45:300][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-10.46.47:114][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.46.47:790][386]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-10.46.47:795][386]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/PixelMenu.PixelMenu
+[2019.03.20-10.46.47:824][386]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-10.46.47:824][386]LightingResults: New page: Lighting Build
+[2019.03.20-10.46.47:825][386]LoadErrors: New page: Loading map: PixelMenu.umap
+[2019.03.20-10.46.47:827][386]MapCheck: New page: Map Check
+[2019.03.20-10.46.47:827][386]LightingResults: New page: Lighting Build
+[2019.03.20-10.46.47:941][386]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-10.46.47:992][386]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-10.46.47:992][386]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.172ms to complete.
+[2019.03.20-10.46.47:992][386]LogFileHelpers: Loading map 'PixelMenu' took 0.169
+[2019.03.20-10.46.48:823][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.48.29:960][711]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.20-10.48.30:816][711]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2019.03.20-10.48.31:012][711]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.20-10.48.32:099][711]LogAIModule: Creating AISystem for world StarterMap
+[2019.03.20-10.49.38:721][711]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.20-10.49.49:249][712]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.20-10.50.39:136][692]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.887 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.20-11.06.24:719][770]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.06.39:920][949]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.06.40:422][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.06.55:063][ 48]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-11.07.26:624][602]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.07.40:520][142]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.07.41:523][159]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.07.42:854][159]LogSlate: Window 'Save Content' being destroyed
+[2019.03.20-11.07.43:056][159]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer34FE14C94D53D42B4D09D6AB8864FB7D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.07.53:004][281]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.07.53:506][282]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.08.53:728][812]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.09.09:516][956]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer2844DB5F441320F54AB8A99E4E4BF6F6.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.09.13:418][ 79]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer0A5561B44283D13FAD037A81B7698594.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.09.15:054][116]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-11.09.15:063][116]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-11.10.47:816][588]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.10.58:153][714]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.10.58:655][715]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.12.09:637][ 46]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-11.12.20:632][425]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.12.23:378][498]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.12.26:485][577]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.12.27:539][577]LogSlate: Window 'Save Content' being destroyed
+[2019.03.20-11.12.27:731][577]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_FarmerB6900AEB455F71A3047B1A932739712F.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.12.37:753][701]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.12.38:256][702]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.13.12:564][841]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-11.13.12:696][841]LogSlate: Window 'Plugins' being destroyed
+[2019.03.20-11.13.12:703][841]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.03.20-11.13.12:705][841]LogSlate: Window 'PixelArcade - Unreal Editor' being destroyed
+[2019.03.20-11.13.12:707][841]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.20-11.13.13:199][842]Cmd: QUIT_EDITOR
+[2019.03.20-11.13.13:339][842]LogExit: Preparing to exit.
+[2019.03.20-11.13.14:621][842]LogExit: Editor shut down
+[2019.03.20-11.13.14:623][842]LogExit: Transaction tracking system shut down
+[2019.03.20-11.13.15:397][842]LogExit: Object subsystem successfully closed.
+[2019.03.20-11.13.15:449][842]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.20-11.13.15:466][842]LogD3D11RHI: Shutdown
+[2019.03.20-11.13.15:466][842]LogD3D11RHI: CleanupD3DDevice
+[2019.03.20-11.13.15:473][842]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.20-11.13.15:884][842]LogModuleManager: Shutting down and abandoning module BlueprintGraph (628)
+[2019.03.20-11.13.15:884][842]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (626)
+[2019.03.20-11.13.15:884][842]LogModuleManager: Shutting down and abandoning module SceneOutliner (624)
+[2019.03.20-11.13.15:884][842]LogModuleManager: Shutting down and abandoning module AddContentDialog (622)
+[2019.03.20-11.13.15:893][842]LogModuleManager: Shutting down and abandoning module WidgetCarousel (621)
+[2019.03.20-11.13.15:893][842]LogModuleManager: Shutting down and abandoning module EditorWidgets (618)
+[2019.03.20-11.13.15:893][842]LogModuleManager: Shutting down and abandoning module CollectionManager (616)
+[2019.03.20-11.13.15:894][842]LogModuleManager: Shutting down and abandoning module StatsViewer (614)
+[2019.03.20-11.13.15:896][842]LogModuleManager: Shutting down and abandoning module FoliageEdit (612)
+[2019.03.20-11.13.15:897][842]LogModuleManager: Shutting down and abandoning module LandscapeEditor (610)
+[2019.03.20-11.13.15:899][842]LogModuleManager: Shutting down and abandoning module MeshPaintMode (608)
+[2019.03.20-11.13.15:899][842]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (606)
+[2019.03.20-11.13.15:899][842]LogModuleManager: Shutting down and abandoning module ActorPickerMode (604)
+[2019.03.20-11.13.15:900][842]LogModuleManager: Shutting down and abandoning module GeometryMode (602)
+[2019.03.20-11.13.15:900][842]LogModuleManager: Shutting down and abandoning module TextureAlignMode (600)
+[2019.03.20-11.13.15:900][842]LogModuleManager: Shutting down and abandoning module BspMode (598)
+[2019.03.20-11.13.15:900][842]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (596)
+[2019.03.20-11.13.15:901][842]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (594)
+[2019.03.20-11.13.15:902][842]LogModuleManager: Shutting down and abandoning module AutomationWorker (592)
+[2019.03.20-11.13.15:902][842]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (590)
+[2019.03.20-11.13.15:903][842]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (588)
+[2019.03.20-11.13.15:904][842]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (586)
+[2019.03.20-11.13.15:913][842]LogModuleManager: Shutting down and abandoning module PlacementMode (585)
+[2019.03.20-11.13.15:914][842]LogModuleManager: Shutting down and abandoning module MaterialEditor (584)
+[2019.03.20-11.13.15:918][842]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (580)
+[2019.03.20-11.13.15:919][842]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (578)
+[2019.03.20-11.13.15:919][842]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (576)
+[2019.03.20-11.13.15:920][842]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (574)
+[2019.03.20-11.13.15:920][842]LogModuleManager: Shutting down and abandoning module WebMMedia (572)
+[2019.03.20-11.13.15:920][842]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (570)
+[2019.03.20-11.13.15:924][842]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (568)
+[2019.03.20-11.13.15:929][842]LogModuleManager: Shutting down and abandoning module SequenceRecorder (567)
+[2019.03.20-11.13.15:929][842]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
+[2019.03.20-11.13.15:930][842]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
+[2019.03.20-11.13.15:930][842]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
+[2019.03.20-11.13.15:937][842]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
+[2019.03.20-11.13.15:953][842]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
+[2019.03.20-11.13.15:953][842]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
+[2019.03.20-11.13.15:954][842]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
+[2019.03.20-11.13.15:959][842]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
+[2019.03.20-11.13.15:973][842]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
+[2019.03.20-11.13.15:974][842]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
+[2019.03.20-11.13.15:975][842]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
+[2019.03.20-11.13.15:975][842]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
+[2019.03.20-11.13.15:976][842]LogModuleManager: Shutting down and abandoning module SessionServices (540)
+[2019.03.20-11.13.15:979][842]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
+[2019.03.20-11.13.15:979][842]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
+[2019.03.20-11.13.15:979][842]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
+[2019.03.20-11.13.15:985][842]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
+[2019.03.20-11.13.15:987][842]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
+[2019.03.20-11.13.15:992][842]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
+[2019.03.20-11.13.15:994][842]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
+[2019.03.20-11.13.15:996][842]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
+[2019.03.20-11.13.15:996][842]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
+[2019.03.20-11.13.15:996][842]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
+[2019.03.20-11.13.15:996][842]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
+[2019.03.20-11.13.15:996][842]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
+[2019.03.20-11.13.16:929][842]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
+[2019.03.20-11.13.16:930][842]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
+[2019.03.20-11.13.16:930][842]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
+[2019.03.20-11.13.16:930][842]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
+[2019.03.20-11.13.16:930][842]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (506)
+[2019.03.20-11.13.16:930][842]LogModuleManager: Shutting down and abandoning module InputBindingEditor (504)
+[2019.03.20-11.13.16:931][842]LogModuleManager: Shutting down and abandoning module MergeActors (502)
+[2019.03.20-11.13.16:931][842]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (500)
+[2019.03.20-11.13.16:932][842]LogModuleManager: Shutting down and abandoning module LocalizationService (499)
+[2019.03.20-11.13.16:933][842]LogModuleManager: Shutting down and abandoning module HardwareTargeting (496)
+[2019.03.20-11.13.16:933][842]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (494)
+[2019.03.20-11.13.16:934][842]LogModuleManager: Shutting down and abandoning module UndoHistory (492)
+[2019.03.20-11.13.16:934][842]LogModuleManager: Shutting down and abandoning module XmlParser (490)
+[2019.03.20-11.13.16:934][842]LogModuleManager: Shutting down and abandoning module Blutility (488)
+[2019.03.20-11.13.16:935][842]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (486)
+[2019.03.20-11.13.16:935][842]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (485)
+[2019.03.20-11.13.16:936][842]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (482)
+[2019.03.20-11.13.16:936][842]LogModuleManager: Shutting down and abandoning module SettingsEditor (480)
+[2019.03.20-11.13.16:937][842]LogModuleManager: Shutting down and abandoning module ProjectLauncher (478)
+[2019.03.20-11.13.16:937][842]LogModuleManager: Shutting down and abandoning module SessionFrontend (476)
+[2019.03.20-11.13.16:938][842]LogModuleManager: Shutting down and abandoning module ProfilerClient (474)
+[2019.03.20-11.13.16:939][842]LogModuleManager: Shutting down and abandoning module DeviceManager (472)
+[2019.03.20-11.13.16:940][842]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (471)
+[2019.03.20-11.13.16:995][842]LogModuleManager: Shutting down and abandoning module AutomationController (468)
+[2019.03.20-11.13.16:995][842]LogModuleManager: Shutting down and abandoning module AutomationWindow (466)
+[2019.03.20-11.13.16:996][842]LogModuleManager: Shutting down and abandoning module Layers (464)
+[2019.03.20-11.13.16:998][842]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (462)
+[2019.03.20-11.13.16:998][842]LogModuleManager: Shutting down and abandoning module DetailCustomizations (460)
+[2019.03.20-11.13.16:999][842]LogModuleManager: Shutting down and abandoning module PackagesDialog (458)
+[2019.03.20-11.13.16:999][842]LogModuleManager: Shutting down and abandoning module Persona (456)
+[2019.03.20-11.13.17:000][842]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (455)
+[2019.03.20-11.13.17:000][842]LogModuleManager: Shutting down and abandoning module AnimGraph (453)
+[2019.03.20-11.13.17:000][842]LogModuleManager: Shutting down and abandoning module Kismet (450)
+[2019.03.20-11.13.17:011][842]LogModuleManager: Shutting down and abandoning module GraphEditor (448)
+[2019.03.20-11.13.17:011][842]LogModuleManager: Shutting down and abandoning module ClassViewer (446)
+[2019.03.20-11.13.17:011][842]LogModuleManager: Shutting down and abandoning module Toolbox (444)
+[2019.03.20-11.13.17:011][842]LogModuleManager: Shutting down and abandoning module ModuleUI (442)
+[2019.03.20-11.13.17:012][842]LogModuleManager: Shutting down and abandoning module MovieSceneTools (440)
+[2019.03.20-11.13.17:012][842]LogModuleManager: Shutting down and abandoning module OutputLog (438)
+[2019.03.20-11.13.17:012][842]LogModuleManager: Shutting down and abandoning module GammaUI (436)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module Documentation (434)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (432)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module MovieScene (430)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (428)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module LauncherPlatform (426)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module AnalyticsET (424)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module PortalServices (422)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module PortalRpc (420)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module MessagingRpc (418)
+[2019.03.20-11.13.17:013][842]LogModuleManager: Shutting down and abandoning module AIModule (416)
+[2019.03.20-11.13.17:014][842]LogModuleManager: Shutting down and abandoning module GameplayDebugger (415)
+[2019.03.20-11.13.17:014][842]LogModuleManager: Shutting down and abandoning module AITestSuite (413)
+[2019.03.20-11.13.17:014][842]LogModuleManager: Shutting down and abandoning module NavigationSystem (411)
+[2019.03.20-11.13.17:014][842]LogModuleManager: Shutting down and abandoning module DesktopPlatform (408)
+[2019.03.20-11.13.17:014][842]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (406)
+[2019.03.20-11.13.17:020][842]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.03.20-11.13.17:265][842]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.03.20-11.13.17:266][842]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.03.20-11.13.17:267][842]LogModuleManager: Shutting down and abandoning module MediaCompositing (374)
+[2019.03.20-11.13.17:267][842]LogModuleManager: Shutting down and abandoning module LinearTimecode (372)
+[2019.03.20-11.13.17:267][842]LogModuleManager: Shutting down and abandoning module ImgMedia (370)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module SubsystemConfigurator (368)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.20-11.13.17:275][842]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.03.20-11.13.17:276][842]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.20-11.13.17:277][842]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.03.20-11.13.17:277][842]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.03.20-11.13.17:278][842]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.03.20-11.13.17:280][842]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.03.20-11.13.17:280][842]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.03.20-11.13.17:281][842]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.03.20-11.13.17:281][842]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.03.20-11.13.17:281][842]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.03.20-11.13.17:281][842]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.03.20-11.13.17:281][842]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.03.20-11.13.17:282][842]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.03.20-11.13.17:282][842]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.03.20-11.13.17:282][842]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.03.20-11.13.17:284][842]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.03.20-11.13.17:285][842]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.03.20-11.13.17:286][842]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.03.20-11.13.17:286][842]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.03.20-11.13.17:286][842]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.03.20-11.13.17:286][842]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.03.20-11.13.17:287][842]LogModuleManager: Shutting down and abandoning module OculusEditor (290)
+[2019.03.20-11.13.17:287][842]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.03.20-11.13.17:287][842]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.03.20-11.13.17:287][842]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.03.20-11.13.17:388][842]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.03.20-11.13.17:489][842]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2019.03.20-11.13.17:489][842]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.03.20-11.13.17:491][842]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.03.20-11.13.17:491][842]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.03.20-11.13.17:491][842]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.03.20-11.13.17:491][842]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.03.20-11.13.17:491][842]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.03.20-11.13.17:493][842]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.03.20-11.13.17:494][842]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.03.20-11.13.17:494][842]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.03.20-11.13.17:494][842]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.03.20-11.13.17:496][842]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.03.20-11.13.17:497][842]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.03.20-11.13.17:498][842]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.20-11.13.17:501][842]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.20-11.13.17:508][842]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.20-11.13.17:509][842]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.20-11.13.17:512][842]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.20-11.13.17:512][842]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.20-11.13.17:512][842]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.20-11.13.17:512][842]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.20-11.13.17:516][842]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.20-11.13.17:517][842]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.20-11.13.17:591][842]LogDerivedDataCache: Shutdown
+[2019.03.20-11.13.17:591][842]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.20-11.13.17:591][842]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.20-11.13.17:592][842]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.20-11.13.17:593][842]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.20-11.13.17:597][842]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.20-11.13.17:597][842]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.20-11.13.17:597][842]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.20-11.13.17:598][842]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.20-11.13.17:598][842]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.20-11.13.17:599][842]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.20-11.13.17:600][842]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.20-11.13.17:601][842]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.20-11.13.17:601][842]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.20-11.13.17:628][842]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.20-11.13.17:629][842]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.20-11.13.17:629][842]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.20-11.13.17:633][842]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.20-11.13.17:633][842]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.20-11.13.17:661][842]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.20-11.13.17:661][842]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.20-11.13.17:661][842]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69636AA5-4C46-D1A0-F5ED-629650E22D6E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2ff5ed2b4ea7f5724d83e4a8c7a078f7%7C52cd936612ca433ba7244efdbd41ffd6%7C78f223e4-764e-43ef-abb9-045bc1b63efa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.20-11.13.17:666][842]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.20-11.13.17:669][842]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.20-11.13.17:670][842]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.20-11.13.17:670][842]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.20-11.13.17:670][842]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.20-11.13.17:670][842]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.20-11.13.17:671][842]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.20-11.13.17:672][842]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.20-11.13.17:673][842]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.20-11.13.17:674][842]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.20-11.13.17:691][842]LogExit: Exiting.
+[2019.03.20-11.13.17:772][842]Log file closed, 03/20/19 12:13:17
