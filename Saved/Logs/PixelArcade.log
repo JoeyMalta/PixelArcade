@@ -1,4 +1,4 @@
-﻿Log file open, 03/20/19 10:37:43
+﻿Log file open, 03/20/19 11:35:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PixelArcade
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.313446
+LogStats: Stats thread started at 0.324254
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -95,9 +95,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogPluginManager: Mounting plugin AdvancedSessions
-LogPluginManager: Mounting plugin AdvancedSteamSessions
-LogStreaming: Display: Took  0.149s to configure plugins.
+LogStreaming: Display: Took  0.154s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -156,540 +154,765 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.008s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.20-09.37.44:386][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.03.20-09.37.44:386][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:387][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:391][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.20-09.37.44:391][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.20-09.37.44:392][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.20-09.37.44:392][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-09.37.44:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.20-09.37.44:411][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.20-09.37.44:411][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.20-09.37.44:411][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.20-09.37.44:411][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.20-09.37.44:412][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.20-09.37.44:413][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.20-09.37.44:414][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.20-09.37.44:415][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.20-09.37.44:415][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-09.37.44:415][  0]LogInit: Computer: JOEY-PC
-[2019.03.20-09.37.44:415][  0]LogInit: User: joey
-[2019.03.20-09.37.44:415][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.20-09.37.44:415][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.20-09.37.44:415][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.03.20-09.37.44:415][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.20-09.37.44:415][  0]LogMemory: Process Physical Memory: 104.55 MB used, 104.55 MB peak
-[2019.03.20-09.37.44:416][  0]LogMemory: Process Virtual Memory: 101.52 MB used, 101.52 MB peak
-[2019.03.20-09.37.44:416][  0]LogMemory: Physical Memory: 5321.63 MB used,  2739.22 MB free, 8060.85 MB total
-[2019.03.20-09.37.44:416][  0]LogMemory: Virtual Memory: 4661.77 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.03.20-09.37.44:453][  0]LogInit: Using OS detected language (en-US).
-[2019.03.20-09.37.44:453][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.20-09.37.44:455][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.20-09.37.44:977][  0]LogStreaming: Display: Took  0.523s to InitEngineTextLocalization.
-[2019.03.20-09.37.44:977][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.20-09.37.45:018][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.20-09.37.45:018][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.20-09.37.45:334][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-09.37.45:334][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.20-09.37.45:366][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
-[2019.03.20-09.37.45:366][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.20-09.37.45:372][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2019.03.20-09.37.45:372][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.20-09.37.45:375][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.20-09.37.45:375][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.20-09.37.45:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.20-09.37.45:421][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.20-09.37.45:421][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.20-09.37.45:421][  0]LogWindows: EnumDisplayDevices:
-[2019.03.20-09.37.45:421][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2019.03.20-09.37.45:422][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.03.20-09.37.45:422][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2019.03.20-09.37.45:423][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
-[2019.03.20-09.37.45:423][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.03.20-09.37.45:423][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
-[2019.03.20-09.37.45:423][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
-[2019.03.20-09.37.45:423][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2019.03.20-09.37.45:423][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
-[2019.03.20-09.37.45:448][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2019.03.20-09.37.45:448][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.20-09.37.45:462][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.20-09.37.45:903][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.20-09.37.45:922][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.20-09.37.45:942][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.20-09.37.45:961][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.20-09.37.45:981][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.20-09.37.46:001][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.20-09.37.46:024][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.20-09.37.46:045][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.20-09.37.46:054][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:164][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:165][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.20-09.37.46:167][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.20-09.37.46:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-09.37.46:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.20-09.37.46:281][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-09.37.46:281][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.20-09.37.46:299][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.20-09.37.46:318][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.20-09.37.46:336][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.20-09.37.46:355][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.20-09.37.46:429][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.20-09.37.46:429][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.20-09.37.46:429][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.20-09.37.46:521][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/10716/).
-[2019.03.20-09.37.46:521][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/58FD2F0447A99B3DFA819C8C04C64CB6/'.
-[2019.03.20-09.37.46:525][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.20-09.37.46:525][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.20-09.37.46:525][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.20-09.37.46:525][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.20-09.37.47:259][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-09.37.47:333][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.20-09.37.47:355][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.20-09.37.47:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-09.37.47:355][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.20-09.37.47:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.20-09.37.47:368][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.20-09.37.47:368][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.20-09.37.47:401][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.20-09.37.47:403][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.20-09.37.47:404][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.20-09.37.47:512][  0]LogAssetRegistry: FAssetRegistry took 0.0392 seconds to start up
-[2019.03.20-09.37.48:045][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-09.37.48:276][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.20-09.37.48:282][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.20-09.37.48:282][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.20-09.37.48:282][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.20-09.37.48:282][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.20-09.37.48:301][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
-[2019.03.20-09.37.49:014][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.116222 seconds
-[2019.03.20-09.37.49:022][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
-[2019.03.20-09.37.49:022][  0]LogUObjectAllocator: 6925456 out of 0 bytes used by permanent object pool.
-[2019.03.20-09.37.49:022][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.20-09.37.50:165][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.20-09.37.50:178][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.20-09.37.51:042][  0]SourceControl: Source control is disabled
-[2019.03.20-09.37.51:042][  0]SourceControl: Source control is disabled
-[2019.03.20-09.37.51:044][  0]SourceControl: Source control is disabled
-[2019.03.20-09.37.51:045][  0]SourceControl: Source control is disabled
-[2019.03.20-09.37.51:228][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.20-09.37.51:309][  0]LogOcInput: OculusInput pre-init called
-[2019.03.20-09.37.51:468][  0]LogEngine: Initializing Engine...
-[2019.03.20-09.37.51:469][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-09.37.51:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-09.37.51:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-09.37.51:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-09.37.51:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-09.37.51:770][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.20-09.37.51:790][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.20-09.37.51:806][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-09.37.51:862][  0]LogInit: FAudioDevice initialized.
-[2019.03.20-09.37.51:863][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.20-09.37.51:951][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.20-09.37.51:955][  0]LogInit: Texture streaming: Enabled
-[2019.03.20-09.37.51:982][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.20-09.37.52:002][  0]LogInit: Transaction tracking system initialized
-[2019.03.20-09.37.52:039][  0]BlueprintLog: New page: Editor Load
-[2019.03.20-09.37.52:166][  0]LocalizationService: Localization service is disabled
-[2019.03.20-09.37.52:806][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/' took 0.01s
-[2019.03.20-09.37.52:807][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.20-09.37.52:807][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.20-09.37.52:807][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.20-09.37.52:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-09.37.52:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-09.37.52:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-09.37.52:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-09.37.52:990][  0]SourceControl: Source control is disabled
-[2019.03.20-09.37.52:990][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-09.37.52:991][  0]LightingResults: New page: Lighting Build
-[2019.03.20-09.37.52:995][  0]MapCheck: New page: Map Check
-[2019.03.20-09.37.52:995][  0]LightingResults: New page: Lighting Build
-[2019.03.20-09.37.53:236][  0]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-09.37.53:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-09.37.53:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-09.37.53:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.239ms to complete.
-[2019.03.20-09.37.53:272][  0]LogFileHelpers: Loading map 'PixelMenu' took 0.281
-[2019.03.20-09.37.53:366][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-09.37.53:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-09.37.53:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-09.37.53:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-09.37.53:410][  0]LogCollectionManager: Loaded 0 collections in 0.003233 seconds
-[2019.03.20-09.37.53:428][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
-[2019.03.20-09.37.53:428][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.00s
-[2019.03.20-09.37.53:428][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.00s
-[2019.03.20-09.37.53:428][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.20-09.37.53:440][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2677 classes and 630 folders.
-[2019.03.20-09.37.53:450][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.20-09.37.53:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:453][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:455][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:455][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:456][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:467][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.20-09.37.53:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.20-09.37.53:521][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.03.20-09.37.53:575][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.03.20-09.37.53:575][  0]LogLoad: (Engine Initialization) Total time: 11.72 seconds
-[2019.03.20-09.37.53:575][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.20-09.37.53:647][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.20-09.37.53:649][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.20-09.37.53:651][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.20-09.37.53:658][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.20-09.37.53:777][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-09.37.53:798][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2019.03.20-09.37.53:921][  2]LogAssetRegistry: Asset discovery search completed in 6.4303 seconds
-[2019.03.20-09.37.53:923][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.03.20-09.37.53:923][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2019.03.20-09.37.56:648][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.20-09.37.57:470][ 47]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:25).
-[2019.03.20-09.38.01:604][192]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.20-09.38.01:613][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
-[2019.03.20-09.38.02:295][192]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
-[2019.03.20-09.38.03:565][192]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.20-09.38.11:019][495]BlueprintLog: New page: Compile PixelFarm_Farmer
-[2019.03.20-09.38.12:207][506]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer8D2755EB459C01E9C5C461A70601DC84.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-09.38.12:831][528]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.20-09.38.19:452][766]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer3CC18DAA41FEBFF0DC50AB80378FF79B.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-09.38.47:566][807]BlueprintLog: New page: Compile PixelFarm_Farmer
-[2019.03.20-09.38.48:850][827]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-09.38.50:181][827]LogSlate: Window 'Save Content' being destroyed
-[2019.03.20-09.38.50:393][827]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer818D1DBD4E38FF3C04A1E4AE82BA9747.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-09.39.00:435][897]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.39.00:938][898]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.39.12:647][ 87]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-09.39.23:760][220]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.39.24:264][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.39.37:716][393]LogTemp: Repeating last play command: Standalone Game
-[2019.03.20-09.39.49:110][534]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.39.49:612][535]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.03.20-09.40.03:260][745]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.03.20-09.40.03:366][746]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
-[2019.03.20-09.40.03:366][746]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.03.20-09.40.03:366][746]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2019.03.20-09.40.03:366][746]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.03.20-09.40.03:373][746]LogTemp: BranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2019.03.20-09.40.03:392][746]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joey.JOEY-PC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.03.20-09.40.11:075][938]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-09.40.11:098][938]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-09.40.21:965][347]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_FarmerB2EC850A4B3DC1E59AC4D5A26ECFB5D6.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-09.40.26:557][495]LogSlate: Window 'PixelFarm_Farmer' being destroyed
-[2019.03.20-09.40.26:566][495]LogSlate: Window 'PixelFarm_Farmer' being destroyed
-[2019.03.20-09.40.33:419][736]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/PixelMenu.PixelMenu
-[2019.03.20-09.40.33:463][736]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-09.40.33:463][736]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.33:464][736]LoadErrors: New page: Loading map: PixelMenu.umap
-[2019.03.20-09.40.33:465][736]MapCheck: New page: Map Check
-[2019.03.20-09.40.33:465][736]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.33:534][736]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-09.40.33:539][736]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-09.40.33:636][736]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-09.40.33:636][736]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.224ms to complete.
-[2019.03.20-09.40.33:637][736]LogFileHelpers: Loading map 'PixelMenu' took 0.175
-[2019.03.20-09.40.34:953][779]LogAIModule: Creating AISystem for world Menu
-[2019.03.20-09.40.34:957][779]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/Menu.Menu
-[2019.03.20-09.40.34:999][779]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-09.40.34:999][779]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.35:000][779]LoadErrors: New page: Loading map: Menu.umap
-[2019.03.20-09.40.35:001][779]MapCheck: New page: Map Check
-[2019.03.20-09.40.35:001][779]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.35:043][779]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-09.40.35:120][779]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-09.40.35:120][779]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
-[2019.03.20-09.40.35:120][779]LogFileHelpers: Loading map 'Menu' took 0.122
-[2019.03.20-09.40.41:437][151]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.03.20-09.40.41:543][153]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
-[2019.03.20-09.40.41:543][153]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.03.20-09.40.41:543][153]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2019.03.20-09.40.41:543][153]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.03.20-09.40.41:550][153]LogTemp: BranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2019.03.20-09.40.41:563][153]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joey.JOEY-PC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.03.20-09.40.54:210][763]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-09.40.54:218][763]LogSlate: Window 'Project Settings' being destroyed
-[2019.03.20-09.40.58:935][ 32]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-09.40.58:941][ 32]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/PixelMenu.PixelMenu
-[2019.03.20-09.40.58:976][ 32]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.20-09.40.58:976][ 32]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.58:977][ 32]LoadErrors: New page: Loading map: PixelMenu.umap
-[2019.03.20-09.40.58:978][ 32]MapCheck: New page: Map Check
-[2019.03.20-09.40.58:978][ 32]LightingResults: New page: Lighting Build
-[2019.03.20-09.40.59:019][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.20-09.40.59:103][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.20-09.40.59:103][ 32]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.233ms to complete.
-[2019.03.20-09.40.59:103][ 32]LogFileHelpers: Loading map 'PixelMenu' took 0.129
-[2019.03.20-09.41.03:490][336]LogAIModule: Creating AISystem for world FarmHunt
-[2019.03.20-09.41.03:516][336]LogAIModule: Creating AISystem for world Menu
-[2019.03.20-09.41.03:727][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_FarmerB91ACD1849493BDDB9191A82A8293093.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
-[2019.03.20-09.41.04:068][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelMenu89767D4647E80128DF37DAAABFD1142A.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
-[2019.03.20-09.41.04:121][336]LogFileHelpers: Saving map 'PixelMenu' took 0.382
-[2019.03.20-09.41.04:175][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelMenu_BuiltDataC1F9B54F47483709A6948297DA408E2D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
-[2019.03.20-09.41.04:219][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/GM_PixelMenu2A38909E484B49FC8DEC228506218608.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelGamemodes/GM_PixelMenu.uasset'
-[2019.03.20-09.41.04:433][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Actor_CarrotDE670A2F4271F7692B010D805F7FE8C1.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
-[2019.03.20-09.41.04:461][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Carrot181D9A792465374A038D5E780B6CF93CD.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Carrot1.uasset'
-[2019.03.20-09.41.04:541][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Carrot_material530C6D124BF616B49F905691AD949750.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Carrot_material.uasset'
-[2019.03.20-09.41.04:643][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Carrot8F26DA4E48096FB024BAB08232F61160.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Carrot.uasset'
-[2019.03.20-09.41.04:679][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/well10870ED3845EA56B6658825B2C94593CF.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/well1.uasset'
-[2019.03.20-09.41.04:775][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/well_materialAE80F6264EA1F4DBF503C89988A1FBF9.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/well_material.uasset'
-[2019.03.20-09.41.04:860][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/well80A181C0476621459A6D33BAF8D98FB7.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/well.uasset'
-[2019.03.20-09.41.05:105][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Well624E49D441C0F06C1D17DA8BF58A3E4F.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset'
-[2019.03.20-09.41.05:228][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Bucket7F1CC85A489B9592F773E195F21EAE6D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Bucket.uasset'
-[2019.03.20-09.41.05:300][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Bunny4B5A54F1491517ED6B0B01877D27BBE1.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Bunny.uasset'
-[2019.03.20-09.41.05:352][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmerDB00FEE544450492868F4495EFB05AA1.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Farmer.uasset'
-[2019.03.20-09.41.05:408][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/GM_FarmHunt2DCC25DB476B71A61D3B20B34238B2E2.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
-[2019.03.20-09.41.05:576][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucketEmpty48EE240444CC5DDC9A811693B7394398.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty.uasset'
-[2019.03.20-09.41.05:635][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucketEmpty1141E23F545187BC0B46594B37D83D79B.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty1.uasset'
-[2019.03.20-09.41.05:732][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucketEmpty_material8ACB5EBE4A2C3438B3EB13ADA3999616.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty_material.uasset'
-[2019.03.20-09.41.05:813][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucket_volF35E199645DD227670E857982DCD777E.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol.uasset'
-[2019.03.20-09.41.05:840][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucket_vol1438DF4B145EA55F09C59D59DAFDBA2E5.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol1.uasset'
-[2019.03.20-09.41.05:929][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/bucket_vol_material1D7FE2864A705824247E168E8DB1DA34.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol_material.uasset'
-[2019.03.20-09.41.06:011][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmLand4CA88D7E4668AF2EBC51AFACBFF5AEC9.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/FarmLand.uasset'
-[2019.03.20-09.41.06:038][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmLand18D06F6E0404C4A9A9DCDCBBA3F7D64E3.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/FarmLand1.uasset'
-[2019.03.20-09.41.06:121][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmLand_material807EC7A742CD8F228D701BB611AC9344.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/FarmLand_material.uasset'
-[2019.03.20-09.41.06:203][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/GrassStone5038C10240C2D72FB1AD3986FDAC0DDA.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/GrassStone.uasset'
-[2019.03.20-09.41.06:230][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/GrassStone1AF7C496B4BF38864DD8D4BBDD565EC9A.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/GrassStone1.uasset'
-[2019.03.20-09.41.06:314][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/GrassStone_material33A97AB34939930D2FFC66A9EB7FE8FD.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/GrassStone_material.uasset'
-[2019.03.20-09.41.06:396][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hek2CAE4FFF4287652C4F3FF48FEAE00EC9.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hek.uasset'
-[2019.03.20-09.41.06:425][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hek172E7FBBC4746DCEC4CDF3697F0A99D55.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hek1.uasset'
-[2019.03.20-09.41.06:510][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hek_materialBE3E18A34754FD677FC42EA79F0FE034.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hek_material.uasset'
-[2019.03.20-09.41.06:588][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hooivork4C6528D54F5A9D5BCEA1D0B6F66D6CEC.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hooivork.uasset'
-[2019.03.20-09.41.06:616][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hooivork163BB97EA47E8C7DA5D0756B80B7B197C.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hooivork1.uasset'
-[2019.03.20-09.41.06:699][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Hooivork_material5B12781A479D40D9FEB9F887556DFA18.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelModels/PixelFarm/Hooivork_material.uasset'
-[2019.03.20-09.41.07:150][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt608C577147780B7772D335AF2AC84BDB.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
-[2019.03.20-09.41.07:170][336]LogFileHelpers: Saving map 'FarmHunt' took 0.464
-[2019.03.20-09.41.07:327][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt_BuiltData029B738942B23EC3EB6A7FA0094AB2DC.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt_BuiltData.uasset'
-[2019.03.20-09.41.07:727][336]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Menu56F338C5401A2D50252ED397EAC72E6F.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/Menu.umap'
-[2019.03.20-09.41.07:733][336]LogFileHelpers: Saving map 'Menu' took 0.400
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:727][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:731][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-10.35.44:731][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-10.35.44:732][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:733][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-10.35.44:733][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-10.35.44:733][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-10.35.44:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-10.35.44:758][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-10.35.44:759][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-10.35.44:759][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-10.35.44:759][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-10.35.44:760][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.20-10.35.44:761][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.20-10.35.44:761][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-10.35.44:761][  0]LogInit: Computer: JOEY-PC
+[2019.03.20-10.35.44:761][  0]LogInit: User: joey
+[2019.03.20-10.35.44:761][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-10.35.44:761][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-10.35.44:761][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.20-10.35.44:761][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-10.35.44:761][  0]LogMemory: Process Physical Memory: 102.67 MB used, 102.67 MB peak
+[2019.03.20-10.35.44:761][  0]LogMemory: Process Virtual Memory: 91.34 MB used, 91.34 MB peak
+[2019.03.20-10.35.44:761][  0]LogMemory: Physical Memory: 4715.32 MB used,  3345.52 MB free, 8060.85 MB total
+[2019.03.20-10.35.44:761][  0]LogMemory: Virtual Memory: 4651.71 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.03.20-10.35.44:793][  0]LogInit: Using OS detected language (en-US).
+[2019.03.20-10.35.44:793][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.20-10.35.44:794][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.20-10.35.45:294][  0]LogStreaming: Display: Took  0.502s to InitEngineTextLocalization.
+[2019.03.20-10.35.45:294][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.20-10.35.45:369][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-10.35.45:369][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-10.35.45:705][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-10.35.45:705][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-10.35.45:748][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2019.03.20-10.35.45:749][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.20-10.35.45:754][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.03.20-10.35.45:754][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.20-10.35.45:758][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-10.35.45:758][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-10.35.45:758][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-10.35.45:806][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-10.35.45:806][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-10.35.45:806][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-10.35.45:806][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.03.20-10.35.45:807][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-10.35.45:807][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.20-10.35.45:808][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2019.03.20-10.35.45:808][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.20-10.35.45:808][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2019.03.20-10.35.45:808][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2019.03.20-10.35.45:808][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2019.03.20-10.35.45:808][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
+[2019.03.20-10.35.45:836][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.03.20-10.35.45:836][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-10.35.45:850][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-10.35.46:308][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.20-10.35.46:327][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.20-10.35.46:348][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.20-10.35.46:368][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.20-10.35.46:388][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.20-10.35.46:408][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-10.35.46:429][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-10.35.46:452][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-10.35.46:462][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-10.35.46:571][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:571][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:571][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.20-10.35.46:574][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.20-10.35.46:653][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-10.35.46:653][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.20-10.35.46:687][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-10.35.46:687][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.20-10.35.46:705][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.20-10.35.46:723][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.20-10.35.46:741][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.20-10.35.46:759][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.20-10.35.46:823][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-10.35.46:823][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.20-10.35.46:824][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-10.35.46:913][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/13860/).
+[2019.03.20-10.35.46:913][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/AF9142DB44861D5600F77DA7192232FB/'.
+[2019.03.20-10.35.46:916][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-10.35.46:917][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-10.35.46:917][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-10.35.46:917][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-10.35.47:650][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-10.35.47:722][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-10.35.47:743][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-10.35.47:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-10.35.47:743][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.20-10.35.47:756][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-10.35.47:756][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-10.35.47:756][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-10.35.47:793][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-10.35.47:796][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-10.35.47:797][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-10.35.47:913][  0]LogAssetRegistry: FAssetRegistry took 0.0446 seconds to start up
+[2019.03.20-10.35.48:421][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-10.35.48:649][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-10.35.48:655][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-10.35.48:655][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-10.35.48:655][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-10.35.48:655][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-10.35.48:675][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.20-10.35.49:444][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.149264 seconds
+[2019.03.20-10.35.49:451][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.03.20-10.35.49:451][  0]LogUObjectAllocator: 6925464 out of 0 bytes used by permanent object pool.
+[2019.03.20-10.35.49:451][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-10.35.50:609][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-10.35.50:623][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-10.35.51:493][  0]SourceControl: Source control is disabled
+[2019.03.20-10.35.51:493][  0]SourceControl: Source control is disabled
+[2019.03.20-10.35.51:495][  0]SourceControl: Source control is disabled
+[2019.03.20-10.35.51:496][  0]SourceControl: Source control is disabled
+[2019.03.20-10.35.51:685][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-10.35.51:772][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-10.35.51:936][  0]LogEngine: Initializing Engine...
+[2019.03.20-10.35.51:938][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-10.35.51:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-10.35.51:939][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-10.35.51:940][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-10.35.51:940][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-10.35.52:261][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-10.35.52:285][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.20-10.35.52:301][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-10.35.52:394][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-10.35.52:395][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-10.35.52:483][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-10.35.52:488][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-10.35.52:514][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.20-10.35.52:540][  0]LogInit: Transaction tracking system initialized
+[2019.03.20-10.35.52:579][  0]BlueprintLog: New page: Editor Load
+[2019.03.20-10.35.52:702][  0]LocalizationService: Localization service is disabled
+[2019.03.20-10.35.53:357][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/' took 0.02s
+[2019.03.20-10.35.53:357][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.20-10.35.53:357][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.20-10.35.53:357][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.20-10.35.53:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-10.35.53:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-10.35.53:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-10.35.53:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-10.35.53:560][  0]SourceControl: Source control is disabled
+[2019.03.20-10.35.53:561][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.20-10.35.53:570][  0]LightingResults: New page: Lighting Build
+[2019.03.20-10.35.53:574][  0]MapCheck: New page: Map Check
+[2019.03.20-10.35.53:575][  0]LightingResults: New page: Lighting Build
+[2019.03.20-10.35.53:850][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-10.35.53:858][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.20-10.35.53:886][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.20-10.35.53:886][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.211ms to complete.
+[2019.03.20-10.35.53:886][  0]LogFileHelpers: Loading map 'PixelMenu' took 0.325
+[2019.03.20-10.35.53:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.35.54:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.35.54:024][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.35.54:035][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-10.35.54:044][  0]LogCollectionManager: Loaded 0 collections in 0.003159 seconds
+[2019.03.20-10.35.54:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.20-10.35.54:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.00s
+[2019.03.20-10.35.54:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.20-10.35.54:063][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.20-10.35.54:076][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2654 classes and 624 folders.
+[2019.03.20-10.35.54:086][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.35.54:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.20-10.35.54:165][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.35.54:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.20-10.35.54:302][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.20-10.35.54:302][  0]LogLoad: (Engine Initialization) Total time: 12.42 seconds
+[2019.03.20-10.35.54:302][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.20-10.35.54:372][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.20-10.35.54:374][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.20-10.35.54:376][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.20-10.35.54:384][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.20-10.35.54:501][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.20-10.35.54:553][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-10.35.55:209][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-10.35.56:971][  2]LogAssetRegistry: Asset discovery search completed in 9.0805 seconds
+[2019.03.20-10.35.56:972][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.20-10.35.56:972][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2019.03.20-10.35.59:505][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-10.36.00:748][258]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-10.36.02:011][258]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.20-10.36.02:121][258]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
+[2019.03.20-10.36.02:121][258]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.20-10.36.02:121][258]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.03.20-10.36.02:121][258]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.20-10.36.02:130][258]LogTemp: BranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEY-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.03.20-10.36.02:149][258]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joey.JOEY-PC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.20-10.36.03:696][316]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.20-10.36.03:704][316]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.20-10.36.05:694][388]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:242).
+[2019.03.20-10.36.06:703][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.20-10.36.10:969][657]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.03.20-10.36.11:089][657]LogSlate: Window 'Plugins' being destroyed
+[2019.03.20-10.36.11:094][657]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.03.20-10.36.11:095][657]LogSlate: Window 'PixelArcade - Unreal Editor' being destroyed
+[2019.03.20-10.36.11:095][657]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.20-10.36.11:300][658]Cmd: QUIT_EDITOR
+[2019.03.20-10.36.11:355][658]LogExit: Preparing to exit.
+[2019.03.20-10.36.11:721][658]LogExit: Editor shut down
+[2019.03.20-10.36.11:722][658]LogExit: Transaction tracking system shut down
+[2019.03.20-10.36.11:932][658]LogExit: Object subsystem successfully closed.
+[2019.03.20-10.36.12:028][658]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.20-10.36.12:034][658]LogD3D11RHI: Shutdown
+[2019.03.20-10.36.12:034][658]LogD3D11RHI: CleanupD3DDevice
+[2019.03.20-10.36.12:048][658]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.20-10.36.12:087][658]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (626)
+[2019.03.20-10.36.12:087][658]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.03.20-10.36.12:087][658]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.03.20-10.36.12:087][658]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.03.20-10.36.12:089][658]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.03.20-10.36.12:089][658]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.03.20-10.36.12:089][658]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.03.20-10.36.12:090][658]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.03.20-10.36.12:091][658]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.03.20-10.36.12:092][658]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.03.20-10.36.12:093][658]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.03.20-10.36.12:094][658]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.03.20-10.36.12:095][658]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.03.20-10.36.12:095][658]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.20-10.36.13:024][658]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.20-10.36.13:025][658]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.20-10.36.13:080][658]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
+[2019.03.20-10.36.13:081][658]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.03.20-10.36.13:084][658]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.03.20-10.36.13:104][658]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.20-10.36.13:105][658]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.03.20-10.36.13:108][658]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module OculusEditor (290)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.03.20-10.36.13:109][658]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.03.20-10.36.13:110][658]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.03.20-10.36.13:211][658]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.03.20-10.36.13:312][658]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.03.20-10.36.13:313][658]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.03.20-10.36.13:313][658]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.03.20-10.36.13:313][658]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.03.20-10.36.13:313][658]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.03.20-10.36.13:313][658]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.03.20-10.36.13:314][658]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.20-10.36.13:316][658]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.20-10.36.13:322][658]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.20-10.36.13:323][658]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.20-10.36.13:325][658]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.20-10.36.13:779][658]LogDerivedDataCache: Shutdown
+[2019.03.20-10.36.13:779][658]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.20-10.36.13:780][658]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.20-10.36.13:780][658]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.20-10.36.13:781][658]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.20-10.36.13:781][658]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.20-10.36.13:781][658]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.20-10.36.13:781][658]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.20-10.36.13:781][658]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.20-10.36.13:782][658]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.20-10.36.13:782][658]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.20-10.36.13:782][658]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.20-10.36.13:782][658]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.20-10.36.13:788][658]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.20-10.36.13:788][658]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.20-10.36.13:789][658]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.20-10.36.13:789][658]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.20-10.36.13:816][658]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.20-10.36.13:816][658]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.20-10.36.13:816][658]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1A8A58D-4491-2F1D-720E-ACA5F724CA35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2ff5ed2b4ea7f5724d83e4a8c7a078f7%7C52cd936612ca433ba7244efdbd41ffd6%7C78f223e4-764e-43ef-abb9-045bc1b63efa&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.20-10.36.13:821][658]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.20-10.36.13:824][658]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.20-10.36.13:825][658]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.20-10.36.13:825][658]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.20-10.36.13:825][658]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.20-10.36.13:825][658]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.20-10.36.13:826][658]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.20-10.36.13:827][658]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.20-10.36.13:828][658]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.20-10.36.13:828][658]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.20-10.36.13:828][658]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.20-10.36.13:828][658]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.20-10.36.13:836][658]LogExit: Exiting.
+[2019.03.20-10.36.13:858][658]Log file closed, 03/20/19 11:36:13
