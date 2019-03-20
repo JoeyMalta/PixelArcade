@@ -922,3 +922,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.20-10.48.32:099][711]LogAIModule: Creating AISystem for world StarterMap
 [2019.03.20-10.49.38:721][711]LogSlate: Window 'Delete Assets' being destroyed
 [2019.03.20-10.49.49:249][712]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.20-10.50.39:136][692]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.887 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.20-11.06.24:719][770]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.06.39:920][949]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.06.40:422][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.06.55:063][ 48]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.20-11.07.26:624][602]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.07.40:520][142]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.07.41:523][159]LogTemp: Repeating last play command: Standalone Game
+[2019.03.20-11.07.42:854][159]LogSlate: Window 'Save Content' being destroyed
+[2019.03.20-11.07.43:056][159]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer34FE14C94D53D42B4D09D6AB8864FB7D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.07.53:004][281]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.07.53:506][282]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.20-11.08.53:728][812]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.20-11.09.09:516][956]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer2844DB5F441320F54AB8A99E4E4BF6F6.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.09.13:418][ 79]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/PixelFarm_Farmer0A5561B44283D13FAD037A81B7698594.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelCharacters/PixelFarm_Farmer.uasset'
+[2019.03.20-11.09.15:054][116]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.20-11.09.15:063][116]LogSlate: Window 'PixelFarm_Farmer' being destroyed
