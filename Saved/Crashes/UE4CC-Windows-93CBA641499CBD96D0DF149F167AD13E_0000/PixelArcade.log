@@ -528,30 +528,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.20-10.41.26:733][240]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
 [2019.03.20-10.41.26:733][240]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
 [2019.03.20-10.41.26:733][240]LogInit: SteamSockets: Socket queue 131072 / 131072
-[2019.03.20-10.41.30:462][240]LogWindows: Error: === Critical error: ===
-[2019.03.20-10.41.30:462][240]LogWindows: Error: 
-[2019.03.20-10.41.30:462][240]LogWindows: Error: Fatal error!
-[2019.03.20-10.41.30:462][240]LogWindows: Error: 
-[2019.03.20-10.41.30:462][240]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x003a004d
-[2019.03.20-10.41.30:462][240]LogWindows: Error: 
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00000020003a004d UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbc1c282fc UE4Editor-Sockets.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbc1c2835c UE4Editor-Sockets.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbb55e6df2 UE4Editor-OnlineSubsystemUtils.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbb55e7973 UE4Editor-OnlineSubsystemUtils.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbbc5f9440 UE4Editor-Engine.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbbc4d5e5d UE4Editor-Engine.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbbc466363 UE4Editor-Engine.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbbc50f60d UE4Editor-Engine.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffbbb98f466 UE4Editor-Engine.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ff694076225 UE4Editor.exe!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ff69408596c UE4Editor.exe!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ff6940859ea UE4Editor.exe!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ff6940948da UE4Editor.exe!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ff69409659a UE4Editor.exe!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffc150181f4 KERNEL32.DLL!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: [Callstack] 0x00007ffc1533a251 ntdll.dll!UnknownFunction []
-[2019.03.20-10.41.30:463][240]LogWindows: Error: 
-[2019.03.20-10.41.30:469][240]LogExit: Executing StaticShutdownAfterError
-[2019.03.20-10.41.30:471][240]LogWindows: FPlatformMisc::RequestExit(1)
-[2019.03.20-10.41.30:479][240]Log file closed, 03/20/19 11:41:30
