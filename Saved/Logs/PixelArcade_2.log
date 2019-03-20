@@ -1,4 +1,4 @@
-﻿Log file open, 03/20/19 18:30:19
+﻿Log file open, 03/20/19 19:08:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PixelArcade
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.266940
+LogStats: Stats thread started at 0.261178
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -96,7 +96,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.049s to configure plugins.
+LogStreaming: Display: Took  0.046s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -156,824 +156,934 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:001][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.20-17.30.20:001][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.20-17.30.20:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:002][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:005][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.20-17.30.20:006][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.20-17.30.20:007][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.20-17.30.20:007][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-17.30.20:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.20-17.30.20:012][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.20-17.30.20:012][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.20-17.30.20:012][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.20-17.30.20:012][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.20-17.30.20:013][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.20-17.30.20:014][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.20-17.30.20:014][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.20-17.30.20:014][  0]LogInit: Computer: JOEYCOMPUTER
-[2019.03.20-17.30.20:014][  0]LogInit: User: joeym
-[2019.03.20-17.30.20:014][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.20-17.30.20:014][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.20-17.30.20:014][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.20-17.30.20:014][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.20-17.30.20:014][  0]LogMemory: Process Physical Memory: 132.40 MB used, 132.41 MB peak
-[2019.03.20-17.30.20:014][  0]LogMemory: Process Virtual Memory: 103.26 MB used, 103.26 MB peak
-[2019.03.20-17.30.20:014][  0]LogMemory: Physical Memory: 6268.34 MB used,  10045.27 MB free, 16313.61 MB total
-[2019.03.20-17.30.20:014][  0]LogMemory: Virtual Memory: 4776.93 MB used,  134212952.00 MB free, 134217728.00 MB total
-[2019.03.20-17.30.20:047][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.20-17.30.20:047][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.20-17.30.20:048][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.20-17.30.20:049][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.20-17.30.20:428][  0]LogStreaming: Display: Took  0.381s to InitEngineTextLocalization.
-[2019.03.20-17.30.20:457][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.20-17.30.20:457][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.20-17.30.20:464][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-17.30.20:464][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.20-17.30.20:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.03.20-17.30.20:523][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.03.20-17.30.20:527][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.20-17.30.20:527][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.20-17.30.20:527][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.20-17.30.20:535][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.20-17.30.20:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.20-17.30.20:536][  0]LogWindows: EnumDisplayDevices:
-[2019.03.20-17.30.20:536][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.03.20-17.30.20:536][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.03.20-17.30.20:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.03.20-17.30.20:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.03.20-17.30.20:536][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.20-17.30.20:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.03.20-17.30.20:536][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
-[2019.03.20-17.30.20:536][  0]LogD3D11RHI:      Driver Date: 2-20-2019
-[2019.03.20-17.30.20:536][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.03.20-17.30.20:574][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.20-17.30.20:586][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.20-17.30.20:997][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.20-17.30.21:006][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.20-17.30.21:017][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.20-17.30.21:021][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.20-17.30.21:021][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.20-17.30.21:063][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/800/).
-[2019.03.20-17.30.21:063][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/9236A4034EB4C494B3E1B0AF7DD747F3/'.
-[2019.03.20-17.30.21:065][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.20-17.30.21:065][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.20-17.30.21:065][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.20-17.30.21:501][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-17.30.21:540][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.20-17.30.21:552][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.20-17.30.21:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.20-17.30.21:552][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.20-17.30.21:564][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.20-17.30.21:564][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.20-17.30.21:564][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.20-17.30.21:582][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.20-17.30.21:583][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.20-17.30.21:583][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.20-17.30.21:690][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.20-17.30.21:690][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.20-17.30.21:690][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.20-17.30.21:690][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.20-17.30.21:692][  0]LogStreaming: Display: Took  0.003s to InitGameTextLocalization.
-[2019.03.20-17.30.21:699][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
-[2019.03.20-17.30.21:879][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.018422 seconds
-[2019.03.20-17.30.21:988][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.20-17.30.22:040][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.20-17.30.22:044][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.20-17.30.22:044][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.20-17.30.22:044][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.20-17.30.22:044][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.20-17.30.22:138][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
-[2019.03.20-17.30.22:628][  0]LogMoviePlayer: Initializing movie player
-[2019.03.20-17.30.22:726][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.20-17.30.22:739][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.20-17.30.22:819][  0]SourceControl: Source control is disabled
-[2019.03.20-17.30.22:819][  0]SourceControl: Source control is disabled
-[2019.03.20-17.30.22:820][  0]SourceControl: Source control is disabled
-[2019.03.20-17.30.22:944][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.20-17.30.23:041][  0]LogOcInput: OculusInput pre-init called
-[2019.03.20-17.30.23:048][  0]LogUObjectArray: 43235 objects as part of root set at end of initial load.
-[2019.03.20-17.30.23:048][  0]LogUObjectAllocator: 7601016 out of 0 bytes used by permanent object pool.
-[2019.03.20-17.30.23:048][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.20-17.30.23:169][  0]LogEngine: Initializing Engine...
-[2019.03.20-17.30.23:170][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.20-17.30.23:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-17.30.23:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-17.30.23:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-17.30.23:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-17.30.23:321][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.20-17.30.23:339][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.20-17.30.23:368][  0]LogInit: FAudioDevice initialized.
-[2019.03.20-17.30.23:380][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.20-17.30.23:385][  0]LogInit: Texture streaming: Enabled
-[2019.03.20-17.30.23:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-17.30.23:498][  0]LogInit: Display: Game Engine Initialized.
-[2019.03.20-17.30.23:498][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.20-17.30.23:498][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.20-17.30.23:498][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.20-17.30.23:498][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.20-17.30.23:498][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.20-17.30.23:512][  0]LogInit: Display: Starting Game.
-[2019.03.20-17.30.23:512][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.20-17.30.23:512][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.20-17.30.23:597][  0]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-17.30.23:699][  0]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.20-17.30.23:701][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-18.30.23
-[2019.03.20-17.30.23:701][  0]LogWorld: Bringing up level for play took: 0.001228
-[2019.03.20-17.30.23:705][  0]LogLoad: Took 0.193615 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.20-17.30.23:761][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.03.20-17.30.23:761][  0]LogLoad: (Engine Initialization) Total time: 5.65 seconds
-[2019.03.20-17.30.23:761][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.20-17.30.23:782][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.20-17.30.26:559][173]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
-[2019.03.20-17.30.26:559][173]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.26:559][173]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
-[2019.03.20-17.30.26:559][173]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001EEA0C0], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.26:559][173]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001E0FCE2], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.26:559][173]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FCE2]'
-[2019.03.20-17.30.26:559][173]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001EE396D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.26:559][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data appVersion 1189039
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key appVersion value 1189039
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data assemblerMultiplier 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key assemblerMultiplier value 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data blocksInventoryMultiplier 1
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key blocksInventoryMultiplier value 1
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data dataHash 9BkXem77AHw0o4imnbOnNmSPA0g=
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key dataHash value 9BkXem77AHw0o4imnbOnNmSPA0g=
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data experimentalMode False
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key experimentalMode value False
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data GAMEMODE 0
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key GAMEMODE value 0
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data grinderMultiplier 2
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key grinderMultiplier value 2
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data Host KoenTech
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key Host value KoenTech
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data inventoryMultiplier 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key inventoryMultiplier value 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data LobbyType Public
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key LobbyType value Public
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mods 0
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mods value 0
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name KoenTech's game
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value KoenTech's game
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data refineryMultiplier 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key refineryMultiplier value 3
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data scenario False
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key scenario value False
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data View 15000
-[2019.03.20-17.30.26:560][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key View value 15000
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data welderMultiplier 2
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key welderMultiplier value 2
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data WORLD Earth Planet 2019-03-19 15:49
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key WORLD value Earth Planet 2019-03-19 15:49
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data worldSize 5997447
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Failed to parse setting from key worldSize value 5997447
-[2019.03.20-17.30.26:561][173]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001EE396D]'
-[2019.03.20-17.30.26:865][192]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
-[2019.03.20-17.30.26:866][192]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
-[2019.03.20-17.30.26:880][192]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.26:880][192]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.26:880][192]LogTemp: Display: ParseSettings for SteamNetDriver_0
-[2019.03.20-17.30.26:880][192]LogTemp: Display: ParseSettings for PendingNetDriver
-[2019.03.20-17.30.26:880][192]LogNet: Display: SteamNetDriver_0 bound to port 7777
-[2019.03.20-17.30.26:880][192]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.03.20-17.30.26:880][192]LogNet: Game client on port 7777, rate 10000
-[2019.03.20-17.30.31:412][473]LogHandshake: SendChallengeResponse. Timestamp: 1179.137695, Cookie: 250085180071086232048044113191000067198015183096135025073071
-[2019.03.20-17.30.31:412][473]LogHandshake: SendChallengeResponse. Timestamp: 1179.137695, Cookie: 250085180071086232048044113191000067198015183096135025073071
-[2019.03.20-17.30.31:412][473]LogHandshake: SendChallengeResponse. Timestamp: 1179.137695, Cookie: 250085180071086232048044113191000067198015183096135025073071
-[2019.03.20-17.30.31:413][473]LogHandshake: SendChallengeResponse. Timestamp: 1179.137695, Cookie: 250085180071086232048044113191000067198015183096135025073071
-[2019.03.20-17.30.31:413][473]LogHandshake: SendChallengeResponse. Timestamp: 1179.137695, Cookie: 250085180071086232048044113191000067198015183096135025073071
-[2019.03.20-17.30.31:445][475]LogNetVersion: PixelArcade 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4201119377)
-[2019.03.20-17.30.31:445][475]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.03.20-17.30.31:509][479]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
-[2019.03.20-17.30.31:510][479]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
-[2019.03.20-17.30.31:733][479]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.31:738][479]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-18.30.31
-[2019.03.20-17.30.31:739][479]LogWorld: Bringing up level for play took: 0.005407
-[2019.03.20-17.30.31:739][479]LogLoad: Took 0.229466 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
-[2019.03.20-17.30.31:820][484]LogNetPackageMap: Warning: GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479
-[2019.03.20-17.30.31:820][484]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object from path. Path: Default__PixelFarm_Farmer_C, Outer: /Game/PixelCharacters/PixelFarm_Farmer, NetGUID: 27
-[2019.03.20-17.30.31:820][484]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C
-[2019.03.20-17.30.31:820][484]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor. Unresolved Archetype GUID. Path: Default__PixelFarm_Farmer_C, NetGUID: 27.
-[2019.03.20-17.30.31:820][484]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor Unable to read Archetype for NetGUID 6 / 27
-[2019.03.20-17.30.31:820][484]LogNet: Warning: UActorChannel::ProcessBunch: SerializeNewActor failed to find/spawn actor. Actor: None, Channel: 3
-[2019.03.20-17.30.31:821][484]LogNet: Warning: Network Failure: GameNetDriver[NetChecksumMismatch]: GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479
-[2019.03.20-17.30.31:821][484]LogNet: NetworkFailure: NetChecksumMismatch, Error: 'GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479'
-[2019.03.20-17.30.31:836][485]LogNet: Browse: /Game/PixelWorlds/PixelMenu?closed
-[2019.03.20-17.30.31:837][485]LogNet: Connection failed; returning to Entry
-[2019.03.20-17.30.31:837][485]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?closed
-[2019.03.20-17.30.31:837][485]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
-[2019.03.20-17.30.31:837][485]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
-[2019.03.20-17.30.31:837][485]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x11C372EC580], Channels: 4, Time: 2019.03.20-17.30.31
-[2019.03.20-17.30.31:837][485]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x11C372EC460]
-[2019.03.20-17.30.31:838][485]LogExit: GameNetDriver SteamNetDriver_0 shut down
-[2019.03.20-17.30.31:859][485]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x11C372EFD60], IdleTime: 0.039
-[2019.03.20-17.30.31:918][485]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-17.30.32:017][485]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.20-17.30.32:018][485]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-18.30.32
-[2019.03.20-17.30.32:018][485]LogWorld: Bringing up level for play took: 0.000691
-[2019.03.20-17.30.32:020][485]LogLoad: Took 0.183420 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.20-17.30.35:332][691]LogOnline: STEAM: AUTH: Revoking all tickets.
-[2019.03.20-17.30.35:332][691]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
-[2019.03.20-17.30.35:348][691]LogNet: Browse: /Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.35:348][691]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.35:425][691]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-17.30.35:531][691]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.20-17.30.35:532][691]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-18.30.35
-[2019.03.20-17.30.35:532][691]LogWorld: Bringing up level for play took: 0.000714
-[2019.03.20-17.30.35:534][691]LogLoad: Took 0.186526 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.20-17.30.36:885][776]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
-[2019.03.20-17.30.36:885][776]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.36:885][776]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
-[2019.03.20-17.30.36:885][776]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001EEA0C0], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.36:886][776]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001E0FCE2], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FCE2]'
-[2019.03.20-17.30.36:886][776]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001EE396D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data appVersion 1189039
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key appVersion value 1189039
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data assemblerMultiplier 3
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key assemblerMultiplier value 3
-[2019.03.20-17.30.36:886][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data blocksInventoryMultiplier 1
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key blocksInventoryMultiplier value 1
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data dataHash 9BkXem77AHw0o4imnbOnNmSPA0g=
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key dataHash value 9BkXem77AHw0o4imnbOnNmSPA0g=
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data experimentalMode False
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key experimentalMode value False
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data GAMEMODE 0
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key GAMEMODE value 0
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data grinderMultiplier 2
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key grinderMultiplier value 2
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data Host KoenTech
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key Host value KoenTech
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data inventoryMultiplier 3
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key inventoryMultiplier value 3
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data LobbyType Public
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key LobbyType value Public
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mods 0
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mods value 0
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name KoenTech's game
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value KoenTech's game
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data refineryMultiplier 3
-[2019.03.20-17.30.36:887][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key refineryMultiplier value 3
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data scenario False
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key scenario value False
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data View 15000
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key View value 15000
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data welderMultiplier 2
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key welderMultiplier value 2
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data WORLD Earth Planet 2019-03-19 15:49
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key WORLD value Earth Planet 2019-03-19 15:49
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data worldSize 5997447
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Failed to parse setting from key worldSize value 5997447
-[2019.03.20-17.30.36:888][776]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001EE396D]'
-[2019.03.20-17.30.37:160][793]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
-[2019.03.20-17.30.37:160][793]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
-[2019.03.20-17.30.37:174][793]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.37:175][793]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.37:175][793]LogTemp: Display: ParseSettings for SteamNetDriver_1
-[2019.03.20-17.30.37:175][793]LogTemp: Display: ParseSettings for PendingNetDriver
-[2019.03.20-17.30.37:175][793]LogNet: Display: SteamNetDriver_1 bound to port 7777
-[2019.03.20-17.30.37:175][793]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.03.20-17.30.37:175][793]LogNet: Game client on port 7777, rate 10000
-[2019.03.20-17.30.38:594][881]LogHandshake: SendChallengeResponse. Timestamp: 1186.308105, Cookie: 032114129189147178215211187247111119018208226095079022253144
-[2019.03.20-17.30.38:594][881]LogHandshake: SendChallengeResponse. Timestamp: 1186.308105, Cookie: 032114129189147178215211187247111119018208226095079022253144
-[2019.03.20-17.30.38:626][883]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.03.20-17.30.38:691][887]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
-[2019.03.20-17.30.38:691][887]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
-[2019.03.20-17.30.38:924][887]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.38:929][887]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-18.30.38
-[2019.03.20-17.30.38:930][887]LogWorld: Bringing up level for play took: 0.005650
-[2019.03.20-17.30.38:930][887]LogLoad: Took 0.238514 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
-[2019.03.20-17.30.39:013][893]LogNetPackageMap: Warning: GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479
-[2019.03.20-17.30.39:013][893]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object from path. Path: Default__PixelFarm_Farmer_C, Outer: /Game/PixelCharacters/PixelFarm_Farmer, NetGUID: 27
-[2019.03.20-17.30.39:013][893]LogNetPackageMap: Warning: InternalLoadObject: Unable to resolve object. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C
-[2019.03.20-17.30.39:013][893]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor. Unresolved Archetype GUID. Path: Default__PixelFarm_Farmer_C, NetGUID: 27.
-[2019.03.20-17.30.39:013][893]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor Unable to read Archetype for NetGUID 38 / 27
-[2019.03.20-17.30.39:013][893]LogNet: Warning: UActorChannel::ProcessBunch: SerializeNewActor failed to find/spawn actor. Actor: None, Channel: 3
-[2019.03.20-17.30.39:013][893]LogNet: Warning: Network Failure: GameNetDriver[NetChecksumMismatch]: GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479
-[2019.03.20-17.30.39:013][893]LogNet: NetworkFailure: NetChecksumMismatch, Error: 'GetObjectFromNetGUID: Network checksum mismatch. FullNetGUIDPath: [29]/Game/PixelCharacters/PixelFarm_Farmer.[27]Default__PixelFarm_Farmer_C, 968088298, 2442880479'
-[2019.03.20-17.30.39:028][894]LogNet: Browse: /Game/PixelWorlds/PixelMenu?closed
-[2019.03.20-17.30.39:029][894]LogNet: Connection failed; returning to Entry
-[2019.03.20-17.30.39:029][894]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?closed
-[2019.03.20-17.30.39:030][894]LogNet: World NetDriver shutdown SteamNetDriver_1 [GameNetDriver]
-[2019.03.20-17.30.39:030][894]LogNet: DestroyNamedNetDriver SteamNetDriver_1 [GameNetDriver]
-[2019.03.20-17.30.39:030][894]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x11C36E65BA0], Channels: 4, Time: 2019.03.20-17.30.39
-[2019.03.20-17.30.39:030][894]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x11C36E671C0]
-[2019.03.20-17.30.39:030][894]LogExit: GameNetDriver SteamNetDriver_1 shut down
-[2019.03.20-17.30.39:051][894]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x11C36E671C0], IdleTime: 0.038
-[2019.03.20-17.30.39:110][894]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-17.30.39:212][894]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.20-17.30.39:213][894]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-18.30.39
-[2019.03.20-17.30.39:213][894]LogWorld: Bringing up level for play took: 0.000690
-[2019.03.20-17.30.39:215][894]LogLoad: Took 0.185472 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.20-17.30.41:157][ 15]LogOnline: STEAM: AUTH: Revoking all tickets.
-[2019.03.20-17.30.41:157][ 15]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
-[2019.03.20-17.30.41:172][ 15]LogNet: Browse: /Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.41:172][ 15]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
-[2019.03.20-17.30.41:251][ 15]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.20-17.30.41:355][ 15]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.20-17.30.41:356][ 15]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-18.30.41
-[2019.03.20-17.30.41:357][ 15]LogWorld: Bringing up level for play took: 0.000878
-[2019.03.20-17.30.41:358][ 15]LogLoad: Took 0.185472 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.20-17.30.44:328][200]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Trying To Connect...
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	    0 registered players
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: dumping Session: 
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: Joey
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Joey [0x11C0D19CD60]
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 3
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198109054226:7777 Type: Lobby session SessionId: Lobby[0x186000001EEF409]
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 4
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bAllowInvites: false
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00454c8a
-[2019.03.20-17.30.44:620][219]LogOnlineSession: Verbose: OSS: 	Settings:
-[2019.03.20-17.30.44:620][219]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECT SUCCESS!
-[2019.03.20-17.30.44:703][219]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve FarmHunt.umap.
-[2019.03.20-17.30.44:783][219]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve FarmHunt.umap.
-[2019.03.20-17.30.44:783][219]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
-[2019.03.20-17.30.44:783][219]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
-[2019.03.20-17.30.45:006][219]LogAIModule: Creating AISystem for world FarmHunt
-[2019.03.20-17.30.45:006][219]LogLoad: Game class is 'GM_FarmHunt_C'
-[2019.03.20-17.30.45:006][219]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.45:006][219]LogTemp: Display: ParseSettings for SteamNetDriver_2
-[2019.03.20-17.30.45:006][219]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.03.20-17.30.45:007][219]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2019.03.20-17.30.45:007][219]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2019.03.20-17.30.45:007][219]LogNet: Display: SteamNetDriver_2 bound to port 7777
-[2019.03.20-17.30.45:007][219]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.03.20-17.30.45:007][219]LogNet: GameNetDriver SteamNetDriver_2 IpNetDriver listening on port 7777
-[2019.03.20-17.30.45:014][219]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-18.30.45
-[2019.03.20-17.30.45:014][219]LogWorld: Bringing up level for play took: 0.007102
-[2019.03.20-17.30.45:016][219]LogLoad: Took 0.233633 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
-[2019.03.20-17.30.48:774][432]LogRenderer: Reallocating scene render targets to support 1920x1020 Format 10 NumSamples 1 (Frame:216).
-[2019.03.20-17.30.53:708][738]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
-[2019.03.20-17.30.58:596][ 41]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
-[2019.03.20-17.30.58:596][ 41]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsActor_Carrot
-	PixelFarm_Farmer_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.PixelFarm_Farmer_C_0
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer:13EA
-[2019.03.20-17.30.58:596][ 41]LogScript: Warning: Script call stack:
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:InpActEvt_Q_K2Node_InputKeyEvent_7
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:RollSwitch
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:RespawnCarrot
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-
-[2019.03.20-17.30.58:596][ 41]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsActor_Carrot
-	PixelFarm_Farmer_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.PixelFarm_Farmer_C_0
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer:140B
-[2019.03.20-17.30.58:596][ 41]LogScript: Warning: Script call stack:
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:InpActEvt_Q_K2Node_InputKeyEvent_7
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:RollSwitch
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:RespawnCarrot
-	Function /Game/PixelCharacters/PixelFarm_Farmer.PixelFarm_Farmer_C:ExecuteUbergraph_PixelFarm_Farmer
-
-[2019.03.20-17.31.01:790][239]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
-[2019.03.20-17.31.05:209][451]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
-[2019.03.20-17.31.42:537][765]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.43:166][804]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.43:377][817]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.43:602][831]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.43:796][843]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.43:957][853]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.44:135][864]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.44:312][875]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.44:473][885]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.44:634][895]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.44:812][906]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.45:006][918]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.45:199][930]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.31.45:360][940]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.06:213][232]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.06:875][273]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.07:472][310]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.07:665][322]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.07:826][332]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Hello
-[2019.03.20-17.32.12:729][636]Closing by request
-[2019.03.20-17.32.12:729][636]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.03.20-17.32.12:738][637]LogNet: World NetDriver shutdown SteamNetDriver_2 [GameNetDriver]
-[2019.03.20-17.32.12:738][637]LogNet: DestroyNamedNetDriver SteamNetDriver_2 [GameNetDriver]
-[2019.03.20-17.32.12:738][637]LogExit: GameNetDriver SteamNetDriver_2 shut down
-[2019.03.20-17.32.13:256][637]LogSlate: Window 'PixelArcade (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.03.20-17.32.13:257][637]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.20-17.32.13:265][637]LogExit: Preparing to exit.
-[2019.03.20-17.32.13:265][637]LogMoviePlayer: Shutting down movie player
-[2019.03.20-17.32.13:801][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.20-17.32.13:808][637]LogExit: Game engine shut down
-[2019.03.20-17.32.13:848][637]LogExit: Object subsystem successfully closed.
-[2019.03.20-17.32.13:856][637]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.03.20-17.32.13:859][637]LogD3D11RHI: Shutdown
-[2019.03.20-17.32.13:859][637]LogD3D11RHI: CleanupD3DDevice
-[2019.03.20-17.32.13:860][637]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.03.20-17.32.13:865][637]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (384)
-[2019.03.20-17.32.13:865][637]LogModuleManager: Shutting down and abandoning module SequenceRecorder (382)
-[2019.03.20-17.32.13:865][637]LogModuleManager: Shutting down and abandoning module AutomationController (380)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module AutomationWorker (378)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module Voice (376)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module AIModule (374)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module GameplayDebugger (373)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module AITestSuite (371)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module NavigationSystem (369)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (366)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (364)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module WebMMedia (362)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (360)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (358)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (356)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (354)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (352)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module CharacterAI (350)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module SessionServices (348)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (346)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (344)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MovieScene (342)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (340)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module PortalServices (338)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module PortalRpc (336)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module MessagingRpc (334)
-[2019.03.20-17.32.13:866][637]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (332)
-[2019.03.20-17.32.13:867][637]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2019.03.20-17.32.13:992][637]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2019.03.20-17.32.13:992][637]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2019.03.20-17.32.13:992][637]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
-[2019.03.20-17.32.13:992][637]LogModuleManager: Shutting down and abandoning module OculusInput (322)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module CableComponent (314)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
-[2019.03.20-17.32.13:993][637]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module BackChannel (284)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module AppleVision (282)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (280)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module AppleImageUtils (278)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module VariantManagerContent (276)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (274)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module CryptoKeys (272)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (270)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module HotReload (269)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (268)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (264)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module UObjectPlugin (262)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (260)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (258)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module SourceControl (257)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (254)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (252)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
-[2019.03.20-17.32.13:996][637]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
-[2019.03.20-17.32.14:097][637]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module DataValidation (230)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module TreeMap (227)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module Paper2D (220)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (216)
-[2019.03.20-17.32.14:788][637]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2019.03.20-17.32.14:789][637]LogModuleManager: Shutting down and abandoning module Media (213)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module Overlay (202)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module VREditor (198)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module UMG (184)
-[2019.03.20-17.32.14:795][637]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
-[2019.03.20-17.32.14:796][637]LogModuleManager: Shutting down and abandoning module Sequencer (182)
-[2019.03.20-17.32.14:796][637]LogModuleManager: Shutting down and abandoning module MessageLog (179)
-[2019.03.20-17.32.14:796][637]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
-[2019.03.20-17.32.14:796][637]LogModuleManager: Shutting down and abandoning module Slate (172)
-[2019.03.20-17.32.14:796][637]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module MRMesh (168)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module Messaging (166)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module Core (156)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
-[2019.03.20-17.32.14:797][637]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
-[2019.03.20-17.32.14:798][637]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
-[2019.03.20-17.32.14:798][637]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (132)
-[2019.03.20-17.32.14:798][637]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
-[2019.03.20-17.32.15:187][637]LogDerivedDataCache: Shutdown
-[2019.03.20-17.32.15:187][637]LogModuleManager: Shutting down and abandoning module XGEController (128)
-[2019.03.20-17.32.15:187][637]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
-[2019.03.20-17.32.15:187][637]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
-[2019.03.20-17.32.15:187][637]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.03.20-17.32.15:188][637]LogHMD: Freeing OpenVRDLLHandle.
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.03.20-17.32.15:188][637]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.03.20-17.32.15:188][637]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2019.03.20-17.32.15:188][637]LogOnline: STEAM: AUTH: Revoking all tickets.
-[2019.03.20-17.32.15:215][637]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2019.03.20-17.32.15:215][637]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.03.20-17.32.15:215][637]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.03.20-17.32.15:223][637]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.03.20-17.32.15:256][637]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.03.20-17.32.15:257][637]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.03.20-17.32.15:257][637]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.03.20-17.32.15:258][637]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.03.20-17.32.15:262][637]LogExit: Exiting.
-[2019.03.20-17.32.15:264][637]Log file closed, 03/20/19 18:32:15
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.20-18.08.31:295][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.20-18.08.31:296][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:296][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:300][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-18.08.31:300][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-18.08.31:301][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-18.08.31:301][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-18.08.31:301][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.20-18.08.31:304][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.20-18.08.31:304][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.20-18.08.31:304][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.20-18.08.31:304][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.20-18.08.31:305][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.20-18.08.31:305][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.20-18.08.31:305][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.20-18.08.31:305][  0]LogInit: User: joeym
+[2019.03.20-18.08.31:305][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.20-18.08.31:305][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.20-18.08.31:306][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.20-18.08.31:306][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.20-18.08.31:306][  0]LogMemory: Process Physical Memory: 131.92 MB used, 131.92 MB peak
+[2019.03.20-18.08.31:306][  0]LogMemory: Process Virtual Memory: 103.36 MB used, 103.36 MB peak
+[2019.03.20-18.08.31:306][  0]LogMemory: Physical Memory: 6368.42 MB used,  9945.19 MB free, 16313.61 MB total
+[2019.03.20-18.08.31:306][  0]LogMemory: Virtual Memory: 4770.51 MB used,  134212960.00 MB free, 134217728.00 MB total
+[2019.03.20-18.08.31:333][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.20-18.08.31:333][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.20-18.08.31:334][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.20-18.08.31:334][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.20-18.08.31:649][  0]LogStreaming: Display: Took  0.317s to InitEngineTextLocalization.
+[2019.03.20-18.08.31:676][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.20-18.08.31:677][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.20-18.08.31:684][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-18.08.31:684][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.20-18.08.31:738][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.20-18.08.31:738][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.20-18.08.31:741][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.20-18.08.31:741][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.20-18.08.31:741][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.20-18.08.31:748][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.20-18.08.31:748][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.20-18.08.31:748][  0]LogWindows: EnumDisplayDevices:
+[2019.03.20-18.08.31:749][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.20-18.08.31:749][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.20-18.08.31:749][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.20-18.08.31:749][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.20-18.08.31:749][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.20-18.08.31:749][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.20-18.08.31:749][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.20-18.08.31:749][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.20-18.08.31:749][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.20-18.08.31:785][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.20-18.08.31:796][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.20-18.08.32:184][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.20-18.08.32:194][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.20-18.08.32:204][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.20-18.08.32:209][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.20-18.08.32:209][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.20-18.08.32:251][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/5100/).
+[2019.03.20-18.08.32:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/852E282646303AA6F3C4C986B3F52300/'.
+[2019.03.20-18.08.32:252][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.20-18.08.32:252][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.20-18.08.32:252][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.20-18.08.32:670][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-18.08.32:709][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.20-18.08.32:721][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.20-18.08.32:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.20-18.08.32:721][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.20-18.08.32:733][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.20-18.08.32:733][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.20-18.08.32:733][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.20-18.08.32:750][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.20-18.08.32:751][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.20-18.08.32:752][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.20-18.08.32:857][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.20-18.08.32:857][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.20-18.08.32:857][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.20-18.08.32:857][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.20-18.08.32:858][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
+[2019.03.20-18.08.32:863][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2019.03.20-18.08.33:042][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.018019 seconds
+[2019.03.20-18.08.33:131][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.20-18.08.33:250][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.20-18.08.33:253][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.20-18.08.33:253][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.20-18.08.33:253][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.20-18.08.33:253][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.20-18.08.33:264][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.20-18.08.33:722][  0]LogMoviePlayer: Initializing movie player
+[2019.03.20-18.08.33:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.20-18.08.33:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.20-18.08.33:919][  0]SourceControl: Source control is disabled
+[2019.03.20-18.08.33:919][  0]SourceControl: Source control is disabled
+[2019.03.20-18.08.33:920][  0]SourceControl: Source control is disabled
+[2019.03.20-18.08.34:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.20-18.08.34:136][  0]LogOcInput: OculusInput pre-init called
+[2019.03.20-18.08.34:143][  0]LogUObjectArray: 43235 objects as part of root set at end of initial load.
+[2019.03.20-18.08.34:143][  0]LogUObjectAllocator: 7601024 out of 0 bytes used by permanent object pool.
+[2019.03.20-18.08.34:143][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.20-18.08.34:255][  0]LogEngine: Initializing Engine...
+[2019.03.20-18.08.34:256][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.20-18.08.34:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-18.08.34:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-18.08.34:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-18.08.34:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-18.08.34:415][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.20-18.08.34:433][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.20-18.08.34:460][  0]LogInit: FAudioDevice initialized.
+[2019.03.20-18.08.34:472][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.20-18.08.34:478][  0]LogInit: Texture streaming: Enabled
+[2019.03.20-18.08.34:587][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-18.08.34:587][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.20-18.08.34:587][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.20-18.08.34:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.20-18.08.34:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.20-18.08.34:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.20-18.08.34:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.20-18.08.34:601][  0]LogInit: Display: Starting Game.
+[2019.03.20-18.08.34:601][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.20-18.08.34:601][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.20-18.08.34:682][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-18.08.34:778][  0]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-18.08.34:779][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-19.08.34
+[2019.03.20-18.08.34:779][  0]LogWorld: Bringing up level for play took: 0.001116
+[2019.03.20-18.08.34:784][  0]LogLoad: Took 0.183994 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-18.08.34:829][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.03.20-18.08.34:829][  0]LogLoad: (Engine Initialization) Total time: 5.30 seconds
+[2019.03.20-18.08.34:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.20-18.08.34:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.20-18.09.23:694][936]LogRenderer: Reallocating scene render targets to support 1268x716 Format 10 NumSamples 1 (Frame:2938).
+[2019.03.20-18.09.23:747][936]LogRenderer: Reallocating scene render targets to support 1300x732 Format 10 NumSamples 1 (Frame:2939).
+[2019.03.20-18.09.23:787][936]LogRenderer: Reallocating scene render targets to support 1348x760 Format 10 NumSamples 1 (Frame:2940).
+[2019.03.20-18.09.23:826][936]LogRenderer: Reallocating scene render targets to support 1488x836 Format 10 NumSamples 1 (Frame:2941).
+[2019.03.20-18.09.24:465][936]LogRenderer: Reallocating scene render targets to support 1384x780 Format 10 NumSamples 1 (Frame:2943).
+[2019.03.20-18.09.24:476][938]LogRenderer: Reallocating scene render targets to support 1488x836 Format 10 NumSamples 1 (Frame:2944).
+[2019.03.20-18.09.24:492][939]LogRenderer: Reallocating scene render targets to support 1384x780 Format 10 NumSamples 1 (Frame:2945).
+[2019.03.20-18.09.24:912][952]LogRenderer: Reallocating scene render targets to support 1920x1020 Format 10 NumSamples 1 (Frame:2960).
+[2019.03.20-18.09.47:391][346]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Trying To Connect...
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: dumping NamedSession: 
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	SessionName: GameSession
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	HostingPlayerNum: 0
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	SessionState: Pending
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	RegisteredPlayers: 
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	    0 registered players
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: dumping Session: 
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	OwningPlayerName: Joey
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	OwningPlayerId: Joey [0x2361D7249A0]
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	NumOpenPrivateConnections: 0
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	NumOpenPublicConnections: 3
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	SessionInfo: HostIP: INVALID SteamP2P: 76561198109054226:7777 Type: Lobby session SessionId: Lobby[0x186000001EF975B]
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: dumping SessionSettings: 
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	NumPublicConnections: 4
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	NumPrivateConnections: 0
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bIsLanMatch: false
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bIsDedicated: false
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bUsesStats: false
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bShouldAdvertise: true
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bAllowJoinInProgress: true
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bAllowInvites: false
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bUsesPresence: true
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresence: true
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	bAllowJoinViaPresenceFriendsOnly: false
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	BuildUniqueId: 0x00454c8a
+[2019.03.20-18.09.47:683][365]LogOnlineSession: Verbose: OSS: 	Settings:
+[2019.03.20-18.09.47:683][365]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECT SUCCESS!
+[2019.03.20-18.09.47:761][365]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve FarmHunt.umap.
+[2019.03.20-18.09.47:841][365]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve FarmHunt.umap.
+[2019.03.20-18.09.47:841][365]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.20-18.09.47:841][365]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.20-18.09.48:058][365]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.20-18.09.48:058][365]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.20-18.09.48:058][365]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-18.09.48:058][365]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2019.03.20-18.09.48:059][365]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-18.09.48:059][365]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.20-18.09.48:059][365]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.20-18.09.48:059][365]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2019.03.20-18.09.48:059][365]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-18.09.48:059][365]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2019.03.20-18.09.48:065][365]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-19.09.48
+[2019.03.20-18.09.48:065][365]LogWorld: Bringing up level for play took: 0.005617
+[2019.03.20-18.09.48:067][365]LogLoad: Took 0.226093 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.20-18.09.53:612][707]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
+[2019.03.20-18.09.54:386][755]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
+[2019.03.20-18.10.25:064][657]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.10.28:371][862]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.10.28:517][871]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.10.57:743][683]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.20-18.11.03:761][ 56]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.11.05:874][187]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.12.00:893][598]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.12.01:184][617]LogOnlineSession: STEAM: Updating lobby joinability to true.
+[2019.03.20-18.12.05:424][879]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:424][879]LogHandshake: SendConnectChallenge. Timestamp: 137.737640, Cookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:425][879]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:425][879]LogHandshake: SendConnectChallenge. Timestamp: 137.737640, Cookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:425][879]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:425][879]LogHandshake: SendConnectChallenge. Timestamp: 137.737640, Cookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:425][879]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:425][879]LogHandshake: SendConnectChallenge. Timestamp: 137.737640, Cookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:425][879]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:425][879]LogHandshake: SendConnectChallenge. Timestamp: 137.737640, Cookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:457][881]LogNet: NotifyAcceptingConnection accepted from: 76561198304318597:7777
+[2019.03.20-18.12.05:457][881]LogHandshake: SendChallengeAck. InCookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:457][881]LogNet: Server accepting post-challenge connection from: 76561198304318597:7777
+[2019.03.20-18.12.05:457][881]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-18.12.05:457][881]LogNet: NotifyAcceptedConnection: Name: FarmHunt, TimeStamp: 03/20/19 19:12:05, [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-18.12.05:457][881]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-18.12.05:457][881]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2019.03.20-18.12.05:458][881]LogHandshake: SendChallengeAck. InCookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:458][881]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2019.03.20-18.12.05:458][881]LogHandshake: SendChallengeAck. InCookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:458][881]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2019.03.20-18.12.05:458][881]LogHandshake: SendChallengeAck. InCookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:458][881]LogHandshake: Received unexpected post-connect handshake packet - resending ack.
+[2019.03.20-18.12.05:458][881]LogHandshake: SendChallengeAck. InCookie: 113212183134152035131046147143092239213141021182209015058135
+[2019.03.20-18.12.05:489][883]LogNet: NotifyAcceptingChannel Control 0 server World /Game/PixelWorlds/FarmHunt.FarmHunt: Accepted
+[2019.03.20-18.12.05:489][883]LogNet: Remote platform little endian=1
+[2019.03.20-18.12.05:489][883]LogNet: This platform little endian=1
+[2019.03.20-18.12.05:489][883]LogNetVersion: PixelArcade 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4201119377)
+[2019.03.20-18.12.05:521][885]LogNet: Login request: /Game/PixelWorlds/PixelMenu?Name=TheIndra userId: STEAM:TheIndra [0x2361CF4B340] platform: STEAM
+[2019.03.20-18.12.05:554][887]LogNet: Client netspeed is 10000
+[2019.03.20-18.12.05:990][914]LogNet: Join request: /Game/PixelWorlds/PixelMenu?Name=TheIndra?SplitscreenCount=1
+[2019.03.20-18.12.05:992][914]LogNet: Join succeeded: TheIndra
+[2019.03.20-18.12.18:056][662]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.19:136][729]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.20:218][796]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.20:426][809]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.21:249][860]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.21:556][879]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.21:718][889]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.21:894][900]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.22:040][909]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.22:233][921]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.22:492][937]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.22:685][949]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.22:888][961]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.23:049][971]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.12.23:710][ 12]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE BUNNY
+[2019.03.20-18.12.26:694][197]LogBlueprintUserMessages: [PixelFarm_Farmer_C_1] YOU ARE NOW THE FARMER
+[2019.03.20-18.13.02:729][431]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
+[2019.03.20-18.13.41:344][825]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
+[2019.03.20-18.14.40:379][486]LogOnlineSession: STEAM: Updating lobby joinability to true.
+[2019.03.20-18.14.40:555][496]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2019.03.20-18.14.40:556][496]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:TheIndra [0x2361CF49420]
+[2019.03.20-18.14.40:556][496]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:TheIndra [0x2361CF49420], Channels: 17, Time: 2019.03.20-18.14.40
+[2019.03.20-18.14.40:556][496]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:TheIndra [0x2361CF49420]
+[2019.03.20-18.14.40:572][497]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x2361CF49420], IdleTime: 0.017
+[2019.03.20-18.14.41:540][558]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-18.14.41:540][558]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
+[2019.03.20-18.14.41:620][558]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve PixelMenu.umap.
+[2019.03.20-18.14.41:699][558]LogPackageName: SearchForPackageOnDisk took   0.078s to resolve PixelMenu.umap.
+[2019.03.20-18.14.41:699][558]LogNet: Browse: /Game/PixelWorlds/PixelMenu
+[2019.03.20-18.14.41:699][558]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
+[2019.03.20-18.14.41:699][558]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2019.03.20-18.14.41:699][558]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2019.03.20-18.14.41:699][558]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2019.03.20-18.14.41:779][558]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-18.14.41:878][558]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-18.14.41:880][558]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-19.14.41
+[2019.03.20-18.14.41:880][558]LogWorld: Bringing up level for play took: 0.000764
+[2019.03.20-18.14.41:881][558]LogLoad: Took 0.183045 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: STEAM: Found 4 lobbies, finalizing the search
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: STEAM: Search result 0: LobbyId=Lobby[0x186000001EF6DBD], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data actual_password b322ad0da2ced46c01f656ec4f686050
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key actual_password value b322ad0da2ced46c01f656ec4f686050
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data desc eu4
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key desc value eu4
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data mod eu4
+[2019.03.20-18.14.49:224][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key mod value eu4
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data name aragonnetje6
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key name value aragonnetje6
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data password 1
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key password value 1
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_32 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_32 value 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_48 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_48 value 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_49 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_49 value 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_50 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_50 value 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_51 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_51 value 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_52 0
+[2019.03.20-18.14.49:225][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_52 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_53 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_53 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_54 1
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_54 value 1
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_55 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_55 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_56 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_56 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_57 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_57 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_65 2
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_65 value 2
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_66 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_66 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_67 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_67 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_68 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_68 value 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_69 2
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_69 value 2
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_70 0
+[2019.03.20-18.14.49:226][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_70 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_71 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_71 value 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_72 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_72 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_73 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_73 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_74 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_74 value 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_75 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_75 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_76 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_76 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_77 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_77 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_78 2
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_78 value 2
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_79 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_79 value 1
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_80 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_80 value 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_81 0
+[2019.03.20-18.14.49:227][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_81 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_82 1
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_82 value 1
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_83 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_83 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_84 1
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_84 value 1
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_85 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_85 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_86 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_86 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_87 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_87 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_88 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_88 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_89 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_89 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data sn_90 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key sn_90 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data status STARTING
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key status value STARTING
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_32 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_32 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_48 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_48 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_49 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_49 value 0
+[2019.03.20-18.14.49:228][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_50 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_50 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_51 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_51 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_52 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_52 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_53 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_53 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_54 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_54 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_55 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_55 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_56 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_56 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_57 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_57 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_65 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_65 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_66 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_66 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_67 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_67 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_68 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_68 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_69 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_69 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_70 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_70 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_71 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_71 value 0
+[2019.03.20-18.14.49:229][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_72 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_72 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_73 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_73 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_74 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_74 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_75 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_75 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_76 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_76 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_77 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_77 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_78 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_78 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_79 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_79 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_80 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_80 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_81 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_81 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_82 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_82 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_83 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_83 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_84 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_84 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_85 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_85 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_86 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_86 value 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_87 0
+[2019.03.20-18.14.49:230][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_87 value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_88 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_88 value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_89 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_89 value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data st_90 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key st_90 value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data version EU4 v1.28.3.0 Spain (3ba8)
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key version value EU4 v1.28.3.0 Spain (3ba8)
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unknown or unsupported data type from Steam key data __gameserverSteamID 90124430535701513
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90124430535701513
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001EF6DBD]'
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: STEAM: Search result 1: LobbyId=Lobby[0x186000001E0FC6D], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FC6D]'
+[2019.03.20-18.14.49:231][ 14]LogOnlineSession: STEAM: Search result 2: LobbyId=Lobby[0x186000001EFACCD], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-18.14.49:232][ 14]LogOnlineSession: STEAM: Search result 3: LobbyId=Lobby[0x186000001E0FCE2], LobbyId.IsValid()=true, CSteamID(LobbyId).IsLobby()=true
+[2019.03.20-18.14.49:232][ 14]LogOnlineSession: Warning: STEAM: Unable to parse search result for lobby 'Lobby[0x186000001E0FCE2]'
+[2019.03.20-18.14.49:547][ 34]LogOnlineSession: OSS: Join session: traveling to steam.76561198304318597:7777
+[2019.03.20-18.14.49:547][ 34]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] CONNECTED
+[2019.03.20-18.14.49:561][ 34]LogNet: Browse: steam.76561198304318597//Game/PixelWorlds/PixelMenu
+[2019.03.20-18.14.49:561][ 34]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-18.14.49:561][ 34]LogTemp: Display: ParseSettings for SteamNetDriver_1
+[2019.03.20-18.14.49:562][ 34]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.20-18.14.49:562][ 34]LogNet: Display: SteamNetDriver_1 bound to port 7777
+[2019.03.20-18.14.49:562][ 34]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.20-18.14.49:562][ 34]LogNet: Game client on port 7777, rate 10000
+[2019.03.20-18.14.53:981][308]LogHandshake: SendChallengeResponse. Timestamp: 10.224265, Cookie: 082060018209011220162206221062164115179113180159042194227071
+[2019.03.20-18.14.53:982][308]LogHandshake: SendChallengeResponse. Timestamp: 10.224265, Cookie: 082060018209011220162206221062164115179113180159042194227071
+[2019.03.20-18.14.53:982][308]LogHandshake: SendChallengeResponse. Timestamp: 10.224265, Cookie: 082060018209011220162206221062164115179113180159042194227071
+[2019.03.20-18.14.53:982][308]LogHandshake: SendChallengeResponse. Timestamp: 10.224265, Cookie: 082060018209011220162206221062164115179113180159042194227071
+[2019.03.20-18.14.53:982][308]LogHandshake: SendChallengeResponse. Timestamp: 10.224265, Cookie: 082060018209011220162206221062164115179113180159042194227071
+[2019.03.20-18.14.54:014][310]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: PendingNetDriver SteamNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.20-18.14.54:078][314]LogNet: Welcomed by server (Level: /Game/PixelWorlds/FarmHunt, Game: /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C)
+[2019.03.20-18.14.54:079][314]LogLoad: LoadMap: steam.76561198304318597//Game/PixelWorlds/FarmHunt?game=/Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt_C
+[2019.03.20-18.14.54:294][314]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.20-18.14.54:300][314]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.20-19.14.54
+[2019.03.20-18.14.54:300][314]LogWorld: Bringing up level for play took: 0.005488
+[2019.03.20-18.14.54:301][314]LogLoad: Took 0.222610 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot2. Function CountDown will not be processed.
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot3. Function CountDown will not be processed.
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot4. Function CountDown will not be processed.
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot5. Function CountDown will not be processed.
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot6. Function CountDown will not be processed.
+[2019.03.20-18.14.54:680][335]LogNet: Warning: UNetDriver::ProcessRemoteFunction: No owning connection for actor Actor_Carrot_2. Function CountDown will not be processed.
+[2019.03.20-18.15.44:926][450]LogCharacterMovement: PixelFarm_Farmer_C_1 is stuck and failed to move! Velocity: X=-7.00 Y=2.00 Z=0.00 Location: X=-682.89 Y=-1002.39 Z=110.15 Normal: X=0.99 Y=-0.13 Z=-0.00 PenetrationDepth:2.619 Actor:PixelFarm_Farmer_C_0 Component:Fork BoneName:None (0 other events since notify)
+[2019.03.20-18.17.54:447][480]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.20-18.19.35:929][768]Command not recognized: print hello
+[2019.03.20-18.19.35:929][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-18.19.55:365][973]Command not recognized: Say hello
+[2019.03.20-18.19.55:365][973]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-18.20.06:688][675]Command not recognized: print hello
+[2019.03.20-18.20.06:688][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.20-18.20.08:189][768]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.09:188][830]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.10:431][907]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.10:866][934]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.11:076][947]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.11:302][961]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.11:561][977]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.12:077][  9]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.12:722][ 49]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.15:189][202]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.15:705][234]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.19:238][453]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.19:431][465]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Bucket!!!
+[2019.03.20-18.20.20:124][508]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.20.20:286][518]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.20.21:900][618]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.20.22:092][630]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.20.22:286][642]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.20.22:528][657]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ALREADY FILLED YOUR BUCKET WITH WATER !!
+[2019.03.20-18.21.23:678][449]LogOnlineSession: STEAM: Updating lobby joinability to true.
+[2019.03.20-18.21.23:838][458]LogNet: Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2019.03.20-18.21.23:838][458]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2019.03.20-18.21.23:838][458]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x236406BE680], Channels: 13, Time: 2019.03.20-18.21.23
+[2019.03.20-18.21.23:838][458]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198304318597:7777, Name: SteamNetConnection_1, Driver: GameNetDriver SteamNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: STEAM:Joey [0x236406BEF80]
+[2019.03.20-18.21.23:838][458]LogNet: Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2019.03.20-18.21.23:838][458]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2019.03.20-18.21.23:854][459]LogNet: Browse: /Game/PixelWorlds/PixelMenu?closed
+[2019.03.20-18.21.23:855][459]LogNet: Connection failed; returning to Entry
+[2019.03.20-18.21.23:855][459]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?closed
+[2019.03.20-18.21.23:855][459]LogNet: World NetDriver shutdown SteamNetDriver_1 [GameNetDriver]
+[2019.03.20-18.21.23:855][459]LogNet: DestroyNamedNetDriver SteamNetDriver_1 [GameNetDriver]
+[2019.03.20-18.21.23:855][459]LogExit: GameNetDriver SteamNetDriver_1 shut down
+[2019.03.20-18.21.23:875][459]LogOnline: STEAM: Removing P2P Session Id: TheIndra [0x236406BEF80], IdleTime: 0.036
+[2019.03.20-18.21.23:934][459]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-18.21.24:033][459]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-18.21.24:034][459]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-19.21.24
+[2019.03.20-18.21.24:034][459]LogWorld: Bringing up level for play took: 0.000724
+[2019.03.20-18.21.24:036][459]LogLoad: Took 0.181104 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-18.21.28:999][767]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-18.21.28:999][767]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] Disconnected From Session
+[2019.03.20-18.21.29:015][767]LogNet: Browse: /Game/PixelWorlds/PixelMenu
+[2019.03.20-18.21.29:015][767]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu
+[2019.03.20-18.21.29:091][767]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.20-18.21.29:188][767]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.20-18.21.29:190][767]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.20-19.21.29
+[2019.03.20-18.21.29:190][767]LogWorld: Bringing up level for play took: 0.000714
+[2019.03.20-18.21.29:192][767]LogLoad: Took 0.176691 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.20-18.21.31:366][878]LogRenderer: Reallocating scene render targets to support 1384x780 Format 10 NumSamples 1 (Frame:114).
+[2019.03.20-18.21.31:393][881]LogRenderer: Reallocating scene render targets to support 1920x1020 Format 10 NumSamples 1 (Frame:115).
+[2019.03.20-18.21.31:409][882]LogRenderer: Reallocating scene render targets to support 1384x780 Format 10 NumSamples 1 (Frame:116).
+[2019.03.20-18.21.32:451][937]LogSlate: Window 'PixelArcade (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.20-18.21.32:456][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-18.21.32:456][937]LogEngine: All Windows Closed
+[2019.03.20-18.21.32:456][937]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.03.20-18.21.32:675][938]LogExit: Preparing to exit.
+[2019.03.20-18.21.32:675][938]LogMoviePlayer: Shutting down movie player
+[2019.03.20-18.21.33:252][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.20-18.21.33:259][938]LogExit: Game engine shut down
+[2019.03.20-18.21.33:297][938]LogExit: Object subsystem successfully closed.
+[2019.03.20-18.21.33:310][938]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.20-18.21.33:312][938]LogD3D11RHI: Shutdown
+[2019.03.20-18.21.33:312][938]LogD3D11RHI: CleanupD3DDevice
+[2019.03.20-18.21.33:313][938]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.20-18.21.33:317][938]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (384)
+[2019.03.20-18.21.33:317][938]LogModuleManager: Shutting down and abandoning module SequenceRecorder (382)
+[2019.03.20-18.21.33:317][938]LogModuleManager: Shutting down and abandoning module AutomationController (380)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module AutomationWorker (378)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module Voice (376)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module AIModule (374)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module GameplayDebugger (373)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module AITestSuite (371)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module NavigationSystem (369)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (366)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (364)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module WebMMedia (362)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (360)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (358)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (356)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (354)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (352)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module CharacterAI (350)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module SessionServices (348)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (346)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (344)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MovieScene (342)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (340)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module PortalServices (338)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module PortalRpc (336)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module MessagingRpc (334)
+[2019.03.20-18.21.33:318][938]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (332)
+[2019.03.20-18.21.33:320][938]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (324)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module OculusInput (322)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (320)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module EditableMesh (318)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module AudioCapture (312)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2019.03.20-18.21.33:485][938]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (280)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module AppleImageUtils (278)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module VariantManagerContent (276)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (274)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module CryptoKeys (272)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (270)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (268)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (264)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module UObjectPlugin (262)
+[2019.03.20-18.21.33:487][938]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (260)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (258)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module SourceControl (257)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (254)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (252)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.03.20-18.21.33:488][938]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.03.20-18.21.33:589][938]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (216)
+[2019.03.20-18.21.33:690][938]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.03.20-18.21.33:691][938]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.03.20-18.21.33:697][938]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (132)
+[2019.03.20-18.21.33:698][938]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
+[2019.03.20-18.21.33:788][938]LogDerivedDataCache: Shutdown
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module XGEController (128)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.03.20-18.21.33:788][938]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.03.20-18.21.33:788][938]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.03.20-18.21.33:788][938]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.20-18.21.33:789][938]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.20-18.21.33:815][938]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.20-18.21.33:815][938]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.20-18.21.33:815][938]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.20-18.21.33:846][938]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.20-18.21.33:872][938]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.20-18.21.33:873][938]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.20-18.21.33:873][938]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.20-18.21.33:874][938]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.20-18.21.33:877][938]LogExit: Exiting.
+[2019.03.20-18.21.33:886][938]Log file closed, 03/20/19 19:21:33
