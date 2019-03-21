@@ -1,0 +1,1318 @@
+﻿Log file open, 03/21/19 10:56:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PixelArcade
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.315231
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin SubsystemConfigurator
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.146s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.014s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.21-09.56.59:772][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:773][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:777][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.21-09.56.59:777][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.21-09.56.59:778][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.21-09.56.59:779][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.21-09.56.59:779][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.21-09.56.59:779][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.21-09.56.59:798][  0]LogHAL: Display: Platform has ~ 8 GB [8452411392 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.21-09.56.59:798][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.21-09.56.59:798][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.03.21-09.56.59:798][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.03.21-09.56.59:799][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.21-09.56.59:800][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.21-09.56.59:800][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.21-09.56.59:800][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.21-09.56.59:800][  0]LogInit: Computer: JOEY-PC
+[2019.03.21-09.56.59:800][  0]LogInit: User: joey
+[2019.03.21-09.56.59:800][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.21-09.56.59:800][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.21-09.56.59:801][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.21-09.56.59:801][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.21-09.56.59:801][  0]LogMemory: Process Physical Memory: 103.15 MB used, 103.15 MB peak
+[2019.03.21-09.56.59:801][  0]LogMemory: Process Virtual Memory: 89.91 MB used, 89.91 MB peak
+[2019.03.21-09.56.59:801][  0]LogMemory: Physical Memory: 5065.00 MB used,  2995.85 MB free, 8060.85 MB total
+[2019.03.21-09.56.59:801][  0]LogMemory: Virtual Memory: 4650.14 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.03.21-09.56.59:837][  0]LogInit: Using OS detected language (en-US).
+[2019.03.21-09.56.59:837][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.21-09.56.59:838][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.21-09.57.00:345][  0]LogStreaming: Display: Took  0.508s to InitEngineTextLocalization.
+[2019.03.21-09.57.00:345][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.21-09.57.00:395][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.21-09.57.00:395][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.21-09.57.00:731][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.21-09.57.00:731][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.21-09.57.00:779][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2019.03.21-09.57.00:779][  0]LogD3D11RHI:       1999/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.21-09.57.00:785][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2019.03.21-09.57.00:785][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.21-09.57.00:788][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.21-09.57.00:788][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.21-09.57.00:788][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.21-09.57.00:836][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.21-09.57.00:836][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.21-09.57.00:836][  0]LogWindows: EnumDisplayDevices:
+[2019.03.21-09.57.00:837][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2019.03.21-09.57.00:837][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.21-09.57.00:838][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2019.03.21-09.57.00:838][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2019.03.21-09.57.00:838][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.03.21-09.57.00:838][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2019.03.21-09.57.00:838][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2019.03.21-09.57.00:838][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2019.03.21-09.57.00:838][  0]LogRHI: Texture pool is 1399 MB (70% of 1999 MB)
+[2019.03.21-09.57.00:867][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.03.21-09.57.00:867][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.21-09.57.00:881][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.21-09.57.01:334][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.21-09.57.01:354][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.21-09.57.01:374][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.21-09.57.01:395][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.21-09.57.01:415][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.21-09.57.01:436][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.21-09.57.01:457][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.21-09.57.01:477][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.21-09.57.01:487][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:605][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-09.57.01:607][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.21-09.57.01:684][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.21-09.57.01:684][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.21-09.57.01:723][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.21-09.57.01:723][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.21-09.57.01:744][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.21-09.57.01:768][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.21-09.57.01:789][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.21-09.57.01:808][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.21-09.57.01:877][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.21-09.57.01:877][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.21-09.57.01:878][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.21-09.57.01:972][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Intermediate/Shaders/WorkingDirectory/9812/).
+[2019.03.21-09.57.01:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealShaderWorkingDir/10F9DC034DA9576AC86260A00CE10951/'.
+[2019.03.21-09.57.01:976][  0]LogXGEController: Cleaning working directory: C:/Users/joey.JOEY-PC/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.21-09.57.01:976][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.21-09.57.01:976][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.21-09.57.01:976][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.21-09.57.02:729][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: Loaded boot cache 0.08s 81MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.21-09.57.02:809][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.21-09.57.02:831][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.21-09.57.02:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.21-09.57.02:831][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.21-09.57.02:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.21-09.57.02:844][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.21-09.57.02:844][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.21-09.57.02:876][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.21-09.57.02:878][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.21-09.57.02:879][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.21-09.57.02:993][  0]LogAssetRegistry: FAssetRegistry took 0.0394 seconds to start up
+[2019.03.21-09.57.03:544][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.21-09.57.03:763][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.21-09.57.03:769][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.21-09.57.03:769][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.21-09.57.03:769][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.21-09.57.03:769][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.21-09.57.03:788][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.21-09.57.04:537][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.135804 seconds
+[2019.03.21-09.57.04:545][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.03.21-09.57.04:545][  0]LogUObjectAllocator: 6925464 out of 0 bytes used by permanent object pool.
+[2019.03.21-09.57.04:545][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.21-09.57.05:699][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.21-09.57.05:712][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.21-09.57.06:585][  0]SourceControl: Source control is disabled
+[2019.03.21-09.57.06:585][  0]SourceControl: Source control is disabled
+[2019.03.21-09.57.06:587][  0]SourceControl: Source control is disabled
+[2019.03.21-09.57.06:588][  0]SourceControl: Source control is disabled
+[2019.03.21-09.57.06:783][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.21-09.57.06:881][  0]LogOcInput: OculusInput pre-init called
+[2019.03.21-09.57.07:051][  0]LogEngine: Initializing Engine...
+[2019.03.21-09.57.07:051][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.21-09.57.07:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.21-09.57.07:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.21-09.57.07:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.21-09.57.07:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.21-09.57.07:368][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.21-09.57.07:388][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.21-09.57.07:405][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.57.07:494][  0]LogInit: FAudioDevice initialized.
+[2019.03.21-09.57.07:494][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.21-09.57.07:586][  0]LogDerivedDataCache: Saved boot cache 0.09s 81MB C:/Users/joey.JOEY-PC/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.21-09.57.07:599][  0]LogInit: Texture streaming: Enabled
+[2019.03.21-09.57.07:627][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.21-09.57.07:648][  0]LogInit: Transaction tracking system initialized
+[2019.03.21-09.57.07:689][  0]BlueprintLog: New page: Editor Load
+[2019.03.21-09.57.07:809][  0]LocalizationService: Localization service is disabled
+[2019.03.21-09.57.09:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/' took 0.01s
+[2019.03.21-09.57.09:038][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.21-09.57.09:038][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.21-09.57.09:038][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.21-09.57.09:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.21-09.57.09:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.21-09.57.09:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.21-09.57.09:038][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.21-09.57.09:229][  0]SourceControl: Source control is disabled
+[2019.03.21-09.57.09:229][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.21-09.57.09:230][  0]LightingResults: New page: Lighting Build
+[2019.03.21-09.57.09:234][  0]MapCheck: New page: Map Check
+[2019.03.21-09.57.09:234][  0]LightingResults: New page: Lighting Build
+[2019.03.21-09.57.09:483][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.21-09.57.09:490][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.21-09.57.09:514][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.21-09.57.09:514][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.206ms to complete.
+[2019.03.21-09.57.09:514][  0]LogFileHelpers: Loading map 'PixelMenu' took 0.285
+[2019.03.21-09.57.09:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-09.57.09:660][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-09.57.09:672][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-09.57.09:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-09.57.09:695][  0]LogCollectionManager: Loaded 0 collections in 0.003272 seconds
+[2019.03.21-09.57.09:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.21-09.57.09:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.00s
+[2019.03.21-09.57.09:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.01s
+[2019.03.21-09.57.09:725][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.21-09.57.09:748][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2656 classes and 627 folders.
+[2019.03.21-09.57.09:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.21-09.57.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:775][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:777][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:778][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:779][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:781][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.21-09.57.09:859][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.21-09.57.09:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.21-09.57.10:052][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.21-09.57.10:052][  0]LogLoad: (Engine Initialization) Total time: 12.81 seconds
+[2019.03.21-09.57.10:052][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.21-09.57.10:157][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.03.21-09.57.10:159][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.21-09.57.10:161][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.21-09.57.10:167][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.21-09.57.10:309][  1]LogRenderer: Reallocating scene render targets to support 804x324 Format 9 NumSamples 1 (Frame:1).
+[2019.03.21-09.57.12:077][  2]LogAssetRegistry: Asset discovery search completed in 9.1069 seconds
+[2019.03.21-09.57.12:079][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.21-09.57.12:079][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2019.03.21-09.57.12:604][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.21-09.57.14:286][ 83]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.21-09.57.15:069][112]LogRenderer: Reallocating scene render targets to support 1004x412 Format 9 NumSamples 1 (Frame:112).
+[2019.03.21-09.57.16:797][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-09.57.16:870][199]LogTemp: Repeating last play command: Standalone Game
+[2019.03.21-09.57.29:439][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.21-09.57.29:942][440]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.21-10.05.58:672][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.06.41:723][553]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.21-10.06.42:722][553]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.06.42:771][553]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/FarmHunt.FarmHunt
+[2019.03.21-10.06.42:808][553]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.21-10.06.42:809][553]LightingResults: New page: Lighting Build
+[2019.03.21-10.06.42:810][553]LoadErrors: New page: Loading map: FarmHunt.umap
+[2019.03.21-10.06.42:810][553]MapCheck: New page: Map Check
+[2019.03.21-10.06.42:811][553]LightingResults: New page: Lighting Build
+[2019.03.21-10.06.43:030][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.21-10.06.43:112][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.21-10.06.43:112][553]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.251ms to complete.
+[2019.03.21-10.06.43:112][553]LogFileHelpers: Loading map 'FarmHunt' took 0.305
+[2019.03.21-10.06.46:586][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.07.19:755][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.07.28:450][493]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.03.21-10.07.32:347][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.21-10.07.40:896][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.07.47:034][193]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.03.21-10.07.53:147][436]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelActors/PixelFarm/Swarm.Swarm
+[2019.03.21-10.07.54:052][436]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 117 classes and 0 folders.
+[2019.03.21-10.07.57:500][489]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.21-10.08.06:611][806]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.08.07:160][815]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm36CE8D14450F30CCDFE958AE9413A308.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.08.16:291][168]LogRenderer: Reallocating scene render targets to support 1004x568 Format 9 NumSamples 1 (Frame:61).
+[2019.03.21-10.08.16:473][173]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.21-10.08.36:714][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.08.36:808][772]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.08.37:536][782]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/SwarmCB965DD9419757FB509E19936F08CF62.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.08.40:032][848]LogSlate: Window 'Swarm' being destroyed
+[2019.03.21-10.08.40:039][848]LogSlate: Window 'Swarm' being destroyed
+[2019.03.21-10.09.09:294][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.09.09:491][  4]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelActors/PixelFarm/Swarm.Swarm
+[2019.03.21-10.09.13:011][108]LogSlate: Window 'Swarm' being destroyed
+[2019.03.21-10.09.13:121][108]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelActors/PixelFarm/Swarm.Swarm
+[2019.03.21-10.09.14:674][140]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.09.47:603][534]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-10.10.08:836][471]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.10.11:929][559]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm4C83C7A448C4B54FB238C6BCA6C1F42E.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.10.14:143][614]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.10.16:726][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.10.22:718][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.10.36:219][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.10.41:286][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.21-10.10.42:159][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.21-10.10.42:972][680]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt3C0A33634D9A96F347F7E483A770B7F0.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.21-10.10.43:029][680]LogFileHelpers: Saving map 'FarmHunt' took 0.854
+[2019.03.21-10.10.44:946][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.10.47:900][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.10.47:900][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.10.47:901][905]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:10:47 PM)
+[2019.03.21-10.10.47:902][905]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.03.21-10.10.47:902][905]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.21-10.10.47:914][905]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.10.47:972][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058061s)
+[2019.03.21-10.10.47:974][905]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.10.47:974][905]LogPlayLevel: PIE: World Init took: (0.001741s)
+[2019.03.21-10.10.47:975][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060479s)
+[2019.03.21-10.10.48:030][905]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.10.48:090][905]LogInit: FAudioDevice initialized.
+[2019.03.21-10.10.48:101][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.10.48:157][905]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.10.48:168][905]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.10.48
+[2019.03.21-10.10.48:176][905]LogWorld: Bringing up level for play took: 0.016218
+[2019.03.21-10.10.48:207][905]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.03.21-10.10.48:217][905]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.218
+[2019.03.21-10.10.48:218][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.00:181][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.00:181][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.11.00:212][377]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.11.00:262][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.11.00:262][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.00:333][378]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.21-10.11.19:522][169]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.11.20:191][183]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.11.20:228][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.20:228][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.11.20:228][183]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:11:20 PM)
+[2019.03.21-10.11.20:228][183]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.11.20:285][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056781s)
+[2019.03.21-10.11.20:286][183]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.11.20:286][183]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2019.03.21-10.11.20:287][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.058333s)
+[2019.03.21-10.11.20:342][183]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.11.20:400][183]LogInit: FAudioDevice initialized.
+[2019.03.21-10.11.20:411][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.11.20:454][183]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.11.20:463][183]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.11.20
+[2019.03.21-10.11.20:464][183]LogWorld: Bringing up level for play took: 0.009194
+[2019.03.21-10.11.20:488][183]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.052
+[2019.03.21-10.11.20:489][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.24:648][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.24:648][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.11.24:681][315]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.11.24:734][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.11.24:734][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.24:828][316]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.21-10.11.34:185][723]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.11.35:289][755]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.11.35:326][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.35:326][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.11.35:326][755]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:11:35 PM)
+[2019.03.21-10.11.35:326][755]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.11.35:392][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066150s)
+[2019.03.21-10.11.35:394][755]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.11.35:394][755]LogPlayLevel: PIE: World Init took: (0.002024s)
+[2019.03.21-10.11.35:395][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.068616s)
+[2019.03.21-10.11.35:443][755]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.11.35:499][755]LogInit: FAudioDevice initialized.
+[2019.03.21-10.11.35:510][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.11.35:556][755]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.11.35:567][755]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.11.35
+[2019.03.21-10.11.35:569][755]LogWorld: Bringing up level for play took: 0.011332
+[2019.03.21-10.11.35:591][755]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 1.155
+[2019.03.21-10.11.35:591][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.43:556][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.43:556][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.11.43:588][ 11]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.11.43:642][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.11.43:642][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.11.43:741][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.21-10.12.07:315][ 78]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.12.08:021][ 89]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm4EF7170E4C0CE4A015AFE0AC533D28DB.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.12.08:530][109]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.12.08:566][109]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.08:566][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.12.08:567][109]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:12:08 PM)
+[2019.03.21-10.12.08:567][109]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.12.08:623][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057545s)
+[2019.03.21-10.12.08:624][109]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.12.08:624][109]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2019.03.21-10.12.08:624][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.058670s)
+[2019.03.21-10.12.08:673][109]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.12.08:729][109]LogInit: FAudioDevice initialized.
+[2019.03.21-10.12.08:741][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.08:780][109]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.12.08:790][109]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.12.08
+[2019.03.21-10.12.08:791][109]LogWorld: Bringing up level for play took: 0.010259
+[2019.03.21-10.12.08:814][109]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.378
+[2019.03.21-10.12.08:814][109]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.08:911][110]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.12.10:609][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.10:609][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.10:641][165]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.12.10:691][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.12.10:691][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.10:782][166]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.21-10.12.19:412][537]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.12.20:038][546]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm0F695FD24D194608BEAC09B95936B32C.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.12.20:737][572]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.12.20:773][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.20:773][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.12.20:773][572]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:12:20 PM)
+[2019.03.21-10.12.20:773][572]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.12.20:832][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058469s)
+[2019.03.21-10.12.20:833][572]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.12.20:833][572]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2019.03.21-10.12.20:833][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059722s)
+[2019.03.21-10.12.20:885][572]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.12.20:944][572]LogInit: FAudioDevice initialized.
+[2019.03.21-10.12.20:955][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.20:995][572]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.12.21:006][572]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.12.21
+[2019.03.21-10.12.21:008][572]LogWorld: Bringing up level for play took: 0.011370
+[2019.03.21-10.12.21:030][572]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.595
+[2019.03.21-10.12.21:031][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.21:137][573]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.12.23:737][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.23:737][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.23:769][658]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.12.23:820][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.12.23:820][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.23:915][659]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.21-10.12.34:158][143]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.12.34:702][148]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/SwarmC937720E442FA905C816C49C9295A763.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.12.35:364][173]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.12.35:399][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.35:400][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.12.35:400][173]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:12:35 PM)
+[2019.03.21-10.12.35:400][173]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.12.35:459][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058784s)
+[2019.03.21-10.12.35:460][173]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.12.35:460][173]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2019.03.21-10.12.35:460][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060306s)
+[2019.03.21-10.12.35:510][173]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.12.35:568][173]LogInit: FAudioDevice initialized.
+[2019.03.21-10.12.35:581][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.35:621][173]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.12.35:632][173]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.12.35
+[2019.03.21-10.12.35:634][173]LogWorld: Bringing up level for play took: 0.012197
+[2019.03.21-10.12.35:656][173]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 1.22
+[2019.03.21-10.12.35:657][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.35:760][174]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.12.35:761][174]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0134
+[2019.03.21-10.12.35:761][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.12.45:004][474]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.45:004][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.45:035][474]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.12.45:088][474]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.12.45:088][474]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.45:220][475]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.21-10.12.54:874][847]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.12.55:577][861]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.12.55:615][861]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.55:615][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.12.55:615][861]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:12:55 PM)
+[2019.03.21-10.12.55:616][861]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.12.55:673][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057301s)
+[2019.03.21-10.12.55:674][861]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.12.55:674][861]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2019.03.21-10.12.55:674][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.058677s)
+[2019.03.21-10.12.55:726][861]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.12.55:785][861]LogInit: FAudioDevice initialized.
+[2019.03.21-10.12.55:797][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.12.55:837][861]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.12.55:847][861]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.12.55
+[2019.03.21-10.12.55:849][861]LogWorld: Bringing up level for play took: 0.010811
+[2019.03.21-10.12.55:872][861]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.563
+[2019.03.21-10.12.55:873][861]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.12.55:978][862]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.12.55:978][862]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0134
+[2019.03.21-10.12.55:978][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.13.08:979][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.08:979][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.13.09:012][255]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.13.09:063][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.13.09:063][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.09:180][256]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.21-10.13.46:168][879]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.13.46:792][887]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm7BE76E28454C3C34D45B549697CE294F.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.13.47:342][907]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.13.47:380][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.47:381][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.13.47:381][907]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:13:47 PM)
+[2019.03.21-10.13.47:381][907]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.13.47:439][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057894s)
+[2019.03.21-10.13.47:440][907]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.13.47:440][907]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2019.03.21-10.13.47:440][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059253s)
+[2019.03.21-10.13.47:491][907]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.13.47:551][907]LogInit: FAudioDevice initialized.
+[2019.03.21-10.13.47:563][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.13.47:601][907]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.13.47:612][907]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.13.47
+[2019.03.21-10.13.47:614][907]LogWorld: Bringing up level for play took: 0.011359
+[2019.03.21-10.13.47:635][907]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 1.2
+[2019.03.21-10.13.47:636][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.47:750][908]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.13.47:750][908]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0134
+[2019.03.21-10.13.47:750][908]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.13.47:854][911]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.13.47:854][911]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0315
+[2019.03.21-10.13.47:854][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  DestroyActor
+[2019.03.21-10.13.51:525][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.51:525][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.13.51:559][ 21]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.13.51:614][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.13.51:614][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.51:725][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.21-10.13.54:250][122]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.13.55:036][139]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.13.55:072][139]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.55:072][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.13.55:072][139]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:13:55 PM)
+[2019.03.21-10.13.55:072][139]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.13.55:130][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058168s)
+[2019.03.21-10.13.55:131][139]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.13.55:131][139]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2019.03.21-10.13.55:132][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059512s)
+[2019.03.21-10.13.55:187][139]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.13.55:243][139]LogInit: FAudioDevice initialized.
+[2019.03.21-10.13.55:256][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.13.55:296][139]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.13.55:305][139]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.13.55
+[2019.03.21-10.13.55:306][139]LogWorld: Bringing up level for play took: 0.009175
+[2019.03.21-10.13.55:329][139]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.894
+[2019.03.21-10.13.55:329][139]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.55:425][140]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.13.55:425][140]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:00E3
+[2019.03.21-10.13.55:425][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.13.56:240][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.56:241][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.13.56:272][164]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.13.56:331][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.13.56:331][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.13.56:444][165]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.21-10.14.00:720][319]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.14.01:723][344]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.14.01:760][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.01:760][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.14.01:760][344]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:14:01 PM)
+[2019.03.21-10.14.01:760][344]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.14.01:819][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059010s)
+[2019.03.21-10.14.01:820][344]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.14.01:820][344]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2019.03.21-10.14.01:820][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060240s)
+[2019.03.21-10.14.01:874][344]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.14.01:931][344]LogInit: FAudioDevice initialized.
+[2019.03.21-10.14.01:944][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.01:985][344]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.14.01:994][344]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.14.01
+[2019.03.21-10.14.01:996][344]LogWorld: Bringing up level for play took: 0.009697
+[2019.03.21-10.14.02:019][344]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.417
+[2019.03.21-10.14.02:019][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.02:127][345]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.14.02:127][345]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:00E3
+[2019.03.21-10.14.02:127][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.14.05:708][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.05:708][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.05:742][452]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.14.05:803][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.14.05:803][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.05:906][453]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.21-10.14.10:882][641]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.14.11:974][672]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.14.12:009][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.12:009][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.14.12:009][672]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:14:12 PM)
+[2019.03.21-10.14.12:009][672]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.14.12:067][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057957s)
+[2019.03.21-10.14.12:067][672]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.14.12:068][672]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2019.03.21-10.14.12:068][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059281s)
+[2019.03.21-10.14.12:118][672]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.14.12:175][672]LogInit: FAudioDevice initialized.
+[2019.03.21-10.14.12:187][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.12:231][672]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.14.12:242][672]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.14.12
+[2019.03.21-10.14.12:244][672]LogWorld: Bringing up level for play took: 0.011398
+[2019.03.21-10.14.12:266][672]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.169
+[2019.03.21-10.14.12:267][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.12:370][673]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 6 in '/Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm'!
+[2019.03.21-10.14.12:371][673]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0134
+[2019.03.21-10.14.12:371][673]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  AI MoveTo
+[2019.03.21-10.14.20:084][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.20:085][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.20:117][906]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.14.20:168][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.14.20:168][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.20:275][907]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.21-10.14.28:751][245]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.14.29:407][252]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm0D56AEAA43575AB4E36708A6710ED0E6.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.14.30:179][278]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.14.30:215][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.30:215][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.14.30:215][278]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:14:30 PM)
+[2019.03.21-10.14.30:216][278]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.14.30:275][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059141s)
+[2019.03.21-10.14.30:277][278]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.14.30:277][278]LogPlayLevel: PIE: World Init took: (0.002086s)
+[2019.03.21-10.14.30:277][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.061555s)
+[2019.03.21-10.14.30:324][278]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.14.30:383][278]LogInit: FAudioDevice initialized.
+[2019.03.21-10.14.30:397][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.30:437][278]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.14.30:448][278]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.14.30
+[2019.03.21-10.14.30:450][278]LogWorld: Bringing up level for play took: 0.011527
+[2019.03.21-10.14.30:472][278]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.036
+[2019.03.21-10.14.30:472][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.37:940][499]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.37:941][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.37:973][499]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.14.38:025][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.14.38:025][499]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.38:128][500]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.21-10.14.41:972][657]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm3D3953A24BC6AF2F3FA0F5B5BC6165BF.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.14.50:622][989]LogEditorViewport: Clicking on Actor (LMB): Swarm_C (Swarm)
+[2019.03.21-10.14.52:899][ 65]LogEditorViewport: Clicking on Actor (LMB): Swarm_C (Swarm)
+[2019.03.21-10.14.58:692][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.14.58:754][292]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.14.58:784][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.14.58:784][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.14.58:784][292]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:14:58 PM)
+[2019.03.21-10.14.58:784][292]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.14.58:842][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057168s)
+[2019.03.21-10.14.58:842][292]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.14.58:843][292]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2019.03.21-10.14.58:843][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.058427s)
+[2019.03.21-10.14.58:895][292]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.14.58:954][292]LogInit: FAudioDevice initialized.
+[2019.03.21-10.14.58:964][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.14.59:006][292]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.14.59:015][292]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.14.59
+[2019.03.21-10.14.59:018][292]LogWorld: Bringing up level for play took: 0.010370
+[2019.03.21-10.14.59:040][292]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.604
+[2019.03.21-10.14.59:040][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.11:346][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.11:347][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.15.11:377][775]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.15.11:426][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.15.11:426][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.11:522][776]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.21-10.15.45:389][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.21-10.15.45:499][269]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.15.45:528][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.45:528][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.15.45:528][269]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:15:45 PM)
+[2019.03.21-10.15.45:529][269]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.15.45:591][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062165s)
+[2019.03.21-10.15.45:592][269]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.15.45:592][269]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2019.03.21-10.15.45:592][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.063558s)
+[2019.03.21-10.15.45:650][269]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.15.45:705][269]LogInit: FAudioDevice initialized.
+[2019.03.21-10.15.45:716][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.15.45:761][269]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.15.45:772][269]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.15.45
+[2019.03.21-10.15.45:774][269]LogWorld: Bringing up level for play took: 0.011592
+[2019.03.21-10.15.45:795][269]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.64
+[2019.03.21-10.15.45:796][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.49:866][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.49:866][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.15.49:898][427]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.15.49:942][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.15.49:942][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.15.50:019][428]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.21-10.16.10:806][180]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.16.26:883][935]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.16.27:455][941]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/SwarmBE0B358E42E64BCD77830CA8999980EE.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.16.28:163][968]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.16.28:198][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.28:198][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.16.28:198][968]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:16:28 PM)
+[2019.03.21-10.16.28:199][968]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.16.28:255][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057702s)
+[2019.03.21-10.16.28:256][968]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.16.28:256][968]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2019.03.21-10.16.28:257][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059018s)
+[2019.03.21-10.16.28:312][968]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.16.28:368][968]LogInit: FAudioDevice initialized.
+[2019.03.21-10.16.28:379][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.16.28:425][968]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.16.28:434][968]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.16.28
+[2019.03.21-10.16.28:436][968]LogWorld: Bringing up level for play took: 0.010139
+[2019.03.21-10.16.28:459][968]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.024
+[2019.03.21-10.16.28:460][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.37:199][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.37:199][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.16.37:232][250]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.16.37:283][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.16.37:283][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.37:382][251]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.03.21-10.16.40:392][378]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.16.41:099][394]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.16.41:134][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.41:134][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.16.41:134][394]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:16:41 PM)
+[2019.03.21-10.16.41:135][394]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.16.41:193][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058280s)
+[2019.03.21-10.16.41:194][394]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.16.41:194][394]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2019.03.21-10.16.41:194][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059563s)
+[2019.03.21-10.16.41:248][394]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.16.41:305][394]LogInit: FAudioDevice initialized.
+[2019.03.21-10.16.41:316][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.16.41:360][394]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.16.41:369][394]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.16.41
+[2019.03.21-10.16.41:371][394]LogWorld: Bringing up level for play took: 0.009803
+[2019.03.21-10.16.41:394][394]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.958
+[2019.03.21-10.16.41:394][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.48:336][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.48:336][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.16.48:368][618]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.16.48:417][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.16.48:417][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.16.48:517][619]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.21-10.17.02:007][273]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.17.02:685][284]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm4856F0C94E10B55D4B967FBA2020801D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.17.07:484][476]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.17.08:348][496]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.17.08:383][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.08:383][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.17.08:383][496]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:17:08 PM)
+[2019.03.21-10.17.08:383][496]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.17.08:442][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058445s)
+[2019.03.21-10.17.08:443][496]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.17.08:443][496]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2019.03.21-10.17.08:443][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060253s)
+[2019.03.21-10.17.08:496][496]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.17.08:555][496]LogInit: FAudioDevice initialized.
+[2019.03.21-10.17.08:568][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.17.08:613][496]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.17.08:622][496]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.17.08
+[2019.03.21-10.17.08:624][496]LogWorld: Bringing up level for play took: 0.009622
+[2019.03.21-10.17.08:647][496]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.211
+[2019.03.21-10.17.08:647][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.12:654][625]LogCharacterMovement: Swarm_2 is stuck and failed to move! Velocity: X=245.48 Y=172.45 Z=0.00 Location: X=-316.19 Y=-666.91 Z=64.36 Normal: X=-0.06 Y=-0.39 Z=-0.92 PenetrationDepth:3.556 Actor:PixelFarm_Farmer_C_0 Component:BucketFull BoneName:None (0 other events since notify)
+[2019.03.21-10.17.17:217][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.17:217][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.17.17:249][771]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.17.17:298][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.17.17:298][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.17:391][772]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.21-10.17.46:484][ 98]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.17.47:140][111]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.17.47:176][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.47:176][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.17.47:177][111]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:17:47 PM)
+[2019.03.21-10.17.47:177][111]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.17.47:239][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062133s)
+[2019.03.21-10.17.47:240][111]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.17.47:240][111]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.03.21-10.17.47:240][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.063272s)
+[2019.03.21-10.17.47:289][111]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.17.47:347][111]LogInit: FAudioDevice initialized.
+[2019.03.21-10.17.47:357][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.17.47:403][111]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.17.47:413][111]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.17.47
+[2019.03.21-10.17.47:414][111]LogWorld: Bringing up level for play took: 0.010261
+[2019.03.21-10.17.47:436][111]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 1
+[2019.03.21-10.17.47:436][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.58:627][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.58:628][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.17.58:670][469]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.17.58:717][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.17.58:717][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.17.58:825][470]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.21-10.18.10:091][965]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.18.10:728][978]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.18.10:766][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.18.10:766][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.18.10:766][978]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:18:10 PM)
+[2019.03.21-10.18.10:766][978]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.18.10:824][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057712s)
+[2019.03.21-10.18.10:825][978]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.18.10:825][978]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2019.03.21-10.18.10:826][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.059250s)
+[2019.03.21-10.18.10:881][978]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.18.10:938][978]LogInit: FAudioDevice initialized.
+[2019.03.21-10.18.10:949][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.18.10:994][978]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.18.11:003][978]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.18.11
+[2019.03.21-10.18.11:005][978]LogWorld: Bringing up level for play took: 0.009779
+[2019.03.21-10.18.11:028][978]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.592
+[2019.03.21-10.18.11:028][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.18.35:327][763]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:00A2
+[2019.03.21-10.18.35:327][763]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.18.37:330][827]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:00A2
+[2019.03.21-10.18.37:330][827]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.18.37:797][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.18.37:797][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.18.37:830][842]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.18.37:882][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.18.37:882][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.18.37:996][843]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.21-10.19.05:483][ 12]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.19.18:314][431]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm216D6C4D442D62B1D04C7E81E383E87F.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.19.20:375][484]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/FarmHunt6DB7BCA0495B68E54095FB9A3C780A6D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.21-10.19.20:432][484]LogFileHelpers: Saving map 'FarmHunt' took 0.833
+[2019.03.21-10.19.20:845][500]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.19.20:881][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.19.20:881][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.19.20:881][500]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:19:20 PM)
+[2019.03.21-10.19.20:881][500]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.19.20:941][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058992s)
+[2019.03.21-10.19.20:941][500]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.19.20:942][500]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.03.21-10.19.20:942][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060474s)
+[2019.03.21-10.19.20:996][500]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.19.21:053][500]LogInit: FAudioDevice initialized.
+[2019.03.21-10.19.21:065][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.19.21:105][500]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.19.21:114][500]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.19.21
+[2019.03.21-10.19.21:116][500]LogWorld: Bringing up level for play took: 0.009794
+[2019.03.21-10.19.21:138][500]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.703
+[2019.03.21-10.19.21:139][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.19.45:476][229]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:00D0
+[2019.03.21-10.19.45:477][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.19.46:648][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.19.46:648][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.19.46:680][264]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.19.46:731][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.19.46:731][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.19.46:835][265]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.03.21-10.19.51:333][438]LogSlate: Window 'Message Log' being destroyed
+[2019.03.21-10.19.51:343][438]LogSlate: Window 'Message Log' being destroyed
+[2019.03.21-10.20.36:345][405]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.20.47:686][897]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.20.49:905][943]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelActors/PixelFarm/Actor_Carrot.Actor_Carrot
+[2019.03.21-10.21.11:259][780]BlueprintLog: New page: Compile Actor_Carrot
+[2019.03.21-10.21.12:186][782]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Actor_CarrotE08885F44E5DEDB304D952AC43AC24C4.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.21-10.21.16:965][961]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Actor_CarrotD6D569A54BF6EFDB524DCDA91DCD76D6.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.21-10.21.29:719][548]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.21.30:479][560]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm5EB1CEF34CEF88F15C4CDCADC8323B57.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.21.41:995][ 46]BlueprintLog: New page: Compile Swarm
+[2019.03.21-10.21.42:638][ 54]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Swarm452D682843DC0BC9717DCBBFBBF86F37.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.21-10.21.44:634][129]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.21.44:691][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.21.44:692][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.21.44:692][129]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:21:44 PM)
+[2019.03.21-10.21.44:692][129]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.21.44:752][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060177s)
+[2019.03.21-10.21.44:753][129]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.21.44:754][129]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2019.03.21-10.21.44:754][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.061782s)
+[2019.03.21-10.21.44:808][129]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.21.44:865][129]LogInit: FAudioDevice initialized.
+[2019.03.21-10.21.44:877][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.21.44:921][129]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.21.44:932][129]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.21.44
+[2019.03.21-10.21.44:934][129]LogWorld: Bringing up level for play took: 0.011725
+[2019.03.21-10.21.44:956][129]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt 0.52
+[2019.03.21-10.21.44:956][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.21.59:349][590]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
+[2019.03.21-10.21.59:531][596]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
+[2019.03.21-10.22.00:620][631]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.22.01:116][647]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.22.01:303][653]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.22.01:460][658]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.22.02:500][691]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Fork!!!
+[2019.03.21-10.22.02:662][696]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Fork!!!
+[2019.03.21-10.22.02:852][702]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] You Are Not Holding A Fork!!!
+[2019.03.21-10.22.09:328][908]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0220
+[2019.03.21-10.22.09:328][908]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.09:328][908]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:027D
+[2019.03.21-10.22.09:328][908]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.11:346][971]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0220
+[2019.03.21-10.22.11:347][971]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.11:347][971]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:027D
+[2019.03.21-10.22.11:347][971]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.13:355][ 35]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0220
+[2019.03.21-10.22.13:355][ 35]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.13:355][ 35]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:027D
+[2019.03.21-10.22.13:356][ 35]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.15:370][ 99]LogScript: Warning: Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill
+	Swarm_C /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt:PersistentLevel.Swarm_2
+	Function /Game/PixelActors/PixelFarm/Swarm.Swarm_C:ExecuteUbergraph_Swarm:0220
+[2019.03.21-10.22.15:370][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.15:371][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.17:380][163]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.17:381][163]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.19:385][227]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.22.19:385][227]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.22.19:480][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.22.19:481][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.22.19:516][230]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.22.19:576][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.22.19:576][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.22.19:781][231]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.03.21-10.22.43:505][ 91]BlueprintLog: New page: Compile Actor_Carrot
+[2019.03.21-10.22.44:403][ 92]LogSavePackage: Moving '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Actor_Carrot666F8CED47BAB32FCBA184B362B7C56D.tmp' to '../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.21-10.22.45:422][128]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.21-10.22.45:471][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.22.45:471][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.22.45:472][128]PIE: New page: PIE session: FarmHunt (Mar 21, 2019, 12:22:45 PM)
+[2019.03.21-10.22.45:472][128]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.21-10.22.45:530][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058503s)
+[2019.03.21-10.22.45:532][128]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.21-10.22.45:532][128]LogPlayLevel: PIE: World Init took: (0.001752s)
+[2019.03.21-10.22.45:532][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.060654s)
+[2019.03.21-10.22.45:590][128]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.22.45:646][128]LogInit: FAudioDevice initialized.
+[2019.03.21-10.22.45:657][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.22.45:700][128]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.21-10.22.45:712][128]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 60) at 2019.03.21-11.22.45
+[2019.03.21-10.22.45:714][128]LogWorld: Bringing up level for play took: 0.012436
+[2019.03.21-10.22.45:736][128]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_FarmHunt -0.699
+[2019.03.21-10.22.45:736][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.22.47:664][181]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE BUNNY
+[2019.03.21-10.22.47:889][188]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU ARE NOW THE FARMER
+[2019.03.21-10.23.17:948][ 80]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.23.18:186][ 87]LogBlueprintUserMessages: [PixelFarm_Farmer_C_0] YOU HAVE NO WATER IN YOUR BUCKET!
+[2019.03.21-10.23.24:344][272]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.23.24:344][272]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.23.26:348][332]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.23.26:348][332]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.23.28:369][392]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Branch
+[2019.03.21-10.23.28:369][392]PIE: Error: Blueprint Runtime Error: "Attempted to access Actor_Carrot2 via property CallFunc_Array_Get_Item, but Actor_Carrot2 is pending kill". Blueprint:  Swarm Function:  Execute Ubergraph Swarm Graph:  EventGraph Node:  Damage Event
+[2019.03.21-10.23.28:982][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.23.28:982][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.21-10.23.29:015][410]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.21-10.23.29:088][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.21-10.23.29:088][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt' with GeneratedClass '/Game/PixelWorlds/FarmHunt.FarmHunt_C' with ClassGeneratedBy '/Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.FarmHunt'
+[2019.03.21-10.23.29:306][411]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.03.21-10.23.34:073][590]LogUObjectBase: Warning: Object is not registered
+[2019.03.21-10.23.34:073][590]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.03.21-10.23.36:025][590]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.952 s
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: 
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1154]
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: Stack: 
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc00f98304 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc00fa81ce UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffbff55bcba UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffbfe5b769a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffbfe570917 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc11e87c74 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc120d4393 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc11ee2d7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc11eb8a70 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc11eab263 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc3f98dc66 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc3f980de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc3f9901eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc3f97ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc5586ca66 USER32.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc5586c582 USER32.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc3f991746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ff666b85546 UE4Editor.exe!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ff666b9596c UE4Editor.exe!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ff666b959ea UE4Editor.exe!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ff666ba48da UE4Editor.exe!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ff666ba659a UE4Editor.exe!UnknownFunction []
+[2019.03.21-10.23.36:025][590]LogOutputDevice: Error: [Callstack] 0x00007ffc56c481f4 KERNEL32.DLL!UnknownFunction []
+[2019.03.21-10.23.36:026][590]LogOutputDevice: Error: [Callstack] 0x00007ffc56f8a251 ntdll.dll!UnknownFunction []
+[2019.03.21-10.23.36:026][590]LogOutputDevice: Error: 
+[2019.03.21-10.23.36:033][590]LogStats:                SubmitErrorReport -  0.000 s
