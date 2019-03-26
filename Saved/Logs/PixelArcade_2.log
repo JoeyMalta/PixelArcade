@@ -1,4 +1,4 @@
-﻿Log file open, 03/26/19 18:08:11
+﻿Log file open, 03/26/19 18:20:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PixelArcade
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.263280
+LogStats: Stats thread started at 0.265066
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -99,7 +99,7 @@ LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin AdvancedSessions
 LogPluginManager: Mounting plugin AdvancedSteamSessions
-LogStreaming: Display: Took  0.050s to configure plugins.
+LogStreaming: Display: Took  0.048s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -158,339 +158,343 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.006s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.26-17.08.11:473][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.26-17.08.11:474][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.26-17.08.11:474][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.26-17.08.11:474][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:474][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:483][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.26-17.08.11:483][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.26-17.08.11:484][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.26-17.08.11:484][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.26-17.08.11:485][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.26-17.08.11:489][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.26-17.08.11:489][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.26-17.08.11:489][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.26-17.08.11:490][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.26-17.08.11:490][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.26-17.08.11:490][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.26-17.08.11:490][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.26-17.08.11:490][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.26-17.08.11:490][  0]LogInit: Computer: JOEYCOMPUTER
-[2019.03.26-17.08.11:490][  0]LogInit: User: joeym
-[2019.03.26-17.08.11:490][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.26-17.08.11:490][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.26-17.08.11:490][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.26-17.08.11:490][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.26-17.08.11:490][  0]LogMemory: Process Physical Memory: 133.55 MB used, 133.56 MB peak
-[2019.03.26-17.08.11:490][  0]LogMemory: Process Virtual Memory: 99.93 MB used, 99.93 MB peak
-[2019.03.26-17.08.11:490][  0]LogMemory: Physical Memory: 7314.14 MB used,  8999.47 MB free, 16313.61 MB total
-[2019.03.26-17.08.11:490][  0]LogMemory: Virtual Memory: 4773.31 MB used,  134212952.00 MB free, 134217728.00 MB total
-[2019.03.26-17.08.11:516][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.26-17.08.11:516][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.26-17.08.11:517][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.26-17.08.11:517][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.26-17.08.11:852][  0]LogStreaming: Display: Took  0.336s to InitEngineTextLocalization.
-[2019.03.26-17.08.11:878][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.26-17.08.11:878][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.26-17.08.11:891][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.26-17.08.11:891][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.26-17.08.11:941][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.03.26-17.08.11:941][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.03.26-17.08.11:944][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.26-17.08.11:944][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.26-17.08.11:944][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.26-17.08.11:952][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.26-17.08.11:953][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.26-17.08.11:953][  0]LogWindows: EnumDisplayDevices:
-[2019.03.26-17.08.11:953][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.03.26-17.08.11:954][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.03.26-17.08.11:954][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.03.26-17.08.11:954][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.03.26-17.08.11:955][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.26-17.08.11:955][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.03.26-17.08.11:955][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
-[2019.03.26-17.08.11:955][  0]LogD3D11RHI:      Driver Date: 2-20-2019
-[2019.03.26-17.08.11:955][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.03.26-17.08.11:999][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.26-17.08.12:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.26-17.08.12:441][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.26-17.08.12:451][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.26-17.08.12:461][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.26-17.08.12:468][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.26-17.08.12:468][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.26-17.08.12:510][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/2928/).
-[2019.03.26-17.08.12:510][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/431FC7074B70D03C23D90CA4593ED1C9/'.
-[2019.03.26-17.08.12:511][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.26-17.08.12:511][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.26-17.08.12:511][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.26-17.08.12:936][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.26-17.08.12:975][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.26-17.08.12:988][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.26-17.08.12:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.26-17.08.12:988][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.26-17.08.13:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.26-17.08.13:000][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.26-17.08.13:000][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.26-17.08.13:020][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.26-17.08.13:021][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.26-17.08.13:021][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.26-17.08.13:131][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.26-17.08.13:131][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.26-17.08.13:131][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.26-17.08.13:131][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.26-17.08.13:132][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
-[2019.03.26-17.08.13:137][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2019.03.26-17.08.13:310][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.018985 seconds
-[2019.03.26-17.08.13:406][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.26-17.08.13:523][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.26-17.08.13:526][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.26-17.08.13:526][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.26-17.08.13:526][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.26-17.08.13:526][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.26-17.08.13:537][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
-[2019.03.26-17.08.14:018][  0]LogMoviePlayer: Initializing movie player
-[2019.03.26-17.08.14:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.26-17.08.14:126][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.26-17.08.14:192][  0]LogCollectionManager: Loaded 0 collections in 0.000775 seconds
-[2019.03.26-17.08.14:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
-[2019.03.26-17.08.14:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.01s
-[2019.03.26-17.08.14:216][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
-[2019.03.26-17.08.14:216][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.26-17.08.14:216][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2019.03.26-17.08.14:247][  0]SourceControl: Source control is disabled
-[2019.03.26-17.08.14:247][  0]SourceControl: Source control is disabled
-[2019.03.26-17.08.14:248][  0]SourceControl: Source control is disabled
-[2019.03.26-17.08.14:369][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.26-17.08.14:469][  0]LogOcInput: OculusInput pre-init called
-[2019.03.26-17.08.14:476][  0]LogUObjectArray: 44021 objects as part of root set at end of initial load.
-[2019.03.26-17.08.14:476][  0]LogUObjectAllocator: 7742944 out of 0 bytes used by permanent object pool.
-[2019.03.26-17.08.14:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.26-17.08.14:589][  0]LogEngine: Initializing Engine...
-[2019.03.26-17.08.14:590][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.26-17.08.14:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.26-17.08.14:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.26-17.08.14:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.26-17.08.14:602][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.26-17.08.14:748][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.26-17.08.14:771][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.26-17.08.14:805][  0]LogInit: FAudioDevice initialized.
-[2019.03.26-17.08.14:816][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.26-17.08.14:821][  0]LogInit: Texture streaming: Enabled
-[2019.03.26-17.08.14:935][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.26-17.08.14:936][  0]LogInit: Display: Game Engine Initialized.
-[2019.03.26-17.08.14:936][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.26-17.08.14:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.26-17.08.14:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.26-17.08.14:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.26-17.08.14:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.26-17.08.14:949][  0]LogInit: Display: Starting Game.
-[2019.03.26-17.08.14:949][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.26-17.08.14:949][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.26-17.08.15:415][  0]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.26-17.08.15:415][  0]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.26-17.08.15:418][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.08.15
-[2019.03.26-17.08.15:418][  0]LogWorld: Bringing up level for play took: 0.001971
-[2019.03.26-17.08.15:682][  0]LogLoad: Took 0.732703 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.26-17.08.15:731][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.03.26-17.08.15:731][  0]LogLoad: (Engine Initialization) Total time: 6.05 seconds
-[2019.03.26-17.08.15:731][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.26-17.08.15:755][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:809][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:818][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.26-17.20.52:818][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.26-17.20.52:819][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.26-17.20.52:819][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-17.20.52:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.26-17.20.52:822][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.26-17.20.52:822][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.26-17.20.52:822][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.26-17.20.52:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.26-17.20.52:823][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.26-17.20.52:823][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-17.20.52:823][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.26-17.20.52:823][  0]LogInit: User: joeym
+[2019.03.26-17.20.52:823][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.26-17.20.52:823][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.26-17.20.52:824][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.26-17.20.52:824][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.26-17.20.52:824][  0]LogMemory: Process Physical Memory: 132.94 MB used, 132.95 MB peak
+[2019.03.26-17.20.52:824][  0]LogMemory: Process Virtual Memory: 99.70 MB used, 99.70 MB peak
+[2019.03.26-17.20.52:824][  0]LogMemory: Physical Memory: 7635.87 MB used,  8677.74 MB free, 16313.61 MB total
+[2019.03.26-17.20.52:824][  0]LogMemory: Virtual Memory: 4766.89 MB used,  134212960.00 MB free, 134217728.00 MB total
+[2019.03.26-17.20.52:847][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.26-17.20.52:847][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.26-17.20.52:848][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.26-17.20.52:848][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.26-17.20.53:137][  0]LogStreaming: Display: Took  0.290s to InitEngineTextLocalization.
+[2019.03.26-17.20.53:162][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.26-17.20.53:162][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.26-17.20.53:174][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-17.20.53:174][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.26-17.20.53:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.26-17.20.53:246][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.03.26-17.20.53:249][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.26-17.20.53:249][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.26-17.20.53:249][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.26-17.20.53:257][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.26-17.20.53:257][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.26-17.20.53:257][  0]LogWindows: EnumDisplayDevices:
+[2019.03.26-17.20.53:258][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.26-17.20.53:258][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.26-17.20.53:258][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.26-17.20.53:258][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.26-17.20.53:259][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.26-17.20.53:259][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.26-17.20.53:259][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.26-17.20.53:259][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.26-17.20.53:259][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.26-17.20.53:293][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.26-17.20.53:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.26-17.20.53:716][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.26-17.20.53:727][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.26-17.20.53:736][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.26-17.20.53:740][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.26-17.20.53:740][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.26-17.20.53:779][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/16416/).
+[2019.03.26-17.20.53:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/500BBE184B0B4C0576A9C3B901F23FD1/'.
+[2019.03.26-17.20.53:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.26-17.20.53:780][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.26-17.20.53:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.26-17.20.54:202][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-17.20.54:243][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.26-17.20.54:256][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.26-17.20.54:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-17.20.54:256][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.26-17.20.54:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.26-17.20.54:268][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.26-17.20.54:268][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.26-17.20.54:285][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.26-17.20.54:286][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.26-17.20.54:288][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.26-17.20.54:385][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.26-17.20.54:385][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.26-17.20.54:385][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.26-17.20.54:385][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.26-17.20.54:387][  0]LogStreaming: Display: Took  0.002s to InitGameTextLocalization.
+[2019.03.26-17.20.54:392][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2019.03.26-17.20.54:581][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.021983 seconds
+[2019.03.26-17.20.54:679][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-17.20.54:795][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.26-17.20.54:798][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.26-17.20.54:798][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.26-17.20.54:798][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.26-17.20.54:798][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.26-17.20.54:809][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.26-17.20.55:283][  0]LogMoviePlayer: Initializing movie player
+[2019.03.26-17.20.55:375][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.26-17.20.55:387][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.26-17.20.55:454][  0]LogCollectionManager: Loaded 0 collections in 0.000821 seconds
+[2019.03.26-17.20.55:478][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.26-17.20.55:478][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.01s
+[2019.03.26-17.20.55:478][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.26-17.20.55:478][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.26-17.20.55:478][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2019.03.26-17.20.55:509][  0]SourceControl: Source control is disabled
+[2019.03.26-17.20.55:509][  0]SourceControl: Source control is disabled
+[2019.03.26-17.20.55:510][  0]SourceControl: Source control is disabled
+[2019.03.26-17.20.55:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.26-17.20.55:730][  0]LogOcInput: OculusInput pre-init called
+[2019.03.26-17.20.55:738][  0]LogUObjectArray: 44021 objects as part of root set at end of initial load.
+[2019.03.26-17.20.55:738][  0]LogUObjectAllocator: 7742944 out of 0 bytes used by permanent object pool.
+[2019.03.26-17.20.55:738][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.26-17.20.55:852][  0]LogEngine: Initializing Engine...
+[2019.03.26-17.20.55:853][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-17.20.55:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-17.20.55:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-17.20.55:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-17.20.55:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-17.20.56:010][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.26-17.20.56:033][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-17.20.56:061][  0]LogInit: FAudioDevice initialized.
+[2019.03.26-17.20.56:073][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.26-17.20.56:078][  0]LogInit: Texture streaming: Enabled
+[2019.03.26-17.20.56:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.20.56:193][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.26-17.20.56:193][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.26-17.20.56:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-17.20.56:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-17.20.56:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-17.20.56:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-17.20.56:207][  0]LogInit: Display: Starting Game.
+[2019.03.26-17.20.56:207][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.26-17.20.56:207][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
+[2019.03.26-17.20.56:287][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.26-17.20.56:287][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.26-17.20.56:357][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.26-17.20.56:357][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.26-17.20.57:303][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-17.20.57:303][  0]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-17.20.57:305][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.20.57
+[2019.03.26-17.20.57:305][  0]LogWorld: Bringing up level for play took: 0.001446
+[2019.03.26-17.20.57:559][  0]LogLoad: Took 1.352037 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
+[2019.03.26-17.20.57:611][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-17.20.57:611][  0]LogLoad: (Engine Initialization) Total time: 6.53 seconds
+[2019.03.26-17.20.57:611][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.26-17.20.57:630][  0]LogContentStreaming: Texture pool size now 1000 MB

@@ -12490,3 +12490,79 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.26-17.08.08:300][329]LogTemp: Repeating last play command: Standalone Game
 [2019.03.26-17.08.09:413][329]LogSlate: Window 'Save Content' being destroyed
 [2019.03.26-17.08.09:648][329]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_FarmerD7D584B84FC9B8C330FEB98C45ED0DD2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.09.00:233][524]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-17.09.01:378][582]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.09.02:604][582]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.09.02:865][582]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_FarmerA6098AB9433634D43BBEF8842632D844.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.10.39:824][496]BlueprintLog: New page: Compile MM_PauseMenu
+[2019.03.26-17.11.31:083][113]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/MyMenu/MM_Widget/Extra/MenuSelector.MenuSelector
+[2019.03.26-17.11.45:173][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MenuSelector" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MenuSelector.uasset" SILENT=true
+[2019.03.26-17.11.45:207][638]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MenuSelector2DAD506642E5B10ABA9E0D819B6C7BBC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MenuSelector.uasset'
+[2019.03.26-17.12.06:948][742]BlueprintLog: New page: Compile MM_Player
+[2019.03.26-17.12.17:973][805]BlueprintLog: New page: Compile MM_Player
+[2019.03.26-17.12.38:298][644]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.12.56:826][266]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-17.13.19:297][248]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.13.26:189][795]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer5C2B3EAA47B72AD3E672D7BD4663E311.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.14.13:717][286]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.14.22:113][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-17.14.22:186][ 79]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Button4CF8F92A47BB9802033F74A22485126D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-17.14.32:770][970]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.14.57:938][164]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-17.15.13:005][421]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.15.30:380][921]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.15.30:814][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-17.15.30:888][923]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ButtonE042FA3E4A89097CD9461093616490F6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-17.15.31:525][976]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.15.32:681][976]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.15.32:698][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Player/MM_Player" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset" SILENT=true
+[2019.03.26-17.15.32:770][976]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PlayerFFD2BEB94C2FEB3158AFED91FD9AFEE6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset'
+[2019.03.26-17.15.32:775][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_PauseMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset" SILENT=true
+[2019.03.26-17.15.32:828][976]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PauseMenuC06CD41A4A3F858C7336A08F7E53ED53.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset'
+[2019.03.26-17.15.33:083][976]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_FarmerC05BA0354567DADF9033A5B3E52226F5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.16.01:402][115]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.16.03:083][237]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.16.04:376][237]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.16.04:392][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-17.16.04:461][237]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ButtonCD01B38B4D1293D0035B0F97C1976EA7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-17.16.30:055][852]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.16.50:854][463]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/MM_MainMenu.MM_MainMenu
+[2019.03.26-17.17.01:421][217]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.17.02:492][217]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.17.02:509][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-17.17.02:581][217]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Button33B12C7B4FF00EEA90EBE783B3A96BCE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-17.17.37:470][248]BlueprintLog: New page: Compile MM_Button
+[2019.03.26-17.17.38:235][282]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.17.39:218][282]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.17.39:233][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-17.17.39:313][282]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Button5A1C2D8E417AFE747D9CD89E7C887AB9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-17.18.30:694][849]BlueprintLog: New page: Compile MM_PauseMenu
+[2019.03.26-17.18.31:324][883]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.18.32:423][883]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.18.32:438][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_PauseMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset" SILENT=true
+[2019.03.26-17.18.32:487][883]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PauseMenuF361C68C438924E02673D6B48512057E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset'
+[2019.03.26-17.19.19:071][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.19.46:478][215]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-17.19.47:248][215]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.19.47:249][215]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.19.47:249][215]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.19.47:249][215]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.19.48:033][225]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer8104966F4C7F0CE46AB86CAA97233A72.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.19.48:618][272]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.19.49:982][272]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.19.49:998][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_PauseMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset" SILENT=true
+[2019.03.26-17.19.50:045][272]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PauseMenu8098E69748DF50AEC59FDA9E1B8BF214.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset'
+[2019.03.26-17.19.50:050][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-17.19.50:449][272]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHuntABB8B62F473E7A62BE5616835349A7ED.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-17.19.50:468][272]LogFileHelpers: Saving map 'FarmHunt' took 0.418
+[2019.03.26-17.20.40:806][980]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-17.20.41:521][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.20.41:521][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.20.41:521][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.20.41:521][980]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-17.20.48:897][562]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer9D6CDEFF4C4BCEA836CD2CAA8D7B1E4F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-17.20.49:447][606]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-17.20.50:613][606]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-17.20.50:629][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-17.20.51:031][606]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt704424A947ADA7ACC4D883809CCCB89D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-17.20.51:050][606]LogFileHelpers: Saving map 'FarmHunt' took 0.421
