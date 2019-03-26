@@ -12963,3 +12963,1242 @@ Script Stack (0 frames):
 [2019.03.26-17.44.15:435][468]Cmd: MAP CHECK NOTIFYRESULTS
 [2019.03.26-17.44.15:435][468]MapCheck: New page: PixelMenu - 26 mrt. 2019 19:44:15
 [2019.03.26-17.44.15:438][468]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3,518ms to complete.
+[2019.03.26-17.44.51:586][487]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.03.26-17.44.54:379][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.45.11:271][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.45.37:431][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.45.45:900][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.45.47:343][937]LogRenderer: Warning: Gaussian DOF algorithm is deprecated and will be removed from deferred shading renderer. Consider using the Circle DOF method in post process settings.
+[2019.03.26-17.45.50:687][330]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-17.45.55:479][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.46.56:876][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.47.13:745][213]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-17.47.42:378][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.48.10:271][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.48.27:840][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.48.34:790][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.49.27:697][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.50.51:262][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.51.09:908][689]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-17.51.13:240][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.51.16:126][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.51.20:088][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.51.40:558][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.51.59:108][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.52.03:694][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.52.16:668][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.52.57:119][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.53.15:081][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-17.53.15:097][ 17]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot24D03A034866D5322735459F809E1A41.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-17.53.17:359][171]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-17.53.17:362][171]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-17.53.19:155][380]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu
+[2019.03.26-17.53.46:290][513]BlueprintLog: New page: Compile PixelMenu
+[2019.03.26-17.53.47:856][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.53.47:857][676]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.26-17.53.47:858][676]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.03.26-17.53.47:883][676]LogPlayLevel: PlayLevel: Blueprint regeneration took 26 ms (1 blueprints)
+[2019.03.26-17.53.47:883][676]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 19:53:47)
+[2019.03.26-17.53.47:883][676]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-17.53.47:893][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010234s)
+[2019.03.26-17.53.47:894][676]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-17.53.47:894][676]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2019.03.26-17.53.47:894][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.010963s)
+[2019.03.26-17.53.47:931][676]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-17.53.47:955][676]LogInit: FAudioDevice initialized.
+[2019.03.26-17.53.47:962][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.53.47:995][676]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-17.53.47:997][676]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.53.47
+[2019.03.26-17.53.47:997][676]LogWorld: Bringing up level for play took: 0.002837
+[2019.03.26-17.53.48:276][676]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,213
+[2019.03.26-17.53.48:276][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.54.04:379][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.54.04:499][611]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-17.54.04:503][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.54.04:539][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-17.54.04:540][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.54.04:611][612]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2019.03.26-17.54.07:432][925]LogSlate: Window 'PixelMenu* - Level Blueprint Editor' being destroyed
+[2019.03.26-17.54.07:435][925]LogSlate: Window 'PixelMenu* - Level Blueprint Editor' being destroyed
+[2019.03.26-17.54.08:047][993]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/MainMenuShot.MainMenuShot
+[2019.03.26-17.54.30:570][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-17.54.30:618][638]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot62EA0FA144F070C6090316B172FBD433.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-17.54.32:209][805]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-17.54.32:226][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.54.32:226][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-17.54.32:226][805]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 19:54:32)
+[2019.03.26-17.54.32:226][805]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-17.54.32:235][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009282s)
+[2019.03.26-17.54.32:236][805]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-17.54.32:236][805]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2019.03.26-17.54.32:236][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009949s)
+[2019.03.26-17.54.32:275][805]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-17.54.32:299][805]LogInit: FAudioDevice initialized.
+[2019.03.26-17.54.32:304][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.54.32:336][805]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-17.54.32:339][805]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.54.32
+[2019.03.26-17.54.32:340][805]LogWorld: Bringing up level for play took: 0.003004
+[2019.03.26-17.54.32:616][805]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu -0,447
+[2019.03.26-17.54.32:616][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.54.46:042][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.55.03:904][511]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets2' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-17.55.03:904][511]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets3' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-17.55.07:899][989]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-17.55.07:903][989]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.55.07:942][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-17.55.07:943][989]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.55.08:000][990]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2019.03.26-17.55.33:133][648]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.03.26-17.55.38:490][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.55.38:606][283]Cmd: MODE ROTGRID=0
+[2019.03.26-17.55.45:579][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.55.57:070][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.56.17:817][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.56.27:649][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-17.56.27:696][ 50]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot68CE687642C53AAC0C9673A5F3299AD9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-17.56.30:087][275]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-17.56.30:089][275]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-17.56.31:880][486]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-17.56.31:892][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.56.31:892][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-17.56.31:892][486]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 19:56:31)
+[2019.03.26-17.56.31:892][486]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-17.56.31:901][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008177s)
+[2019.03.26-17.56.31:901][486]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-17.56.31:901][486]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.03.26-17.56.31:901][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.008930s)
+[2019.03.26-17.56.31:968][486]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-17.56.31:992][486]LogInit: FAudioDevice initialized.
+[2019.03.26-17.56.31:997][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.56.32:032][486]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-17.56.32:035][486]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.56.32
+[2019.03.26-17.56.32:035][486]LogWorld: Bringing up level for play took: 0.002254
+[2019.03.26-17.56.32:323][486]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,261
+[2019.03.26-17.56.32:323][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.56.51:593][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.56.51:718][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.56.51:718][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.56.51:734][730]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-17.56.51:769][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-17.56.51:769][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.56.51:828][731]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2019.03.26-17.57.00:996][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.57.12:710][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel)
+[2019.03.26-17.57.24:344][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-17.57.27:054][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel3)
+[2019.03.26-17.57.39:139][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.57.39:247][172]MapCheck: New page: Map Check
+[2019.03.26-17.57.39:256][172]Cmd: MAP REBUILD ALLVISIBLE
+[2019.03.26-17.57.39:258][172]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.03.26-17.57.39:464][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2019.03.26-17.57.39:470][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.03.26-17.57.39:477][172]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.26-17.57.39:477][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Barrel_material, compiling. 
+[2019.03.26-17.57.39:483][172]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.26-17.57.39:483][172]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.26-17.57.39:483][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Hek_material, compiling. 
+[2019.03.26-17.57.39:491][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Flowers_material, compiling. 
+[2019.03.26-17.57.39:501][172]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.26-17.57.39:501][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy FarmLand_material, compiling. 
+[2019.03.26-17.57.39:510][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Graan_material, compiling. 
+[2019.03.26-17.57.39:522][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Hay_material, compiling. 
+[2019.03.26-17.57.39:530][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy crow_material, compiling. 
+[2019.03.26-17.57.39:539][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy well_material, compiling. 
+[2019.03.26-17.57.39:547][172]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.26-17.57.40:161][172]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.26-17.57.40:161][172]TextureStreamingBuild: Display: Compiling optional shaders took 0.700 seconds.
+[2019.03.26-17.57.40:170][172]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2019.03.26-17.57.40:221][172]TextureStreamingBuild: Display: Build Texture Streaming took 0.049 seconds.
+[2019.03.26-17.57.40:248][172]LightingResults: New page: Lighting Build - 26 mrt. 2019 19:57:40
+[2019.03.26-17.57.40:253][172]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.03.26-17.57.40:256][172]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.03.26-17.57.40:256][172]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.03.26-17.57.40:256][172]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.03.26-17.57.40:256][172]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8172
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.03.26-17.57.44:767][172]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.03.26-17.57.44:871][172]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.03.26-17.57.44:872][172]MapCheck: New page: PixelMenu - 26 mrt. 2019 19:57:44
+[2019.03.26-17.57.44:872][172]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.03.26-17.57.44:876][172]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 4,118ms to complete.
+[2019.03.26-17.57.44:898][172]LogEditorBuildUtils: Build time 0:05
+[2019.03.26-17.57.44:952][173]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer well_material, compiling. 
+[2019.03.26-17.57.44:959][173]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer well_material, compiling. 
+[2019.03.26-17.57.44:970][174]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.26-17.57.48:995][191]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-17.57.49:001][191]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-17.57.53:489][554]Job is a success!
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:      BrickData 120x5x5 = 0.1Mb
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:      Bricks at Level
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:          0: 4.2% covering 100.0% of volume
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:          1: 4.2% covering 1.6% of volume
+[2019.03.26-17.57.53:535][555]LogVolumetricLightmapImport:          2: 91.7% covering 0.5% of volume
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2019.03.26-17.57.54:409][555]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2019.03.26-17.57.54:584][555]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2019.03.26-17.57.54:584][555]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2019.03.26-17.57.54:623][555]Lightmass on JOEYCOMPUTER: 8.29 sec total, 104 ms importing, 38 ms setup, 962 ms photons, 7.17 sec processing, 0 ms extra exporting [151/151 mappings]. Threads: 50.0 sec total, 34.9 sec processing.
+[2019.03.26-17.57.54:628][555]LogStaticLightingSystem: Illumination: 14.3 sec (791 ms encoding lightmaps, 171 ms encoding shadowmaps)
+[2019.03.26-17.57.54:628][555]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2019.03.26-17.57.54:628][555]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.03.26-17.57.54:773][555]DumpUnbuiltLightIteractions
+[2019.03.26-17.57.54:773][555]Lights with unbuilt interactions: 0
+[2019.03.26-17.57.54:773][555]
+[2019.03.26-17.57.54:773][555]Primitives with unbuilt interactions: 0
+[2019.03.26-17.57.54:822][556]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.03.26-17.57.54:822][556]MapCheck: New page: PixelMenu - 26 mrt. 2019 19:57:54
+[2019.03.26-17.57.54:827][556]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4,19ms to complete.
+[2019.03.26-17.58.01:786][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-17.58.01:877][373]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-17.58.01:889][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.58.01:889][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-17.58.01:889][373]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 19:58:01)
+[2019.03.26-17.58.01:889][373]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-17.58.01:897][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008915s)
+[2019.03.26-17.58.01:898][373]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-17.58.01:898][373]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2019.03.26-17.58.01:898][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009551s)
+[2019.03.26-17.58.01:934][373]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-17.58.01:958][373]LogInit: FAudioDevice initialized.
+[2019.03.26-17.58.01:963][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.58.01:995][373]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-17.58.01:998][373]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-18.58.01
+[2019.03.26-17.58.01:998][373]LogWorld: Bringing up level for play took: 0.002489
+[2019.03.26-17.58.02:282][373]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,219
+[2019.03.26-17.58.02:282][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.58.17:543][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.58.17:544][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-17.58.17:560][192]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-17.58.17:592][192]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-17.58.17:592][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-17.58.17:652][193]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2019.03.26-17.58.40:606][793]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/MainMenuShot.MainMenuShot
+[2019.03.26-18.00.16:199][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.00.16:249][ 44]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot70532C4F430761D84F3A098B15EE71F4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.00.17:826][189]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.00.17:838][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.00.17:838][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.00.17:838][189]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:00:17)
+[2019.03.26-18.00.17:838][189]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.00.17:847][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009085s)
+[2019.03.26-18.00.17:848][189]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.00.17:848][189]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2019.03.26-18.00.17:848][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009717s)
+[2019.03.26-18.00.17:886][189]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.00.17:910][189]LogInit: FAudioDevice initialized.
+[2019.03.26-18.00.17:915][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.00.17:950][189]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.00.17:952][189]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.00.17
+[2019.03.26-18.00.17:952][189]LogWorld: Bringing up level for play took: 0.002374
+[2019.03.26-18.00.18:239][189]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,176
+[2019.03.26-18.00.18:239][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.00.20:385][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.00.20:470][450]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.00.20:475][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.00.20:508][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.00.20:509][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.00.20:571][451]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2019.03.26-18.01.13:703][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.01.13:749][723]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot40B302B847DD57B0511832B46421F1ED.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.01.15:657][919]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.01.15:670][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.15:670][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.01.15:670][919]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:01:15)
+[2019.03.26-18.01.15:670][919]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.01.15:679][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008929s)
+[2019.03.26-18.01.15:680][919]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.01.15:680][919]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2019.03.26-18.01.15:680][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009579s)
+[2019.03.26-18.01.15:715][919]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.01.15:738][919]LogInit: FAudioDevice initialized.
+[2019.03.26-18.01.15:745][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.01.15:778][919]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.01.15:780][919]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.01.15
+[2019.03.26-18.01.15:780][919]LogWorld: Bringing up level for play took: 0.002607
+[2019.03.26-18.01.16:055][919]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,993
+[2019.03.26-18.01.16:055][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.19:320][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.19:321][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.01.19:336][303]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.01.19:372][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.01.19:372][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.19:429][304]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2019.03.26-18.01.30:541][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.01.30:587][534]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShotE870C3E14E9A29228B01F3902B258492.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.01.32:334][688]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-18.01.32:336][688]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-18.01.32:758][738]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.01.32:769][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.32:769][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.01.32:769][738]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:01:32)
+[2019.03.26-18.01.32:769][738]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.01.32:779][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009008s)
+[2019.03.26-18.01.32:779][738]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.01.32:779][738]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2019.03.26-18.01.32:779][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009614s)
+[2019.03.26-18.01.32:815][738]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.01.32:839][738]LogInit: FAudioDevice initialized.
+[2019.03.26-18.01.32:845][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.01.32:881][738]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.01.32:883][738]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.01.32
+[2019.03.26-18.01.32:884][738]LogWorld: Bringing up level for play took: 0.002215
+[2019.03.26-18.01.33:163][738]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,101
+[2019.03.26-18.01.33:163][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.35:480][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.35:481][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.01.35:497][ 11]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.01.35:528][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.01.35:528][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.35:595][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2019.03.26-18.01.36:587][129]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/MainMenuShot.MainMenuShot
+[2019.03.26-18.01.58:003][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.01.58:048][659]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot4843C20B40BF82C4B688E2A19C2E4877.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.01.59:741][860]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.01.59:753][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.01.59:753][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.01.59:753][860]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:01:59)
+[2019.03.26-18.01.59:753][860]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.01.59:762][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008743s)
+[2019.03.26-18.01.59:762][860]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.01.59:763][860]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2019.03.26-18.01.59:763][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009361s)
+[2019.03.26-18.01.59:801][860]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.01.59:825][860]LogInit: FAudioDevice initialized.
+[2019.03.26-18.01.59:830][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.01.59:860][860]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.01.59:863][860]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.01.59
+[2019.03.26-18.01.59:863][860]LogWorld: Bringing up level for play took: 0.002311
+[2019.03.26-18.02.00:145][860]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,083
+[2019.03.26-18.02.00:146][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.06:615][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.06:616][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.06:632][628]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.02.06:662][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.02.06:663][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.06:718][629]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2019.03.26-18.02.16:523][725]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.02.16:535][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.16:535][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.02.16:535][725]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:02:16)
+[2019.03.26-18.02.16:535][725]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.02.16:544][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008943s)
+[2019.03.26-18.02.16:544][725]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.02.16:544][725]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2019.03.26-18.02.16:544][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009572s)
+[2019.03.26-18.02.16:580][725]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.02.16:604][725]LogInit: FAudioDevice initialized.
+[2019.03.26-18.02.16:610][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.16:645][725]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.02.16:648][725]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.02.16
+[2019.03.26-18.02.16:648][725]LogWorld: Bringing up level for play took: 0.002262
+[2019.03.26-18.02.16:927][725]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu -0,135
+[2019.03.26-18.02.16:927][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.20:387][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.20:388][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.20:404][135]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.02.20:437][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.02.20:438][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.20:495][136]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2019.03.26-18.02.28:975][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.02.29:021][ 70]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot3A38BD654A406B3EF421F1842939C48E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.02.30:672][265]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.02.30:684][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.30:684][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.02.30:684][265]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:02:30)
+[2019.03.26-18.02.30:684][265]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.02.30:693][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008952s)
+[2019.03.26-18.02.30:694][265]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.02.30:694][265]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2019.03.26-18.02.30:694][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009642s)
+[2019.03.26-18.02.30:728][265]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.02.30:752][265]LogInit: FAudioDevice initialized.
+[2019.03.26-18.02.30:757][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.30:791][265]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.02.30:795][265]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.02.30
+[2019.03.26-18.02.30:795][265]LogWorld: Bringing up level for play took: 0.003200
+[2019.03.26-18.02.31:077][265]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,015
+[2019.03.26-18.02.31:078][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.35:134][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.35:135][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.35:151][745]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.02.35:183][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.02.35:184][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.35:244][746]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2019.03.26-18.02.52:532][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.02.52:573][735]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShot2475FA4E4CC411DB1ECFF5947D4F1461.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.02.58:051][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.02.58:151][399]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.02.58:164][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.02.58:164][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.02.58:164][399]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:02:58)
+[2019.03.26-18.02.58:250][399]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.02.58:260][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009117s)
+[2019.03.26-18.02.58:260][399]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.02.58:260][399]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2019.03.26-18.02.58:260][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009868s)
+[2019.03.26-18.02.58:300][399]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.02.58:323][399]LogInit: FAudioDevice initialized.
+[2019.03.26-18.02.58:330][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.02.58:367][399]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.02.58:370][399]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.02.58
+[2019.03.26-18.02.58:370][399]LogWorld: Bringing up level for play took: 0.002497
+[2019.03.26-18.02.58:651][399]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu -0,411
+[2019.03.26-18.02.58:651][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.03.29:751][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.03.42:160][606]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets2' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.03.42:161][606]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets3' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.03.42:645][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.03.42:645][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.03.42:662][664]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.03.42:694][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.03.42:695][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.03.42:752][665]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2019.03.26-18.04.11:038][ 44]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/MM_Multiplayer.MM_Multiplayer
+[2019.03.26-18.04.12:203][136]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/MM_MainMenu.MM_MainMenu
+[2019.03.26-18.04.23:490][918]Cmd: TRANSACTION UNDO
+[2019.03.26-18.04.23:490][918]LogEditorTransaction: Undo Edit Right
+[2019.03.26-18.04.28:389][282]BlueprintLog: New page: Compile MM_MainMenu
+[2019.03.26-18.04.29:164][330]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.04.29:183][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.29:183][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.04.29:183][330]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:04:29)
+[2019.03.26-18.04.29:183][330]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.04.29:192][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008999s)
+[2019.03.26-18.04.29:193][330]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.04.29:193][330]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2019.03.26-18.04.29:193][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009911s)
+[2019.03.26-18.04.29:236][330]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.04.29:260][330]LogInit: FAudioDevice initialized.
+[2019.03.26-18.04.29:266][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.04.29:303][330]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.04.29:306][330]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.04.29
+[2019.03.26-18.04.29:306][330]LogWorld: Bringing up level for play took: 0.002253
+[2019.03.26-18.04.29:585][330]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,522
+[2019.03.26-18.04.29:585][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.41:305][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.04.41:405][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.04.41:405][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.41:421][123]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.04.41:453][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.04.41:454][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.41:529][124]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2019.03.26-18.04.55:207][ 96]BlueprintLog: New page: Compile MM_MainMenu
+[2019.03.26-18.04.55:784][130]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.04.55:803][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.55:803][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.04.55:803][130]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:04:55)
+[2019.03.26-18.04.55:803][130]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.04.55:812][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009039s)
+[2019.03.26-18.04.55:813][130]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.04.55:813][130]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2019.03.26-18.04.55:813][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009737s)
+[2019.03.26-18.04.55:854][130]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.04.55:878][130]LogInit: FAudioDevice initialized.
+[2019.03.26-18.04.55:884][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.04.55:922][130]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.04.55:926][130]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.04.55
+[2019.03.26-18.04.55:927][130]LogWorld: Bringing up level for play took: 0.004007
+[2019.03.26-18.04.56:205][130]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,143
+[2019.03.26-18.04.56:206][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.58:851][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.58:851][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.04.58:868][305]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.04.58:903][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.04.58:904][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.04.58:976][306]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2019.03.26-18.05.12:855][314]BlueprintLog: New page: Compile MM_MainMenu
+[2019.03.26-18.05.13:513][353]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.05.13:532][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.05.13:532][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.05.13:532][353]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:05:13)
+[2019.03.26-18.05.13:532][353]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.05.13:540][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008636s)
+[2019.03.26-18.05.13:541][353]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.05.13:541][353]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2019.03.26-18.05.13:541][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009349s)
+[2019.03.26-18.05.13:583][353]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.05.13:606][353]LogInit: FAudioDevice initialized.
+[2019.03.26-18.05.13:614][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.05.13:649][353]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.05.13:652][353]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.05.13
+[2019.03.26-18.05.13:652][353]LogWorld: Bringing up level for play took: 0.002247
+[2019.03.26-18.05.13:934][353]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,872
+[2019.03.26-18.05.13:934][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.05.24:649][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.05.27:922][284]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.05.27:927][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.05.27:961][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.05.27:962][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.05.28:036][285]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2019.03.26-18.05.45:751][542]BlueprintLog: New page: Compile MM_Multiplayer
+[2019.03.26-18.05.47:055][622]LogSlate: Window 'MM_MainMenu*' being destroyed
+[2019.03.26-18.05.47:058][622]LogSlate: Window 'MM_MainMenu*' being destroyed
+[2019.03.26-18.05.48:364][765]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/MM_HostGame.MM_HostGame
+[2019.03.26-18.05.55:226][305]BlueprintLog: New page: Compile MM_HostGame
+[2019.03.26-18.05.56:957][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.05.57:264][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenuE04B580F44CD898D998235ABD5DCE0BB.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.05.57:289][421]LogFileHelpers: Saving map 'PixelMenu' took 0.333
+[2019.03.26-18.05.57:291][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.05.57:500][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltData558C39E64F020B903547F2AA26725ABD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.05.57:520][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/well_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well_material.uasset" SILENT=true
+[2019.03.26-18.05.57:564][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/well_materialBD125636424AFA3EF213DDBEA71B38B6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well_material.uasset'
+[2019.03.26-18.05.57:568][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_HostGame" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_HostGame.uasset" SILENT=true
+[2019.03.26-18.05.57:611][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_HostGameB63562B34523959AC59AE5BBEF46D403.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_HostGame.uasset'
+[2019.03.26-18.05.57:615][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_MainMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_MainMenu.uasset" SILENT=true
+[2019.03.26-18.05.57:658][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_MainMenu1FC7975A4B16D62942D4E4AEB5DB5690.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_MainMenu.uasset'
+[2019.03.26-18.05.57:663][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_Multiplayer" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Multiplayer.uasset" SILENT=true
+[2019.03.26-18.05.57:705][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Multiplayer8ACCFAEB47FE971232FE219BA0925ED9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Multiplayer.uasset'
+[2019.03.26-18.05.58:780][485]LogSlate: Window 'MM_HostGame' being destroyed
+[2019.03.26-18.05.58:784][485]LogSlate: Window 'MM_HostGame' being destroyed
+[2019.03.26-18.07.05:349][163]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.07.05:363][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.05:363][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.07.05:363][163]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:07:05)
+[2019.03.26-18.07.05:364][163]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.07.05:372][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008632s)
+[2019.03.26-18.07.05:373][163]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.07.05:373][163]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2019.03.26-18.07.05:373][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009223s)
+[2019.03.26-18.07.05:412][163]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.07.05:437][163]LogInit: FAudioDevice initialized.
+[2019.03.26-18.07.05:444][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.07.05:481][163]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.07.05:484][163]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.07.05
+[2019.03.26-18.07.05:484][163]LogWorld: Bringing up level for play took: 0.002278
+[2019.03.26-18.07.05:762][163]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,7
+[2019.03.26-18.07.05:763][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.14:723][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.07.14:799][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.07.14:799][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.14:816][241]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.07.14:851][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.07.14:852][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.14:913][242]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2019.03.26-18.07.15:880][358]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.07.15:892][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.15:892][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.07.15:892][358]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:07:15)
+[2019.03.26-18.07.15:892][358]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.07.15:902][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009633s)
+[2019.03.26-18.07.15:902][358]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.07.15:902][358]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2019.03.26-18.07.15:903][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.010318s)
+[2019.03.26-18.07.15:948][358]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.07.15:980][358]LogInit: FAudioDevice initialized.
+[2019.03.26-18.07.15:986][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.07.16:021][358]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.07.16:024][358]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.07.16
+[2019.03.26-18.07.16:024][358]LogWorld: Bringing up level for play took: 0.002398
+[2019.03.26-18.07.16:303][358]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,241
+[2019.03.26-18.07.16:304][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.07.48:872][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.08.01:268][644]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.08.01:278][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.08.01:317][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.08.01:318][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.08.01:599][645]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2019.03.26-18.08.30:291][ 43]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.26-18.08.50:821][782]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.08.50:825][782]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.08.55:531][336]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyMenu/MM_Player/MM_Player.MM_Player
+[2019.03.26-18.09.26:035][437]BlueprintLog: New page: Compile MM_Player
+[2019.03.26-18.09.28:851][689]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.09.28:867][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.09.28:867][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.09.28:867][689]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:09:28)
+[2019.03.26-18.09.28:867][689]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.09.28:877][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009458s)
+[2019.03.26-18.09.28:877][689]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.09.28:878][689]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.03.26-18.09.28:878][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.010310s)
+[2019.03.26-18.09.28:917][689]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.09.28:941][689]LogInit: FAudioDevice initialized.
+[2019.03.26-18.09.28:947][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.09.28:989][689]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.09.28:993][689]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.09.28
+[2019.03.26-18.09.28:993][689]LogWorld: Bringing up level for play took: 0.003689
+[2019.03.26-18.09.29:278][689]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,215
+[2019.03.26-18.09.29:278][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.09.51:936][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.09.52:569][746]LogBlueprintUserMessages: [ServerBrowser] No Functionality Yet
+[2019.03.26-18.09.55:140][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.09.55:242][974]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets2' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.09.55:243][974]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets3' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.09.56:867][114]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets1' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.10.05:128][812]PIE: Warning: The widget 'MM_LevelSettings_C' was already added to the screen.
+[2019.03.26-18.10.05:129][812]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.10.07:101][980]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets2' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.10.10:180][241]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets2' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.10.10:180][241]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets3' of length 0 in '/Game/MyMenu/MM_Widget/Extra/MM_Button.MM_Button_C:ExecuteUbergraph_MM_Button'!
+[2019.03.26-18.10.10:712][286]LogBlueprintUserMessages: [MM_Player_C_0] Searching For Sessions....
+[2019.03.26-18.10.38:509][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.10.39:271][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.10.39:329][809]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.10.42:325][ 66]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.10.45:332][333]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.10.47:350][511]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.10.47:351][511]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.10.47:394][511]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.10.47:414][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020124s)
+[2019.03.26-18.10.47:415][511]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.10.47:415][511]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2019.03.26-18.10.47:415][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.020789s)
+[2019.03.26-18.10.47:415][511]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.10.47:415][511]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.10.47:415][511]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.03.26-18.10.47:415][511]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.10.47:415][511]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.10.47:415][511]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.10.47:415][511]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.10.47:416][511]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.10.47:416][511]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2019.03.26-18.10.47:419][511]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.10.47
+[2019.03.26-18.10.47:420][511]LogWorld: Bringing up level for play took: 0.003305
+[2019.03.26-18.10.47:421][511]LogLoad: Took 0.070043 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.11.00:778][612]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2019.03.26-18.11.00:778][612]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2019.03.26-18.11.00:778][612]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2019.03.26-18.11.00:779][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.00:779][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.11.00:795][612]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.11.00:828][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.11.00:829][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.00:901][613]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2019.03.26-18.11.02:458][757]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.11.02:464][757]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.11.04:413][947]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.11.04:417][947]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.11.06:583][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Player/MM_Player" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset" SILENT=true
+[2019.03.26-18.11.06:652][152]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PlayerE6C239284BF79072B917169E7C442844.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset'
+[2019.03.26-18.11.09:279][385]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.11.09:295][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.09:295][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.11.09:295][385]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:11:09)
+[2019.03.26-18.11.09:295][385]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.11.09:303][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008493s)
+[2019.03.26-18.11.09:304][385]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.11.09:304][385]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2019.03.26-18.11.09:304][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009144s)
+[2019.03.26-18.11.09:345][385]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.11.09:368][385]LogInit: FAudioDevice initialized.
+[2019.03.26-18.11.09:373][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.11.09:417][385]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.11.09:420][385]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.11.09
+[2019.03.26-18.11.09:420][385]LogWorld: Bringing up level for play took: 0.002271
+[2019.03.26-18.11.09:702][385]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,64
+[2019.03.26-18.11.09:702][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.21:627][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.11.21:713][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.11.21:713][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.21:729][341]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.11.21:763][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.11.21:764][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.21:837][342]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2019.03.26-18.11.24:610][629]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.11.24:626][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.11.24:627][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.11.24:627][629]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:11:24)
+[2019.03.26-18.11.24:627][629]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.11.24:636][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008584s)
+[2019.03.26-18.11.24:636][629]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.11.24:636][629]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2019.03.26-18.11.24:636][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009342s)
+[2019.03.26-18.11.24:674][629]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.11.24:699][629]LogInit: FAudioDevice initialized.
+[2019.03.26-18.11.24:704][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.11.24:743][629]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.11.24:746][629]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.11.24
+[2019.03.26-18.11.24:747][629]LogWorld: Bringing up level for play took: 0.002853
+[2019.03.26-18.11.25:026][629]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu -0,037
+[2019.03.26-18.11.25:026][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.12.33:295][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.12.35:766][177]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.12.38:764][462]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.12.41:769][753]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.12.43:784][947]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.12.43:784][947]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.12.43:828][947]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.12.43:847][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019107s)
+[2019.03.26-18.12.43:847][947]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.12.43:848][947]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2019.03.26-18.12.43:848][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.019844s)
+[2019.03.26-18.12.43:848][947]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.12.43:848][947]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.12.43:848][947]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.03.26-18.12.43:848][947]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.12.43:848][947]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.12.43:848][947]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.12.43:848][947]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.12.43:848][947]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.12.43:848][947]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7777
+[2019.03.26-18.12.43:852][947]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.12.43
+[2019.03.26-18.12.43:852][947]LogWorld: Bringing up level for play took: 0.003086
+[2019.03.26-18.12.43:854][947]LogLoad: Took 0.069744 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.12.58:569][330]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2019.03.26-18.12.58:569][330]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2019.03.26-18.12.58:569][330]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2019.03.26-18.12.58:569][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.12.58:569][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.12.58:585][330]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.12.58:618][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.12.58:619][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.12.58:906][331]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2019.03.26-18.13.02:890][664]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.13.02:894][664]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.13.22:959][ 20]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/TransistionLevel.TransistionLevel
+[2019.03.26-18.14.16:604][392]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.14.22:239][810]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.14.25:157][ 25]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.14.52:236][129]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.15.12:969][702]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.15.18:716][119]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.15.23:785][476]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.26-18.16.12:672][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionLevel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset" SILENT=true
+[2019.03.26-18.16.12:717][146]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionLevelEDB336454D57308E910C3697C8637878.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset'
+[2019.03.26-18.16.15:703][338]LogSlate: Window 'TransistionLevel' being destroyed
+[2019.03.26-18.16.15:706][338]LogSlate: Window 'TransistionLevel' being destroyed
+[2019.03.26-18.16.21:136][970]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/TransistionLevel.TransistionLevel
+[2019.03.26-18.16.44:571][606]BlueprintLog: New page: Compile TransistionLevel
+[2019.03.26-18.16.45:115][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionLevel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset" SILENT=true
+[2019.03.26-18.16.45:162][648]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionLevel017685D040146996973E0F931639D6F5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset'
+[2019.03.26-18.16.50:360][ 94]LogSlate: Window 'TransistionLevel' being destroyed
+[2019.03.26-18.16.50:364][ 94]LogSlate: Window 'TransistionLevel' being destroyed
+[2019.03.26-18.16.56:123][779]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyMenu/MM_Player/MM_Player.MM_Player
+[2019.03.26-18.17.21:565][640]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.26-18.17.37:082][444]BlueprintLog: New page: Compile MM_Player
+[2019.03.26-18.17.37:888][503]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.17.37:914][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.17.37:914][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.17.37:914][503]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:17:37)
+[2019.03.26-18.17.37:914][503]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.17.37:922][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008153s)
+[2019.03.26-18.17.37:923][503]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.17.37:923][503]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2019.03.26-18.17.37:923][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.008797s)
+[2019.03.26-18.17.37:964][503]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.17.37:988][503]LogInit: FAudioDevice initialized.
+[2019.03.26-18.17.37:994][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.17.38:035][503]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.17.38:038][503]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.17.38
+[2019.03.26-18.17.38:038][503]LogWorld: Bringing up level for play took: 0.002414
+[2019.03.26-18.17.38:332][503]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,27
+[2019.03.26-18.17.38:332][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.17.40:773][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.17.44:138][173]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.17.47:142][521]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.17.50:145][872]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.17.52:154][107]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.17.52:154][107]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.17.52:197][107]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.17.52:215][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018211s)
+[2019.03.26-18.17.52:215][107]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.17.52:215][107]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2019.03.26-18.17.52:215][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.018853s)
+[2019.03.26-18.17.52:215][107]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.17.52:216][107]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.17.52:216][107]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2019.03.26-18.17.52:216][107]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.17.52:216][107]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.17.52:216][107]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.17.52:216][107]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.17.52:216][107]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.17.52:216][107]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2019.03.26-18.17.52:219][107]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.17.52
+[2019.03.26-18.17.52:220][107]LogWorld: Bringing up level for play took: 0.002996
+[2019.03.26-18.17.52:221][107]LogLoad: Took 0.066551 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.17.56:124][552]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2019.03.26-18.17.56:124][552]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2019.03.26-18.17.56:124][552]LogExit: GameNetDriver IpNetDriver_4 shut down
+[2019.03.26-18.17.56:124][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.17.56:124][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.17.56:140][552]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.17.56:172][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.17.56:173][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.17.56:228][553]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2019.03.26-18.18.02:026][236]BlueprintLog: New page: Compile MM_Player
+[2019.03.26-18.18.11:342][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Player/MM_Player" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset" SILENT=true
+[2019.03.26-18.18.11:413][192]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Player052FAF5443D7045627A2048C4E5BD39F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset'
+[2019.03.26-18.18.15:077][562]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.18.15:082][562]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.18.43:439][931]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/TransistionReverse.TransistionReverse
+[2019.03.26-18.18.48:016][383]BlueprintLog: New page: Compile TransistionReverse
+[2019.03.26-18.18.48:509][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionReverse" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset" SILENT=true
+[2019.03.26-18.18.48:526][417]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionReverse6E6FA7D849C34969A7994DA01A1B475E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset'
+[2019.03.26-18.18.50:610][612]LogSlate: Window 'TransistionReverse' being destroyed
+[2019.03.26-18.18.50:615][612]LogSlate: Window 'TransistionReverse' being destroyed
+[2019.03.26-18.18.57:240][398]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.26-18.19.24:029][ 82]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.26-18.19.28:537][585]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.19.29:250][585]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.19.29:250][585]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.19.29:250][585]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.19.29:251][585]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.19.29:985][630]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.19.30:002][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.19.30:002][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.19.30:002][630]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:19:30)
+[2019.03.26-18.19.30:002][630]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.19.30:011][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008822s)
+[2019.03.26-18.19.30:011][630]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.19.30:012][630]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.03.26-18.19.30:012][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009620s)
+[2019.03.26-18.19.30:056][630]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.19.30:082][630]LogInit: FAudioDevice initialized.
+[2019.03.26-18.19.30:088][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.19.30:131][630]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.19.30:134][630]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.19.30
+[2019.03.26-18.19.30:134][630]LogWorld: Bringing up level for play took: 0.002281
+[2019.03.26-18.19.30:417][630]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 1,355
+[2019.03.26-18.19.30:417][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.19.31:533][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.19.35:064][ 80]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.19.38:066][383]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.19.41:073][689]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.19.43:089][894]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.19.43:089][894]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.19.43:132][894]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.19.43:151][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018186s)
+[2019.03.26-18.19.43:151][894]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.19.43:151][894]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2019.03.26-18.19.43:151][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.018821s)
+[2019.03.26-18.19.43:151][894]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.19.43:151][894]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.19.43:151][894]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2019.03.26-18.19.43:151][894]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.19.43:151][894]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.19.43:152][894]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.19.43:152][894]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.19.43:152][894]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.19.43:152][894]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 7777
+[2019.03.26-18.19.43:156][894]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.19.43
+[2019.03.26-18.19.43:157][894]LogWorld: Bringing up level for play took: 0.003840
+[2019.03.26-18.19.43:159][894]LogLoad: Took 0.068623 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.19.51:218][659]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2019.03.26-18.19.51:218][659]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2019.03.26-18.19.51:218][659]LogExit: GameNetDriver IpNetDriver_5 shut down
+[2019.03.26-18.19.51:218][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.19.51:218][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.19.51:235][659]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.19.51:269][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.19.51:270][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.19.51:347][660]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2019.03.26-18.19.54:273][979]LogSlate: Window 'PixelFarm_Farmer*' being destroyed
+[2019.03.26-18.19.54:278][979]LogSlate: Window 'PixelFarm_Farmer*' being destroyed
+[2019.03.26-18.19.59:283][567]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/TransistionLevel.TransistionLevel
+[2019.03.26-18.20.06:503][ 60]BlueprintLog: New page: Compile TransistionLevel
+[2019.03.26-18.20.07:723][125]LogSlate: Window 'TransistionLevel*' being destroyed
+[2019.03.26-18.20.07:727][125]LogSlate: Window 'TransistionLevel*' being destroyed
+[2019.03.26-18.20.08:444][204]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Widgets/TransistionReverse.TransistionReverse
+[2019.03.26-18.20.13:581][584]BlueprintLog: New page: Compile TransistionReverse
+[2019.03.26-18.20.14:235][625]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.20.14:255][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.20.14:256][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.20.14:256][625]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:20:14)
+[2019.03.26-18.20.14:256][625]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.20.14:264][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008920s)
+[2019.03.26-18.20.14:264][625]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.20.14:264][625]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2019.03.26-18.20.14:264][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.009697s)
+[2019.03.26-18.20.14:306][625]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.20.14:330][625]LogInit: FAudioDevice initialized.
+[2019.03.26-18.20.14:335][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.20.14:371][625]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.20.14:374][625]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.20.14
+[2019.03.26-18.20.14:374][625]LogWorld: Bringing up level for play took: 0.002345
+[2019.03.26-18.20.14:653][625]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu -0,41
+[2019.03.26-18.20.14:653][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.20.18:156][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.20.20:992][ 90]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.20.24:002][317]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.20.27:007][543]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.20.29:025][696]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.20.29:025][696]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.20.29:070][696]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.20.29:089][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018976s)
+[2019.03.26-18.20.29:089][696]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.20.29:089][696]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2019.03.26-18.20.29:089][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.019627s)
+[2019.03.26-18.20.29:089][696]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.20.29:089][696]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.20.29:089][696]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2019.03.26-18.20.29:090][696]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.20.29:090][696]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.20.29:090][696]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.20.29:090][696]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.20.29:090][696]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.20.29:090][696]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2019.03.26-18.20.29:093][696]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.20.29
+[2019.03.26-18.20.29:094][696]LogWorld: Bringing up level for play took: 0.002999
+[2019.03.26-18.20.29:096][696]LogLoad: Took 0.071727 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.20.36:079][198]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2019.03.26-18.20.36:079][198]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2019.03.26-18.20.36:079][198]LogExit: GameNetDriver IpNetDriver_6 shut down
+[2019.03.26-18.20.36:079][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.20.36:080][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.20.36:096][198]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.20.36:126][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.20.36:126][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.20.36:179][199]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2019.03.26-18.20.37:826][326]LogSlate: Window 'TransistionReverse*' being destroyed
+[2019.03.26-18.20.37:830][326]LogSlate: Window 'TransistionReverse*' being destroyed
+[2019.03.26-18.20.39:584][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.20.39:969][525]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt298963B64ED6C18E2D9CD5BA8A7EB957.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.20.39:986][525]LogFileHelpers: Saving map 'FarmHunt' took 0.403
+[2019.03.26-18.20.40:226][525]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_FarmerBDD2559D4DC3023757E93CABAE0B4434.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.20.40:232][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionLevel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset" SILENT=true
+[2019.03.26-18.20.40:274][525]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionLevelAC5C274A4A32903A46A6BA87643A8BD4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset'
+[2019.03.26-18.20.40:280][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionReverse" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset" SILENT=true
+[2019.03.26-18.20.40:326][525]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionReverse72AC2291468E90556D7E6D81CB5E2540.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset'
+[2019.03.26-18.20.42:841][784]LogSlate: Window 'Sequencer' being destroyed
+[2019.03.26-18.20.42:843][784]LogSlate: Window 'PixelArcade - Unreal Editor' being destroyed
+[2019.03.26-18.20.42:844][784]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.26-18.20.43:074][785]Cmd: QUIT_EDITOR
+[2019.03.26-18.20.43:581][785]LogExit: Preparing to exit.
+[2019.03.26-18.20.44:040][785]LogExit: Editor shut down
+[2019.03.26-18.20.44:041][785]LogExit: Transaction tracking system shut down
+[2019.03.26-18.20.44:442][785]LogExit: Object subsystem successfully closed.
+[2019.03.26-18.20.44:465][785]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.26-18.20.44:471][785]LogD3D11RHI: Shutdown
+[2019.03.26-18.20.44:471][785]LogD3D11RHI: CleanupD3DDevice
+[2019.03.26-18.20.44:484][785]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.26-18.20.44:492][785]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (648)
+[2019.03.26-18.20.44:716][785]LogModuleManager: Shutting down and abandoning module SequencerWidgets (644)
+[2019.03.26-18.20.44:716][785]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (642)
+[2019.03.26-18.20.44:716][785]LogModuleManager: Shutting down and abandoning module Voice (640)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module BlueprintGraph (638)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (636)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (632)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module SceneOutliner (630)
+[2019.03.26-18.20.44:717][785]LogModuleManager: Shutting down and abandoning module AddContentDialog (628)
+[2019.03.26-18.20.44:720][785]LogModuleManager: Shutting down and abandoning module WidgetCarousel (627)
+[2019.03.26-18.20.44:720][785]LogModuleManager: Shutting down and abandoning module EditorWidgets (624)
+[2019.03.26-18.20.44:720][785]LogModuleManager: Shutting down and abandoning module CollectionManager (622)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module FoliageEdit (620)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module LandscapeEditor (618)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MeshPaintMode (616)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (614)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module ActorPickerMode (612)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module GeometryMode (610)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module TextureAlignMode (608)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module BspMode (606)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (604)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (602)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AutomationWorker (600)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (598)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (596)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (594)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module PlacementMode (593)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MaterialEditor (592)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (588)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (586)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (584)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (582)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module WebMMedia (580)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (578)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (576)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (572)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (570)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (568)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (566)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (564)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (562)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (560)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module ProductivityTools (558)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (556)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (554)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (552)
+[2019.03.26-18.20.44:721][785]LogModuleManager: Shutting down and abandoning module CharacterAI (550)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module SmartSnapping (548)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module SessionServices (546)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module ViewportSnapping (544)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module ViewportInteraction (542)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module ClothPainter (540)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (539)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module LogVisualizer (536)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module IntroTutorials (534)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (533)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (530)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (528)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (526)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (524)
+[2019.03.26-18.20.44:722][785]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (523)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (520)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (518)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (516)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (514)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (512)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module InputBindingEditor (510)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module MergeActors (508)
+[2019.03.26-18.20.45:895][785]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (506)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module LocalizationService (505)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module HardwareTargeting (502)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (500)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module UndoHistory (498)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module XmlParser (496)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module Blutility (494)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (492)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (491)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (488)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module SettingsEditor (486)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module ProjectLauncher (484)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module SessionFrontend (482)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module ProfilerClient (480)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module DeviceManager (478)
+[2019.03.26-18.20.45:896][785]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (477)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module AutomationController (474)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module AutomationWindow (472)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module Layers (470)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (468)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module DetailCustomizations (466)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module PackagesDialog (464)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.03.26-18.20.45:950][785]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.03.26-18.20.45:962][785]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.03.26-18.20.45:962][785]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.03.26-18.20.45:963][785]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (438)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module MovieScene (436)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (434)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module LauncherPlatform (432)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module AnalyticsET (430)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module PortalServices (428)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module PortalRpc (426)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module MessagingRpc (424)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module AIModule (422)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module GameplayDebugger (421)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module AITestSuite (419)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module NavigationSystem (417)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module DesktopPlatform (414)
+[2019.03.26-18.20.45:966][785]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.03.26-18.20.45:969][785]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module OculusInput (400)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (398)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module EditableMesh (396)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (394)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module CableComponent (392)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module AudioCapture (390)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (388)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module AndroidPermission (386)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (384)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (382)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module MediaCompositing (380)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module LinearTimecode (378)
+[2019.03.26-18.20.46:170][785]LogModuleManager: Shutting down and abandoning module ImgMedia (376)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module HTML5Networking (374)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (372)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (370)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module BackChannel (368)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module AppleVision (366)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (364)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module AppleImageUtils (362)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module AlembicImporter (360)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module AlembicLibrary (359)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module GeometryCache (358)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (357)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module VariantManagerContent (352)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (350)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (348)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module PluginBrowser (346)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (344)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module PolygonModeling (342)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module MeshEditor (340)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (338)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module CryptoKeys (336)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (334)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (332)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module UObjectPlugin (330)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (328)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (326)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module GitSourceControl (324)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module SourceControl (323)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (320)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (318)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (316)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
+[2019.03.26-18.20.46:173][785]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (304)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module AdvancedSessions (302)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (290)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module ApexDestruction (288)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.03.26-18.20.46:174][785]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.03.26-18.20.46:276][785]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.03.26-18.20.46:376][785]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.03.26-18.20.46:377][785]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.03.26-18.20.46:377][785]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.03.26-18.20.46:377][785]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.03.26-18.20.46:377][785]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.03.26-18.20.46:378][785]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.03.26-18.20.46:380][785]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.26-18.20.46:381][785]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.26-18.20.46:386][785]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.26-18.20.46:387][785]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.26-18.20.46:389][785]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.26-18.20.46:482][785]LogDerivedDataCache: Shutdown
+[2019.03.26-18.20.46:482][785]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.26-18.20.46:482][785]LogXGEController: Cleaning working directory: C:/Users/joeym/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.26-18.20.46:483][785]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.26-18.20.46:489][785]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.26-18.20.46:489][785]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.26-18.20.46:490][785]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.26-18.20.46:490][785]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.26-18.20.46:490][785]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.26-18.20.46:492][785]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.26-18.20.46:492][785]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.26-18.20.46:495][785]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.26-18.20.46:495][785]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.26-18.20.46:519][785]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.26-18.20.46:519][785]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.26-18.20.46:520][785]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.26-18.20.46:520][785]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.26-18.20.46:548][785]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.26-18.20.46:548][785]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.26-18.20.46:548][785]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10ADCFD7-4BBB-80B6-EBB9-B39A220AA2BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=223845704c6516493bcdb69e8f4e2567%7C52cd936612ca433ba7244efdbd41ffd6%7C4eec7dc2-007f-4bed-8ab7-a8a892bc0b34&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.26-18.20.46:579][785]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.26-18.20.46:580][785]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.26-18.20.46:581][785]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.26-18.20.46:581][785]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.26-18.20.46:583][785]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.26-18.20.46:583][785]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.26-18.20.46:584][785]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.26-18.20.46:589][785]LogExit: Exiting.
+[2019.03.26-18.20.46:611][785]Log file closed, 03/26/19 19:20:46
