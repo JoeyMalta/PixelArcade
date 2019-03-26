@@ -1063,3 +1063,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.26-18.38.10:252][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.03.26-18.38.10:608][365]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt5E639989470A09C8C9BE65BCEE4EAD3D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
 [2019.03.26-18.38.10:625][365]LogFileHelpers: Saving map 'FarmHunt' took 0.373
+[2019.03.26-18.47.06:641][709]LogTemp: Repeating last play command: Standalone Game
