@@ -1043,3 +1043,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.26-18.33.20:621][163]LogFileHelpers: Saving map 'FarmHunt' took 0.391
 [2019.03.26-18.33.21:726][271]LogSlate: Window 'PixelFarm_Farmer' being destroyed
 [2019.03.26-18.33.21:730][271]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.33.59:615][748]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.35.53:014][523]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.37.26:704][258]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.26-18.37.33:299][850]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.40:356][462]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer05CBD9B945F1834394C0D992B217306A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.37.47:326][225]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.38.08:837][365]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.38.10:000][365]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-18.38.10:247][365]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer2E2BF05C43F1B7D816C7A2B38DB44BB3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.38.10:252][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.38.10:608][365]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt5E639989470A09C8C9BE65BCEE4EAD3D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.38.10:625][365]LogFileHelpers: Saving map 'FarmHunt' took 0.373
