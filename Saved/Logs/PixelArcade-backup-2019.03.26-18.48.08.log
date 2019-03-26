@@ -1,0 +1,1403 @@
+﻿Log file open, 03/26/19 19:24:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PixelArcade
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.259687
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin ProductivityTools
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogStreaming: Display: Took  0.070s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:642][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:653][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.26-18.24.08:653][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.26-18.24.08:654][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.26-18.24.08:654][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-18.24.08:654][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.26-18.24.08:663][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.26-18.24.08:664][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.26-18.24.08:664][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.26-18.24.08:665][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.26-18.24.08:665][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.26-18.24.08:665][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.26-18.24.08:665][  0]LogInit: User: joeym
+[2019.03.26-18.24.08:665][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.26-18.24.08:665][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.26-18.24.08:665][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.26-18.24.08:665][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.26-18.24.08:665][  0]LogMemory: Process Physical Memory: 103.43 MB used, 103.43 MB peak
+[2019.03.26-18.24.08:665][  0]LogMemory: Process Virtual Memory: 89.90 MB used, 89.90 MB peak
+[2019.03.26-18.24.08:665][  0]LogMemory: Physical Memory: 7048.35 MB used,  9265.26 MB free, 16313.61 MB total
+[2019.03.26-18.24.08:665][  0]LogMemory: Virtual Memory: 4649.68 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.03.26-18.24.08:679][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.26-18.24.08:679][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.26-18.24.08:680][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.26-18.24.08:975][  0]LogStreaming: Display: Took  0.295s to InitEngineTextLocalization.
+[2019.03.26-18.24.08:975][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.26-18.24.09:008][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.24.09:008][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.24.09:262][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-18.24.09:262][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.26-18.24.09:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.26-18.24.09:306][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.03.26-18.24.09:307][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.26-18.24.09:307][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.26-18.24.09:307][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.26-18.24.09:314][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.26-18.24.09:314][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.26-18.24.09:314][  0]LogWindows: EnumDisplayDevices:
+[2019.03.26-18.24.09:314][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.26-18.24.09:314][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.26-18.24.09:314][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.26-18.24.09:315][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.26-18.24.09:315][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.26-18.24.09:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.26-18.24.09:315][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.26-18.24.09:315][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.26-18.24.09:315][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.26-18.24.09:341][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.26-18.24.09:351][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.26-18.24.09:689][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.26-18.24.09:699][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.26-18.24.09:708][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.26-18.24.09:719][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.26-18.24.09:729][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.26-18.24.09:738][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.26-18.24.09:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.26-18.24.09:759][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.26-18.24.09:763][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:819][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.24.09:820][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.26-18.24.09:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.26-18.24.09:873][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.26-18.24.09:891][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.26-18.24.09:891][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.26-18.24.09:900][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.26-18.24.09:909][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.26-18.24.09:919][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.26-18.24.09:928][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.26-18.24.09:962][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.26-18.24.09:962][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.26-18.24.09:962][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.26-18.24.09:994][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/3052/).
+[2019.03.26-18.24.09:994][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/7DF2D5D249A649680E8D40BBB69FCF6E/'.
+[2019.03.26-18.24.09:995][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.26-18.24.09:995][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.26-18.24.09:995][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.26-18.24.10:419][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-18.24.10:459][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.26-18.24.10:471][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.26-18.24.10:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-18.24.10:471][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.26-18.24.10:483][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.26-18.24.10:483][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.26-18.24.10:483][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.26-18.24.10:501][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.26-18.24.10:502][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.26-18.24.10:502][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.26-18.24.10:581][  0]LogAssetRegistry: FAssetRegistry took 0.0301 seconds to start up
+[2019.03.26-18.24.10:831][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-18.24.10:940][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.26-18.24.10:942][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.26-18.24.10:942][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.26-18.24.10:942][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.26-18.24.10:942][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.26-18.24.10:957][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.26-18.24.11:323][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.037866 seconds
+[2019.03.26-18.24.11:328][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.03.26-18.24.11:329][  0]LogUObjectAllocator: 6925456 out of 0 bytes used by permanent object pool.
+[2019.03.26-18.24.11:329][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.26-18.24.12:060][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.26-18.24.12:073][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.26-18.24.12:732][  0]SourceControl: Source control is disabled
+[2019.03.26-18.24.12:732][  0]SourceControl: Source control is disabled
+[2019.03.26-18.24.12:733][  0]SourceControl: Source control is disabled
+[2019.03.26-18.24.12:734][  0]SourceControl: Source control is disabled
+[2019.03.26-18.24.12:875][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.26-18.24.12:954][  0]LogOcInput: OculusInput pre-init called
+[2019.03.26-18.24.13:075][  0]LogEngine: Initializing Engine...
+[2019.03.26-18.24.13:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-18.24.13:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-18.24.13:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-18.24.13:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-18.24.13:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-18.24.13:267][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.26-18.24.13:275][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.26-18.24.13:292][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.24.13:320][  0]LogInit: FAudioDevice initialized.
+[2019.03.26-18.24.13:321][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.26-18.24.13:383][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.26-18.24.13:390][  0]LogInit: Texture streaming: Enabled
+[2019.03.26-18.24.13:403][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.26-18.24.13:413][  0]LogInit: Transaction tracking system initialized
+[2019.03.26-18.24.13:425][  0]BlueprintLog: New page: Editor Load
+[2019.03.26-18.24.13:467][  0]LocalizationService: Localization service is disabled
+[2019.03.26-18.24.13:830][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/' took 0.02s
+[2019.03.26-18.24.13:830][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.26-18.24.13:830][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.26-18.24.13:830][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.26-18.24.13:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-18.24.13:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-18.24.13:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-18.24.13:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-18.24.14:434][  0]SourceControl: Source control is disabled
+[2019.03.26-18.24.14:434][  0]Cmd: MAP LOAD FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/GameLevels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.26-18.24.14:434][  0]LogEditorServer: Warning: Can't find file 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/GameLevels/MainMenu.umap'
+[2019.03.26-18.24.14:434][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.26-18.24.14:434][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,104ms to complete.
+[2019.03.26-18.24.14:434][  0]LogFileHelpers: Loading map 'MainMenu' took 0.000
+[2019.03.26-18.24.14:518][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.24.14:523][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.24.14:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.24.14:535][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.24.14:538][  0]LogCollectionManager: Loaded 0 collections in 0.000815 seconds
+[2019.03.26-18.24.14:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.26-18.24.14:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.00s
+[2019.03.26-18.24.14:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.26-18.24.14:552][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.26-18.24.14:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2687 classes and 638 folders.
+[2019.03.26-18.24.14:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.24.14:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:572][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.26-18.24.14:611][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.24.14:614][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.26-18.24.14:682][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.24.14:683][  0]LogLoad: (Engine Initialization) Total time: 7.68 seconds
+[2019.03.26-18.24.14:683][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.26-18.24.14:714][  0]LogAssetRegistry: Asset discovery search completed in 4.1553 seconds
+[2019.03.26-18.24.14:715][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.26-18.24.14:715][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.03.26-18.24.14:716][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.26-18.24.14:724][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.26-18.24.14:725][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.26-18.24.14:729][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.26-18.24.14:804][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-18.24.14:817][  1]LogRenderer: Reallocating scene render targets to support 764x404 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-18.24.16:409][148]LogRenderer: Reallocating scene render targets to support 1152x636 Format 10 NumSamples 1 (Frame:150).
+[2019.03.26-18.24.17:756][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.24.19:069][465]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-18.24.19:170][465]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.26-18.24.19:170][465]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.26-18.24.19:309][465]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.26-18.24.19:309][465]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.26-18.24.20:983][465]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.24.20:994][465]LogAssetEditorManager: Opening Asset editor for World /Game/PixelWorlds/PixelMenu.PixelMenu
+[2019.03.26-18.24.21:025][465]Cmd: MAP LOAD FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.26-18.24.21:025][465]LightingResults: New page: Lighting Build
+[2019.03.26-18.24.21:027][465]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2019.03.26-18.24.21:027][465]LoadErrors: New page: Loading map: PixelMenu.umap
+[2019.03.26-18.24.21:027][465]MapCheck: New page: Map Check
+[2019.03.26-18.24.21:028][465]LightingResults: New page: Lighting Build
+[2019.03.26-18.24.21:149][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.26-18.24.21:189][465]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.26-18.24.21:189][465]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,118ms to complete.
+[2019.03.26-18.24.21:189][465]LogFileHelpers: Loading map 'PixelMenu' took 0.165
+[2019.03.26-18.24.25:723][910]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.26-18.24.25:788][911]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
+[2019.03.26-18.24.25:788][911]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.24.25:788][911]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.21
+[2019.03.26-18.24.25:788][911]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.24.25:788][911]LogTemp: BranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.03.26-18.24.25:807][912]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joeym\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.26-18.24.32:678][717]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.24.32:682][717]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.24.34:622][948]LogAIModule: Creating AISystem for world Menu
+[2019.03.26-18.24.35:399][948]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.26-18.25.02:237][955]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.26-18.25.02:288][955]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
+[2019.03.26-18.25.02:288][955]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.25.02:288][955]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.21
+[2019.03.26-18.25.02:288][955]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.25.02:305][957]LogTemp: BranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.03.26-18.25.02:316][958]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joeym\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.26-18.25.05:337][304]LogLinker: Warning: Can't find file '/Game/GameRelated/GameMode/GM_PixelWarfare'
+[2019.03.26-18.25.05:337][304]LogLinker: Warning: Can't find file '/Game/GameRelated/GameMode/GM_PixelWarfare'
+[2019.03.26-18.25.05:337][304]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/GameRelated/GameMode/GM_PixelWarfare.GM_PixelWarfare_C'
+[2019.03.26-18.25.18:487][825]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.25.18:490][825]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.25.50:511][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.25.50:740][657]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenuBFE6AF4943354CE898DDEC909244E1E6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.25.50:766][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.25.51:057][657]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltData834CCE3C4D3CA0D1A6AC55B362BADA02.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.25.54:132][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.25.54:356][ 23]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu380DCC1249476F0ECC49188C03E03810.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.25.54:382][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.25.54:587][ 23]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltData40FC919348C3B059BC3D8EBCC500CD6F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.26.32:054][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.26.37:386][ 63]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.26-18.26.37:455][ 65]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PixelArcade
+[2019.03.26-18.26.37:455][ 65]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.26.37:455][ 65]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.21
+[2019.03.26-18.26.37:455][ 65]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.26-18.26.37:455][ 65]LogTemp: BranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = JOEYCOMPUTER/D/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.03.26-18.26.37:474][ 67]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\joeym\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.26-18.26.49:262][463]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.26-18.26.54:216][ 50]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.26.54:220][ 50]LogSlate: Window 'Project Settings' being destroyed
+[2019.03.26-18.26.56:582][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.26.56:807][329]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenuD952BED7479675269B83B6B9EC0F215F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.26.56:834][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.26.57:036][329]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltDataC16FF67A4A749DF68157BAA34AB337F9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.27.16:318][571]LogTexture: Display: Building textures: Grass1 (BGRA8, 256X256)
+[2019.03.26-18.27.16:318][571]LogMaterial: Display: Missing cached shader map for material Grass_material, compiling. 
+[2019.03.26-18.27.16:407][571]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.03.26-18.27.16:408][571]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.03.26-18.27.16:408][571]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.26-18.27.16:408][571]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.26-18.27.16:408][571]LogStaticMesh: Building static mesh Grass...
+[2019.03.26-18.27.16:784][571]LogStaticMesh: Built static mesh [0.38s] /Game/PixelModels/PixelFarm/Grass.Grass
+[2019.03.26-18.27.16:975][571]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.27.17:088][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ServerSettings8432115146449A465C80B780E625D7E5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/ServerSettings.uasset'
+[2019.03.26-18.27.17:141][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/WaveSettings314ABD5245741713F59BC2A13B942F3C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/WaveSettings.uasset'
+[2019.03.26-18.27.17:193][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/DayNightCycleEnumB4FB2D734B8072811143B581F5E30598.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/DayNightCycleEnum.uasset'
+[2019.03.26-18.27.17:247][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/WorldSettings107371424F09182BBA10AA870915CD10.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/WorldSettings.uasset'
+[2019.03.26-18.27.17:310][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MyGameInstance146AD83A4112C525C177FA88A22BB662.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyGame/MyGameBlueprints/MyGameInstance/MyGameInstance.uasset'
+[2019.03.26-18.27.17:315][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/GameFont/DefaultFont" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/GameFont/DefaultFont.uasset" SILENT=true
+[2019.03.26-18.27.17:364][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/DefaultFont63F79A2F461CA36C2A68209F430BE5E3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/GameFont/DefaultFont.uasset'
+[2019.03.26-18.27.17:377][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/GameFont/DefaultFont_Font" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/GameFont/DefaultFont_Font.uasset" SILENT=true
+[2019.03.26-18.27.17:429][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/DefaultFont_Font4F0F2BE04F2F3A1EDAE76AA413F81F5E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/GameFont/DefaultFont_Font.uasset'
+[2019.03.26-18.27.17:434][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Player/MM_Player" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset" SILENT=true
+[2019.03.26-18.27.17:545][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Player68B23E5C4A01B162633C5D892F657105.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Player/MM_Player.uasset'
+[2019.03.26-18.27.17:550][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_WidgetSwitcher" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_WidgetSwitcher.uasset" SILENT=true
+[2019.03.26-18.27.17:607][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WidgetSwitcherBCFC98DE4050C2110D43858FB8741F6B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_WidgetSwitcher.uasset'
+[2019.03.26-18.27.17:612][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_HostGame" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_HostGame.uasset" SILENT=true
+[2019.03.26-18.27.17:676][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_HostGame088530C44985E5840D86428E30AEE0BA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_HostGame.uasset'
+[2019.03.26-18.27.17:681][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.26-18.27.17:796][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ButtonC154261445063FF2C51FF59651A6618A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.26-18.27.17:801][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MenuSelector" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MenuSelector.uasset" SILENT=true
+[2019.03.26-18.27.17:848][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MenuSelector34609B5C4EAED250FB8DBA971B43276E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MenuSelector.uasset'
+[2019.03.26-18.27.17:900][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_SkeletonBC2FAE33400F9126321EB293C3F8DC67.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/PitchFork/Hooivork_Skeleton.uasset'
+[2019.03.26-18.27.17:980][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_Anim7BAC8ACC486E09672CFA0685E4AFDD06.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/PitchFork/Hooivork_Anim.uasset'
+[2019.03.26-18.27.18:180][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base8B2EB6E34D90EF5021DFC1A2CC6DA8B4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.uasset'
+[2019.03.26-18.27.18:238][571]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.26-18.27.18:238][571]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.26-18.27.18:238][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Actions_EnumDEB955074A7C4EEAF7401EBD09D28349.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Actions_Enum.uasset'
+[2019.03.26-18.27.18:565][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory607376FE4879AD82EC9C28A38344528B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Inventory.uasset'
+[2019.03.26-18.27.18:617][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_StructEC93FA5C4E52E6EBD6DFF6A2D46FA406.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Inventory_Struct.uasset'
+[2019.03.26-18.27.18:633][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Simple_Material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Simple_Material.uasset" SILENT=true
+[2019.03.26-18.27.18:689][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Simple_Material48EAD5E444EC3233A86C8D9895A7898D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Simple_Material.uasset'
+[2019.03.26-18.27.18:707][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/itembox" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/itembox.uasset" SILENT=true
+[2019.03.26-18.27.18:766][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/itembox3E697EFB428463FDF706C88CFE0B3BDE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/itembox.uasset'
+[2019.03.26-18.27.19:118][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer82567A4845F76F2234B0058830D282C7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.27.19:138][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Actor_Carrot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset" SILENT=true
+[2019.03.26-18.27.19:309][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Actor_Carrot84972CE54E7F8FF3682E5B97664013E1.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.26-18.27.19:331][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/FarmLand" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset" SILENT=true
+[2019.03.26-18.27.19:408][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLandB11B37384AF8605A4F6DC29062052F94.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset'
+[2019.03.26-18.27.19:413][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Carrot1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot1.uasset" SILENT=true
+[2019.03.26-18.27.19:456][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Carrot1923F98E04D9587303BABE4AC5BF926CD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot1.uasset'
+[2019.03.26-18.27.19:471][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Carrot_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot_material.uasset" SILENT=true
+[2019.03.26-18.27.19:520][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Carrot_material0FE5AEDC4EF40E1EED62C2BAC8840595.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot_material.uasset'
+[2019.03.26-18.27.19:533][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Carrot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot.uasset" SILENT=true
+[2019.03.26-18.27.19:582][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Carrot6C26884B4F21FE704CC45F96649C46F2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Carrot.uasset'
+[2019.03.26-18.27.19:596][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Crystal" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Crystal.uasset" SILENT=true
+[2019.03.26-18.27.19:650][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Crystal0406C67B4188263AC8038D85896EA559.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Crystal.uasset'
+[2019.03.26-18.27.19:654][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Graan1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan1.uasset" SILENT=true
+[2019.03.26-18.27.19:693][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Graan1372E3A954900D6CE2E528286F0FC8686.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan1.uasset'
+[2019.03.26-18.27.19:696][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Seed1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed1.uasset" SILENT=true
+[2019.03.26-18.27.19:736][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Seed1D44CF4F44FF727096E2B3FA27AE55181.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed1.uasset'
+[2019.03.26-18.27.19:747][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Seed_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed_material.uasset" SILENT=true
+[2019.03.26-18.27.19:801][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Seed_material25E4FBF94680A288A27510B415AA37CE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed_material.uasset'
+[2019.03.26-18.27.19:813][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Seed" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed.uasset" SILENT=true
+[2019.03.26-18.27.19:862][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Seed7A4FEF9A4DA1786F4BDB269472EC60DE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Seed.uasset'
+[2019.03.26-18.27.19:931][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Seeds6A5ACC174353EA267E0F6791B6240603.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Seeds.uasset'
+[2019.03.26-18.27.19:981][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/BP_ToolMasterD9A6351D4C185302CB6E86B492DBD0B9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/BP_ToolMaster.uasset'
+[2019.03.26-18.27.20:018][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/E_ToolStateBED4103541AF7DDFEFC2DD9CC8FB80AA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/E_ToolState.uasset'
+[2019.03.26-18.27.20:064][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_PlayerHandEB8ACD7D4C9DF3C4C3F87B99A28721A2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.uasset'
+[2019.03.26-18.27.20:112][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_ToolData03E5DF0A4581E2148722479E806EFC92.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ToolData.uasset'
+[2019.03.26-18.27.20:195][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/C_ScrollMechanic0BDD3D0B4227FFF89960F383D2FEE3A3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.uasset'
+[2019.03.26-18.27.20:198][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Backpack1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack1.uasset" SILENT=true
+[2019.03.26-18.27.20:237][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Backpack1479C7E654C906EBEA75826B83F1677A7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack1.uasset'
+[2019.03.26-18.27.20:252][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Backpack_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack_material.uasset" SILENT=true
+[2019.03.26-18.27.20:299][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Backpack_materialB069D1C6429141D2F24582A499436CA6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack_material.uasset'
+[2019.03.26-18.27.20:311][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Backpack" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack.uasset" SILENT=true
+[2019.03.26-18.27.20:360][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/BackpackD5347F504D8DCB036E506B9531B19557.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Backpack.uasset'
+[2019.03.26-18.27.20:364][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Barrel1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel1.uasset" SILENT=true
+[2019.03.26-18.27.20:404][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Barrel138D002374E07BD5D05728E94A2421863.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel1.uasset'
+[2019.03.26-18.27.20:418][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Barrel_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel_material.uasset" SILENT=true
+[2019.03.26-18.27.20:472][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Barrel_material197F06994B93390727A932A1C46B6BA9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel_material.uasset'
+[2019.03.26-18.27.20:485][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Barrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel.uasset" SILENT=true
+[2019.03.26-18.27.20:535][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Barrel6071E65E4AAB74B4444944B2490BCF93.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Barrel.uasset'
+[2019.03.26-18.27.20:614][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Barrel_DM3D7FBF6241F612FFC4E84EB859775250.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/DestructableMesh/Barrel_DM.uasset'
+[2019.03.26-18.27.20:617][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/DestructableBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/DestructableBarrel.uasset" SILENT=true
+[2019.03.26-18.27.20:667][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/DestructableBarrel51C016434F159213F55AFAA54DBF3B05.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/DestructableBarrel.uasset'
+[2019.03.26-18.27.20:689][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/CarrotBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset" SILENT=true
+[2019.03.26-18.27.20:761][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/CarrotBarrelF2048FA045E121C7AF9F0C95005BD361.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset'
+[2019.03.26-18.27.20:764][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/crow1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow1.uasset" SILENT=true
+[2019.03.26-18.27.20:804][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/crow111493ACE47B45FF1EA8C5CAEEF9A3B17.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow1.uasset'
+[2019.03.26-18.27.20:816][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/crow_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow_material.uasset" SILENT=true
+[2019.03.26-18.27.20:861][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/crow_materialF52D210942898EA8288CD294E001AC25.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow_material.uasset'
+[2019.03.26-18.27.20:873][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/crow" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow.uasset" SILENT=true
+[2019.03.26-18.27.20:916][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/crowA53D23A6459746162335F4B9FD0A0408.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/crow.uasset'
+[2019.03.26-18.27.20:932][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Crow" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Crow.uasset" SILENT=true
+[2019.03.26-18.27.20:983][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Crow4319484D4B8AB3400FEB71B74B63D8B5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Crow.uasset'
+[2019.03.26-18.27.20:986][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/FarmLand1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand1.uasset" SILENT=true
+[2019.03.26-18.27.21:023][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLand19F9EA47A4FCA097CFA9F9BAAA6CFB5DD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand1.uasset'
+[2019.03.26-18.27.21:034][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/FarmLand_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand_material.uasset" SILENT=true
+[2019.03.26-18.27.21:079][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLand_materialFA35E71E44D6B6CB84BC0FB853ABEF88.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand_material.uasset'
+[2019.03.26-18.27.21:092][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/FarmLand" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand.uasset" SILENT=true
+[2019.03.26-18.27.21:134][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLandE0B25A8A4D2CB4D6B32E7EA970ACF39A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand.uasset'
+[2019.03.26-18.27.21:138][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hay1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay1.uasset" SILENT=true
+[2019.03.26-18.27.21:174][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hay1988FAA744FEE5623CB8EE7954FD2BB32.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay1.uasset'
+[2019.03.26-18.27.21:188][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hay_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay_material.uasset" SILENT=true
+[2019.03.26-18.27.21:233][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hay_material60C49A7B4F83A29C9FD4F6955F3AAC1F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay_material.uasset'
+[2019.03.26-18.27.21:243][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hay" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay.uasset" SILENT=true
+[2019.03.26-18.27.21:287][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hay5796B93548C93714E43B6FBC2AFEB18E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hay.uasset'
+[2019.03.26-18.27.21:304][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBale" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset" SILENT=true
+[2019.03.26-18.27.21:361][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBale9263B17B46FE52786E543881EC0C4896.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset'
+[2019.03.26-18.27.21:376][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset" SILENT=true
+[2019.03.26-18.27.21:448][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBarrelD497179849957DCC4441249DF2BA9BF0.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset'
+[2019.03.26-18.27.21:452][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Stump1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump1.uasset" SILENT=true
+[2019.03.26-18.27.21:490][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Stump11C98510E49BB3DD88992BD971E6FAF05.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump1.uasset'
+[2019.03.26-18.27.21:502][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Stump_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump_material.uasset" SILENT=true
+[2019.03.26-18.27.21:547][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Stump_materialC1B102B5497E4485B3BB63B6016E8C7E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump_material.uasset'
+[2019.03.26-18.27.21:557][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Stump" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump.uasset" SILENT=true
+[2019.03.26-18.27.21:601][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/StumpEF90728947048DB9E1FA679CF2C59DA7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Stump.uasset'
+[2019.03.26-18.27.21:617][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/RabbitHole" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/RabbitHole.uasset" SILENT=true
+[2019.03.26-18.27.21:663][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/RabbitHole71A61CD0431CFF284134149853482670.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/RabbitHole.uasset'
+[2019.03.26-18.27.21:666][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/RespawnLocation" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/RespawnLocation.uasset" SILENT=true
+[2019.03.26-18.27.21:707][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/RespawnLocationE73622804F28F101533355BBEA67DA12.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/RespawnLocation.uasset'
+[2019.03.26-18.27.21:710][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Ai_Becon" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Ai_Becon.uasset" SILENT=true
+[2019.03.26-18.27.21:751][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Ai_Becon4C72A4A048491892D6099091EB49CB17.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Ai_Becon.uasset'
+[2019.03.26-18.27.21:754][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGameStates/PixelFarmGameState" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGameStates/PixelFarmGameState.uasset" SILENT=true
+[2019.03.26-18.27.21:803][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarmGameStateDDDF63434F294CA4DF7EBD820F99E773.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGameStates/PixelFarmGameState.uasset'
+[2019.03.26-18.27.21:819][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Swarm" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset" SILENT=true
+[2019.03.26-18.27.21:897][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/SwarmB121165D43CC79174AA8379CCEE05B53.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.26-18.27.21:901][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/muis1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis1.uasset" SILENT=true
+[2019.03.26-18.27.21:939][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/muis10230FB6F48AA14F00142CDBAAD822906.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis1.uasset'
+[2019.03.26-18.27.21:951][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/muis_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis_material.uasset" SILENT=true
+[2019.03.26-18.27.21:996][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/muis_material0268FF684B284E80BF30C8B84D0E48F2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis_material.uasset'
+[2019.03.26-18.27.22:007][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/muis" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis.uasset" SILENT=true
+[2019.03.26-18.27.22:051][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/muis40EE6A8F49D14824B7E092A462645994.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/muis.uasset'
+[2019.03.26-18.27.22:055][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/well1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well1.uasset" SILENT=true
+[2019.03.26-18.27.22:094][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/well1716C598D4BD487505495709F00E86119.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well1.uasset'
+[2019.03.26-18.27.22:106][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/well_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well_material.uasset" SILENT=true
+[2019.03.26-18.27.22:155][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/well_materialAC13B5DA484A474414AE85AC35D6DBA4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well_material.uasset'
+[2019.03.26-18.27.22:166][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/well" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well.uasset" SILENT=true
+[2019.03.26-18.27.22:209][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/well499D079942E8307E15C0E7BE2DBE0C03.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/well.uasset'
+[2019.03.26-18.27.22:226][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Well" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset" SILENT=true
+[2019.03.26-18.27.22:279][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Well94BA1F464AD33187B77CDC84CD14F875.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset'
+[2019.03.26-18.27.22:362][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat451EED5747110806B3310DA43F8834A7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.26-18.27.22:365][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Message_Overlays" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Message_Overlays.uasset" SILENT=true
+[2019.03.26-18.27.22:415][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Message_Overlays5E741DC840DAE3FC156F4C858AF82645.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Message_Overlays.uasset'
+[2019.03.26-18.27.22:418][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_Context_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset" SILENT=true
+[2019.03.26-18.27.22:472][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Context_Button23E1A7584EDFBF14E664228CBE515A26.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset'
+[2019.03.26-18.27.22:475][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_QuantitySlider" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset" SILENT=true
+[2019.03.26-18.27.22:531][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_QuantitySlider34484F6C458E5D22F5DE6AAFACE72AFF.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset'
+[2019.03.26-18.27.22:533][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_List_Item" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset" SILENT=true
+[2019.03.26-18.27.22:609][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_List_ItemF90986BF4606857DBDBEE5B81A92012C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset'
+[2019.03.26-18.27.22:614][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_Screen" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset" SILENT=true
+[2019.03.26-18.27.22:675][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_ScreenF001137E4ECA589EA5F5388C322C0E84.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset'
+[2019.03.26-18.27.22:717][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol_Skeleton739EC10A4321CF7F67A1CE8480B16159.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/FullBucket/bucket_vol_Skeleton.uasset'
+[2019.03.26-18.27.22:773][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol_Anim6E51BA284AD56BD9DA851086CA24C95C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/FullBucket/bucket_vol_Anim.uasset'
+[2019.03.26-18.27.22:777][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/bucket_vol1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol1.uasset" SILENT=true
+[2019.03.26-18.27.22:816][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol11A842CC043BE13D9905F52A7CE33DC3D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol1.uasset'
+[2019.03.26-18.27.22:875][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol_material1046E7554D8A1C7F7E6ADC9513C07663.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol_material.uasset'
+[2019.03.26-18.27.22:936][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Mat3DF3C7EF45393BF9CE6C4F85387B49A4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/EmptyBucket/Mat.uasset'
+[2019.03.26-18.27.22:994][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol_PhysicsAsset76A26C78439FFA627DD958846B04ACA3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/FullBucket/bucket_vol_PhysicsAsset.uasset'
+[2019.03.26-18.27.23:056][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol7DF411E24C0FB53B2A3DF7886BD6884F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/FullBucket/bucket_vol.uasset'
+[2019.03.26-18.27.23:112][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/BucketCBC9421B4619C6FA3E65C2B656940EA0.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/Bucket.uasset'
+[2019.03.26-18.27.23:124][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Graan_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan_material.uasset" SILENT=true
+[2019.03.26-18.27.23:181][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Graan_materialE5C58F394F34BC4CB23872A5E8C77854.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan_material.uasset'
+[2019.03.26-18.27.23:192][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Graan" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan.uasset" SILENT=true
+[2019.03.26-18.27.23:238][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Graan206030AE427F24056E1E2BB1B3329594.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan.uasset'
+[2019.03.26-18.27.23:241][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hooivork1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork1.uasset" SILENT=true
+[2019.03.26-18.27.23:281][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork11A374F5345873B9ADA8003AFDBB835AF.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork1.uasset'
+[2019.03.26-18.27.23:292][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hooivork_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork_material.uasset" SILENT=true
+[2019.03.26-18.27.23:336][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_material349613874609377CE5AB17992DD11962.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork_material.uasset'
+[2019.03.26-18.27.23:390][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_PhysicsAsset3EB9D7D343677C956512C4A0940D1F52.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/PitchFork/Hooivork_PhysicsAsset.uasset'
+[2019.03.26-18.27.23:448][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HooivorkDBA6831C44A0D732F558FF94F86B5FCA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/PitchFork/Hooivork.uasset'
+[2019.03.26-18.27.23:504][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PitchForkEB911EBE46B6B0FCE0F3A7ACE702751E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/PitchFork.uasset'
+[2019.03.26-18.27.23:507][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_PauseMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset" SILENT=true
+[2019.03.26-18.27.23:560][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PauseMenu3A1D372E4557485071DAFDA9342FED18.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_PauseMenu.uasset'
+[2019.03.26-18.27.23:569][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Textures/Icons/bar_closed" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/Icons/bar_closed.uasset" SILENT=true
+[2019.03.26-18.27.23:609][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bar_closedC05C14644D46878847AA54B377B72E20.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/Icons/bar_closed.uasset'
+[2019.03.26-18.27.23:619][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Textures/Icons/bar_open" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/Icons/bar_open.uasset" SILENT=true
+[2019.03.26-18.27.23:659][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bar_open56D51DD44E159B287D0EB591EED016E3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/Icons/bar_open.uasset'
+[2019.03.26-18.27.23:731][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowChat24883388460CB3675DF6C4BCBDE74FA1.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowChat.uasset'
+[2019.03.26-18.27.23:805][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowFriendsOnlB546885D49140410669A30A53BB76B8D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowFriendsOnly.uasset'
+[2019.03.26-18.27.23:876][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowInvites83D6C4844F357942B337EB8D67333BCA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowInvites.uasset'
+[2019.03.26-18.27.23:955][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowPVPB61B458C4F22D7988A221FBF7FC758E6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowPVP.uasset'
+[2019.03.26-18.27.24:026][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowQuickJoin5261232F4EEBABA3DB9899A163FBCFCD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowQuickJoin.uasset'
+[2019.03.26-18.27.24:098][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_AllowVOIP2F15ACA948F2DF18C06E208634B0F69A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_AllowVOIP.uasset'
+[2019.03.26-18.27.24:171][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_IsLan089ECC114F5F2E2EA90702B0D511BC80.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_IsLan.uasset'
+[2019.03.26-18.27.24:180][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Textures/GUI/ProgressBar/gray" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/GUI/ProgressBar/gray.uasset" SILENT=true
+[2019.03.26-18.27.24:227][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/gray5CB671894B9880BB62088084570AFD1D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/GUI/ProgressBar/gray.uasset'
+[2019.03.26-18.27.24:239][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Textures/GUI/ProgressBar/green" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/GUI/ProgressBar/green.uasset" SILENT=true
+[2019.03.26-18.27.24:286][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/green2F93ED1E48B0BE71EEAB7AB19CA25231.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyAssets/Textures/GUI/ProgressBar/green.uasset'
+[2019.03.26-18.27.24:359][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_MaxPlayers25585B344BC85B3FC7CBC9B9022A0934.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_MaxPlayers.uasset'
+[2019.03.26-18.27.24:429][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_Password6BF914C6449448885E8E56A1D43E941D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_Password.uasset'
+[2019.03.26-18.27.24:497][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSetting_ServerName6B4CABDC4F3EAADDADDA82AD0F611026.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/Settings/MM_ServerSetting_ServerName.uasset'
+[2019.03.26-18.27.24:561][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ServerSettingsHeaderECDFABB84580CF10B3D0BFB7040D72DD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/ServerSettings/MM_ServerSettingsHeader.uasset'
+[2019.03.26-18.27.24:631][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_IntermissionTime761617C0400DA418B3D876B9DBFE2B09.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_IntermissionTime.uasset'
+[2019.03.26-18.27.24:700][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_MonsterIncreasemeF555C1DF4C55D68EBECA399B533C6403.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_MonsterIncreasement.uasset'
+[2019.03.26-18.27.24:771][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_MonsterSpawnRate1B79104A448300F748413BB1128A5196.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_MonsterSpawnRate.uasset'
+[2019.03.26-18.27.24:839][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_PresentWaveMonste640EF2BD430CA043D645A79E16E604A6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_PresentWaveMonsters.uasset'
+[2019.03.26-18.27.24:912][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_StartWave7BF27A4E457D667E5BE33AA56E8C9612.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_StartWave.uasset'
+[2019.03.26-18.27.24:980][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSetting_WaveSkipF61AAF3C4825EF2191C3069E14629905.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/Settings/MM_WaveSetting_WaveSkip.uasset'
+[2019.03.26-18.27.25:040][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WaveSettingsHeader98E136C64BD63374A7DF3A945AAE689E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WaveSettings/MM_WaveSettingsHeader.uasset'
+[2019.03.26-18.27.25:110][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSetting_AllowDayNightCyc20617A9D4FD53E844327408CF7E416C3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/Settings/MM_WorldSetting_AllowDayNightCycle.uasset'
+[2019.03.26-18.27.25:181][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSetting_DayDurationA493F1A844E3CE11574F69ACD36669E7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/Settings/MM_WorldSetting_DayDuration.uasset'
+[2019.03.26-18.27.25:251][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSetting_NightDurationA9730F0043ED3459203F9EB4AAB57931.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/Settings/MM_WorldSetting_NightDuration.uasset'
+[2019.03.26-18.27.25:318][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSetting_TimeInWorld1565D39648AE52A8EE701A90118CA2DF.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/Settings/MM_WorldSetting_TimeInWorld.uasset'
+[2019.03.26-18.27.25:387][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSetting_WorldTimeDilatio0D5D0E2D4C757104B757619B595A0D14.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/Settings/MM_WorldSetting_WorldTimeDilation.uasset'
+[2019.03.26-18.27.25:447][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_WorldSettingsHeaderE8C412F547EDC13387245488B6D50DB5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/WorldSettings/MM_WorldSettingsHeader.uasset'
+[2019.03.26-18.27.25:497][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_GameSettings1093C0784AAE028CF75779B1B8811891.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_GameSettingGUI/MM_GameSettings.uasset'
+[2019.03.26-18.27.25:548][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_LevelSettings8D9F480840B2FD05DC0796BE5D89A562.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_LevelSelectGUI/MM_LevelSettings.uasset'
+[2019.03.26-18.27.25:616][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_DeveloperMapC9D442F541E5460F26B2D1B83F4F79CA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_LevelSelectGUI/MM_DeveloperMap.uasset'
+[2019.03.26-18.27.25:666][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FireStorm729537094F7FA4B974F0508D7B8EDED7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_LevelSelectGUI/Sample_Images/FireStorm.uasset'
+[2019.03.26-18.27.25:715][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/WildlandsF56ECC724AC26B11BC7F14B2BD7CF511.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_LevelSelectGUI/Sample_Images/Wildlands.uasset'
+[2019.03.26-18.27.25:768][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/JapanBD4ACD614DB7487ED55770A1C363AB84.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_LevelSelectGUI/Sample_Images/Japan.uasset'
+[2019.03.26-18.27.25:771][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_MainMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_MainMenu.uasset" SILENT=true
+[2019.03.26-18.27.25:819][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_MainMenu1A47DFA644B7524FA3A03582C53D98CA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_MainMenu.uasset'
+[2019.03.26-18.27.25:822][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_Multiplayer" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Multiplayer.uasset" SILENT=true
+[2019.03.26-18.27.25:873][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Multiplayer277E881D4FE1D61F2B408DAED57A3D8E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Multiplayer.uasset'
+[2019.03.26-18.27.25:876][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/MM_Settings" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Settings.uasset" SILENT=true
+[2019.03.26-18.27.25:927][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Settings2166618C44115A7D189660BC0F533B27.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/MM_Settings.uasset'
+[2019.03.26-18.27.25:931][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionLevel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset" SILENT=true
+[2019.03.26-18.27.25:984][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionLevelE39F3BA2476AD40AF6B86BB1FE62E3F6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionLevel.uasset'
+[2019.03.26-18.27.26:043][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmDebugInfo605E684D40E581B379BC5BBEBEC0C254.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/FarmDebugInfo.uasset'
+[2019.03.26-18.27.26:048][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TransistionReverse" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset" SILENT=true
+[2019.03.26-18.27.26:098][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TransistionReverse4C649EA3408D6A74E6D00E824A96F884.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/TransistionReverse.uasset'
+[2019.03.26-18.27.26:102][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Item_Box_Icon" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Item_Box_Icon.uasset" SILENT=true
+[2019.03.26-18.27.26:149][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Box_IconAA04E2CF406869C896352389937B6550.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Item_Box_Icon.uasset'
+[2019.03.26-18.27.26:190][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ToolListEB14EBA34F1391796CFDE28907DCB862.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ToolList.uasset'
+[2019.03.26-18.27.26:196][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Item_Base_Icon" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Item_Base_Icon.uasset" SILENT=true
+[2019.03.26-18.27.26:238][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base_Icon171566E94663B371598312A71CE77A02.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Item_Base_Icon.uasset'
+[2019.03.26-18.27.26:241][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelMenu.uasset" SILENT=true
+[2019.03.26-18.27.26:286][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_PixelMenuA80FE2634109066FB2955B85F7FDB4A5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelMenu.uasset'
+[2019.03.26-18.27.26:289][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuShot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset" SILENT=true
+[2019.03.26-18.27.26:334][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MainMenuShotEE265BA9418F940C8D73EDB58296E494.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MainMenuShot.uasset'
+[2019.03.26-18.27.26:337][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.27.26:551][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltDataF68043384977A11C6C44B38710A76344.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.27.26:555][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Flowers1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers1.uasset" SILENT=true
+[2019.03.26-18.27.26:597][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Flowers1F9FEC6E4493293CB4703F79E459AE424.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers1.uasset'
+[2019.03.26-18.27.26:609][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Flowers_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers_material.uasset" SILENT=true
+[2019.03.26-18.27.26:671][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Flowers_materialF998DD4A466FEC416864E1A464AEB43E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers_material.uasset'
+[2019.03.26-18.27.26:683][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Flowers" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers.uasset" SILENT=true
+[2019.03.26-18.27.26:731][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FlowersF9783D7C496F9A655FD635B0099907CA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Flowers.uasset'
+[2019.03.26-18.27.26:735][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hek1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek1.uasset" SILENT=true
+[2019.03.26-18.27.26:775][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hek119E86264401B6C315C04649150CF9D4F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek1.uasset'
+[2019.03.26-18.27.26:788][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hek_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek_material.uasset" SILENT=true
+[2019.03.26-18.27.26:841][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hek_materialBEDF71E146AAF87F12D55AAD83EEF858.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek_material.uasset'
+[2019.03.26-18.27.26:852][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hek" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek.uasset" SILENT=true
+[2019.03.26-18.27.26:902][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HekD79B484E4F5FF027B10303811D822035.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hek.uasset'
+[2019.03.26-18.27.26:905][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.27.27:144][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenuB48416A04E598DD0D1B1BBB036803396.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.27.27:170][571]LogFileHelpers: Saving map 'PixelMenu' took 0.266
+[2019.03.26-18.27.27:181][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Backpack" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Backpack.uasset" SILENT=true
+[2019.03.26-18.27.27:225][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Backpack5A0F9A5E42679281B9E20BAB4817EE15.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Backpack.uasset'
+[2019.03.26-18.27.27:231][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/backpack_icon" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/backpack_icon.uasset" SILENT=true
+[2019.03.26-18.27.27:274][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/backpack_iconC5CEE2754F04B8662CA1C98DC715E1D2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/backpack_icon.uasset'
+[2019.03.26-18.27.27:279][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Crystal_Icon" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Crystal_Icon.uasset" SILENT=true
+[2019.03.26-18.27.27:327][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Crystal_IconEA7A49B949952816D4C8D58555BD5D5F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Crystal_Icon.uasset'
+[2019.03.26-18.27.27:340][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Geometry/Meshes/1M_Cube" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/1M_Cube.uasset" SILENT=true
+[2019.03.26-18.27.27:389][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/1M_Cube92F96E2D46CB026B11BFB2B5CE456B1E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/1M_Cube.uasset'
+[2019.03.26-18.27.27:402][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Geometry/Meshes/1M_Cube_Chamfer" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/1M_Cube_Chamfer.uasset" SILENT=true
+[2019.03.26-18.27.27:450][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/1M_Cube_Chamfer98DC04C847E0FB423DF79C90FAB80647.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/1M_Cube_Chamfer.uasset'
+[2019.03.26-18.27.27:461][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Geometry/Meshes/CubeMaterial" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/CubeMaterial.uasset" SILENT=true
+[2019.03.26-18.27.27:509][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/CubeMaterialA280382F4A2E2735116E4AB1F1272FA8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/CubeMaterial.uasset'
+[2019.03.26-18.27.27:521][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Geometry/Meshes/TemplateFloor" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/TemplateFloor.uasset" SILENT=true
+[2019.03.26-18.27.27:570][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/TemplateFloorF31588A744520A6C1B74198A0EAAE8BC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Assets/Geometry/Meshes/TemplateFloor.uasset'
+[2019.03.26-18.27.27:673][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ExampleAdvancedSessionsFunctionsFF9CEFD84587FB4803F949BD29DB521E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/ExampleBlueprints/ExampleAdvancedSessionsFunctionsChar.uasset'
+[2019.03.26-18.27.27:689][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Bush" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset" SILENT=true
+[2019.03.26-18.27.27:749][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bush90FB4F4345B161DF64607499C53EF6D2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset'
+[2019.03.26-18.27.27:764][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Hay" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset" SILENT=true
+[2019.03.26-18.27.27:819][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hay1E342A4B4DBB69175B553FA733D0FA09.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset'
+[2019.03.26-18.27.27:822][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HeySeed" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HeySeed.uasset" SILENT=true
+[2019.03.26-18.27.27:867][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HeySeed8E13A8EC4CB2F15A4655C39FBE8E251A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HeySeed.uasset'
+[2019.03.26-18.27.27:938][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_BackpackA8C028B74BF912A619314891619BE3B4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Backpack.uasset'
+[2019.03.26-18.27.28:009][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Surprise57EA0876496E6BA0DBADF0B264A22083.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Surprise.uasset'
+[2019.03.26-18.27.28:014][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.26-18.27.28:057][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHuntB59C82A24285EAF644E88E9F619B460E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.26-18.27.28:069][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/bucketEmpty" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty.uasset" SILENT=true
+[2019.03.26-18.27.28:117][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty5A28F80C4358592A565610991E57796E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty.uasset'
+[2019.03.26-18.27.28:120][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/bucketEmpty1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty1.uasset" SILENT=true
+[2019.03.26-18.27.28:164][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty1C1E278524112071E25F2B7957600515A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty1.uasset'
+[2019.03.26-18.27.28:225][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty_material3D3D9BA84C26510A8F23C4BDF58A5576.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucketEmpty_material.uasset'
+[2019.03.26-18.27.28:238][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/bucket_vol" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol.uasset" SILENT=true
+[2019.03.26-18.27.28:284][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_volD9B2581844DD21EC76DE13BB24A458DC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/bucket_vol.uasset'
+[2019.03.26-18.27.28:294][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Bush" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush.uasset" SILENT=true
+[2019.03.26-18.27.28:339][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/BushA31DFE0C406E67CA1A9E2A9FB879B458.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush.uasset'
+[2019.03.26-18.27.28:344][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Bush1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush1.uasset" SILENT=true
+[2019.03.26-18.27.28:386][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bush1FD3984E4492AA8BA633E2BB5C45BF10E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush1.uasset'
+[2019.03.26-18.27.28:397][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Bush_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush_material.uasset" SILENT=true
+[2019.03.26-18.27.28:445][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bush_materialD0E307A7489E08805D23218EE4F8CA18.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Bush_material.uasset'
+[2019.03.26-18.27.28:457][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Grass" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass.uasset" SILENT=true
+[2019.03.26-18.27.28:509][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GrassFCE6646740DCD15D3076E2980BEE29A2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass.uasset'
+[2019.03.26-18.27.28:517][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Grass1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass1.uasset" SILENT=true
+[2019.03.26-18.27.28:560][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Grass12777D1C34B3D02233CE6348FA0403F58.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass1.uasset'
+[2019.03.26-18.27.28:572][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/GrassStone" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/GrassStone.uasset" SILENT=true
+[2019.03.26-18.27.28:620][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GrassStone67FC34C84809CD4C3E49EFBA7217085F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/GrassStone.uasset'
+[2019.03.26-18.27.28:623][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/GrassStone1" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/GrassStone1.uasset" SILENT=true
+[2019.03.26-18.27.28:666][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GrassStone1227F6EC8452FA8B61DE9AA93F1DAEE81.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/GrassStone1.uasset'
+[2019.03.26-18.27.28:728][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GrassStone_materialCE1DAC1C4093AF62B6A019826BD55024.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/GrassStone_material.uasset'
+[2019.03.26-18.27.28:740][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Grass_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass_material.uasset" SILENT=true
+[2019.03.26-18.27.28:796][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Grass_materialA9F1661641CDD17B30B68FBF3C1D5FBB.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Grass_material.uasset'
+[2019.03.26-18.27.28:807][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Hooivork" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork.uasset" SILENT=true
+[2019.03.26-18.27.28:853][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork9AD12B3B4CB53044EDEB3DADC7CBBB55.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Hooivork.uasset'
+[2019.03.26-18.27.28:909][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty7C7D9D4A4B91A3ED03D8089C92E4912E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/EmptyBucket/bucketEmpty.uasset'
+[2019.03.26-18.27.28:967][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty_AnimF2E5135B4AED32806367E7B162D65F96.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/EmptyBucket/bucketEmpty_Anim.uasset'
+[2019.03.26-18.27.29:025][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty_PhysicsAssetD272689844606F474E1330A407DB2500.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/EmptyBucket/bucketEmpty_PhysicsAsset.uasset'
+[2019.03.26-18.27.29:071][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucketEmpty_Skeleton89E2186C41036AF25F87ACB419C21F7B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/EmptyBucket/bucketEmpty_Skeleton.uasset'
+[2019.03.26-18.27.29:129][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/bucket_vol_material0D8E32C0415BA2447E48968CC81FFB32.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/FullBucket/bucket_vol_material.uasset'
+[2019.03.26-18.27.29:185][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hooivork_materialADDB8D73489FA8AECD603CA04BBC94F2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/New/PitchFork/Hooivork_material.uasset'
+[2019.03.26-18.27.29:189][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.27.29:520][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt3DDBDB964B95F7B69EC9B9B8CEC8A559.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.27.29:538][571]LogFileHelpers: Saving map 'FarmHunt' took 0.350
+[2019.03.26-18.27.29:540][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt_BuiltData.uasset" SILENT=true
+[2019.03.26-18.27.29:675][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt_BuiltDataBC80577A461BA2F48ED9F9BDFB612AAC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt_BuiltData.uasset'
+[2019.03.26-18.27.29:680][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/PauseMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/PauseMenu.uasset" SILENT=true
+[2019.03.26-18.27.29:723][571]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PauseMenu5366210B48EB7B1A00545F9603D366A5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/PauseMenu.uasset'
+[2019.03.26-18.27.36:653][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.27.36:887][309]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu8205DCD7437898B3A55437BBE235BF2E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.26-18.27.36:916][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu_BuiltData" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset" SILENT=true
+[2019.03.26-18.27.37:127][309]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_BuiltDataDB257AED4CD3DDB154AA9FAFF50DD597.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu_BuiltData.uasset'
+[2019.03.26-18.27.43:539][826]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.26-18.27.43:552][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.27.43:552][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-18.27.43:552][826]PIE: New page: PIE session: PixelMenu (26 mrt. 2019 20:27:43)
+[2019.03.26-18.27.43:553][826]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.03.26-18.27.43:553][826]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.26-18.27.43:564][826]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_PixelMenu
+[2019.03.26-18.27.43:572][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007861s)
+[2019.03.26-18.27.43:572][826]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.26-18.27.43:573][826]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2019.03.26-18.27.43:573][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/PixelMenu.PixelMenu to /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu (0.008591s)
+[2019.03.26-18.27.43:603][826]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.27.43:627][826]LogInit: FAudioDevice initialized.
+[2019.03.26-18.27.43:633][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.27.43:678][826]LogLoad: Game class is 'GM_PixelMenu_C'
+[2019.03.26-18.27.43:682][826]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.26-19.27.43
+[2019.03.26-18.27.43:682][826]LogWorld: Bringing up level for play took: 0.002671
+[2019.03.26-18.27.43:697][826]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.03.26-18.27.43:961][826]PIE: Play in editor start time for /Game/PixelWorlds/UEDPIE_0_PixelMenu 0,899
+[2019.03.26-18.27.43:961][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.27.43:987][826]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-18.28.09:825][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.28.12:742][273]LogBlueprintUserMessages: [MM_Player_C_0] Starting Server prompt....
+[2019.03.26-18.28.15:742][633]LogBlueprintUserMessages: [MM_Player_C_0] Hosting Session....
+[2019.03.26-18.28.18:742][993]LogInit: WinSock: I am JOEYCOMPUTER (192.168.178.37:0)
+[2019.03.26-18.28.18:743][993]LogBlueprintUserMessages: [MM_Player_C_0] Session Has Been Created!
+[2019.03.26-18.28.20:751][234]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.28.20:751][234]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.26-18.28.20:786][234]LogPlayLevel: Creating play world package: /Game/PixelWorlds/UEDPIE_0_FarmHunt
+[2019.03.26-18.28.20:805][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018700s)
+[2019.03.26-18.28.20:805][234]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.26-18.28.20:806][234]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2019.03.26-18.28.20:806][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PixelWorlds/FarmHunt.FarmHunt to /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt (0.019420s)
+[2019.03.26-18.28.20:806][234]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.26-18.28.20:806][234]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.28.20:806][234]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.03.26-18.28.20:806][234]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.26-18.28.20:806][234]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.26-18.28.20:806][234]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.26-18.28.20:806][234]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.26-18.28.20:806][234]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.26-18.28.20:806][234]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2019.03.26-18.28.20:809][234]LogWorld: Bringing World /Game/PixelWorlds/UEDPIE_0_FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.26-19.28.20
+[2019.03.26-18.28.20:810][234]LogWorld: Bringing up level for play took: 0.003135
+[2019.03.26-18.28.20:813][234]LogLoad: Took 0.061710 seconds to LoadMap(/Game/PixelWorlds/UEDPIE_0_FarmHunt)
+[2019.03.26-18.28.38:767][387]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2019.03.26-18.28.38:767][387]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2019.03.26-18.28.38:767][387]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2019.03.26-18.28.38:767][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.28.38:767][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.28.38:782][387]LogSlate: Window 'PixelArcade Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.26-18.28.38:815][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-18.28.38:815][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu' with GeneratedClass '/Game/PixelWorlds/PixelMenu.PixelMenu_C' with ClassGeneratedBy '/Game/PixelWorlds/PixelMenu.PixelMenu:PersistentLevel.PixelMenu'
+[2019.03.26-18.28.38:866][389]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.26-18.30.53:187][365]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyMenu/MM_Player/MM_Player.MM_Player
+[2019.03.26-18.30.53:542][365]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.26-18.30.54:250][365]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.26-18.30.54:415][366]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.26-18.31.03:018][254]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.31.03:021][254]LogSlate: Window 'MM_Player' being destroyed
+[2019.03.26-18.31.08:262][873]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.26-18.31.28:820][960]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.31.29:594][960]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.31.29:594][960]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.31.29:594][960]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.31.29:594][960]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.31.31:549][143]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.31.33:010][143]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-18.31.33:265][143]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer16CBCE9B47DBCEE680E7A193B569F839.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.31.33:268][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.31.33:640][143]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHuntC29A269042B0CD9F8E1823BAFB76D68E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.31.33:657][143]LogFileHelpers: Saving map 'FarmHunt' took 0.388
+[2019.03.26-18.32.19:125][566]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.26-18.32.25:391][246]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.32.26:150][246]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.32.26:150][246]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.32.26:150][246]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.32.26:150][246]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.32.26:908][290]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.32.27:939][290]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-18.32.28:191][290]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer283B336A4AF6BA1D439981BB645F1783.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.32.28:196][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.32.28:562][290]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt2A34005E4D1A99FFA3D5BE93B8234A89.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.32.28:578][290]LogFileHelpers: Saving map 'FarmHunt' took 0.382
+[2019.03.26-18.33.17:527][ 16]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.33.18:276][ 16]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.33.18:276][ 16]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.33.18:276][ 16]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.33.18:276][ 16]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.33.19:075][ 37]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer77C2C0DB4A84FF02C9C572A5D472BA39.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.33.20:230][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.33.20:603][163]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt377B764D40E0F2CEAB9C7B9DCF427596.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.33.20:621][163]LogFileHelpers: Saving map 'FarmHunt' took 0.391
+[2019.03.26-18.33.21:726][271]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.33.21:730][271]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.33.59:615][748]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.35.53:014][523]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.37.26:704][258]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.26-18.37.33:299][850]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.34:066][850]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.40:356][462]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer05CBD9B945F1834394C0D992B217306A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.37.47:326][225]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.37.48:066][225]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.26-18.38.08:837][365]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.38.10:000][365]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-18.38.10:247][365]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer2E2BF05C43F1B7D816C7A2B38DB44BB3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.26-18.38.10:252][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-18.38.10:608][365]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmHunt5E639989470A09C8C9BE65BCEE4EAD3D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/FarmHunt.umap'
+[2019.03.26-18.38.10:625][365]LogFileHelpers: Saving map 'FarmHunt' took 0.373
+[2019.03.26-18.47.06:641][709]LogTemp: Repeating last play command: Standalone Game
+[2019.03.26-18.48.06:221][545]LogSlate: Window 'PixelFarm_Farmer' being destroyed
+[2019.03.26-18.48.06:270][545]LogSlate: Window 'PixelArcade - Unreal Editor' being destroyed
+[2019.03.26-18.48.06:271][545]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.26-18.48.06:434][546]Cmd: QUIT_EDITOR
+[2019.03.26-18.48.07:388][546]LogExit: Preparing to exit.
+[2019.03.26-18.48.07:837][546]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.03.26-18.48.07:837][546]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.03.26-18.48.07:878][546]LogExit: Editor shut down
+[2019.03.26-18.48.07:878][546]LogExit: Transaction tracking system shut down
+[2019.03.26-18.48.08:151][546]LogExit: Object subsystem successfully closed.
+[2019.03.26-18.48.08:170][546]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.26-18.48.08:173][546]LogD3D11RHI: Shutdown
+[2019.03.26-18.48.08:173][546]LogD3D11RHI: CleanupD3DDevice
+[2019.03.26-18.48.08:176][546]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module BlueprintGraph (646)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (642)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module Voice (640)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module MeshBuilder (638)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (636)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (632)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module SceneOutliner (630)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module AddContentDialog (628)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module WidgetCarousel (627)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module EditorWidgets (624)
+[2019.03.26-18.48.08:184][546]LogModuleManager: Shutting down and abandoning module CollectionManager (622)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module FoliageEdit (620)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module LandscapeEditor (618)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MeshPaintMode (616)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (614)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ActorPickerMode (612)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module GeometryMode (610)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module TextureAlignMode (608)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module BspMode (606)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (604)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (602)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AutomationWorker (600)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (598)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (596)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (594)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module PlacementMode (593)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MaterialEditor (592)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (588)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (586)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (584)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (582)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module WebMMedia (580)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (578)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (576)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (572)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (570)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (568)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (566)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (564)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (562)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (560)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ProductivityTools (558)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (556)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (554)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (552)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module CharacterAI (550)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SmartSnapping (548)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SessionServices (546)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ViewportSnapping (544)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ViewportInteraction (542)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module ClothPainter (540)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (539)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module LogVisualizer (536)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module IntroTutorials (534)
+[2019.03.26-18.48.08:185][546]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (533)
+[2019.03.26-18.48.08:186][546]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (530)
+[2019.03.26-18.48.08:186][546]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (528)
+[2019.03.26-18.48.08:186][546]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (526)
+[2019.03.26-18.48.08:186][546]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (524)
+[2019.03.26-18.48.08:186][546]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (523)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (520)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (518)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (516)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (514)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (512)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module InputBindingEditor (510)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module MergeActors (508)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (506)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module LocalizationService (505)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module HardwareTargeting (502)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (500)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module UndoHistory (498)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module XmlParser (496)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module Blutility (494)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (492)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (491)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (488)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module SettingsEditor (486)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module ProjectLauncher (484)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module SessionFrontend (482)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module ProfilerClient (480)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module DeviceManager (478)
+[2019.03.26-18.48.08:418][546]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (477)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module AutomationController (474)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module AutomationWindow (472)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module Layers (470)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (468)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module DetailCustomizations (466)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module PackagesDialog (464)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.03.26-18.48.08:472][546]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.03.26-18.48.08:478][546]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.03.26-18.48.08:478][546]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (438)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module MovieScene (436)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (434)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module LauncherPlatform (432)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module AnalyticsET (430)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module PortalServices (428)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module PortalRpc (426)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module MessagingRpc (424)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module AIModule (422)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module GameplayDebugger (421)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module AITestSuite (419)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module NavigationSystem (417)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module DesktopPlatform (414)
+[2019.03.26-18.48.08:479][546]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.03.26-18.48.08:481][546]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module OculusInput (400)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (398)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module EditableMesh (396)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (394)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module CableComponent (392)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module AudioCapture (390)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (388)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module AndroidPermission (386)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (384)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (382)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module MediaCompositing (380)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module LinearTimecode (378)
+[2019.03.26-18.48.08:528][546]LogModuleManager: Shutting down and abandoning module ImgMedia (376)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module HTML5Networking (374)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (372)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (370)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module BackChannel (368)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module AppleVision (366)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (364)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module AppleImageUtils (362)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module AlembicImporter (360)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module AlembicLibrary (359)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module GeometryCache (358)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (357)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module VariantManagerContent (352)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (350)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (348)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module PluginBrowser (346)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (344)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module PolygonModeling (342)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module MeshEditor (340)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (338)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module CryptoKeys (336)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (334)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (332)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module UObjectPlugin (330)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (328)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (326)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module GitSourceControl (324)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module SourceControl (323)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (320)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (318)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (316)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
+[2019.03.26-18.48.08:531][546]LogModuleManager: Shutting down and abandoning module MeshPaint (307)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (304)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module AdvancedSessions (302)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (290)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module ApexDestruction (288)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.03.26-18.48.08:532][546]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.03.26-18.48.08:632][546]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2019.03.26-18.48.08:733][546]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2019.03.26-18.48.08:734][546]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.26-18.48.08:736][546]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.26-18.48.08:741][546]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.26-18.48.08:742][546]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.26-18.48.08:742][546]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.26-18.48.08:743][546]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.26-18.48.08:744][546]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.26-18.48.08:765][546]LogDerivedDataCache: Shutdown
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.26-18.48.08:765][546]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.26-18.48.08:766][546]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.26-18.48.08:767][546]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.26-18.48.08:767][546]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.26-18.48.08:767][546]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.26-18.48.08:767][546]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.26-18.48.08:771][546]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.26-18.48.08:771][546]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.26-18.48.08:772][546]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.26-18.48.08:772][546]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.26-18.48.08:778][546]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.26-18.48.08:778][546]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.26-18.48.08:778][546]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD47F3C85-4B00-8374-E268-388F6BA6C2B6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=223845704c6516493bcdb69e8f4e2567%7C52cd936612ca433ba7244efdbd41ffd6%7C4eec7dc2-007f-4bed-8ab7-a8a892bc0b34&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.26-18.48.08:793][546]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.48.08:793][546]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.26-18.48.08:794][546]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.26-18.48.08:795][546]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.26-18.48.08:800][546]LogExit: Exiting.
+[2019.03.26-18.48.08:805][546]Log file closed, 03/26/19 19:48:08
