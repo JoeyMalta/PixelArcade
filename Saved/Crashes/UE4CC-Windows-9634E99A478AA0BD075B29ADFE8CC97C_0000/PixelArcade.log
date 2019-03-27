@@ -1,0 +1,732 @@
+﻿Log file open, 03/27/19 20:36:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PixelArcade
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.268793
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin ProductivityTools
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogStreaming: Display: Took  0.075s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:571][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.27-19.36.05:571][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.27-19.36.05:572][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:572][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:581][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.27-19.36.05:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.27-19.36.05:582][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.27-19.36.05:582][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-19.36.05:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.27-19.36.05:594][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.27-19.36.05:594][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.27-19.36.05:594][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.27-19.36.05:594][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.27-19.36.05:595][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.27-19.36.05:595][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-19.36.05:595][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.27-19.36.05:595][  0]LogInit: User: joeym
+[2019.03.27-19.36.05:595][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.27-19.36.05:595][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.27-19.36.05:595][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.27-19.36.05:595][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.27-19.36.05:595][  0]LogMemory: Process Physical Memory: 104.05 MB used, 104.05 MB peak
+[2019.03.27-19.36.05:595][  0]LogMemory: Process Virtual Memory: 89.74 MB used, 89.74 MB peak
+[2019.03.27-19.36.05:595][  0]LogMemory: Physical Memory: 6468.84 MB used,  9844.77 MB free, 16313.61 MB total
+[2019.03.27-19.36.05:595][  0]LogMemory: Virtual Memory: 4649.68 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.03.27-19.36.05:610][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.27-19.36.05:610][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.27-19.36.05:611][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.27-19.36.05:923][  0]LogStreaming: Display: Took  0.313s to InitEngineTextLocalization.
+[2019.03.27-19.36.05:923][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.27-19.36.05:974][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.27-19.36.05:974][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.27-19.36.06:267][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-19.36.06:267][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.27-19.36.06:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.27-19.36.06:312][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.03.27-19.36.06:314][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.27-19.36.06:314][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.27-19.36.06:314][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.27-19.36.06:320][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.27-19.36.06:320][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.27-19.36.06:320][  0]LogWindows: EnumDisplayDevices:
+[2019.03.27-19.36.06:320][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.27-19.36.06:321][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.27-19.36.06:321][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.27-19.36.06:321][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.27-19.36.06:321][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.27-19.36.06:321][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.27-19.36.06:321][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.27-19.36.06:321][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.27-19.36.06:321][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.27-19.36.06:350][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.27-19.36.06:361][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.27-19.36.06:702][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.27-19.36.06:713][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.27-19.36.06:722][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.27-19.36.06:733][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.27-19.36.06:743][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.27-19.36.06:752][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.27-19.36.06:762][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.27-19.36.06:773][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.27-19.36.06:777][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.27-19.36.06:841][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.27-19.36.06:897][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.27-19.36.06:897][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.27-19.36.06:915][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.27-19.36.06:915][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.27-19.36.06:924][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.27-19.36.06:935][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.27-19.36.06:945][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.27-19.36.06:955][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.27-19.36.06:990][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.27-19.36.06:990][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.27-19.36.06:990][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.27-19.36.07:030][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/2596/).
+[2019.03.27-19.36.07:030][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/460B3AB248FF066EE522B8B3BA385BB2/'.
+[2019.03.27-19.36.07:031][  0]LogXGEController: Cleaning working directory: C:/Users/joeym/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.27-19.36.07:031][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.27-19.36.07:031][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.27-19.36.07:031][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.27-19.36.07:507][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.27-19.36.07:554][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.27-19.36.07:567][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.27-19.36.07:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.27-19.36.07:567][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.27-19.36.07:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.27-19.36.07:579][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.27-19.36.07:579][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.27-19.36.07:598][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.27-19.36.07:600][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.27-19.36.07:601][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.27-19.36.07:699][  0]LogAssetRegistry: FAssetRegistry took 0.0384 seconds to start up
+[2019.03.27-19.36.07:972][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-19.36.08:089][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.27-19.36.08:091][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.27-19.36.08:091][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.27-19.36.08:091][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.27-19.36.08:091][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.27-19.36.08:110][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.27-19.36.08:534][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.045243 seconds
+[2019.03.27-19.36.08:543][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.03.27-19.36.08:543][  0]LogUObjectAllocator: 6925456 out of 0 bytes used by permanent object pool.
+[2019.03.27-19.36.08:543][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.27-19.36.09:406][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.27-19.36.09:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.27-19.36.10:107][  0]SourceControl: Source control is disabled
+[2019.03.27-19.36.10:107][  0]SourceControl: Source control is disabled
+[2019.03.27-19.36.10:108][  0]SourceControl: Source control is disabled
+[2019.03.27-19.36.10:108][  0]SourceControl: Source control is disabled
+[2019.03.27-19.36.10:259][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.27-19.36.10:345][  0]LogOcInput: OculusInput pre-init called
+[2019.03.27-19.36.10:470][  0]LogEngine: Initializing Engine...
+[2019.03.27-19.36.10:471][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-19.36.10:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-19.36.10:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-19.36.10:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-19.36.10:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-19.36.10:686][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.27-19.36.10:696][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.27-19.36.10:761][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.27-19.36.10:791][  0]LogInit: FAudioDevice initialized.
+[2019.03.27-19.36.10:791][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.27-19.36.10:833][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.27-19.36.10:843][  0]LogInit: Texture streaming: Enabled
+[2019.03.27-19.36.10:855][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.27-19.36.10:855][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DF445671-4FAC-CED9-8969-D494AF7A1591}
+[2019.03.27-19.36.10:865][  0]LogInit: Transaction tracking system initialized
+[2019.03.27-19.36.10:879][  0]BlueprintLog: New page: Editor Load
+[2019.03.27-19.36.10:923][  0]LocalizationService: Localization service is disabled
+[2019.03.27-19.36.11:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/' took 0.01s
+[2019.03.27-19.36.11:316][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.27-19.36.11:316][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.27-19.36.11:316][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.27-19.36.11:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-19.36.11:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-19.36.11:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-19.36.11:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-19.36.11:958][  0]SourceControl: Source control is disabled
+[2019.03.27-19.36.11:958][  0]Cmd: MAP LOAD FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/GameLevels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.27-19.36.11:958][  0]LogEditorServer: Warning: Can't find file 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/GameLevels/MainMenu.umap'
+[2019.03.27-19.36.11:958][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.27-19.36.11:958][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,105ms to complete.
+[2019.03.27-19.36.11:959][  0]LogFileHelpers: Loading map 'MainMenu' took 0.000
+[2019.03.27-19.36.12:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-19.36.12:054][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-19.36.12:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-19.36.12:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-19.36.12:069][  0]LogCollectionManager: Loaded 0 collections in 0.000937 seconds
+[2019.03.27-19.36.12:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.27-19.36.12:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.00s
+[2019.03.27-19.36.12:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.27-19.36.12:084][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.27-19.36.12:091][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2687 classes and 638 folders.
+[2019.03.27-19.36.12:094][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.27-19.36.12:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:107][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:107][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.27-19.36.12:148][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.27-19.36.12:151][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.27-19.36.12:224][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.27-19.36.12:224][  0]LogLoad: (Engine Initialization) Total time: 8.35 seconds
+[2019.03.27-19.36.12:224][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.27-19.36.12:260][  0]LogAssetRegistry: Asset discovery search completed in 4.5834 seconds
+[2019.03.27-19.36.12:261][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.27-19.36.12:261][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2019.03.27-19.36.12:262][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.27-19.36.12:267][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.27-19.36.12:268][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.27-19.36.12:272][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.27-19.36.12:354][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.27-19.36.12:368][  1]LogRenderer: Reallocating scene render targets to support 764x404 Format 10 NumSamples 1 (Frame:1).
+[2019.03.27-19.36.13:253][ 97]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.27-19.36.13:266][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.27-19.36.15:007][192]LogRenderer: Reallocating scene render targets to support 1152x636 Format 10 NumSamples 1 (Frame:169).
+[2019.03.27-19.36.21:972][ 17]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.27-19.36.21:973][ 17]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.27-19.36.22:122][ 17]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.27-19.36.22:122][ 17]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.27-19.36.24:130][ 17]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.27-19.36.24:541][ 17]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.27-19.36.25:365][ 17]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.27-19.36.25:925][ 18]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.27-19.36.57:644][ 19]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.27-19.36.59:840][247]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-19.37.00:473][247]LogBlueprint: Error: [Compiler PixelFarm_Farmer] The type of  Array  is undetermined.  Connect something to  ForEachLoopWithBreak  to imply a specific type.
+[2019.03.27-19.37.00:473][247]LogBlueprint: Error: [Compiler PixelFarm_Farmer] The type of  Target Array generated from expanding ForEachLoopWithBreak  is undetermined.  Connect something to  Length generated from expanding ForEachLoopWithBreak  to imply a specific type.
+[2019.03.27-19.37.00:610][247]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.37.00:611][247]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.37.00:611][247]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.37.00:611][247]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.37.00:865][247]LogBlueprint: Warning: [Compiler PixelFarm_Farmer] [0056,99] Compile of PixelFarm_Farmer failed. 2 Fatal Issue(s) 0 Warning(s) [in 1.024 ms] (/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer)
+[2019.03.27-19.37.11:047][301]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.C_ScrollMechanic
+[2019.03.27-19.37.36:004][782]LogRenderer: Reallocating scene render targets to support 1152x772 Format 10 NumSamples 1 (Frame:1).
+[2019.03.27-19.37.42:044][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.27-19.37.43:223][473]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.USTRUCT_PlayerHand
+[2019.03.27-19.37.43:717][523]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ToolData.USTRUCT_ToolData
+[2019.03.27-19.38.09:299][219]LogSlate: Window 'USTRUCT_ToolData' being destroyed
+[2019.03.27-19.38.09:302][219]LogSlate: Window 'USTRUCT_ToolData' being destroyed
+[2019.03.27-19.38.13:260][674]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.27-19.38.31:183][102]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.03.27-19.38.35:587][485]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.27-19.38.35:592][485]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.27-19.38.41:391][ 75]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-19.38.42:117][ 75]LogClass: Warning: Type mismatch in ToolData of PixelFarm_Farmer_C - Previous (BoolProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.27-19.38.42:151][ 75]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.38.42:152][ 75]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.38.42:152][ 75]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.38.42:152][ 75]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.39.14:975][262]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-19.39.15:718][262]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.39.15:718][262]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.39.15:718][262]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.39.15:718][262]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-19.46.12:303][861]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.034
+[2019.03.27-19.46.12:305][861]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer] ([1] browsable assets)...
+[2019.03.27-19.46.12:316][861]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer]
+[2019.03.27-19.46.12:316][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer]
+[2019.03.27-19.46.12:574][861]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer_Auto14E1885384B8176B0AC3D2F93CF648325.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Autosaves/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer_Auto1.uasset'
+[2019.03.27-19.46.12:576][861]LogFileHelpers: Auto-saving content packages took 0.272
+[2019.03.27-20.05.23:851][586]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.027
+[2019.03.27-20.05.23:853][586]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer] ([1] browsable assets)...
+[2019.03.27-20.05.23:862][586]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer]
+[2019.03.27-20.05.23:862][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer]
+[2019.03.27-20.05.24:122][586]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer_Auto2B0F68D8647B7912AE55CD1A24B3ABE03.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Autosaves/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer_Auto2.uasset'
+[2019.03.27-20.05.24:124][586]LogFileHelpers: Auto-saving content packages took 0.271
+[2019.03.27-20.07.06:746][251]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-20.07.07:519][251]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.07:519][251]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.07:519][251]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.07:520][251]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.22:771][706]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-20.07.23:517][706]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.23:517][706]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.23:517][706]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.23:517][706]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.46:256][  0]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-20.07.46:988][  0]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.46:989][  0]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.46:989][  0]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.07.46:989][  0]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.08.09:257][159]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.ItemSlot
+[2019.03.27-20.08.39:759][777]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot636BF0E84605CD7950CDD2B52704B496.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.10.21:656][974]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot9B3A52DF450A5842E8AFBF88FB4DFC31.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.10.34:142][460]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot94D3DACC49BA76FDD8D91ABC913DA914.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.12.24:280][115]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer672422CA48FBDFD37B23ADA4C679223C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.27-20.13.23:904][421]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_FarmerFD8E40CC40233267E2D709B0BF2A93F3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.27-20.14.18:959][669]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/PixelCharacters/PixelFarmHunt/Utilities/ToolName.ToolName
+[2019.03.27-20.14.46:203][617]LogSlate: Window 'ToolName' being destroyed
+[2019.03.27-20.14.46:208][617]LogSlate: Window 'ToolName' being destroyed
+[2019.03.27-20.15.12:132][714]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.USTRUCT_PlayerHand
+[2019.03.27-20.15.24:980][203]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_13' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_13' is empty
+[2019.03.27-20.15.30:751][888]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_17' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_17' is empty
+[2019.03.27-20.16.14:408][860]LogSlate: Window 'Save Content' being destroyed
+[2019.03.27-20.16.14:697][860]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer1CCCBF09493EBB9B45283CBA8882B243.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.27-20.16.14:775][860]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/C_ScrollMechanicC903787744DF10A22450F58158DB1FBF.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.uasset'
+[2019.03.27-20.16.14:821][860]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlotA600BD094E94FE4772E357839BAA8DF1.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.16.14:875][860]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_PlayerHand31E92FC5455C27297CCF3884974CBBB2.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.uasset'
+[2019.03.27-20.16.26:672][195]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_PlayerHandB5367A344621D180B41A0288E1D132B7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.uasset'
+[2019.03.27-20.16.42:737][ 21]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_21' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_21' is empty
+[2019.03.27-20.16.48:348][683]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_25' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_25' is empty
+[2019.03.27-20.17.03:482][448]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.ItemSlot
+[2019.03.27-20.17.22:560][694]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot2F96A82249E6227CB819779A1A590860.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.17.31:098][703]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_31' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_31' is empty
+[2019.03.27-20.17.33:957][ 38]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_35' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_35' is empty
+[2019.03.27-20.17.42:907][ 99]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_ItemSlot_39' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_ItemSlot_39' is empty
+[2019.03.27-20.17.59:840][ 89]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_PlayerHand48B6B8894BDEA77CDBC8379B54AF9EDA.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.uasset'
+[2019.03.27-20.18.02:826][371]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlotD4306A354AE24788ACB64792420FAC99.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.18.13:051][594]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.18.13:055][594]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.18.15:829][922]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.USTRUCT_PlayerHand
+[2019.03.27-20.18.25:015][971]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_PlayerHandBABAA23F49D0460E3DD6F183EB3F5A56.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.uasset'
+[2019.03.27-20.18.52:093][105]LogSlate: Window 'USTRUCT_PlayerHand' being destroyed
+[2019.03.27-20.18.52:096][105]LogSlate: Window 'USTRUCT_PlayerHand' being destroyed
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:ItemSlot_38_33C93C504923E7CC9461299B60502F80' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:ParticleOnHit_31_A8E6B3A745F2450F3C66CABEB6EA06CA' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:CoolDown_29_C7BE32F54C0CBC9E1D197293F8512F3D' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:BreakSound_23_7D710C6242E728F9869563B4D4B1D27B' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:HitSound_22_49C440984638FCF3A39CED8C03B20A57' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:ToolState_21_E49981C54B5A74720DB69E91CBC35768' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:CanBeUsed_39_AC1F3D28444DFD0B6AC16C92837D0E6D' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:ToolActor_19_3CC6D83E4E7F867A73FC58A69750D875' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:Tool_ID_18_B111080249FA2899CAFBD78701A786BF' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:624][119]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.USTRUCT_ItemData:ToolName_17_EC37B9FA45B39DC9C53CC2A22A8F24FA' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_PlayerHand.PackageMetaData'
+[2019.03.27-20.19.34:670][119]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/USTRUCT_ItemDataE55ED4524B9FA6900A8508808CD28952.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/USTRUCT_ItemData.uasset'
+[2019.03.27-20.19.35:027][119]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmDebugInfo9A9ACAEE42C456BA6F09D0A48BA8F807.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/FarmDebugInfo.uasset'
+[2019.03.27-20.19.35:302][119]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer8EDF4CDB4F66DE55DC9DEDB42F3A9231.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.27-20.19.35:373][119]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/C_ScrollMechanic7B9415494D9E4EF3524755BF3F207D57.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.uasset'
+[2019.03.27-20.19.35:416][119]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot1FE08EB24D9AF4531967C6B0274FEE51.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.19.36:762][274]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/MyPlayerHand.MyPlayerHand
+[2019.03.27-20.19.52:645][143]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MyPlayerHandD5653D314C8FA3BAB2B7A98E51E77984.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/MyPlayerHand.uasset'
+[2019.03.27-20.19.53:926][258]LogSlate: Window 'MyPlayerHand' being destroyed
+[2019.03.27-20.19.53:930][258]LogSlate: Window 'MyPlayerHand' being destroyed
+[2019.03.27-20.19.57:889][731]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.ItemSlot
+[2019.03.27-20.19.59:458][910]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.19.59:462][910]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.20.17:297][ 48]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.ItemSlot
+[2019.03.27-20.21.11:226][455]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot25CF96AF4CCD495CE02FA199FE18EC4A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.21.15:204][895]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.21.15:208][895]LogSlate: Window 'ItemSlot' being destroyed
+[2019.03.27-20.21.22:942][819]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PixelFarm_Farmer
+[2019.03.27-20.21.25:898][ 10]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-20.21.26:410][ 10]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Actors to Interact  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.21.26:410][ 10]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Tool Tag  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.21.26:410][ 10]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Is Breakable  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.21.26:681][ 10]LogBlueprint: Warning: [Compiler C_ScrollMechanic] [2722,81] Compile of C_ScrollMechanic failed. 3 Fatal Issue(s) 0 Warning(s) [in 710 ms] (/Game/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.C_ScrollMechanic)
+[2019.03.27-20.21.26:683][ 10]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.21.26:683][ 10]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.21.26:683][ 10]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.21.26:683][ 10]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.21.40:305][253]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.ItemSlot
+[2019.03.27-20.22.00:925][666]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot3141A7A646FD7A7A3E880BAE0954280D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.22.17:005][583]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/ItemSlot102864B34F5B7F8404B7B8801C912274.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/ItemSlot.uasset'
+[2019.03.27-20.22.39:558][637]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.03.27-20.23.17:544][182]BlueprintLog: New page: Compile PixelFarm_Farmer
+[2019.03.27-20.23.18:050][182]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Actors to Interact  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.23.18:050][182]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Tool Tag  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.23.18:050][182]LogBlueprint: Error: [Compiler C_ScrollMechanic] In use pin  Is Breakable  no longer exists on node  Make USTRUCT_ItemData . Please refresh node or break links to remove pin.
+[2019.03.27-20.23.18:304][182]LogBlueprint: Warning: [Compiler C_ScrollMechanic] [2834,43] Compile of C_ScrollMechanic failed. 3 Fatal Issue(s) 0 Warning(s) [in 687 ms] (/Game/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.C_ScrollMechanic)
+[2019.03.27-20.23.18:308][182]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.23.18:308][182]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.23.18:308][182]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.23.18:308][182]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.27-20.23.21:265][425]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/PixelCharacters/PixelFarmHunt/Utilities/MyPlayerHand.MyPlayerHand
+[2019.03.27-20.23.26:951][ 67]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MyPlayerHand0D0227FD46AA5F294EFACF9091B77F94.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/MyPlayerHand.uasset'
+[2019.03.27-20.23.32:325][575]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.03.27-20.23.32:325][575]LogWindows: Windows GetLastError: De bewerking is voltooid. (0)
