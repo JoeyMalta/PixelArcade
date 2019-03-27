@@ -1,4 +1,4 @@
-﻿Log file open, 03/27/19 23:47:15
+﻿Log file open, 03/28/19 00:47:58
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PixelArcade
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.261677
+LogStats: Stats thread started at 0.262332
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -99,7 +99,7 @@ LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin AdvancedSessions
 LogPluginManager: Mounting plugin AdvancedSteamSessions
-LogStreaming: Display: Took  0.046s to configure plugins.
+LogStreaming: Display: Took  0.056s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -132,7 +132,7 @@ LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  /Game/PixelWorlds/PixelMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Command Line:  /Game/PixelWorlds/PixelLobby -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
@@ -158,343 +158,701 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.27-22.47.16:030][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.03.27-22.47.16:030][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.27-22.47.16:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:030][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.27-22.47.16:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:030][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.27-22.47.16:031][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:031][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:040][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.27-22.47.16:040][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.27-22.47.16:041][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.27-22.47.16:041][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.27-22.47.16:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.27-22.47.16:044][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.27-22.47.16:044][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.27-22.47.16:044][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.27-22.47.16:044][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.27-22.47.16:045][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.27-22.47.16:045][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.27-22.47.16:046][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
-[2019.03.27-22.47.16:046][  0]LogInit: Computer: JOEYCOMPUTER
-[2019.03.27-22.47.16:046][  0]LogInit: User: joeym
-[2019.03.27-22.47.16:046][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.27-22.47.16:046][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.27-22.47.16:046][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.27-22.47.16:046][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.27-22.47.16:046][  0]LogMemory: Process Physical Memory: 133.39 MB used, 133.39 MB peak
-[2019.03.27-22.47.16:046][  0]LogMemory: Process Virtual Memory: 99.89 MB used, 99.89 MB peak
-[2019.03.27-22.47.16:046][  0]LogMemory: Physical Memory: 8895.38 MB used,  7418.23 MB free, 16313.61 MB total
-[2019.03.27-22.47.16:046][  0]LogMemory: Virtual Memory: 4773.31 MB used,  134212952.00 MB free, 134217728.00 MB total
-[2019.03.27-22.47.16:074][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.27-22.47.16:074][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.27-22.47.16:075][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.27-22.47.16:075][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.27-22.47.16:377][  0]LogStreaming: Display: Took  0.304s to InitEngineTextLocalization.
-[2019.03.27-22.47.16:404][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.27-22.47.16:404][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.27-22.47.16:416][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.27-22.47.16:417][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.27-22.47.16:471][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.03.27-22.47.16:471][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.03.27-22.47.16:474][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.27-22.47.16:474][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.27-22.47.16:474][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.27-22.47.16:482][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.27-22.47.16:483][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.27-22.47.16:483][  0]LogWindows: EnumDisplayDevices:
-[2019.03.27-22.47.16:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.03.27-22.47.16:483][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.03.27-22.47.16:484][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.03.27-22.47.16:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.03.27-22.47.16:484][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.27-22.47.16:484][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.03.27-22.47.16:484][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
-[2019.03.27-22.47.16:484][  0]LogD3D11RHI:      Driver Date: 2-20-2019
-[2019.03.27-22.47.16:484][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.03.27-22.47.16:523][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.27-22.47.16:536][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.27-22.47.16:947][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.27-22.47.16:956][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.27-22.47.16:966][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.27-22.47.16:970][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.27-22.47.16:970][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.27-22.47.17:010][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/5156/).
-[2019.03.27-22.47.17:010][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/E3685FBE46810C0DF1EF3C876C0780D1/'.
-[2019.03.27-22.47.17:011][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.27-22.47.17:011][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.27-22.47.17:011][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.27-22.47.17:435][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.27-22.47.17:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.27-22.47.17:488][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.27-22.47.17:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.27-22.47.17:488][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.27-22.47.17:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.27-22.47.17:500][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.27-22.47.17:500][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.27-22.47.17:518][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.27-22.47.17:519][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.27-22.47.17:520][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.27-22.47.17:629][  0]LogInit: Using OS detected language (nl-NL).
-[2019.03.27-22.47.17:629][  0]LogInit: Using OS detected locale (nl-NL).
-[2019.03.27-22.47.17:629][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
-[2019.03.27-22.47.17:629][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
-[2019.03.27-22.47.17:630][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
-[2019.03.27-22.47.17:635][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2019.03.27-22.47.17:793][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.010066 seconds
-[2019.03.27-22.47.17:890][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.27-22.47.18:020][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.27-22.47.18:023][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.27-22.47.18:023][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.27-22.47.18:023][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.27-22.47.18:023][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.27-22.47.18:037][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
-[2019.03.27-22.47.18:567][  0]LogMoviePlayer: Initializing movie player
-[2019.03.27-22.47.18:684][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.27-22.47.18:696][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.27-22.47.18:764][  0]LogCollectionManager: Loaded 0 collections in 0.000950 seconds
-[2019.03.27-22.47.18:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
-[2019.03.27-22.47.18:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.01s
-[2019.03.27-22.47.18:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
-[2019.03.27-22.47.18:788][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.27-22.47.18:788][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2019.03.27-22.47.18:822][  0]SourceControl: Source control is disabled
-[2019.03.27-22.47.18:822][  0]SourceControl: Source control is disabled
-[2019.03.27-22.47.18:823][  0]SourceControl: Source control is disabled
-[2019.03.27-22.47.18:943][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.27-22.47.19:037][  0]LogOcInput: OculusInput pre-init called
-[2019.03.27-22.47.19:046][  0]LogUObjectArray: 44021 objects as part of root set at end of initial load.
-[2019.03.27-22.47.19:046][  0]LogUObjectAllocator: 7742944 out of 0 bytes used by permanent object pool.
-[2019.03.27-22.47.19:046][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.27-22.47.19:159][  0]LogEngine: Initializing Engine...
-[2019.03.27-22.47.19:159][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.27-22.47.19:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.27-22.47.19:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.27-22.47.19:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.27-22.47.19:172][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.27-22.47.19:321][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.27-22.47.19:339][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.27-22.47.19:373][  0]LogInit: FAudioDevice initialized.
-[2019.03.27-22.47.19:385][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.27-22.47.19:388][  0]LogInit: Texture streaming: Enabled
-[2019.03.27-22.47.19:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.27-22.47.19:514][  0]LogInit: Display: Game Engine Initialized.
-[2019.03.27-22.47.19:514][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.27-22.47.19:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.27-22.47.19:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.27-22.47.19:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.27-22.47.19:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.27-22.47.19:530][  0]LogInit: Display: Starting Game.
-[2019.03.27-22.47.19:530][  0]LogNet: Browse: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.27-22.47.19:530][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelMenu?Name=Player
-[2019.03.27-22.47.19:618][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
-[2019.03.27-22.47.19:618][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
-[2019.03.27-22.47.19:692][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
-[2019.03.27-22.47.19:692][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
-[2019.03.27-22.47.20:727][  0]LogAIModule: Creating AISystem for world PixelMenu
-[2019.03.27-22.47.20:728][  0]LogLoad: Game class is 'GM_PixelMenu_C'
-[2019.03.27-22.47.20:733][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelMenu.PixelMenu up for play (max tick rate 0) at 2019.03.27-23.47.20
-[2019.03.27-22.47.20:734][  0]LogWorld: Bringing up level for play took: 0.005156
-[2019.03.27-22.47.21:000][  0]LogLoad: Took 1.469849 seconds to LoadMap(/Game/PixelWorlds/PixelMenu)
-[2019.03.27-22.47.21:051][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.03.27-22.47.21:051][  0]LogLoad: (Engine Initialization) Total time: 6.91 seconds
-[2019.03.27-22.47.21:051][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.27-22.47.21:086][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:706][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.27-23.47.58:706][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.27-23.47.58:707][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:707][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.27-23.47.58:715][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.27-23.47.58:716][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.27-23.47.58:716][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-23.47.58:716][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.27-23.47.58:719][  0]LogHAL: Display: Platform has ~ 16 GB [17106059264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.27-23.47.58:719][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.27-23.47.58:719][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.27-23.47.58:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.27-23.47.58:720][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.27-23.47.58:721][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Scalability.ini]
+[2019.03.27-23.47.58:721][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.27-23.47.58:721][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.27-23.47.58:721][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.27-23.47.58:721][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.27-23.47.58:721][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Config/Windows/Engine.ini]
+[2019.03.27-23.47.58:721][  0]LogInit: Computer: JOEYCOMPUTER
+[2019.03.27-23.47.58:721][  0]LogInit: User: joeym
+[2019.03.27-23.47.58:721][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.27-23.47.58:721][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.27-23.47.58:721][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.27-23.47.58:721][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.27-23.47.58:721][  0]LogMemory: Process Physical Memory: 133.36 MB used, 133.36 MB peak
+[2019.03.27-23.47.58:721][  0]LogMemory: Process Virtual Memory: 99.88 MB used, 99.88 MB peak
+[2019.03.27-23.47.58:721][  0]LogMemory: Physical Memory: 8782.39 MB used,  7531.22 MB free, 16313.61 MB total
+[2019.03.27-23.47.58:721][  0]LogMemory: Virtual Memory: 4773.31 MB used,  134212952.00 MB free, 134217728.00 MB total
+[2019.03.27-23.47.58:752][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.27-23.47.58:752][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.27-23.47.58:752][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.27-23.47.58:753][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.27-23.47.59:085][  0]LogStreaming: Display: Took  0.333s to InitEngineTextLocalization.
+[2019.03.27-23.47.59:115][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.27-23.47.59:115][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.27-23.47.59:128][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-23.47.59:128][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.27-23.47.59:182][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.03.27-23.47.59:182][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.03.27-23.47.59:185][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.27-23.47.59:185][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.27-23.47.59:185][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.27-23.47.59:194][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.27-23.47.59:194][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.27-23.47.59:194][  0]LogWindows: EnumDisplayDevices:
+[2019.03.27-23.47.59:195][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.03.27-23.47.59:195][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.27-23.47.59:195][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.03.27-23.47.59:195][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.03.27-23.47.59:195][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.27-23.47.59:195][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.03.27-23.47.59:195][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.27-23.47.59:195][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.27-23.47.59:195][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.03.27-23.47.59:231][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.27-23.47.59:241][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.27-23.47.59:626][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.27-23.47.59:636][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.27-23.47.59:645][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.27-23.47.59:650][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.27-23.47.59:650][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.27-23.47.59:687][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Intermediate/Shaders/WorkingDirectory/17484/).
+[2019.03.27-23.47.59:688][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joeym/AppData/Local/Temp/UnrealShaderWorkingDir/9FAF432B43090800B8FD9A94019B348B/'.
+[2019.03.27-23.47.59:689][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.27-23.47.59:689][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.27-23.47.59:689][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.27-23.48.00:115][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joeym/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.27-23.48.00:152][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.27-23.48.00:165][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.27-23.48.00:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.27-23.48.00:165][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.27-23.48.00:177][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joeym/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.27-23.48.00:177][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.27-23.48.00:177][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.27-23.48.00:194][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.27-23.48.00:195][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.27-23.48.00:196][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.27-23.48.00:292][  0]LogInit: Using OS detected language (nl-NL).
+[2019.03.27-23.48.00:292][  0]LogInit: Using OS detected locale (nl-NL).
+[2019.03.27-23.48.00:292][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2019.03.27-23.48.00:292][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2019.03.27-23.48.00:293][  0]LogStreaming: Display: Took  0.001s to InitGameTextLocalization.
+[2019.03.27-23.48.00:297][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2019.03.27-23.48.00:470][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.013948 seconds
+[2019.03.27-23.48.00:555][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.27-23.48.00:674][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.27-23.48.00:676][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.27-23.48.00:676][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.27-23.48.00:676][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.27-23.48.00:676][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.27-23.48.00:686][  0]LogNetVersion: PixelArcade 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3322908292)
+[2019.03.27-23.48.01:177][  0]LogMoviePlayer: Initializing movie player
+[2019.03.27-23.48.01:280][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.27-23.48.01:292][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.27-23.48.01:358][  0]LogCollectionManager: Loaded 0 collections in 0.000736 seconds
+[2019.03.27-23.48.01:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.27-23.48.01:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Developers/joeym/Collections/' took 0.01s
+[2019.03.27-23.48.01:383][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.27-23.48.01:383][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.27-23.48.01:383][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
+[2019.03.27-23.48.01:412][  0]SourceControl: Source control is disabled
+[2019.03.27-23.48.01:412][  0]SourceControl: Source control is disabled
+[2019.03.27-23.48.01:412][  0]SourceControl: Source control is disabled
+[2019.03.27-23.48.01:530][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.27-23.48.01:631][  0]LogOcInput: OculusInput pre-init called
+[2019.03.27-23.48.01:638][  0]LogUObjectArray: 44021 objects as part of root set at end of initial load.
+[2019.03.27-23.48.01:638][  0]LogUObjectAllocator: 7742944 out of 0 bytes used by permanent object pool.
+[2019.03.27-23.48.01:638][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.27-23.48.01:762][  0]LogEngine: Initializing Engine...
+[2019.03.27-23.48.01:763][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.27-23.48.01:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-23.48.01:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-23.48.01:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-23.48.01:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-23.48.01:917][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.27-23.48.01:934][  0]LogInit: XAudio2 using 'luidspreker/Hoofdtelefoon (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.27-23.48.01:968][  0]LogInit: FAudioDevice initialized.
+[2019.03.27-23.48.01:980][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.27-23.48.01:985][  0]LogInit: Texture streaming: Enabled
+[2019.03.27-23.48.02:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-23.48.02:120][  0]LogInit: Display: Game Engine Initialized.
+[2019.03.27-23.48.02:120][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.27-23.48.02:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.27-23.48.02:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.27-23.48.02:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.27-23.48.02:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.27-23.48.02:135][  0]LogInit: Display: Starting Game.
+[2019.03.27-23.48.02:135][  0]LogNet: Browse: /Game/PixelWorlds/PixelLobby?Name=Player
+[2019.03.27-23.48.02:135][  0]LogLoad: LoadMap: /Game/PixelWorlds/PixelLobby?Name=Player
+[2019.03.27-23.48.02:195][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.27-23.48.02:196][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.27-23.48.02:276][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.27-23.48.02:276][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.27-23.48.03:242][  0]LogAIModule: Creating AISystem for world PixelLobby
+[2019.03.27-23.48.03:243][  0]LogLoad: Game class is 'GM_PixelLobby_C'
+[2019.03.27-23.48.03:244][  0]LogWorld: Bringing World /Game/PixelWorlds/PixelLobby.PixelLobby up for play (max tick rate 0) at 2019.03.28-00.48.03
+[2019.03.27-23.48.03:244][  0]LogWorld: Bringing up level for play took: 0.000557
+[2019.03.27-23.48.03:245][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.03.27-23.48.03:364][  0]LogLoad: Took 1.229360 seconds to LoadMap(/Game/PixelWorlds/PixelLobby)
+[2019.03.27-23.48.03:420][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.03.27-23.48.03:420][  0]LogLoad: (Engine Initialization) Total time: 6.47 seconds
+[2019.03.27-23.48.03:420][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.27-23.48.03:440][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.27-23.48.05:308][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.27-23.48.06:152][163]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve FarmHunt.umap.
+[2019.03.27-23.48.06:235][163]LogPackageName: SearchForPackageOnDisk took   0.082s to resolve FarmHunt.umap.
+[2019.03.27-23.48.06:235][163]LogNet: Browse: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.27-23.48.06:235][163]LogLoad: LoadMap: /Game/PixelWorlds/FarmHunt?listen
+[2019.03.27-23.48.07:418][163]LogAIModule: Creating AISystem for world FarmHunt
+[2019.03.27-23.48.07:418][163]LogLoad: Game class is 'GM_FarmHunt_C'
+[2019.03.27-23.48.07:418][163]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.27-23.48.07:418][163]LogTemp: Display: ParseSettings for SteamNetDriver_0
+[2019.03.27-23.48.07:418][163]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.27-23.48.07:418][163]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.27-23.48.07:419][163]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.03.27-23.48.07:419][163]LogNet: Display: SteamNetDriver_0 bound to port 7777
+[2019.03.27-23.48.07:419][163]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.27-23.48.07:419][163]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2019.03.27-23.48.07:432][163]LogWorld: Bringing World /Game/PixelWorlds/FarmHunt.FarmHunt up for play (max tick rate 0) at 2019.03.28-00.48.07
+[2019.03.27-23.48.07:432][163]LogOnlineIdentity: STEAM: Obtained steam authticket
+[2019.03.27-23.48.07:534][163]LogWorld: Bringing up level for play took: 0.114858
+[2019.03.27-23.48.07:535][163]LogOnlineSession: Warning: STEAM: No game present to join for session (GameSession)
+[2019.03.27-23.48.07:537][163]LogLoad: Took 1.302912 seconds to LoadMap(/Game/PixelWorlds/FarmHunt)
+[2019.03.27-23.48.07:538][163]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:538][163]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:545][164]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:546][164]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:577][165]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:577][165]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:593][166]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:593][166]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:609][167]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:609][167]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:625][168]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:625][168]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:642][169]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:642][169]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:658][170]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:658][170]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:674][171]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:674][171]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:690][172]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:690][172]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:706][173]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:706][173]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:722][174]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:722][174]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:738][175]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:738][175]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:755][176]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:755][176]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:771][177]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:771][177]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:787][178]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:787][178]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.07:803][179]LogScript: Warning: Accessed None trying to read property MyPlayer
+	Well_C /Game/PixelWorlds/FarmHunt.FarmHunt:PersistentLevel.Well_2
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well:0242
+[2019.03.27-23.48.07:803][179]LogScript: Warning: Script call stack:
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ReceiveTick
+	Function /Game/PixelActors/PixelFarm/Well.Well_C:ExecuteUbergraph_Well
+
+[2019.03.27-23.48.13:647][529]LogSlate: Window 'PixelArcade (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.03.27-23.48.13:648][529]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.27-23.48.13:651][529]LogOnlineSession: Warning: STEAM: No game present to leave for session (GameSession)
+[2019.03.27-23.48.13:651][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-23.48.13:651][529]LogEngine: All Windows Closed
+[2019.03.27-23.48.13:651][529]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.03.27-23.48.13:657][530]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2019.03.27-23.48.13:657][530]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2019.03.27-23.48.13:658][530]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2019.03.27-23.48.13:773][530]LogExit: Preparing to exit.
+[2019.03.27-23.48.13:773][530]LogMoviePlayer: Shutting down movie player
+[2019.03.27-23.48.14:312][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.27-23.48.14:337][530]LogExit: Game engine shut down
+[2019.03.27-23.48.14:395][530]LogExit: Object subsystem successfully closed.
+[2019.03.27-23.48.14:410][530]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.27-23.48.14:411][530]LogD3D11RHI: Shutdown
+[2019.03.27-23.48.14:411][530]LogD3D11RHI: CleanupD3DDevice
+[2019.03.27-23.48.14:412][530]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (396)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module SequenceRecorder (394)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module AutomationController (392)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module AutomationWorker (390)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module Voice (388)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module AIModule (386)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module NavigationSystem (381)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (378)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (376)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module WebMMedia (374)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (372)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (370)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (368)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (366)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (364)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module CharacterAI (362)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module SessionServices (360)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (358)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2019.03.27-23.48.14:418][530]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (344)
+[2019.03.27-23.48.14:419][530]LogModuleManager: Shutting down and abandoning module ProfilerService (342)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module TaskGraph (340)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module SteamVRController (338)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (336)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module OculusInput (334)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (332)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module EditableMesh (330)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (328)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module CableComponent (326)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module AudioCapture (324)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (322)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module AndroidPermission (320)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (316)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (314)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module MediaCompositing (312)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module LinearTimecode (310)
+[2019.03.27-23.48.14:432][530]LogModuleManager: Shutting down and abandoning module ImgMedia (308)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module HTML5Networking (306)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (304)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (303)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module BackChannel (296)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module AppleVision (294)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (292)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module AppleImageUtils (290)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module VariantManagerContent (288)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (286)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module CryptoKeys (284)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (282)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (278)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module SourceControl (271)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (268)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (266)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (264)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module AdvancedSessions (262)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (252)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2019.03.27-23.48.14:434][530]LogModuleManager: Shutting down and abandoning module CollectionManager (250)
+[2019.03.27-23.48.14:435][530]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (249)
+[2019.03.27-23.48.14:435][530]LogModuleManager: Shutting down and abandoning module ApexDestruction (244)
+[2019.03.27-23.48.14:435][530]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.03.27-23.48.14:435][530]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.03.27-23.48.14:536][530]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2019.03.27-23.48.15:288][530]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2019.03.27-23.48.15:289][530]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (216)
+[2019.03.27-23.48.15:289][530]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.03.27-23.48.15:289][530]LogModuleManager: Shutting down and abandoning module Media (213)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2019.03.27-23.48.15:295][530]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2019.03.27-23.48.15:296][530]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2019.03.27-23.48.15:296][530]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2019.03.27-23.48.15:296][530]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2019.03.27-23.48.15:296][530]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2019.03.27-23.48.15:296][530]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module Core (156)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (132)
+[2019.03.27-23.48.15:297][530]LogModuleManager: Shutting down and abandoning module DerivedDataCache (130)
+[2019.03.27-23.48.15:682][530]LogDerivedDataCache: Shutdown
+[2019.03.27-23.48.15:682][530]LogModuleManager: Shutting down and abandoning module XGEController (128)
+[2019.03.27-23.48.15:682][530]LogModuleManager: Shutting down and abandoning module TargetPlatform (126)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (125)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (123)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (121)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (119)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (117)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (115)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (113)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (111)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (109)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (103)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (101)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (99)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (97)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (95)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (93)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (91)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (89)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.03.27-23.48.15:683][530]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.03.27-23.48.15:683][530]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.03.27-23.48.15:683][530]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.27-23.48.15:683][530]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2019.03.27-23.48.15:731][530]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.03.27-23.48.15:731][530]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.27-23.48.15:731][530]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.27-23.48.15:747][530]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.27-23.48.15:765][530]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.27-23.48.15:766][530]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.27-23.48.15:766][530]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.27-23.48.15:767][530]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.27-23.48.15:768][530]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.27-23.48.15:768][530]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.27-23.48.15:771][530]LogExit: Exiting.
+[2019.03.27-23.48.15:780][530]Log file closed, 03/28/19 00:48:15
