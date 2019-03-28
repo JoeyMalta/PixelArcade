@@ -499,3 +499,70 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.28-10.23.48:675][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
 [2019.03.28-10.23.48:675][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
 [2019.03.28-10.23.48:675][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.28-10.23.49:604][  0]SourceControl: Source control is disabled
+[2019.03.28-10.23.49:604][  0]Cmd: MAP LOAD FILE="../../../../../../Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/PixelWorlds/PixelMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.28-10.23.49:605][  0]LightingResults: New page: Lighting Build
+[2019.03.28-10.23.49:610][  0]MapCheck: New page: Map Check
+[2019.03.28-10.23.49:610][  0]LightingResults: New page: Lighting Build
+[2019.03.28-10.23.49:866][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.28-10.23.49:867][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base_Icon'
+[2019.03.28-10.23.50:203][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.28-10.23.50:204][  0]LogLinker: Can't find file '/Game/SimpleInventory/Item_Base'
+[2019.03.28-10.23.54:544][  0]LogAIModule: Creating AISystem for world PixelMenu
+[2019.03.28-10.23.54:563][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.28-10.23.54:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.28-10.23.54:614][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.362ms to complete.
+[2019.03.28-10.23.54:614][  0]LogFileHelpers: Loading map 'PixelMenu' took 5.010
+[2019.03.28-10.23.54:721][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.28-10.23.54:735][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.28-10.23.54:747][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.28-10.23.54:761][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.28-10.23.54:771][  0]LogCollectionManager: Loaded 0 collections in 0.003133 seconds
+[2019.03.28-10.23.54:790][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Saved/Collections/' took 0.01s
+[2019.03.28-10.23.54:790][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Developers/joey/Collections/' took 0.00s
+[2019.03.28-10.23.54:790][  0]LogFileCache: Scanning file cache for directory 'C:/Users/joey.JOEY-PC/Documents/Unreal Projects/PixelArcade/PixelArcade/Content/Collections/' took 0.00s
+[2019.03.28-10.23.54:790][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.28-10.23.54:804][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2689 classes and 641 folders.
+[2019.03.28-10.23.54:815][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.28-10.23.54:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:818][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:820][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:822][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:824][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:826][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.28-10.23.54:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.28-10.23.54:899][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.28-10.23.55:067][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.28-10.23.55:071][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.28-10.23.55:079][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.28-10.23.55:263][  0]LogRenderer: Reallocating scene render targets to support 912x528 Format 9 NumSamples 1 (Frame:1).
+[2019.03.28-10.23.55:376][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.28-10.23.55:570][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.28-10.23.55:570][  0]LogLoad: (Engine Initialization) Total time: 20.44 seconds
+[2019.03.28-10.23.55:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.28-10.23.55:667][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.03.28-10.23.56:228][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.28-10.23.57:664][  4]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.28-10.23.59:626][ 23]LogAssetRegistry: Asset discovery search completed in 17.2963 seconds
+[2019.03.28-10.23.59:629][ 23]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.28-10.23.59:629][ 23]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000099 seconds (updated 0 objects)
