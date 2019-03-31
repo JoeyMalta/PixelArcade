@@ -622,3 +622,782 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.03.31-21.16.54:873][776]LogAIModule: Creating AISystem for world StarterMap
 [2019.03.31-21.17.37:429][776]LogSlate: Window 'Delete Assets' being destroyed
 [2019.03.31-21.17.37:463][776]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.31-21.18.10:713][215]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (26.450 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:LoadingScreenWidget' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:WidgetSwitcher' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:DefaultSceneRoot' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:RotatingMovement' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C:UserConstructionScript' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.SKEL_MM_Player_C' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:LoadingScreenWidget' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:WidgetSwitcher' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:DefaultSceneRoot' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:RotatingMovement' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:UserConstructionScript' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:OnSuccess_69B9905D4DBC8CC6F49A35B03D1DD00C' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:575][608]LogMetaData: Removing '/Game/MyMenu/Widget_Players/MM_Player.MM_Player_C:OnFailure_69B9905D4DBC8CC6F49A35B03D1DD00C' ref from Metadata '/Game/MyMenu/MM_Player/MM_Player.PackageMetaData'
+[2019.03.31-21.20.33:647][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/Widget_Players/MM_Player" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/MM_Player.uasset" SILENT=true
+[2019.03.31-21.20.33:829][608]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_PlayerDECCF82C427B3B2DD986359055B36E94.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/MM_Player.uasset'
+[2019.03.31-21.20.34:028][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.31-21.20.34:124][608]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_ButtonB5BB52964960EE3FE594C2B8097A5F27.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.31-21.20.34:128][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_CharSelect" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset" SILENT=true
+[2019.03.31-21.20.34:191][608]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_CharSelect305BEE5B4E7DB9C40DD6F096F1DB4B4C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset'
+[2019.03.31-21.20.34:195][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelMenu.uasset" SILENT=true
+[2019.03.31-21.20.34:231][608]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_PixelMenu839D7F74458D34F0DE669EABDC11AF4C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelMenu.uasset'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.SKEL_DefaultPawnChar_C:ReceiveBeginPlay' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.SKEL_DefaultPawnChar_C:DefaultSceneRoot' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.SKEL_DefaultPawnChar_C:UserConstructionScript' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.SKEL_DefaultPawnChar_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar_C:DefaultSceneRoot' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar_C:ReceiveBeginPlay' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:672][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar_C:UserConstructionScript' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/DefaultPawnChar.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.SKEL_LobbyPawn_C:ReceiveBeginPlay' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.SKEL_LobbyPawn_C:DefaultSceneRoot' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.SKEL_LobbyPawn_C:UserConstructionScript' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.SKEL_LobbyPawn_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn_C:DefaultSceneRoot' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn_C:ReceiveBeginPlay' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:679][235]LogMetaData: Removing '/Game/MyMenu/Widget_Players/LobbyPawn.LobbyPawn_C:UserConstructionScript' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/LobbyPawn.PackageMetaData'
+[2019.03.31-21.21.13:693][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/Widget_Players/DefaultPawnChar" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/DefaultPawnChar.uasset" SILENT=true
+[2019.03.31-21.21.13:703][235]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/DefaultPawnCharA38E1A5C45957ABFE01E29936C87D0F8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/DefaultPawnChar.uasset'
+[2019.03.31-21.21.13:707][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/Widget_Players/LobbyPawn" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/LobbyPawn.uasset" SILENT=true
+[2019.03.31-21.21.13:718][235]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/LobbyPawnE02381C2412F5AD4D7C0DA8BE775D9C0.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/Widget_Players/LobbyPawn.uasset'
+[2019.03.31-21.21.13:914][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.31-21.21.13:948][235]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHunt6818B71A4C32D0A256BC4798E112CB87.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.31-21.21.13:952][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_PixelLobby" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelLobby.uasset" SILENT=true
+[2019.03.31-21.21.13:970][235]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_PixelLobbyF51BB34542770DE4AABE2999A538FC23.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_PixelLobby.uasset'
+[2019.03.31-21.21.13:973][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_CharSelect" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset" SILENT=true
+[2019.03.31-21.21.14:032][235]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_CharSelect040AFF26434D880B85E6ED99C8B9BA71.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset'
+[2019.03.31-21.23.07:020][211]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.07:020][211]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Add Item To Inventory.K2Node_FunctionEntry_82' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Add Item To Inventory.K2Node_FunctionResult_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Add New Item without stack attempt.K2Node_Tunnel_86' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Add New Item without stack attempt.K2Node_Tunnel_87' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:CheckAvailableSpace.K2Node_Tunnel_26' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:CheckAvailableSpace.K2Node_Tunnel_27' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Clean Up.K2Node_FunctionEntry_262' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Create Inventory UI.K2Node_FunctionEntry_38' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Create Item Added Message.K2Node_FunctionEntry_168' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Create ItemBase.K2Node_FunctionEntry_165' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Create ItemBase.K2Node_FunctionResult_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Decrement Item From Stack.K2Node_Tunnel_410' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Decrement Item From Stack.K2Node_Tunnel_411' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Dismantle Item.K2Node_FunctionEntry_530' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Drop Item.K2Node_FunctionEntry_476' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Fill Stacks and Spawn Remainder.K2Node_FunctionEntry_30' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Increment Interaction TImer.K2Node_FunctionEntry_20' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Interaction Input Pressed.K2Node_FunctionEntry_72' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Inventory Input Pressed.K2Node_FunctionEntry_37' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Is Inventory Fulll?.K2Node_Tunnel_82' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Is Inventory Fulll?.K2Node_Tunnel_83' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Purge Items from Stack.K2Node_FunctionEntry_433' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Refresh Inventory UI List.K2Node_FunctionEntry_198' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Remove Inventory UI.K2Node_FunctionEntry_57' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Reset Interaction Timer.K2Node_FunctionEntry_2' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Reset Matching Variables.K2Node_Tunnel_26' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Reset Matching Variables.K2Node_Tunnel_27' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Spawn Items From Inventory.K2Node_FunctionEntry_448' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Split up stack.K2Node_FunctionEntry_40' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Subtract Item.K2Node_Tunnel_176' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Subtract Item.K2Node_Tunnel_177' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Use Item.K2Node_FunctionEntry_525' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Eat Item.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.Farmer_Inventory:Drink Item.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:515][211]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.SKEL_Farmer_Inventory_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.PackageMetaData'
+[2019.03.31-21.23.07:729][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Farmer_InventoryC8A3AF4A47EEEC95A3BA098634A14AD4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.uasset'
+[2019.03.31-21.23.08:175][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Farmer1D7C3BF84EA41306D0BE0CA0F04E233F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.uasset'
+[2019.03.31-21.23.08:224][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Backpack6927C7B04644F4C1B22DCC85791F2AA4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Backpack.uasset'
+[2019.03.31-21.23.08:326][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base6F5F9EC044FE1E2991BB91B249B2841A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.uasset'
+[2019.03.31-21.23.08:382][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_WheatFA9EA6CD4B3581F4D4238F9FB02BFD55.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-21.23.08:386][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_List_Item" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset" SILENT=true
+[2019.03.31-21.23.08:437][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_List_Item6CDFE3FD48D33DEC6B4E8C85F58349A8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset'
+[2019.03.31-21.23.08:441][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_Screen" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset" SILENT=true
+[2019.03.31-21.23.08:481][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_Screen3B5A9F8A49E50B97E45A66B5F71CB294.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset'
+[2019.03.31-21.23.08:485][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_Context_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset" SILENT=true
+[2019.03.31-21.23.08:515][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Context_ButtonC4FD79F34D4E3D5716948BBD2245D50C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset'
+[2019.03.31-21.23.08:519][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_QuantitySlider" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset" SILENT=true
+[2019.03.31-21.23.08:552][211]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_QuantitySlider834F3BD14232E614021F61B69D6B44C1.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset'
+[2019.03.31-21.23.34:696][170]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.34:696][170]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:BasicChecksAttack.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:BasicChecksAttack.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasCarrotSeed].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasCarrotSeed].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHayBale].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHayBale].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHayCrop].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHayCrop].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHaySeed].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasHaySeed].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasNoSeeds].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HasNoSeeds].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HoldingBucket].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:Note[HoldingBucket].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:TraceLocation.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:TraceLocation.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:ToolUpdateCheck.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:ToolUpdateCheck.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:ToolItemCheck.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PixelFarm_Master:ToolItemCheck.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:105][170]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.SKEL_PixelFarm_Master_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Farmer.PackageMetaData'
+[2019.03.31-21.23.37:412][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Master9F14783C47000DDFF56CB98600E1EDB3.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Master.uasset'
+[2019.03.31-21.23.37:568][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Actor_Carrot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset" SILENT=true
+[2019.03.31-21.23.37:663][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Actor_Carrot3BE20730458A6683C8BD98A3D9B7FBB6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.31-21.23.37:681][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Bush" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset" SILENT=true
+[2019.03.31-21.23.37:715][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bush1F29A7E64D4552B5B150798FA04D311C.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset'
+[2019.03.31-21.23.37:755][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/CarrotBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset" SILENT=true
+[2019.03.31-21.23.37:805][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/CarrotBarrelB0ACF3A246008AB7BDA8C49898EB44D0.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset'
+[2019.03.31-21.23.37:823][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/FarmLand" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset" SILENT=true
+[2019.03.31-21.23.37:865][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLand31F2CD584A7CDCB77C44DEB94E821E39.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset'
+[2019.03.31-21.23.37:882][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Hay" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset" SILENT=true
+[2019.03.31-21.23.37:915][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Hay2EBEA5E940788B5B9DB9B2B71CB5DA59.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset'
+[2019.03.31-21.23.37:933][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBale" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset" SILENT=true
+[2019.03.31-21.23.37:972][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBaleBB09DAF84429C92BCD8227BDD16BA0C8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset'
+[2019.03.31-21.23.37:990][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset" SILENT=true
+[2019.03.31-21.23.38:037][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBarrel02A6D44941A2B87E35FDCA9DA3E83D92.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset'
+[2019.03.31-21.23.38:056][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Swarm" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset" SILENT=true
+[2019.03.31-21.23.38:117][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/SwarmD6F2685740A9761100BAD7B61644F99E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.31-21.23.38:134][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Well" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset" SILENT=true
+[2019.03.31-21.23.38:175][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Well6CA6DB7842EC16A7AAC9DFADB95657C8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset'
+[2019.03.31-21.23.38:211][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmDebugInfo84D040D44F47844214187F997011DBEE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/FarmDebugInfo.uasset'
+[2019.03.31-21.23.38:258][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Surprise1DD5970242C8C13C217D3688139C794E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Surprise.uasset'
+[2019.03.31-21.23.38:308][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/C_ScrollMechanic2A996F364C84707DCDAFDEB931443617.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.uasset'
+[2019.03.31-21.23.38:346][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bucket1C65720241D7B3E728E23DBB827C4059.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/Bucket.uasset'
+[2019.03.31-21.23.38:382][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PitchFork72D515D44BEA76E6CE85F9BCC5CF9A6B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/PitchFork.uasset'
+[2019.03.31-21.23.38:387][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.31-21.23.38:448][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Button6273FB3C46541CC6E9EF7B83AFB12BE1.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.31-21.23.38:451][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.31-21.23.38:484][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHuntF15CB34B4C32C274AEEC9AAC29B6AEB6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.31-21.23.38:489][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_CharSelect" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset" SILENT=true
+[2019.03.31-21.23.38:559][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_CharSelect9B1F2B8443DFDF863AE05F9F6982BC2A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset'
+[2019.03.31-21.23.38:600][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_BackpackF303C46B43FBAEAB22B9F08D5874CFE5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Backpack.uasset'
+[2019.03.31-21.23.38:710][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base5FFCBB0249CF62FEFC87B19FAC868B13.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.uasset'
+[2019.03.31-21.23.38:765][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_WheatC3F5116A4AAA6FDEF3221292276BFABC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-21.23.38:770][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_List_Item" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset" SILENT=true
+[2019.03.31-21.23.38:825][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_List_Item278B90AD4465350DDB822D8F239EE101.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset'
+[2019.03.31-21.23.38:828][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_Screen" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset" SILENT=true
+[2019.03.31-21.23.38:871][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_ScreenDCD5474A414107D546A18A91BA8AA114.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset'
+[2019.03.31-21.23.38:875][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_Context_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset" SILENT=true
+[2019.03.31-21.23.38:905][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Context_Button7410770842BE0E4E5663458ECB35ED54.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset'
+[2019.03.31-21.23.38:909][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_QuantitySlider" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset" SILENT=true
+[2019.03.31-21.23.38:943][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_QuantitySlider8893B02542B425225BBBF98BF8C28F0F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset'
+[2019.03.31-21.23.39:164][170]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Farmer_Inventory48B6AC8D4882349FF9A8F68923B5F37F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.uasset'
+[2019.03.31-21.23.48:795][110]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.48:795][110]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.48:796][110]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.48:796][110]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.SKEL_Inventory_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Add Item To Inventory.K2Node_FunctionEntry_82' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Add Item To Inventory.K2Node_FunctionResult_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Add New Item without stack attempt.K2Node_Tunnel_86' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Add New Item without stack attempt.K2Node_Tunnel_87' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:CheckAvailableSpace.K2Node_Tunnel_26' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:CheckAvailableSpace.K2Node_Tunnel_27' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Clean Up.K2Node_FunctionEntry_262' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Create Inventory UI.K2Node_FunctionEntry_38' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Create Item Added Message.K2Node_FunctionEntry_168' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Create ItemBase.K2Node_FunctionEntry_165' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Create ItemBase.K2Node_FunctionResult_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Decrement Item From Stack.K2Node_Tunnel_410' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Decrement Item From Stack.K2Node_Tunnel_411' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Dismantle Item.K2Node_FunctionEntry_530' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Drink Item.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Drop Item.K2Node_FunctionEntry_476' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Eat Item.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Fill Stacks and Spawn Remainder.K2Node_FunctionEntry_30' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Increment Interaction TImer.K2Node_FunctionEntry_20' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Interaction Input Pressed.K2Node_FunctionEntry_72' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Inventory Input Pressed.K2Node_FunctionEntry_37' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Is Inventory Fulll?.K2Node_Tunnel_82' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Is Inventory Fulll?.K2Node_Tunnel_83' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Purge Items from Stack.K2Node_FunctionEntry_433' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Refresh Inventory UI List.K2Node_FunctionEntry_198' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Remove Inventory UI.K2Node_FunctionEntry_57' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Reset Interaction Timer.K2Node_FunctionEntry_2' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Reset Matching Variables.K2Node_Tunnel_26' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Reset Matching Variables.K2Node_Tunnel_27' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Spawn Items From Inventory.K2Node_FunctionEntry_448' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Split up stack.K2Node_FunctionEntry_40' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Subtract Item.K2Node_Tunnel_176' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Subtract Item.K2Node_Tunnel_177' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:372][110]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory:Use Item.K2Node_FunctionEntry_525' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/Inventory/Farmer_Inventory.PackageMetaData'
+[2019.03.31-21.23.49:567][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory1C83256C4E1B41E045E66A89AE83779D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Inventory.uasset'
+[2019.03.31-21.23.49:739][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Backpack0B65B0964BAF35C6D3464C9D7B6358AD.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Backpack.uasset'
+[2019.03.31-21.23.49:844][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base0A9C67124E7DC442F4AC429F0C844B1F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.uasset'
+[2019.03.31-21.23.49:896][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat498E3FE14616CA550F4215A750D30A07.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-21.23.49:900][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_List_Item" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset" SILENT=true
+[2019.03.31-21.23.49:949][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_List_Item56D23C96447AA9045BB64C98C80863C5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset'
+[2019.03.31-21.23.49:953][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_Screen" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset" SILENT=true
+[2019.03.31-21.23.49:991][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_Screen0E950B934D5A2B9DF9D4E896AB4881AE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset'
+[2019.03.31-21.23.49:994][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_Context_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset" SILENT=true
+[2019.03.31-21.23.50:022][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Context_ButtonB2E444294B1FC53A652DE4B10750953F.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset'
+[2019.03.31-21.23.50:026][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_QuantitySlider" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset" SILENT=true
+[2019.03.31-21.23.50:055][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_QuantitySliderE8D6CFCB4A4A4619C7A4389B29EF4136.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset'
+[2019.03.31-21.23.50:311][110]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelFarm_Master2AD6FBA84DACEE80EBB27CBEE9126287.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/PixelFarm_Master.uasset'
+[2019.03.31-21.50.14:335][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.50.17:487][471]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
+[2019.03.31-21.50.23:681][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.50.31:003][ 46]Cmd: DELETE
+[2019.03.31-21.50.31:003][ 46]Cmd: ACTOR DELETE
+[2019.03.31-21.50.31:298][ 46]LogEditorActor: Deleted Actor: VolumetricLightmapDensityVolume
+[2019.03.31-21.50.31:338][ 46]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.03.31-21.50.47:817][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.51.19:823][371]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenu_Auto13CAFBA7F4CF16504E7825DBA1E515714.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Autosaves/Game/PixelWorlds/PixelMenu_Auto1.umap'
+[2019.03.31-21.51.19:840][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PixelWorlds/PixelMenu' took 0.313
+[2019.03.31-21.51.19:840][371]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.313
+[2019.03.31-21.51.56:509][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.52.12:877][642]Cmd: DELETE
+[2019.03.31-21.52.12:877][642]Cmd: ACTOR DELETE
+[2019.03.31-21.52.12:883][642]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2019.03.31-21.52.12:902][642]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.03.31-21.53.33:172][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.31-21.54.14:522][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.54.41:796][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.41:796][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.41:796][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.41:797][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.41:797][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.41:797][801]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.SKEL_Pixel_Master_C' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:BasicChecksAttack.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:BasicChecksAttack.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasCarrotSeed].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasCarrotSeed].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHayBale].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHayBale].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHayCrop].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:255][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHayCrop].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHaySeed].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasHaySeed].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasNoSeeds].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HasNoSeeds].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HoldingBucket].K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:Note[HoldingBucket].K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:ToolItemCheck.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:ToolItemCheck.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:ToolUpdateCheck.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:ToolUpdateCheck.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:TraceLocation.K2Node_Tunnel_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:TraceLocation.K2Node_Tunnel_1' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:256][801]LogMetaData: Removing '/Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PixelCharacters/PixelFarmHunt/PixelFarm_Master.PackageMetaData'
+[2019.03.31-21.54.45:559][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_Master063FA5AB445533E7F081FB9004CD58F9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Master.uasset'
+[2019.03.31-21.54.45:709][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Actor_Carrot" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset" SILENT=true
+[2019.03.31-21.54.45:800][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Actor_CarrotF5516D814C1EE9021F7AE7B3D27140FE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Actor_Carrot.uasset'
+[2019.03.31-21.54.45:813][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Bush" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset" SILENT=true
+[2019.03.31-21.54.45:847][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/BushF4271F8B42AA3407EAF82A865CCC2E63.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Bush.uasset'
+[2019.03.31-21.54.45:861][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/CarrotBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset" SILENT=true
+[2019.03.31-21.54.45:911][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/CarrotBarrel5878ED2342860D653A2C91A3AB17CCB4.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/CarrotBarrel.uasset'
+[2019.03.31-21.54.45:924][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/FarmLand" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset" SILENT=true
+[2019.03.31-21.54.45:971][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLandF5620C8C48845F38732073897583D28B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/FarmLand.uasset'
+[2019.03.31-21.54.45:984][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Hay" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset" SILENT=true
+[2019.03.31-21.54.46:018][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayE338C7C348170BA6DF1CD7954EA51CC8.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Hay.uasset'
+[2019.03.31-21.54.46:032][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBale" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset" SILENT=true
+[2019.03.31-21.54.46:068][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBale7BA1F3F747CF3A78571E7F9807093615.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBale.uasset'
+[2019.03.31-21.54.46:082][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/HayBarrel" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset" SILENT=true
+[2019.03.31-21.54.46:133][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/HayBarrelE21A05E34437E0D2C903ABB4E748F069.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/HayBarrel.uasset'
+[2019.03.31-21.54.46:146][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Swarm" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset" SILENT=true
+[2019.03.31-21.54.46:203][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/SwarmD1B8481C4257B9304F36219FDA1F975E.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Swarm.uasset'
+[2019.03.31-21.54.46:216][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelActors/PixelFarm/Well" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset" SILENT=true
+[2019.03.31-21.54.46:253][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/WellFE925A554D1B526ACC1FE6AB8AD357E5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelActors/PixelFarm/Well.uasset'
+[2019.03.31-21.54.46:289][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmDebugInfoE172FC31495DB55363A7E1ABD2B43D3B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/FarmDebugInfo.uasset'
+[2019.03.31-21.54.46:333][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Surprise88779A1F48DCB5335356798744DED7FB.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Surprise.uasset'
+[2019.03.31-21.54.46:381][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/C_ScrollMechanic3835B15F4C546684118CC8A0EA76B395.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/C_ScrollMechanic.uasset'
+[2019.03.31-21.54.46:418][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Bucket027FC2BC40CB973C1C01B49D1EED643A.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/Bucket.uasset'
+[2019.03.31-21.54.46:456][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PitchFork28864257489A3B85D5543089B587FC32.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Utilities/Tools/PitchFork.uasset'
+[2019.03.31-21.54.46:460][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset" SILENT=true
+[2019.03.31-21.54.46:524][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_Button7B146871492430629B1370A5EB154EAB.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_Button.uasset'
+[2019.03.31-21.54.46:528][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.31-21.54.46:565][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHuntFEE1972C4233DB11EC151DA2F275A199.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.31-21.54.46:569][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMenu/MM_Widget/Extra/MM_CharSelect" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset" SILENT=true
+[2019.03.31-21.54.46:634][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/MM_CharSelect86956F3449458635945B5AB3C8C95B09.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/MyMenu/MM_Widget/Extra/MM_CharSelect.uasset'
+[2019.03.31-21.54.46:680][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_BackpackCF0D89F846555FCF931A74902822EAB9.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Backpack.uasset'
+[2019.03.31-21.54.46:797][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Base30C53BCB41FB758EA4672B8F1D053852.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.uasset'
+[2019.03.31-21.54.46:854][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat8EB5509442F01A7C81C83E94ED134B95.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-21.54.46:858][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_List_Item" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset" SILENT=true
+[2019.03.31-21.54.46:918][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_List_ItemD5121151404758BD84E166A699DDBCD5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_List_Item.uasset'
+[2019.03.31-21.54.46:923][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Inventory_Screen" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset" SILENT=true
+[2019.03.31-21.54.46:965][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory_Screen9E03C6404F4DD782F06B1EBFF6247E34.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Inventory_Screen.uasset'
+[2019.03.31-21.54.46:968][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_Context_Button" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset" SILENT=true
+[2019.03.31-21.54.47:001][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Context_Button39AE646148522706CB2978BBB4135ECE.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_Context_Button.uasset'
+[2019.03.31-21.54.47:005][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Item_QuantitySlider" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset" SILENT=true
+[2019.03.31-21.54.47:041][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_QuantitySlider0F18D57B468E5C8EA7641A80EC918AAB.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/Widgets/Item_QuantitySlider.uasset'
+[2019.03.31-21.54.47:249][801]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Inventory2AD86C3C40340B63829667B507626248.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Inventory.uasset'
+[2019.03.31-21.55.26:836][489]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Pixel_Farmer.Pixel_Farmer
+[2019.03.31-21.55.28:108][489]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.31-21.55.32:968][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.55.33:054][706]BlueprintLog: New page: Compile Pixel_Farmer
+[2019.03.31-21.55.33:965][748]LogRenderer: Reallocating scene render targets to support 1208x772 Format 10 NumSamples 1 (Frame:252).
+[2019.03.31-21.55.35:954][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.31-21.55.37:304][ 63]LogMaterial: Warning: Material /Game/PixelModels/PixelFarm/Graan_material.Graan_material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.31-21.55.37:311][ 63]LogMaterial: Display: Missing cached shader map for material Graan_material, compiling. 
+[2019.03.31-21.55.37:520][ 63]LogShaderCompilers: Display: Shaders left to compile 129
+[2019.03.31-21.55.37:520][ 63]LogShaderCompilers: Display: Shaders left to compile 119
+[2019.03.31-21.55.37:520][ 63]LogShaderCompilers: Display: Shaders left to compile 109
+[2019.03.31-21.55.37:520][ 63]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.03.31-21.55.38:837][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.55.38:962][191]BlueprintLog: New page: Compile Pixel_Farmer
+[2019.03.31-21.55.40:904][327]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.03.31-21.55.40:914][328]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.03.31-21.55.41:049][339]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.31-21.55.42:265][448]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.31-21.55.43:536][564]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.31-21.55.43:593][569]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.31-21.55.44:438][643]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.31-21.55.45:071][700]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.31-21.55.45:700][757]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.31-21.55.50:997][320]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_Farmer99D5975E49E6FA6D221F46B19B8EF1A5.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Farmer.uasset'
+[2019.03.31-21.55.54:513][709]LogSlate: Window 'Pixel_Farmer' being destroyed
+[2019.03.31-21.55.54:518][709]LogSlate: Window 'Pixel_Farmer' being destroyed
+[2019.03.31-21.56.05:453][820]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Pixel_Butcher.Pixel_Butcher
+[2019.03.31-21.56.09:655][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.31-21.56.11:809][439]LogMaterial: Warning: Material /Game/PixelModels/PixelFarm/FarmLand_material.FarmLand_material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.31-21.56.11:816][439]LogMaterial: Display: Missing cached shader map for material FarmLand_material, compiling. 
+[2019.03.31-21.56.11:847][439]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.31-21.56.11:847][439]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.31-21.56.11:847][439]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.31-21.56.11:847][439]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.31-21.56.13:951][598]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.31-21.56.14:387][631]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.31-21.56.15:078][683]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.31-21.56.19:813][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.56.19:955][182]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_Butcher6E6BD8284BD14F105AFC63ADC0BF3455.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Butcher.uasset'
+[2019.03.31-21.56.21:393][325]LogSlate: Window 'Pixel_Butcher' being destroyed
+[2019.03.31-21.56.21:398][325]LogSlate: Window 'Pixel_Butcher' being destroyed
+[2019.03.31-21.56.23:028][510]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Pixel_Master.Pixel_Master
+[2019.03.31-21.56.23:367][510]LogSlate: Took 0.093639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.31-21.56.23:787][511]LogSlate: Took 0.017913 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.31-21.56.30:131][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.31-21.56.30:247][112]BlueprintLog: New page: Compile Pixel_Master
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.31:052][112]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2019.03.31-21.56.41:246][172]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/Lobby/MM_PlayerSelect.MM_PlayerSelect
+[2019.03.31-21.56.47:544][716]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyMenu/MM_Widget/Extra/MM_CharSelect.MM_CharSelect
+[2019.03.31-21.56.55:811][400]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyGame/MyGameBlueprints/MyGameInstance/MyGameInstance.MyGameInstance
+[2019.03.31-21.57.17:310][625]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyMenu/Widget_Players/DefaultPawnChar.DefaultPawnChar
+[2019.03.31-21.57.31:554][163]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelGamemodes/GM_PixelLobby.GM_PixelLobby
+[2019.03.31-21.57.31:759][163]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2019.03.31-21.57.33:212][329]LogSlate: Window 'CompilerResults' being destroyed
+[2019.03.31-21.57.33:216][329]LogSlate: Window 'CompilerResults' being destroyed
+[2019.03.31-21.57.34:030][419]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelGamemodes/GM_PixelLobby.GM_PixelLobby
+[2019.03.31-21.57.36:028][611]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelGamemodes/GM_PixelMenu.GM_PixelMenu
+[2019.03.31-21.57.36:231][611]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2019.03.31-21.57.37:391][739]LogSlate: Window 'CompilerResults' being destroyed
+[2019.03.31-21.57.37:395][739]LogSlate: Window 'CompilerResults' being destroyed
+[2019.03.31-21.57.38:195][828]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelGamemodes/GM_PixelMenu.GM_PixelMenu
+[2019.03.31-21.57.39:356][929]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelGamemodes/GM_FarmHunt.GM_FarmHunt
+[2019.03.31-21.58.21:878][348]BlueprintLog: New page: Compile GM_FarmHunt
+[2019.03.31-21.58.22:517][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.31-21.58.22:561][388]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHunt97B7D0DE46B0E3790479D9BD6888CBBC.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.31-21.58.25:139][644]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-21.58.26:449][644]LogSlate: Window 'Save Content' being destroyed
+[2019.03.31-21.58.26:493][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_Butcher4D7C95CC45E0D8F18FB18C91772A7A73.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Butcher.uasset'
+[2019.03.31-21.58.26:524][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_FarmerFB2C75EB4FA6350319C6AD8BC5C03822.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Farmer.uasset'
+[2019.03.31-21.58.26:759][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Pixel_Master68C25DF04690240A83FB1CA78944DFA7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Pixel_Master.uasset'
+[2019.03.31-21.58.26:773][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/FarmLand_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand_material.uasset" SILENT=true
+[2019.03.31-21.58.26:799][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/FarmLand_material0EF018AD4EC9555DFAEB0690572298C7.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/FarmLand_material.uasset'
+[2019.03.31-21.58.26:812][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelModels/PixelFarm/Graan_material" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan_material.uasset" SILENT=true
+[2019.03.31-21.58.26:847][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Graan_materialBC4111E14F2A5DB78796B8B291383387.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelModels/PixelFarm/Graan_material.uasset'
+[2019.03.31-21.58.26:878][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelWorlds/PixelMenu" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.31-21.58.27:203][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/PixelMenuF7A55D14458DAA7BBD20D8BB50F1BE47.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelWorlds/PixelMenu.umap'
+[2019.03.31-21.58.27:225][644]LogFileHelpers: Saving map 'PixelMenu' took 0.347
+[2019.03.31-22.01.39:346][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PixelGamemodes/GM_FarmHunt" FILE="C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset" SILENT=true
+[2019.03.31-22.01.39:392][644]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/GM_FarmHuntD9BA32CB4BEEB8FA394DB1A29202419B.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelGamemodes/GM_FarmHunt.uasset'
+[2019.03.31-22.01.42:977][  8]LogSlate: Window 'GM_FarmHunt' being destroyed
+[2019.03.31-22.01.42:979][  8]LogSlate: Window 'GM_FarmHunt' being destroyed
+[2019.03.31-22.01.43:441][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.31-22.01.43:494][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.31-22.01.43:547][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.31-22.01.43:600][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.31-22.02.07:150][822]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.Item_Wheat
+[2019.03.31-22.02.47:641][242]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.02.48:845][346]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_WheatC55ADD184815A0F1356235A6F2DB18B6.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-22.02.49:477][414]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.03.47:724][264]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Inventory/Inventory.Inventory
+[2019.03.31-22.03.54:311][934]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Inventory/Item_Base.Item_Base
+[2019.03.31-22.04.19:127][709]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.04.20:011][778]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat09CCAB38417C5A80B12C628D1EC63B87.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-22.04.20:955][881]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.05.43:316][168]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.08.15:855][393]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.10.07:601][164]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.10.08:473][232]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.10.09:604][232]LogSlate: Window 'Save Content' being destroyed
+[2019.03.31-22.10.09:800][232]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/InventoryC0DB49B94A0D91C8D44B99B1B738D837.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Inventory.uasset'
+[2019.03.31-22.10.09:857][232]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat6E0D2B944ACA2CA307B9FAA2C8F64163.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-22.11.20:877][476]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.11.31:279][636]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_WheatA0C5CEE04FA6445B57C40BAB14FD1F30.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-22.11.32:612][783]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.12.14:848][224]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.31-22.12.19:026][674]BlueprintLog: New page: Compile Item_Wheat
+[2019.03.31-22.12.24:066][173]LogSlate: Window 'Item_Base' being destroyed
+[2019.03.31-22.12.24:070][173]LogSlate: Window 'Item_Base' being destroyed
+[2019.03.31-22.12.24:158][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.31-22.12.24:799][244]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.12.25:910][244]LogSlate: Window 'Save Content' being destroyed
+[2019.03.31-22.12.25:979][244]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Wheat9EF54792497BE0EF4F1EDDBD8A21E713.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Wheat.uasset'
+[2019.03.31-22.19.10:252][970]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PixelCharacters/PixelFarmHunt/Inventory/Item_Seeds.Item_Seeds
+[2019.03.31-22.19.18:087][829]BlueprintLog: New page: Compile Item_Seeds
+[2019.03.31-22.19.19:780][996]LogTemp: Repeating last play command: Standalone Game
+[2019.03.31-22.19.23:234][996]LogSlate: Window 'Save Content' being destroyed
+[2019.03.31-22.19.23:293][996]LogSavePackage: Moving 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Saved/Item_Seeds1544B88A4A970B0E00130D8BBFCF097D.tmp' to 'C:/Users/joeym/OneDrive/Documenten/GitHub/PixelArcade/Content/PixelCharacters/PixelFarmHunt/Inventory/Item_Seeds.uasset'
+[2019.03.31-22.22.56:395][250]LogSlate: Window 'Item_Seeds' being destroyed
+[2019.03.31-22.22.56:447][250]LogSlate: Window 'PixelArcade - Unreal Editor' being destroyed
+[2019.03.31-22.22.56:699][251]Cmd: QUIT_EDITOR
+[2019.03.31-22.22.56:897][251]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.31-22.22.56:911][251]LogExit: Preparing to exit.
+[2019.03.31-22.22.57:461][251]LogExit: Editor shut down
+[2019.03.31-22.22.57:462][251]LogExit: Transaction tracking system shut down
+[2019.03.31-22.22.58:043][251]LogExit: Object subsystem successfully closed.
+[2019.03.31-22.22.58:067][251]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.31-22.22.58:074][251]LogD3D11RHI: Shutdown
+[2019.03.31-22.22.58:074][251]LogD3D11RHI: CleanupD3DDevice
+[2019.03.31-22.22.58:078][251]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.31-22.22.58:658][251]LogModuleManager: Shutting down and abandoning module SequencerWidgets (638)
+[2019.03.31-22.22.58:658][251]LogModuleManager: Shutting down and abandoning module BlueprintGraph (636)
+[2019.03.31-22.22.58:658][251]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (634)
+[2019.03.31-22.22.58:658][251]LogModuleManager: Shutting down and abandoning module SceneOutliner (632)
+[2019.03.31-22.22.58:679][251]LogModuleManager: Shutting down and abandoning module AddContentDialog (630)
+[2019.03.31-22.22.58:704][251]LogModuleManager: Shutting down and abandoning module WidgetCarousel (629)
+[2019.03.31-22.22.58:704][251]LogModuleManager: Shutting down and abandoning module EditorWidgets (626)
+[2019.03.31-22.22.58:704][251]LogModuleManager: Shutting down and abandoning module CollectionManager (624)
+[2019.03.31-22.22.58:704][251]LogModuleManager: Shutting down and abandoning module StatsViewer (622)
+[2019.03.31-22.22.58:719][251]LogModuleManager: Shutting down and abandoning module FoliageEdit (620)
+[2019.03.31-22.22.58:740][251]LogModuleManager: Shutting down and abandoning module LandscapeEditor (618)
+[2019.03.31-22.22.58:760][251]LogModuleManager: Shutting down and abandoning module MeshPaintMode (616)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (614)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module ActorPickerMode (612)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module GeometryMode (610)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module TextureAlignMode (608)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module BspMode (606)
+[2019.03.31-22.22.58:765][251]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (604)
+[2019.03.31-22.22.58:772][251]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (602)
+[2019.03.31-22.22.58:772][251]LogModuleManager: Shutting down and abandoning module AutomationWorker (600)
+[2019.03.31-22.22.58:772][251]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (598)
+[2019.03.31-22.22.58:772][251]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (596)
+[2019.03.31-22.22.58:772][251]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (594)
+[2019.03.31-22.22.58:781][251]LogModuleManager: Shutting down and abandoning module PlacementMode (593)
+[2019.03.31-22.22.58:782][251]LogModuleManager: Shutting down and abandoning module MaterialEditor (592)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (588)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (586)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (584)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (582)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module WebMMedia (580)
+[2019.03.31-22.22.58:809][251]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (578)
+[2019.03.31-22.22.58:838][251]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (576)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (572)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (570)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (568)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (566)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (564)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (562)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (560)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ProductivityTools (558)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (556)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (554)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (552)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module CharacterAI (550)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module SmartSnapping (548)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module SessionServices (546)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ViewportSnapping (544)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ViewportInteraction (542)
+[2019.03.31-22.22.58:862][251]LogModuleManager: Shutting down and abandoning module ClothPainter (540)
+[2019.03.31-22.22.58:879][251]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (539)
+[2019.03.31-22.22.58:902][251]LogModuleManager: Shutting down and abandoning module LogVisualizer (536)
+[2019.03.31-22.22.58:928][251]LogModuleManager: Shutting down and abandoning module IntroTutorials (534)
+[2019.03.31-22.22.58:954][251]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (533)
+[2019.03.31-22.22.58:971][251]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (530)
+[2019.03.31-22.22.58:971][251]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (528)
+[2019.03.31-22.22.58:971][251]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (526)
+[2019.03.31-22.22.58:971][251]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (524)
+[2019.03.31-22.22.58:971][251]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (523)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (520)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (518)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (516)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (514)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (512)
+[2019.03.31-22.22.59:974][251]LogModuleManager: Shutting down and abandoning module InputBindingEditor (510)
+[2019.03.31-22.23.00:135][251]LogModuleManager: Shutting down and abandoning module MergeActors (508)
+[2019.03.31-22.23.00:163][251]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (506)
+[2019.03.31-22.23.00:180][251]LogModuleManager: Shutting down and abandoning module LocalizationService (505)
+[2019.03.31-22.23.00:197][251]LogModuleManager: Shutting down and abandoning module HardwareTargeting (502)
+[2019.03.31-22.23.00:197][251]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (500)
+[2019.03.31-22.23.00:204][251]LogModuleManager: Shutting down and abandoning module UndoHistory (498)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module XmlParser (496)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module Blutility (494)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (492)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (491)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (488)
+[2019.03.31-22.23.00:209][251]LogModuleManager: Shutting down and abandoning module SettingsEditor (486)
+[2019.03.31-22.23.00:215][251]LogModuleManager: Shutting down and abandoning module ProjectLauncher (484)
+[2019.03.31-22.23.00:231][251]LogModuleManager: Shutting down and abandoning module SessionFrontend (482)
+[2019.03.31-22.23.00:250][251]LogModuleManager: Shutting down and abandoning module ProfilerClient (480)
+[2019.03.31-22.23.00:265][251]LogModuleManager: Shutting down and abandoning module DeviceManager (478)
+[2019.03.31-22.23.00:285][251]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (477)
+[2019.03.31-22.23.00:340][251]LogModuleManager: Shutting down and abandoning module AutomationController (474)
+[2019.03.31-22.23.00:340][251]LogModuleManager: Shutting down and abandoning module AutomationWindow (472)
+[2019.03.31-22.23.00:363][251]LogModuleManager: Shutting down and abandoning module Layers (470)
+[2019.03.31-22.23.00:391][251]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (468)
+[2019.03.31-22.23.00:391][251]LogModuleManager: Shutting down and abandoning module DetailCustomizations (466)
+[2019.03.31-22.23.00:391][251]LogModuleManager: Shutting down and abandoning module PackagesDialog (464)
+[2019.03.31-22.23.00:391][251]LogModuleManager: Shutting down and abandoning module Persona (462)
+[2019.03.31-22.23.00:417][251]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
+[2019.03.31-22.23.00:417][251]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
+[2019.03.31-22.23.00:417][251]LogModuleManager: Shutting down and abandoning module Kismet (456)
+[2019.03.31-22.23.00:423][251]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
+[2019.03.31-22.23.00:423][251]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
+[2019.03.31-22.23.00:424][251]LogModuleManager: Shutting down and abandoning module Toolbox (450)
+[2019.03.31-22.23.00:424][251]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.03.31-22.23.00:440][251]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.03.31-22.23.00:440][251]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.03.31-22.23.00:440][251]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (438)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module MovieScene (436)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (434)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module LauncherPlatform (432)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module AnalyticsET (430)
+[2019.03.31-22.23.00:443][251]LogModuleManager: Shutting down and abandoning module PortalServices (428)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module PortalRpc (426)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module MessagingRpc (424)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module AIModule (422)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module GameplayDebugger (421)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module AITestSuite (419)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module NavigationSystem (417)
+[2019.03.31-22.23.00:444][251]LogModuleManager: Shutting down and abandoning module DesktopPlatform (414)
+[2019.03.31-22.23.00:447][251]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.03.31-22.23.00:449][251]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module OculusInput (400)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (398)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module EditableMesh (396)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (394)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module CableComponent (392)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module AudioCapture (390)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (388)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module AndroidPermission (386)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
+[2019.03.31-22.23.00:536][251]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
+[2019.03.31-22.23.00:537][251]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
+[2019.03.31-22.23.00:537][251]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
+[2019.03.31-22.23.00:537][251]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module HTML5Networking (372)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (370)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (368)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module BackChannel (366)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module AppleVision (364)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (362)
+[2019.03.31-22.23.00:539][251]LogModuleManager: Shutting down and abandoning module AppleImageUtils (360)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
+[2019.03.31-22.23.00:540][251]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2019.03.31-22.23.00:547][251]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
+[2019.03.31-22.23.00:547][251]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
+[2019.03.31-22.23.00:566][251]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
+[2019.03.31-22.23.00:572][251]LogModuleManager: Shutting down and abandoning module PolygonModeling (340)
+[2019.03.31-22.23.00:572][251]LogModuleManager: Shutting down and abandoning module MeshEditor (338)
+[2019.03.31-22.23.00:575][251]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (336)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module CryptoKeys (334)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (332)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (330)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module UObjectPlugin (328)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (326)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (324)
+[2019.03.31-22.23.00:576][251]LogModuleManager: Shutting down and abandoning module GitSourceControl (322)
+[2019.03.31-22.23.00:586][251]LogModuleManager: Shutting down and abandoning module SourceControl (321)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (318)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (316)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (314)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.03.31-22.23.00:587][251]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.03.31-22.23.00:610][251]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (302)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module AdvancedSessions (300)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.31-22.23.00:625][251]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.31-22.23.00:631][251]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.31-22.23.00:631][251]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.03.31-22.23.00:631][251]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.03.31-22.23.00:631][251]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.31-22.23.00:631][251]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.31-22.23.00:732][251]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.31-22.23.00:833][251]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.31-22.23.00:833][251]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.31-22.23.00:844][251]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.31-22.23.00:844][251]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.31-22.23.00:844][251]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.31-22.23.00:844][251]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.31-22.23.00:844][251]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.31-22.23.00:858][251]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.31-22.23.00:883][251]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.31-22.23.00:883][251]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.31-22.23.00:883][251]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.31-22.23.00:884][251]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.03.31-22.23.00:886][251]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.03.31-22.23.00:887][251]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.03.31-22.23.00:893][251]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.03.31-22.23.00:894][251]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.03.31-22.23.00:896][251]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.03.31-22.23.00:990][251]LogDerivedDataCache: Shutdown
+[2019.03.31-22.23.00:990][251]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.03.31-22.23.00:990][251]LogXGEController: Cleaning working directory: C:/Users/joeym/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.03.31-22.23.00:991][251]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.03.31-22.23.01:012][251]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.03.31-22.23.01:012][251]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.03.31-22.23.01:012][251]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.03.31-22.23.01:012][251]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.03.31-22.23.01:012][251]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.03.31-22.23.01:032][251]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.03.31-22.23.01:032][251]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.03.31-22.23.01:035][251]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.03.31-22.23.01:035][251]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.03.31-22.23.01:063][251]LogHMD: Freeing OpenVRDLLHandle.
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.03.31-22.23.01:063][251]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.03.31-22.23.01:064][251]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.03.31-22.23.01:064][251]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.03.31-22.23.01:087][251]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.03.31-22.23.01:087][251]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.31-22.23.01:087][251]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD74E398B-4745-15B2-0AA7-0286FBF41F23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=223845704c6516493bcdb69e8f4e2567%7C52cd936612ca433ba7244efdbd41ffd6%7C4eec7dc2-007f-4bed-8ab7-a8a892bc0b34&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.31-22.23.01:121][251]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.03.31-22.23.01:122][251]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.03.31-22.23.01:122][251]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.03.31-22.23.01:123][251]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.31-22.23.01:123][251]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.31-22.23.01:124][251]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.31-22.23.01:124][251]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.31-22.23.01:124][251]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.31-22.23.01:125][251]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.31-22.23.01:130][251]LogExit: Exiting.
+[2019.03.31-22.23.01:143][251]Log file closed, 04/01/19 00:23:01
